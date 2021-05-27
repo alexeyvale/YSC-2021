@@ -13,13 +13,13 @@ Different first when modified auto: 1
 Total count: 12601
 Total marked: 855
 Simple rebinding: 807
-Modified only auto: 31
+Modified only auto: 35
 Basic only auto: 0
 Same auto: 10
 Different auto: 0
-Same first: 6
+Same first: 2
 Different first: 1
-Overloaded methods when modified auto: 11
+Overloaded methods when modified auto: 14
 Different first when modified auto: 14
 'method' done!
 

@@ -14,8 +14,8 @@ Total count: 18504
 Total marked: 3771
 Simple rebinding: 2884
 Modified only auto: 179
-Basic only auto: 19
-Same auto: 448
+Basic only auto: 18
+Same auto: 449
 Different auto: 2
 Same first: 207
 Different first: 32

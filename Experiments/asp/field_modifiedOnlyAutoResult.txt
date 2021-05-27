@@ -4,19 +4,19 @@ file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\HttpUtilities
 private static readonly UTF8EncodingSealed HeaderValueEncoding     31
 *
 private static readonly UTF8EncodingSealed DefaultRequestHeaderEncoding     30
-	0,739  [HC=0,43;  H=0,89;  I=1,00;  A=1,00] 
+	0,739  [HC=0,43;  H=0,89;  I=1,00;  S=1,00] 
 private static readonly SpanAction < char , IntPtr > _getHeaderName     31
-	0,589  [HC=0,26;  H=0,33;  I=1,00;  A=1,00] 
+	0,589  [HC=0,26;  H=0,33;  I=1,00;  S=1,00] 
 private static readonly SpanAction < char , IntPtr > _getAsciiStringNonNullCharacters     32
-	0,516  [HC=0,10;  H=0,32;  I=1,00;  A=1,00] 
+	0,516  [HC=0,10;  H=0,32;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=4,00;  I=0,92;  A=0,50;  NA=0,00;  NN=2,00]
+HC=2;  HNC=4,00;  I=0,96;  S=0,50;  N=2,00]
 private static readonly UTF8EncodingSealed DefaultRequestHeaderEncoding     30
-	0,841  [HC=0,25;  HNC=1,00;  I=1,00;  A=1,00;  NA=0,00; NN=1,00] *
+	0,841  [HC=0,25;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
 private static readonly SpanAction < char , IntPtr > _getHeaderName     31
-	0,507  [HC=0,00;  HNC=0,50;  I=0,30;  A=1,00;  NA=0,00; NN=1,00] 
+	0,505  [HC=0,00;  HNC=0,50;  I=0,29;  S=1,00;  N=1,00] 
 private static readonly SpanAction < char , IntPtr > _getAsciiStringNonNullCharacters     32
-	0,478  [HC=0,00;  HNC=0,50;  I=0,00;  A=1,00;  NA=0,00; NN=1,00] 
+	0,476  [HC=0,00;  HNC=0,50;  I=0,00;  S=1,00;  N=1,00] 
 
 **************************************************************
 
@@ -26,31 +26,31 @@ file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\HubConnection
 private bool _receivedMessageThisInterval     41
 *
 private bool _receivedMessageTimeoutEnabled     50
-	0,820  [HC=0,62;  H=0,88;  I=1,00;  A=1,00] 
+	0,820  [HC=0,62;  H=0,88;  I=1,00;  S=1,00] 
 private long _receivedMessageTimestamp     52
-	0,806  [HC=0,67;  H=0,64;  I=1,00;  A=1,00] 
+	0,806  [HC=0,67;  H=0,64;  I=1,00;  S=1,00] 
 private long _receivedMessageElapsedTicks     51
-	0,753  [HC=0,56;  H=0,61;  I=1,00;  A=1,00] 
+	0,753  [HC=0,56;  H=0,61;  I=1,00;  S=1,00] 
 private readonly object _receiveMessageTimeoutLock     38
-	0,749  [HC=0,59;  H=0,46;  I=1,00;  A=1,00] 
+	0,749  [HC=0,59;  H=0,46;  I=1,00;  S=1,00] 
 private readonly CancellationTokenRegistration _closedRegistration     40
-	0,595  [HC=0,26;  H=0,38;  I=1,00;  A=1,00] 
+	0,595  [HC=0,26;  H=0,38;  I=1,00;  S=1,00] 
 private readonly ISystemClock _systemClock     39
-	0,509  [HC=0,07;  H=0,34;  I=1,00;  A=1,00] 
+	0,509  [HC=0,07;  H=0,34;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=4,00;  I=0,24;  A=0,50;  NA=0,00;  NN=0,00]
+HC=2;  HNC=4,00;  I=0,24;  S=0,50;  N=0,00]
 private bool _receivedMessageTimeoutEnabled     50
-	0,852  [HC=0,50;  HNC=1,00;  I=1,00;  A=1,00;  NA=0,00; NN=0,00] *
+	0,852  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] *
 private long _receivedMessageElapsedTicks     51
-	0,371  [HC=0,50;  HNC=0,25;  I=0,00;  A=1,00;  NA=0,00; NN=0,00] 
+	0,371  [HC=0,50;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
 private long _receivedMessageTimestamp     52
-	0,371  [HC=0,50;  HNC=0,25;  I=0,00;  A=1,00;  NA=0,00; NN=0,00] 
+	0,371  [HC=0,50;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
 private readonly object _receiveMessageTimeoutLock     38
-	0,332  [HC=0,47;  HNC=0,20;  I=0,00;  A=1,00;  NA=0,00; NN=0,00] 
+	0,332  [HC=0,47;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
 private readonly ISystemClock _systemClock     39
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  A=1,00;  NA=0,00; NN=0,00] 
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
 private readonly CancellationTokenRegistration _closedRegistration     40
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  A=1,00;  NA=0,00; NN=0,00] 
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
 
 **************************************************************
 
@@ -60,15 +60,15 @@ file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\QueuePolicy.c
 private readonly int _maxConcurrentRequests     13
 *
 private readonly int _maxTotalRequest     13
-	0,780  [HC=0,52;  H=0,89;  I=1,00;  A=1,00] 
+	0,780  [HC=0,52;  H=0,89;  I=1,00;  S=1,00] 
 private int _totalRequests     16
-	0,700  [HC=0,43;  H=0,61;  I=1,00;  A=1,00] #
+	0,700  [HC=0,43;  H=0,61;  I=1,00;  S=1,00] #
 *
-HC=2;  HNC=4,00;  I=0,00;  A=0,50;  NA=0,00;  NN=0,00]
+HC=2;  HNC=4,00;  I=0,00;  S=0,50;  N=0,00]
 private readonly int _maxTotalRequest     13
-	0,885  [HC=0,63;  HNC=1,00;  I=1,00;  A=1,00;  NA=0,00; NN=0,83] *
+	0,885  [HC=0,63;  HNC=1,00;  I=1,00;  S=1,00;  N=0,83] *
 private int _totalRequests     16
-	0,672  [HC=0,33;  HNC=0,80;  I=1,00;  A=1,00;  NA=0,00; NN=0,00] 
+	0,672  [HC=0,33;  HNC=0,80;  I=1,00;  S=1,00;  N=0,00] 
 
 **************************************************************
 
