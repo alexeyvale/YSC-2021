@@ -14,17 +14,17 @@ public long ? TotalJSHeapSize     21
 public List < BenchmarkScenarioResult > ScenarioResults     8
 	0,517  [HC=0,13;  H=0,22;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < BenchmarkScenarioResult > ScenarioResults     8
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? DownloadSize     11
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? WasmMemory     14
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? UsedJSHeapSize     18
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? TotalJSHeapSize     21
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -44,17 +44,17 @@ public long ? DownloadSize     11
 public long ? TotalJSHeapSize     21
 	0,497  [HC=0,07;  H=0,28;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < BenchmarkScenarioResult > ScenarioResults     8
-	0,457  [HC=0,00;  HNC=0,43;  I=1,00;  S=1,00;  N=0,00] 
+	0,457  [HC=0,00;  HNC=0,43;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? DownloadSize     11
-	0,438  [HC=0,00;  HNC=0,29;  I=1,00;  S=1,00;  N=0,00] 
+	0,438  [HC=0,00;  HNC=0,29;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? WasmMemory     14
-	0,438  [HC=0,00;  HNC=0,29;  I=1,00;  S=1,00;  N=0,00] 
+	0,438  [HC=0,00;  HNC=0,29;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? UsedJSHeapSize     18
-	0,438  [HC=0,00;  HNC=0,29;  I=1,00;  S=1,00;  N=0,00] 
+	0,438  [HC=0,00;  HNC=0,29;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? TotalJSHeapSize     21
-	0,438  [HC=0,00;  HNC=0,29;  I=1,00;  S=1,00;  N=0,00] 
+	0,438  [HC=0,00;  HNC=0,29;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -74,17 +74,17 @@ public long ? UsedJSHeapSize     18
 public List < BenchmarkScenarioResult > ScenarioResults     8
 	0,515  [HC=0,13;  H=0,23;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < BenchmarkScenarioResult > ScenarioResults     8
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? DownloadSize     11
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? WasmMemory     14
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? UsedJSHeapSize     18
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? TotalJSHeapSize     21
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -104,17 +104,17 @@ public long ? TotalJSHeapSize     21
 public List < BenchmarkScenarioResult > ScenarioResults     8
 	0,498  [HC=0,07;  H=0,29;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < BenchmarkScenarioResult > ScenarioResults     8
-	0,445  [HC=0,00;  HNC=0,34;  I=1,00;  S=1,00;  N=0,00] 
+	0,445  [HC=0,00;  HNC=0,34;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? DownloadSize     11
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? WasmMemory     14
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? UsedJSHeapSize     18
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? TotalJSHeapSize     21
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -134,17 +134,17 @@ public long ? TotalJSHeapSize     21
 public long ? WasmMemory     14
 	0,517  [HC=0,10;  H=0,32;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < BenchmarkScenarioResult > ScenarioResults     8
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? DownloadSize     11
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? WasmMemory     14
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? UsedJSHeapSize     18
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? TotalJSHeapSize     21
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -164,17 +164,17 @@ public long ? TotalJSHeapSize     21
 public List < BenchmarkScenarioResult > ScenarioResults     8
 	0,421  [HC=0,13;  H=0,22;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < BenchmarkScenarioResult > ScenarioResults     8
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public long ? DownloadSize     11
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public long ? WasmMemory     14
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public long ? UsedJSHeapSize     18
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public long ? TotalJSHeapSize     21
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -194,17 +194,17 @@ public long ? TotalJSHeapSize     21
 public long ? WasmMemory     14
 	0,423  [HC=0,09;  H=0,36;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < BenchmarkScenarioResult > ScenarioResults     8
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public long ? DownloadSize     11
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public long ? WasmMemory     14
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public long ? UsedJSHeapSize     18
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public long ? TotalJSHeapSize     21
-	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  N=0,00] 
+	0,344  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -226,19 +226,53 @@ public string Message     757
 public int AspNetHttpsCertificateVersion     39
 	0,446  [HC=0,17;  H=0,44;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
-public bool Result     756
-	0,251  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,74;  N=0,31] 
-public string Message     757
-	0,251  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,74;  N=0,31] 
-public string Subject     46
-	0,224  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,31] 
-public static CertificateManager Instance     29
-	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  N=0,00] 
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public static CertificateManagerEventSource Log     35
-	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  N=0,00] 
+	0,260  [HC=0,00;  HNC=0,20;  I=0,48;  S=0,64;  NN=0,00;  NA=0,00] 
+public bool Result     756
+	0,246  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,74;  NN=0,25;  NA=0,00] 
+public string Message     757
+	0,246  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,74;  NN=0,25;  NA=0,00] 
+public string Subject     46
+	0,220  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,25;  NA=0,00] 
+public static CertificateManager Instance     29
+	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public int AspNetHttpsCertificateVersion     39
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
+	0,241  [HC=0,00;  HNC=0,25;  I=0,29;  S=0,64;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\CertificateManager.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\CertificateManager.cs
+*
+public IList < Exception > Exceptions     860
+*
+public bool Result     756
+	0,418  [HC=0,10;  H=0,20;  I=1,00;  S=0,71] 
+public static CertificateManager Instance     29
+	0,384  [HC=0,10;  H=0,22;  I=1,00;  S=0,58] 
+public static CertificateManagerEventSource Log     35
+	0,384  [HC=0,10;  H=0,22;  I=1,00;  S=0,58] 
+public string Subject     46
+	0,383  [HC=0,10;  H=0,21;  I=1,00;  S=0,58] 
+public int AspNetHttpsCertificateVersion     39
+	0,422  [HC=0,17;  H=0,27;  I=1,00;  S=0,58] #
+public string Message     757
+	0,419  [HC=0,10;  H=0,21;  I=1,00;  S=0,71] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static CertificateManagerEventSource Log     35
+	0,270  [HC=0,00;  HNC=0,34;  I=0,41;  S=0,64;  NN=0,00;  NA=0,00] 
+public bool Result     756
+	0,229  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,67;  NN=0,25;  NA=0,00] 
+public string Message     757
+	0,229  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,67;  NN=0,25;  NA=0,00] 
+public string Subject     46
+	0,220  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,25;  NA=0,00] 
+public static CertificateManager Instance     29
+	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
+public int AspNetHttpsCertificateVersion     39
+	0,254  [HC=0,00;  HNC=0,37;  I=0,26;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -256,15 +290,15 @@ public int Revision     125
 public bool IsReadOnly     123
 	0,398  [HC=0,00;  H=0,19;  I=1,00;  S=0,80] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public T HostContext     121
-	0,292  [HC=0,00;  HNC=0,25;  I=0,34;  S=0,80;  N=0,00] 
+	0,292  [HC=0,00;  HNC=0,25;  I=0,34;  S=0,80;  NN=0,00;  NA=0,00] 
 public IFeatureCollection Features     117
-	0,277  [HC=0,00;  HNC=0,48;  I=0,00;  S=0,80;  N=0,00] 
+	0,277  [HC=0,00;  HNC=0,48;  I=0,00;  S=0,80;  NN=0,00;  NA=0,00] 
 public int Revision     125
-	0,269  [HC=0,00;  HNC=0,42;  I=0,00;  S=0,80;  N=0,00] 
+	0,269  [HC=0,00;  HNC=0,42;  I=0,00;  S=0,80;  NN=0,00;  NA=0,00] 
 public bool IsReadOnly     123
-	0,246  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,80;  N=0,00] 
+	0,246  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,80;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 

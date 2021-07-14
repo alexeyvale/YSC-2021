@@ -16,19 +16,19 @@ public string Subject     46
 public int AspNetHttpsCertificateVersion     39
 	0,421  [HC=0,17;  H=0,26;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public string Message     757
-	0,614  [HC=0,88;  HNC=0,48;  I=0,00;  S=0,67;  N=0,31] 
+	0,610  [HC=0,88;  HNC=0,48;  I=0,00;  S=0,67;  NN=0,25;  NA=0,00] 
 public static CertificateManagerEventSource Log     35
-	0,265  [HC=0,00;  HNC=0,34;  I=0,37;  S=0,64;  N=0,00] 
+	0,265  [HC=0,00;  HNC=0,34;  I=0,37;  S=0,64;  NN=0,00;  NA=0,00] 
 public string Subject     46
-	0,255  [HC=0,00;  HNC=0,48;  I=0,00;  S=0,64;  N=0,31] 
+	0,251  [HC=0,00;  HNC=0,48;  I=0,00;  S=0,64;  NN=0,25;  NA=0,00] 
 public bool Result     756
-	0,233  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,67;  N=0,31] 
+	0,229  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,67;  NN=0,25;  NA=0,00] 
 public static CertificateManager Instance     29
-	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  N=0,00] 
+	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public int AspNetHttpsCertificateVersion     39
-	0,254  [HC=0,00;  HNC=0,37;  I=0,26;  S=0,64;  N=0,00] #
+	0,254  [HC=0,00;  HNC=0,37;  I=0,26;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 

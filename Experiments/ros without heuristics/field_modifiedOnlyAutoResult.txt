@@ -1,0 +1,264 @@
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\ConstraintsHelper.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\ConstraintsHelper.cs
+*
+public readonly DiagnosticInfo DiagnosticInfo     27
+*
+public readonly UseSiteInfo < AssemblySymbol > UseSiteInfo     28
+	0,637  [HC=0,36;  H=0,39;  I=1,00;  S=1,00] 
+public readonly CheckConstraintsArgs Args     523
+	0,416  [HC=0,14;  H=0,59;  I=1,00;  S=0,45] 
+public readonly CompoundUseSiteInfo < AssemblySymbol > Template     498
+	0,395  [HC=0,07;  H=0,35;  I=1,00;  S=0,60] 
+*
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
+public readonly UseSiteInfo < AssemblySymbol > UseSiteInfo     28
+	0,618  [HC=0,33;  HNC=0,52;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public readonly CompoundUseSiteInfo < AssemblySymbol > Template     498
+	0,207  [HC=0,00;  HNC=0,50;  I=1,00;  S=0,42;  NN=0,00;  NA=0,00] 
+public readonly CheckConstraintsArgs Args     523
+	0,173  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,36;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\PEEventSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\PEEventSymbol.cs
+*
+private DiagnosticInfo ? _lazyUseSiteDiagnostic     34
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     34
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     34
+	0,673  [HC=0,60;  HNC=0,48;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\PEFieldSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\PEFieldSymbol.cs
+*
+private DiagnosticInfo _lazyUseSiteDiagnostic     79
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     79
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     79
+	0,659  [HC=0,60;  HNC=0,37;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\PEMethodSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\PEMethodSymbol.cs
+*
+public DiagnosticInfo _lazyUseSiteDiagnostic     256
+*
+public CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     256
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
+public CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     256
+	0,719  [HC=0,60;  HNC=0,37;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\PENamedTypeSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\PENamedTypeSymbol.cs
+*
+private DiagnosticInfo _lazyUseSiteDiagnostic     78
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     78
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     78
+	0,659  [HC=0,60;  HNC=0,37;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\PEPropertySymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\PEPropertySymbol.cs
+*
+private DiagnosticInfo _lazyUseSiteDiagnostic     38
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     38
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     38
+	0,659  [HC=0,60;  HNC=0,37;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\RetargetingEventSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\RetargetingEventSymbol.cs
+*
+private DiagnosticInfo ? _lazyUseSiteDiagnostic     30
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     30
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     30
+	0,673  [HC=0,60;  HNC=0,48;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\RetargetingFieldSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\RetargetingFieldSymbol.cs
+*
+private DiagnosticInfo _lazyUseSiteDiagnostic     33
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     33
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     33
+	0,659  [HC=0,60;  HNC=0,37;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\RetargetingMethodSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\RetargetingMethodSymbol.cs
+*
+private DiagnosticInfo _lazyUseSiteDiagnostic     53
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     53
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     53
+	0,659  [HC=0,60;  HNC=0,37;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\RetargetingNamedTypeSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\RetargetingNamedTypeSymbol.cs
+*
+private DiagnosticInfo _lazyUseSiteDiagnostic     44
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     44
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     44
+	0,659  [HC=0,60;  HNC=0,37;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\RetargetingPropertySymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\RetargetingPropertySymbol.cs
+*
+private DiagnosticInfo _lazyUseSiteDiagnostic     34
+*
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     34
+	0,591  [HC=0,29;  H=0,28;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private CachedUseSiteInfo < AssemblySymbol > _lazyCachedUseSiteInfo     34
+	0,659  [HC=0,60;  HNC=0,37;  I=0,27;  S=1,00;  NN=1,00;  NA=0,00] *
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\SourceMemberContainerSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\SourceMemberContainerSymbol.cs
+*
+public ArrayBuilder < Symbol > NonTypeNonIndexerMembers     2456
+*
+public ArrayBuilder < Symbol > NonTypeMembers     2496
+	0,812  [HC=0,58;  H=0,93;  I=1,00;  S=1,00] 
+public ArrayBuilder < Symbol > ? NonTypeMembers     2640
+	0,787  [HC=0,58;  H=0,80;  I=1,00;  S=0,98] 
+public readonly ImmutableArray < Symbol > NonTypeMembers     2561
+	0,759  [HC=0,58;  H=0,69;  I=1,00;  S=0,94] 
+internal readonly ImmutableArray < Symbol > NonTypeMembers     931
+	0,734  [HC=0,58;  H=0,55;  I=1,00;  S=0,92] 
+public bool HaveIndexers     2499
+	0,630  [HC=0,38;  H=0,28;  I=1,00;  S=1,00] 
+public readonly bool HaveIndexers     2564
+	0,618  [HC=0,38;  H=0,33;  I=1,00;  S=0,94] 
+internal readonly bool HaveIndexers     934
+	0,589  [HC=0,38;  H=0,16;  I=1,00;  S=0,92] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public ArrayBuilder < Symbol > NonTypeMembers     2496
+	0,840  [HC=0,60;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public ArrayBuilder < Symbol > ? NonTypeMembers     2640
+	0,624  [HC=0,60;  HNC=0,98;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
+public readonly ImmutableArray < Symbol > NonTypeMembers     2561
+	0,542  [HC=0,60;  HNC=0,43;  I=0,00;  S=0,92;  NN=0,00;  NA=0,00] 
+internal readonly ImmutableArray < Symbol > NonTypeMembers     931
+	0,503  [HC=0,60;  HNC=0,23;  I=0,00;  S=0,87;  NN=0,00;  NA=0,00] 
+public bool HaveIndexers     2499
+	0,370  [HC=0,18;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public readonly bool HaveIndexers     2564
+	0,342  [HC=0,18;  HNC=0,20;  I=0,00;  S=0,92;  NN=0,00;  NA=0,00] 
+internal readonly bool HaveIndexers     934
+	0,303  [HC=0,18;  HNC=0,00;  I=0,00;  S=0,87;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\SourceMemberContainerSymbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\SourceMemberContainerSymbol.cs
+*
+public ArrayBuilder < Symbol > ? NonTypeNonIndexerMembers     2579
+*
+public ArrayBuilder < Symbol > ? NonTypeMembers     2640
+	0,813  [HC=0,58;  H=0,94;  I=1,00;  S=1,00] 
+public ArrayBuilder < Symbol > NonTypeMembers     2496
+	0,787  [HC=0,58;  H=0,80;  I=1,00;  S=0,98] 
+public readonly ImmutableArray < Symbol > NonTypeMembers     2561
+	0,732  [HC=0,58;  H=0,55;  I=1,00;  S=0,91] 
+internal readonly ImmutableArray < Symbol > NonTypeMembers     931
+	0,717  [HC=0,58;  H=0,40;  I=1,00;  S=0,93] 
+public bool HaveIndexers     2499
+	0,619  [HC=0,38;  H=0,24;  I=1,00;  S=0,98] 
+public readonly bool HaveIndexers     2564
+	0,604  [HC=0,38;  H=0,28;  I=1,00;  S=0,91] 
+internal readonly bool HaveIndexers     934
+	0,590  [HC=0,38;  H=0,14;  I=1,00;  S=0,93] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public ArrayBuilder < Symbol > ? NonTypeMembers     2640
+	0,840  [HC=0,60;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public readonly ImmutableArray < Symbol > NonTypeMembers     2561
+	0,655  [HC=0,60;  HNC=0,42;  I=1,00;  S=0,85;  NN=0,00;  NA=0,00] 
+internal readonly ImmutableArray < Symbol > NonTypeMembers     931
+	0,645  [HC=0,60;  HNC=0,22;  I=1,00;  S=0,91;  NN=0,00;  NA=0,00] 
+public bool HaveIndexers     2499
+	0,490  [HC=0,18;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
+public readonly bool HaveIndexers     2564
+	0,456  [HC=0,18;  HNC=0,20;  I=1,00;  S=0,85;  NN=0,00;  NA=0,00] 
+internal readonly bool HaveIndexers     934
+	0,446  [HC=0,18;  HNC=0,00;  I=1,00;  S=0,91;  NN=0,00;  NA=0,00] 
+public ArrayBuilder < Symbol > NonTypeMembers     2496
+	0,624  [HC=0,60;  HNC=0,98;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\SourcePropertySymbolBase.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\SourcePropertySymbolBase.cs
+*
+private readonly string _sourceName     63
+*
+private string _lazySourceName     58
+	0,799  [HC=0,64;  H=0,67;  I=1,00;  S=1,00] 
+protected const string DefaultIndexerName     23
+	0,644  [HC=0,33;  H=0,51;  I=1,00;  S=1,00] 
+private readonly SourcePropertyAccessorSymbol ? _setMethod     47
+	0,581  [HC=0,20;  H=0,47;  I=1,00;  S=1,00] 
+private readonly SourcePropertyAccessorSymbol ? _getMethod     46
+	0,536  [HC=0,10;  H=0,45;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private string _lazySourceName     58
+	0,818  [HC=0,61;  HNC=0,80;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+protected const string DefaultIndexerName     23
+	0,480  [HC=0,33;  HNC=0,60;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+private readonly SourcePropertyAccessorSymbol ? _getMethod     46
+	0,453  [HC=0,00;  HNC=0,40;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+private readonly SourcePropertyAccessorSymbol ? _setMethod     47
+	0,453  [HC=0,00;  HNC=0,40;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+

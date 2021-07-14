@@ -1,0 +1,1350 @@
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\AuthenticateResult.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\AuthenticateResult.cs
+*
+public static AuthenticateResult Fail ( Exception failure , AuthenticationProperties properties )     88
+*
+public static AuthenticateResult Fail ( Exception ? failure , AuthenticationProperties ? properties )     110
+	0,978  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static AuthenticateResult Fail ( string ? failureMessage , AuthenticationProperties ? properties )     129
+	0,963  [HC=1,00;  H=0,74;  I=1,00;  S=1,00] 
+public AuthenticateResult Clone ( )     53
+	0,481  [HC=0,00;  H=0,36;  I=1,00;  S=1,00] 
+public static AuthenticateResult Fail ( Exception ? failure )     99
+	0,951  [HC=1,00;  H=0,65;  I=1,00;  S=1,00] #
+public static AuthenticateResult Fail ( string ? failureMessage )     120
+	0,939  [HC=1,00;  H=0,58;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static AuthenticateResult Fail ( Exception ? failure , AuthenticationProperties ? properties )     110
+	0,970  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,60;  NA=0,00] *
+public static AuthenticateResult Fail ( string ? failureMessage , AuthenticationProperties ? properties )     129
+	0,872  [HC=1,00;  HNC=0,86;  I=0,38;  S=1,00;  NN=0,60;  NA=0,00] 
+public static AuthenticateResult Fail ( string ? failureMessage )     120
+	0,805  [HC=1,00;  HNC=0,47;  I=0,27;  S=1,00;  NN=0,60;  NA=0,00] 
+public AuthenticateResult Clone ( )     53
+	0,354  [HC=0,00;  HNC=0,29;  I=0,36;  S=1,00;  NN=0,00;  NA=0,00] 
+public static AuthenticateResult Fail ( Exception ? failure )     99
+	0,838  [HC=1,00;  HNC=0,60;  I=0,69;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\AuthenticateResult.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\AuthenticateResult.cs
+*
+public static AuthenticateResult Fail ( string failureMessage , AuthenticationProperties properties )     107
+*
+public static AuthenticateResult Fail ( string ? failureMessage , AuthenticationProperties ? properties )     129
+	0,978  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static AuthenticateResult Fail ( Exception ? failure , AuthenticationProperties ? properties )     110
+	0,963  [HC=1,00;  H=0,74;  I=1,00;  S=1,00] 
+public AuthenticateResult Clone ( )     53
+	0,481  [HC=0,00;  H=0,36;  I=1,00;  S=1,00] 
+public static AuthenticateResult Fail ( string ? failureMessage )     120
+	0,951  [HC=1,00;  H=0,66;  I=1,00;  S=1,00] #
+public static AuthenticateResult Fail ( Exception ? failure )     99
+	0,939  [HC=1,00;  H=0,57;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static AuthenticateResult Fail ( string ? failureMessage , AuthenticationProperties ? properties )     129
+	0,997  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public AuthenticateResult Clone ( )     53
+	0,340  [HC=0,00;  HNC=0,29;  I=0,26;  S=1,00;  NN=0,00;  NA=0,00] 
+public static AuthenticateResult Fail ( string ? failureMessage )     120
+	0,858  [HC=1,00;  HNC=0,66;  I=0,77;  S=1,00;  NN=0,00;  NA=0,00] #
+public static AuthenticateResult Fail ( Exception ? failure , AuthenticationProperties ? properties )     110
+	0,821  [HC=1,00;  HNC=0,77;  I=0,38;  S=1,00;  NN=0,00;  NA=0,00] #
+public static AuthenticateResult Fail ( Exception ? failure )     99
+	0,727  [HC=1,00;  HNC=0,45;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( string value , CultureInfo culture = null )     38
+*
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,975  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,995  [HC=1,00;  HNC=0,96;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,905  [HC=1,00;  HNC=0,89;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,902  [HC=1,00;  HNC=0,87;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,901  [HC=1,00;  HNC=0,89;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,895  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( int value , CultureInfo culture = null )     99
+*
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,907  [HC=1,00;  HNC=0,89;  I=0,92;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,904  [HC=1,00;  HNC=0,89;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,904  [HC=1,00;  HNC=0,89;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,904  [HC=1,00;  HNC=0,96;  I=0,82;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,901  [HC=1,00;  HNC=0,86;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( int ? value , CultureInfo culture = null )     114
+*
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,976  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,907  [HC=1,00;  HNC=0,87;  I=0,93;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,905  [HC=1,00;  HNC=0,87;  I=0,91;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,905  [HC=1,00;  HNC=0,87;  I=0,91;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,899  [HC=1,00;  HNC=0,87;  I=0,88;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,899  [HC=1,00;  HNC=0,87;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,904  [HC=1,00;  HNC=0,96;  I=0,82;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( long value , CultureInfo culture = null )     134
+*
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,999  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,908  [HC=1,00;  HNC=0,89;  I=0,92;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,905  [HC=1,00;  HNC=0,96;  I=0,82;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,904  [HC=1,00;  HNC=0,89;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,899  [HC=1,00;  HNC=0,87;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,905  [HC=1,00;  HNC=0,87;  I=0,92;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,901  [HC=1,00;  HNC=0,86;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( long ? value , CultureInfo culture = null )     149
+*
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,977  [HC=1,00;  H=0,84;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,976  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,975  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,907  [HC=1,00;  HNC=0,87;  I=0,93;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,905  [HC=1,00;  HNC=0,87;  I=0,91;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,902  [HC=1,00;  HNC=0,87;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,897  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,907  [HC=1,00;  HNC=0,87;  I=0,93;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,907  [HC=1,00;  HNC=0,98;  I=0,82;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( float value , CultureInfo culture = null )     169
+*
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,973  [HC=1,00;  H=0,81;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,999  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,974  [HC=1,00;  HNC=0,89;  I=0,92;  S=1,00;  NN=1,00;  NA=0,00] 
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,952  [HC=1,00;  HNC=0,86;  I=0,78;  S=1,00;  NN=1,00;  NA=0,00] 
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,905  [HC=1,00;  HNC=0,96;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,908  [HC=1,00;  HNC=0,89;  I=0,92;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,902  [HC=1,00;  HNC=0,87;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( float ? value , CultureInfo culture = null )     184
+*
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,977  [HC=1,00;  H=0,84;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,977  [HC=1,00;  H=0,84;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,907  [HC=1,00;  HNC=0,87;  I=0,93;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,899  [HC=1,00;  HNC=0,87;  I=0,88;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,899  [HC=1,00;  HNC=0,87;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,907  [HC=1,00;  HNC=0,98;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,907  [HC=1,00;  HNC=0,87;  I=0,93;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,905  [HC=1,00;  HNC=0,87;  I=0,91;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( double value , CultureInfo culture = null )     204
+*
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,906  [HC=1,00;  HNC=0,96;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,901  [HC=1,00;  HNC=0,89;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,895  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( double ? value , CultureInfo culture = null )     219
+*
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,975  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,973  [HC=1,00;  H=0,81;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,973  [HC=1,00;  H=0,81;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,899  [HC=1,00;  HNC=0,87;  I=0,88;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,899  [HC=1,00;  HNC=0,87;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,905  [HC=1,00;  HNC=0,96;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,902  [HC=1,00;  HNC=0,87;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,899  [HC=1,00;  HNC=0,87;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,899  [HC=1,00;  HNC=0,87;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( decimal value , CultureInfo culture = null )     239
+*
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,973  [HC=1,00;  H=0,81;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,999  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,906  [HC=1,00;  HNC=0,96;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,895  [HC=1,00;  HNC=0,89;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,896  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,896  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,895  [HC=1,00;  HNC=0,89;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( decimal ? value , CultureInfo culture = null )     254
+*
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string ? FormatValue ( short ? value , CultureInfo ? culture = null )     184
+	0,897  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,908  [HC=1,00;  HNC=0,98;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,899  [HC=1,00;  HNC=0,87;  I=0,88;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( float ? value , CultureInfo ? culture = null )     219
+	0,899  [HC=1,00;  HNC=0,87;  I=0,88;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,899  [HC=1,00;  HNC=0,87;  I=0,88;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( long ? value , CultureInfo ? culture = null )     149
+	0,897  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTime value , CultureInfo culture = null )     274
+*
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,973  [HC=1,00;  H=0,81;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,988  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,84;  NA=0,00] *
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,967  [HC=1,00;  HNC=0,96;  I=0,87;  S=1,00;  NN=0,84;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,964  [HC=1,00;  HNC=0,91;  I=0,90;  S=1,00;  NN=0,84;  NA=0,00] 
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,956  [HC=1,00;  HNC=0,85;  I=0,91;  S=1,00;  NN=0,84;  NA=0,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,947  [HC=1,00;  HNC=0,89;  I=0,79;  S=1,00;  NN=0,84;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,942  [HC=1,00;  HNC=0,85;  I=0,80;  S=1,00;  NN=0,84;  NA=0,00] 
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,941  [HC=1,00;  HNC=0,87;  I=0,77;  S=1,00;  NN=0,84;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTime value , string format , CultureInfo culture = null )     285
+*
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,992  [HC=1,00;  H=0,94;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,988  [HC=1,00;  H=0,92;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,971  [HC=1,00;  H=0,80;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,967  [HC=1,00;  H=0,77;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,963  [HC=1,00;  H=0,74;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,960  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,989  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,85;  NA=0,00] *
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,966  [HC=1,00;  HNC=0,93;  I=0,89;  S=1,00;  NN=0,85;  NA=0,00] 
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,966  [HC=1,00;  HNC=0,96;  I=0,86;  S=1,00;  NN=0,85;  NA=0,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,947  [HC=1,00;  HNC=0,91;  I=0,77;  S=1,00;  NN=0,85;  NA=0,00] 
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,938  [HC=1,00;  HNC=0,82;  I=0,79;  S=1,00;  NN=0,85;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,935  [HC=1,00;  HNC=0,78;  I=0,81;  S=1,00;  NN=0,85;  NA=0,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,920  [HC=1,00;  HNC=0,76;  I=0,72;  S=1,00;  NN=0,85;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTime ? value , CultureInfo culture = null )     310
+*
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,978  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,88;  NA=0,00] *
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,975  [HC=1,00;  HNC=0,96;  I=0,91;  S=1,00;  NN=0,88;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,959  [HC=1,00;  HNC=0,98;  I=0,77;  S=1,00;  NN=0,88;  NA=0,00] 
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,958  [HC=1,00;  HNC=0,83;  I=0,92;  S=1,00;  NN=0,88;  NA=0,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,953  [HC=1,00;  HNC=0,88;  I=0,82;  S=1,00;  NN=0,88;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,938  [HC=1,00;  HNC=0,91;  I=0,69;  S=1,00;  NN=0,88;  NA=0,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,913  [HC=1,00;  HNC=0,98;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTime ? value , string format , CultureInfo culture = null )     321
+*
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,960  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,960  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,957  [HC=1,00;  H=0,70;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] *
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,975  [HC=1,00;  HNC=0,96;  I=0,90;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,958  [HC=1,00;  HNC=0,99;  I=0,75;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,946  [HC=1,00;  HNC=0,82;  I=0,84;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,929  [HC=1,00;  HNC=0,84;  I=0,68;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,912  [HC=1,00;  HNC=0,99;  I=0,86;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,900  [HC=1,00;  HNC=0,83;  I=0,92;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTimeOffset value , CultureInfo culture = null )     356
+*
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,973  [HC=1,00;  H=0,81;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,994  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,92;  NA=0,00] *
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,975  [HC=1,00;  HNC=0,97;  I=0,88;  S=1,00;  NN=0,92;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,965  [HC=1,00;  HNC=0,86;  I=0,92;  S=1,00;  NN=0,92;  NA=0,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,952  [HC=1,00;  HNC=0,89;  I=0,79;  S=1,00;  NN=0,92;  NA=0,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,908  [HC=1,00;  HNC=0,91;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,889  [HC=1,00;  HNC=0,90;  I=0,77;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,886  [HC=1,00;  HNC=0,83;  I=0,81;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo culture = null )     368
+*
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,992  [HC=1,00;  H=0,94;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,988  [HC=1,00;  H=0,92;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,977  [HC=1,00;  H=0,84;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,968  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,967  [HC=1,00;  H=0,77;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,963  [HC=1,00;  H=0,74;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,960  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,995  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,94;  NA=0,00] *
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,974  [HC=1,00;  HNC=0,97;  I=0,87;  S=1,00;  NN=0,94;  NA=0,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,948  [HC=1,00;  HNC=0,84;  I=0,81;  S=1,00;  NN=0,94;  NA=0,00] 
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,909  [HC=1,00;  HNC=0,93;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,903  [HC=1,00;  HNC=0,86;  I=0,92;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,888  [HC=1,00;  HNC=0,91;  I=0,75;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,879  [HC=1,00;  HNC=0,80;  I=0,80;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTimeOffset ? value , CultureInfo culture = null )     393
+*
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,978  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( decimal ? value , CultureInfo ? culture = null )     289
+	0,975  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,974  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,994  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,97;  NA=0,00] *
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,967  [HC=1,00;  HNC=0,84;  I=0,93;  S=1,00;  NN=0,97;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,915  [HC=1,00;  HNC=0,98;  I=0,88;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,908  [HC=1,00;  HNC=0,90;  I=0,91;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,895  [HC=1,00;  HNC=0,91;  I=0,81;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,893  [HC=1,00;  HNC=0,91;  I=0,79;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,886  [HC=1,00;  HNC=0,81;  I=0,84;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTimeOffset ? value , string format , CultureInfo culture = null )     404
+*
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,976  [HC=1,00;  H=0,83;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,960  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,960  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,957  [HC=1,00;  H=0,70;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,995  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] *
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,914  [HC=1,00;  HNC=0,99;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,908  [HC=1,00;  HNC=0,91;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,903  [HC=1,00;  HNC=0,84;  I=0,93;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,893  [HC=1,00;  HNC=0,92;  I=0,77;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,886  [HC=1,00;  HNC=0,86;  I=0,79;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,880  [HC=1,00;  HNC=0,78;  I=0,82;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\HttpHeaderParser.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\HttpHeaderParser.cs
+*
+public virtual bool TryParseValues ( IList < string > values , out IList < T > parsedValues )     49
+*
+public virtual bool TryParseValues ( IList < string > ? values , [ NotNullWhen ( true ) ] out IList < T > ? parsedValues )     51
+	0,956  [HC=1,00;  H=0,69;  I=1,00;  S=1,00] 
+protected virtual bool TryParseValues ( IList < string > ? values , bool strict , [ NotNullWhen ( true ) ] out IList < T > ? parsedValues )     61
+	0,942  [HC=1,00;  H=0,59;  I=1,00;  S=1,00] 
+public virtual IList < T > ParseValues ( IList < string > ? values )     111
+	0,836  [HC=0,79;  H=0,49;  I=1,00;  S=1,00] #
+protected virtual IList < T > ParseValues ( IList < string > ? values , bool strict )     121
+	0,818  [HC=0,79;  H=0,37;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public virtual bool TryParseValues ( IList < string > ? values , [ NotNullWhen ( true ) ] out IList < T > ? parsedValues )     51
+	0,978  [HC=1,00;  HNC=0,83;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+protected virtual bool TryParseValues ( IList < string > ? values , bool strict , [ NotNullWhen ( true ) ] out IList < T > ? parsedValues )     61
+	0,761  [HC=1,00;  HNC=0,71;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public virtual IList < T > ParseValues ( IList < string > ? values )     111
+	0,662  [HC=0,67;  HNC=0,40;  I=0,56;  S=1,00;  NN=0,00;  NA=0,00] 
+protected virtual IList < T > ParseValues ( IList < string > ? values , bool strict )     121
+	0,579  [HC=0,67;  HNC=0,34;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\HttpHeaderParser.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\HttpHeaderParser.cs
+*
+protected virtual bool TryParseValues ( IList < string > values , bool strict , out IList < T > parsedValues )     59
+*
+protected virtual bool TryParseValues ( IList < string > ? values , bool strict , [ NotNullWhen ( true ) ] out IList < T > ? parsedValues )     61
+	0,961  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+public virtual bool TryParseValues ( IList < string > ? values , [ NotNullWhen ( true ) ] out IList < T > ? parsedValues )     51
+	0,955  [HC=1,00;  H=0,68;  I=1,00;  S=1,00] 
+protected virtual IList < T > ParseValues ( IList < string > ? values , bool strict )     121
+	0,825  [HC=0,79;  H=0,42;  I=1,00;  S=1,00] #
+public virtual IList < T > ParseValues ( IList < string > ? values )     111
+	0,820  [HC=0,79;  H=0,39;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+protected virtual bool TryParseValues ( IList < string > ? values , bool strict , [ NotNullWhen ( true ) ] out IList < T > ? parsedValues )     61
+	0,968  [HC=1,00;  HNC=0,85;  I=0,97;  S=1,00;  NN=0,88;  NA=0,00] *
+protected virtual IList < T > ParseValues ( IList < string > ? values , bool strict )     121
+	0,706  [HC=0,67;  HNC=0,47;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] 
+public virtual IList < T > ParseValues ( IList < string > ? values )     111
+	0,630  [HC=0,67;  HNC=0,29;  I=0,00;  S=1,00;  NN=0,88;  NA=0,00] 
+public virtual bool TryParseValues ( IList < string > ? values , [ NotNullWhen ( true ) ] out IList < T > ? parsedValues )     51
+	0,774  [HC=1,00;  HNC=0,81;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\HubConnectionContext.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\HubConnectionContext.cs
+*
+private ValueTask < FlushResult > WriteCore ( HubMessage message )     194
+*
+private ValueTask < FlushResult > WriteCore ( HubMessage message , CancellationToken cancellationToken )     203
+	0,967  [HC=1,00;  H=0,77;  I=1,00;  S=1,00] 
+private ValueTask < FlushResult > WriteCore ( SerializedHubMessage message , CancellationToken cancellationToken )     223
+	0,962  [HC=1,00;  H=0,73;  I=1,00;  S=1,00] 
+private async Task WriteSlowAsync ( HubMessage message , CancellationToken cancellationToken )     261
+	0,659  [HC=0,43;  H=0,33;  I=1,00;  S=1,00] 
+private async Task WriteSlowAsync ( SerializedHubMessage message , CancellationToken cancellationToken )     286
+	0,653  [HC=0,43;  H=0,28;  I=1,00;  S=1,00] 
+internal void StopClientTimeout ( )     657
+	0,537  [HC=0,18;  H=0,23;  I=1,00;  S=1,00] 
+internal void BeginClientTimeout ( )     648
+	0,533  [HC=0,17;  H=0,23;  I=1,00;  S=1,00] 
+internal void Cleanup ( )     669
+	0,509  [HC=0,11;  H=0,23;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private ValueTask < FlushResult > WriteCore ( HubMessage message , CancellationToken cancellationToken )     203
+	0,940  [HC=1,00;  HNC=0,60;  I=0,95;  S=1,00;  NN=1,00;  NA=0,00] *
+private async Task WriteSlowAsync ( HubMessage message , CancellationToken cancellationToken )     261
+	0,540  [HC=0,33;  HNC=0,41;  I=0,64;  S=1,00;  NN=0,00;  NA=0,00] 
+private async Task WriteSlowAsync ( SerializedHubMessage message , CancellationToken cancellationToken )     286
+	0,534  [HC=0,33;  HNC=0,37;  I=0,63;  S=1,00;  NN=0,00;  NA=0,00] 
+internal void Cleanup ( )     669
+	0,354  [HC=0,00;  HNC=0,04;  I=0,61;  S=1,00;  NN=0,00;  NA=0,00] 
+internal void StopClientTimeout ( )     657
+	0,322  [HC=0,00;  HNC=0,04;  I=0,37;  S=1,00;  NN=0,00;  NA=0,00] 
+internal void BeginClientTimeout ( )     648
+	0,319  [HC=0,00;  HNC=0,04;  I=0,35;  S=1,00;  NN=0,00;  NA=0,00] 
+private ValueTask < FlushResult > WriteCore ( SerializedHubMessage message , CancellationToken cancellationToken )     223
+	0,834  [HC=1,00;  HNC=0,56;  I=0,69;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\HubConnectionContext.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\HubConnectionContext.cs
+*
+private ValueTask < FlushResult > WriteCore ( SerializedHubMessage message )     214
+*
+private ValueTask < FlushResult > WriteCore ( SerializedHubMessage message , CancellationToken cancellationToken )     223
+	0,967  [HC=1,00;  H=0,77;  I=1,00;  S=1,00] 
+private ValueTask < FlushResult > WriteCore ( HubMessage message , CancellationToken cancellationToken )     203
+	0,962  [HC=1,00;  H=0,73;  I=1,00;  S=1,00] 
+private async Task WriteSlowAsync ( SerializedHubMessage message , CancellationToken cancellationToken )     286
+	0,659  [HC=0,43;  H=0,33;  I=1,00;  S=1,00] 
+private async Task WriteSlowAsync ( HubMessage message , CancellationToken cancellationToken )     261
+	0,653  [HC=0,43;  H=0,28;  I=1,00;  S=1,00] 
+internal void StopClientTimeout ( )     657
+	0,537  [HC=0,18;  H=0,23;  I=1,00;  S=1,00] 
+internal void BeginClientTimeout ( )     648
+	0,533  [HC=0,17;  H=0,23;  I=1,00;  S=1,00] 
+internal void Cleanup ( )     669
+	0,509  [HC=0,11;  H=0,23;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private ValueTask < FlushResult > WriteCore ( SerializedHubMessage message , CancellationToken cancellationToken )     223
+	0,942  [HC=1,00;  HNC=0,65;  I=0,93;  S=1,00;  NN=0,96;  NA=0,00] *
+private ValueTask < FlushResult > WriteCore ( HubMessage message , CancellationToken cancellationToken )     203
+	0,876  [HC=1,00;  HNC=0,50;  I=0,58;  S=1,00;  NN=0,96;  NA=0,00] 
+private async Task WriteSlowAsync ( SerializedHubMessage message , CancellationToken cancellationToken )     286
+	0,534  [HC=0,33;  HNC=0,45;  I=0,55;  S=1,00;  NN=0,00;  NA=0,00] 
+private async Task WriteSlowAsync ( HubMessage message , CancellationToken cancellationToken )     261
+	0,522  [HC=0,33;  HNC=0,32;  I=0,60;  S=1,00;  NN=0,00;  NA=0,00] 
+internal void Cleanup ( )     669
+	0,327  [HC=0,00;  HNC=0,03;  I=0,42;  S=1,00;  NN=0,00;  NA=0,00] 
+internal void BeginClientTimeout ( )     648
+	0,314  [HC=0,00;  HNC=0,03;  I=0,32;  S=1,00;  NN=0,00;  NA=0,00] 
+internal void StopClientTimeout ( )     657
+	0,310  [HC=0,00;  HNC=0,03;  I=0,29;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public void AddAttribute ( int sequence , string name , object value )     391
+*
+public void AddAttribute ( int sequence , string name , object ? value )     409
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public void AddAttribute ( int sequence , string name , string ? value )     410
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,503  [HC=0,25;  H=0,33;  I=1,00;  S=0,72] 
+public void AddAttribute ( int sequence , string name , System . MulticastDelegate ? value )     408
+	0,965  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , string ? textContent )     416
+	0,666  [HC=0,33;  H=0,66;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , object ? textContent )     415
+	0,657  [HC=0,33;  H=0,60;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , Microsoft . AspNetCore . Components . RenderFragment ? fragment )     414
+	0,640  [HC=0,33;  H=0,48;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public void AddAttribute ( int sequence , string name , object ? value )     409
+	0,998  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] *
+public void AddAttribute ( int sequence , string name , string ? value )     410
+	0,984  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
+public void AddContent ( int sequence , string ? textContent )     416
+	0,687  [HC=0,50;  HNC=0,65;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , object ? textContent )     415
+	0,672  [HC=0,50;  HNC=0,54;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , Microsoft . AspNetCore . Components . RenderFragment ? fragment )     414
+	0,667  [HC=0,50;  HNC=0,50;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,183  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,54;  NN=0,00;  NA=0,00] 
+public void AddAttribute ( int sequence , string name , System . MulticastDelegate ? value )     408
+	0,898  [HC=1,00;  HNC=0,73;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public void AddAttribute ( int sequence , string name , string value )     392
+*
+public void AddAttribute ( int sequence , string name , string ? value )     410
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public void AddAttribute ( int sequence , string name , object ? value )     409
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,504  [HC=0,25;  H=0,34;  I=1,00;  S=0,72] 
+public void AddAttribute ( int sequence , string name , System . MulticastDelegate ? value )     408
+	0,966  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , string ? textContent )     416
+	0,665  [HC=0,33;  H=0,66;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , object ? textContent )     415
+	0,656  [HC=0,33;  H=0,59;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , Microsoft . AspNetCore . Components . RenderFragment ? fragment )     414
+	0,640  [HC=0,33;  H=0,48;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public void AddAttribute ( int sequence , string name , string ? value )     410
+	0,999  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public void AddContent ( int sequence , string ? textContent )     416
+	0,687  [HC=0,50;  HNC=0,65;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , object ? textContent )     415
+	0,672  [HC=0,50;  HNC=0,54;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , Microsoft . AspNetCore . Components . RenderFragment ? fragment )     414
+	0,667  [HC=0,50;  HNC=0,50;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,183  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,54;  NN=0,00;  NA=0,00] 
+public void AddAttribute ( int sequence , string name , object ? value )     409
+	0,917  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public void AddAttribute ( int sequence , string name , System . MulticastDelegate ? value )     408
+	0,898  [HC=1,00;  HNC=0,73;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public void AddAttribute ( int sequence , string name , object value )     391
+*
+public void AddAttribute ( int sequence , string name , object ? value )     408
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public void AddAttribute ( int sequence , string name , string ? value )     409
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,503  [HC=0,25;  H=0,33;  I=1,00;  S=0,72] 
+public void AddAttribute ( int sequence , string name , System . MulticastDelegate ? value )     407
+	0,965  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , string ? textContent )     415
+	0,666  [HC=0,33;  H=0,66;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , object ? textContent )     414
+	0,657  [HC=0,33;  H=0,60;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , Microsoft . AspNetCore . Components . RenderFragment ? fragment )     413
+	0,640  [HC=0,33;  H=0,48;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public void AddAttribute ( int sequence , string name , object ? value )     408
+	0,998  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] *
+public void AddAttribute ( int sequence , string name , string ? value )     409
+	0,984  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
+public void AddContent ( int sequence , string ? textContent )     415
+	0,687  [HC=0,50;  HNC=0,65;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , object ? textContent )     414
+	0,672  [HC=0,50;  HNC=0,54;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , Microsoft . AspNetCore . Components . RenderFragment ? fragment )     413
+	0,667  [HC=0,50;  HNC=0,50;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,183  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,54;  NN=0,00;  NA=0,00] 
+public void AddAttribute ( int sequence , string name , System . MulticastDelegate ? value )     407
+	0,898  [HC=1,00;  HNC=0,73;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public void AddAttribute ( int sequence , string name , string value )     392
+*
+public void AddAttribute ( int sequence , string name , string ? value )     409
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public void AddAttribute ( int sequence , string name , object ? value )     408
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,504  [HC=0,25;  H=0,34;  I=1,00;  S=0,72] 
+public void AddAttribute ( int sequence , string name , System . MulticastDelegate ? value )     407
+	0,966  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , string ? textContent )     415
+	0,665  [HC=0,33;  H=0,66;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , object ? textContent )     414
+	0,656  [HC=0,33;  H=0,59;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , Microsoft . AspNetCore . Components . RenderFragment ? fragment )     413
+	0,640  [HC=0,33;  H=0,48;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public void AddAttribute ( int sequence , string name , string ? value )     409
+	0,999  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public void AddContent ( int sequence , string ? textContent )     415
+	0,687  [HC=0,50;  HNC=0,65;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , object ? textContent )     414
+	0,672  [HC=0,50;  HNC=0,54;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , Microsoft . AspNetCore . Components . RenderFragment ? fragment )     413
+	0,667  [HC=0,50;  HNC=0,50;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,183  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,54;  NN=0,00;  NA=0,00] 
+public void AddAttribute ( int sequence , string name , object ? value )     408
+	0,917  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public void AddAttribute ( int sequence , string name , System . MulticastDelegate ? value )     407
+	0,898  [HC=1,00;  HNC=0,73;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Connections.Abstractions.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Connections.Abstractions.netcoreapp.cs
+*
+public virtual void Abort ( )     40
+*
+public override void Abort ( )     47
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public abstract void Abort ( )     20
+	0,977  [HC=1,00;  H=0,88;  I=1,00;  S=0,98] 
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,911  [HC=1,00;  H=0,38;  I=1,00;  S=1,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,905  [HC=1,00;  H=0,38;  I=1,00;  S=0,98] 
+public override string ToString ( )     176
+	0,514  [HC=0,13;  H=0,59;  I=1,00;  S=0,82] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > AcceptAsync ( System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     162
+	0,510  [HC=0,18;  H=0,10;  I=1,00;  S=0,96] 
+public virtual System . Threading . Tasks . ValueTask DisposeAsync ( )     22
+	0,509  [HC=0,08;  H=0,35;  I=1,00;  S=0,98] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public override void Abort ( )     47
+	0,987  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,94;  NA=0,00] *
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,900  [HC=1,00;  HNC=0,28;  I=1,00;  S=1,00;  NN=0,94;  NA=0,00] 
+public abstract void Abort ( )     20
+	0,761  [HC=1,00;  HNC=0,93;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,674  [HC=1,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Clear ( )     67
+	0,460  [HC=0,00;  HNC=0,87;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . IDictionary < object , object ? > . Add ( object key , object ? value )     71
+	0,375  [HC=0,00;  HNC=0,23;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Add ( System . Collections . Generic . KeyValuePair < object , object ? > item )     66
+	0,373  [HC=0,00;  HNC=0,21;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Connections.Abstractions.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Connections.Abstractions.netcoreapp.cs
+*
+public virtual void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     41
+*
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,992  [HC=1,00;  H=0,95;  I=1,00;  S=1,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,987  [HC=1,00;  H=0,95;  I=1,00;  S=0,98] 
+public override void Abort ( )     47
+	0,911  [HC=1,00;  H=0,38;  I=1,00;  S=1,00] 
+public abstract void Abort ( )     20
+	0,905  [HC=1,00;  H=0,38;  I=1,00;  S=0,98] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > AcceptAsync ( System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     162
+	0,532  [HC=0,18;  H=0,26;  I=1,00;  S=0,96] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > ConnectAsync ( Microsoft . AspNetCore . Http . Features . IFeatureCollection ? features = null , System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     163
+	0,481  [HC=0,08;  H=0,19;  I=1,00;  S=0,96] 
+public virtual System . Threading . Tasks . ValueTask DisposeAsync ( )     22
+	0,516  [HC=0,08;  H=0,40;  I=1,00;  S=0,98] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,989  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,97;  NA=0,00] *
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,761  [HC=1,00;  HNC=0,93;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+public abstract void Abort ( )     20
+	0,674  [HC=1,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . CopyTo ( System . Collections . Generic . KeyValuePair < object , object > [ ] array , int arrayIndex )     69
+	0,385  [HC=0,00;  HNC=0,31;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Add ( System . Collections . Generic . KeyValuePair < object , object ? > item )     66
+	0,375  [HC=0,00;  HNC=0,23;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Clear ( )     67
+	0,373  [HC=0,00;  HNC=0,21;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+public override void Abort ( )     47
+	0,837  [HC=1,00;  HNC=0,28;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Connections.Abstractions.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Connections.Abstractions.netstandard2.0.cs
+*
+public virtual void Abort ( )     40
+*
+public override void Abort ( )     47
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public abstract void Abort ( )     20
+	0,977  [HC=1,00;  H=0,88;  I=1,00;  S=0,98] 
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,911  [HC=1,00;  H=0,38;  I=1,00;  S=1,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,905  [HC=1,00;  H=0,38;  I=1,00;  S=0,98] 
+public override string ToString ( )     176
+	0,514  [HC=0,13;  H=0,59;  I=1,00;  S=0,82] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > AcceptAsync ( System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     162
+	0,510  [HC=0,18;  H=0,10;  I=1,00;  S=0,96] 
+public virtual System . Threading . Tasks . ValueTask DisposeAsync ( )     22
+	0,509  [HC=0,08;  H=0,35;  I=1,00;  S=0,98] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public override void Abort ( )     47
+	0,987  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,94;  NA=0,00] *
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,900  [HC=1,00;  HNC=0,28;  I=1,00;  S=1,00;  NN=0,94;  NA=0,00] 
+public abstract void Abort ( )     20
+	0,761  [HC=1,00;  HNC=0,93;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,674  [HC=1,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Clear ( )     67
+	0,460  [HC=0,00;  HNC=0,87;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . IDictionary < object , object ? > . Add ( object key , object ? value )     71
+	0,375  [HC=0,00;  HNC=0,23;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Add ( System . Collections . Generic . KeyValuePair < object , object ? > item )     66
+	0,373  [HC=0,00;  HNC=0,21;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Connections.Abstractions.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Connections.Abstractions.netstandard2.0.cs
+*
+public virtual void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     41
+*
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,992  [HC=1,00;  H=0,95;  I=1,00;  S=1,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,987  [HC=1,00;  H=0,95;  I=1,00;  S=0,98] 
+public override void Abort ( )     47
+	0,911  [HC=1,00;  H=0,38;  I=1,00;  S=1,00] 
+public abstract void Abort ( )     20
+	0,905  [HC=1,00;  H=0,38;  I=1,00;  S=0,98] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > AcceptAsync ( System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     162
+	0,532  [HC=0,18;  H=0,26;  I=1,00;  S=0,96] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > ConnectAsync ( Microsoft . AspNetCore . Http . Features . IFeatureCollection ? features = null , System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     163
+	0,481  [HC=0,08;  H=0,19;  I=1,00;  S=0,96] 
+public virtual System . Threading . Tasks . ValueTask DisposeAsync ( )     22
+	0,516  [HC=0,08;  H=0,40;  I=1,00;  S=0,98] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,989  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,97;  NA=0,00] *
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,761  [HC=1,00;  HNC=0,93;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+public abstract void Abort ( )     20
+	0,674  [HC=1,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . CopyTo ( System . Collections . Generic . KeyValuePair < object , object > [ ] array , int arrayIndex )     69
+	0,385  [HC=0,00;  HNC=0,31;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Add ( System . Collections . Generic . KeyValuePair < object , object ? > item )     66
+	0,375  [HC=0,00;  HNC=0,23;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Clear ( )     67
+	0,373  [HC=0,00;  HNC=0,21;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+public override void Abort ( )     47
+	0,837  [HC=1,00;  HNC=0,28;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Connections.Abstractions.netstandard2.1.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Connections.Abstractions.netstandard2.1.cs
+*
+public virtual void Abort ( )     40
+*
+public override void Abort ( )     47
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public abstract void Abort ( )     20
+	0,977  [HC=1,00;  H=0,88;  I=1,00;  S=0,98] 
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,911  [HC=1,00;  H=0,38;  I=1,00;  S=1,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,905  [HC=1,00;  H=0,38;  I=1,00;  S=0,98] 
+public override string ToString ( )     176
+	0,514  [HC=0,13;  H=0,59;  I=1,00;  S=0,82] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > AcceptAsync ( System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     162
+	0,510  [HC=0,18;  H=0,10;  I=1,00;  S=0,96] 
+public virtual System . Threading . Tasks . ValueTask DisposeAsync ( )     22
+	0,509  [HC=0,08;  H=0,35;  I=1,00;  S=0,98] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public override void Abort ( )     47
+	0,987  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,94;  NA=0,00] *
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,900  [HC=1,00;  HNC=0,28;  I=1,00;  S=1,00;  NN=0,94;  NA=0,00] 
+public abstract void Abort ( )     20
+	0,761  [HC=1,00;  HNC=0,93;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,674  [HC=1,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Clear ( )     67
+	0,460  [HC=0,00;  HNC=0,87;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . IDictionary < object , object ? > . Add ( object key , object ? value )     71
+	0,375  [HC=0,00;  HNC=0,23;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Add ( System . Collections . Generic . KeyValuePair < object , object ? > item )     66
+	0,373  [HC=0,00;  HNC=0,21;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Connections.Abstractions.netstandard2.1.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Connections.Abstractions.netstandard2.1.cs
+*
+public virtual void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     41
+*
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,992  [HC=1,00;  H=0,95;  I=1,00;  S=1,00] 
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,987  [HC=1,00;  H=0,95;  I=1,00;  S=0,98] 
+public override void Abort ( )     47
+	0,911  [HC=1,00;  H=0,38;  I=1,00;  S=1,00] 
+public abstract void Abort ( )     20
+	0,905  [HC=1,00;  H=0,38;  I=1,00;  S=0,98] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > AcceptAsync ( System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     162
+	0,532  [HC=0,18;  H=0,26;  I=1,00;  S=0,96] 
+public abstract System . Threading . Tasks . ValueTask < Microsoft . AspNetCore . Connections . ConnectionContext > ConnectAsync ( Microsoft . AspNetCore . Http . Features . IFeatureCollection ? features = null , System . Threading . CancellationToken cancellationToken = default ( System . Threading . CancellationToken ) )     163
+	0,481  [HC=0,08;  H=0,19;  I=1,00;  S=0,96] 
+public virtual System . Threading . Tasks . ValueTask DisposeAsync ( )     22
+	0,516  [HC=0,08;  H=0,40;  I=1,00;  S=0,98] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public override void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     48
+	0,989  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,97;  NA=0,00] *
+public abstract void Abort ( Microsoft . AspNetCore . Connections . ConnectionAbortedException abortReason )     21
+	0,761  [HC=1,00;  HNC=0,93;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+public abstract void Abort ( )     20
+	0,674  [HC=1,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . CopyTo ( System . Collections . Generic . KeyValuePair < object , object > [ ] array , int arrayIndex )     69
+	0,385  [HC=0,00;  HNC=0,31;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Add ( System . Collections . Generic . KeyValuePair < object , object ? > item )     66
+	0,375  [HC=0,00;  HNC=0,23;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+void System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Clear ( )     67
+	0,373  [HC=0,00;  HNC=0,21;  I=1,00;  S=0,79;  NN=0,00;  NA=0,00] 
+public override void Abort ( )     47
+	0,837  [HC=1,00;  HNC=0,28;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\QueryHelpers.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\QueryHelpers.cs
+*
+private static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , string > > queryString )     63
+*
+public static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , StringValues > > queryString )     80
+	0,989  [HC=1,00;  H=0,92;  I=1,00;  S=1,00] 
+public static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , string ? > > queryString )     103
+	0,987  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string AddQueryString ( string uri , IDictionary < string , string ? > queryString )     57
+	0,964  [HC=1,00;  H=0,75;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , string ? > > queryString )     103
+	0,986  [HC=1,00;  HNC=0,93;  I=0,97;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , StringValues > > queryString )     80
+	0,901  [HC=1,00;  HNC=0,87;  I=0,39;  S=1,00;  NN=1,00;  NA=0,00] 
+public static string AddQueryString ( string uri , IDictionary < string , string ? > queryString )     57
+	0,759  [HC=1,00;  HNC=0,70;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\RenderTreeBuilder.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\RenderTreeBuilder.cs
+*
+public void AddAttribute ( int sequence , string name , object value )     321
+*
+public void AddAttribute ( int sequence , string name , object ? value )     348
+	0,990  [HC=1,00;  H=0,93;  I=1,00;  S=1,00] 
+public void AddAttribute ( int sequence , string name , MulticastDelegate ? value )     232
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public void AddAttribute ( int sequence , string name , string ? value )     205
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+private static void ProfilingStart ( [ CallerMemberName ] string ? name = null )     837
+	0,508  [HC=0,07;  H=0,34;  I=1,00;  S=1,00] 
+public void AddContent ( int sequence , string ? textContent )     100
+	0,666  [HC=0,33;  H=0,66;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , RenderFragment ? fragment )     112
+	0,658  [HC=0,33;  H=0,61;  I=1,00;  S=1,00] #
+public void AddContent ( int sequence , object ? textContent )     157
+	0,657  [HC=0,33;  H=0,60;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public void AddAttribute ( int sequence , string name , object ? value )     348
+	0,994  [HC=1,00;  HNC=0,99;  I=0,96;  S=1,00;  NN=1,00;  NA=0,00] *
+public void AddAttribute ( int sequence , string name , string ? value )     205
+	0,861  [HC=1,00;  HNC=0,88;  I=0,58;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddAttribute ( int sequence , string name , MulticastDelegate ? value )     232
+	0,851  [HC=1,00;  HNC=0,80;  I=0,58;  S=1,00;  NN=0,00;  NA=0,00] 
+private static void ProfilingStart ( [ CallerMemberName ] string ? name = null )     837
+	0,322  [HC=0,00;  HNC=0,41;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AddContent ( int sequence , RenderFragment ? fragment )     112
+	0,591  [HC=0,50;  HNC=0,54;  I=0,39;  S=1,00;  NN=0,00;  NA=0,00] #
+public void AddContent ( int sequence , string ? textContent )     100
+	0,554  [HC=0,50;  HNC=0,65;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public void AddContent ( int sequence , object ? textContent )     157
+	0,539  [HC=0,50;  HNC=0,54;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+

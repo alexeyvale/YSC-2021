@@ -18,21 +18,21 @@ internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disp
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
 	0,667  [HC=0,50;  H=0,42;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=2,00;  NA=0,00]
 internal abstract CheckCertificateStateResult CheckCertificateState ( X509Certificate2 candidate , bool interactive )     489
-	0,555  [HC=0,50;  HNC=0,54;  I=0,00;  S=0,95;  N=0,00] 
+	0,692  [HC=0,50;  HNC=0,54;  I=0,00;  S=0,95;  NN=1,00;  NA=0,00] 
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
-	0,490  [HC=0,25;  HNC=0,61;  I=0,29;  S=0,95;  N=0,00] 
+	0,647  [HC=0,25;  HNC=0,61;  I=0,29;  S=0,95;  NN=1,00;  NA=0,00] 
 internal abstract void CorrectCertificateState ( X509Certificate2 candidate )     491
-	0,486  [HC=0,25;  HNC=0,73;  I=0,00;  S=0,95;  N=0,00] 
-protected abstract X509Certificate2 SaveCertificateCore ( X509Certificate2 certificate )     322
-	0,443  [HC=0,25;  HNC=0,54;  I=0,00;  S=0,95;  N=0,00] 
+	0,644  [HC=0,25;  HNC=0,73;  I=0,00;  S=0,95;  NN=1,00;  NA=0,00] 
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
-	0,462  [HC=0,25;  HNC=0,40;  I=0,44;  S=0,95;  N=0,00] #
+	0,627  [HC=0,25;  HNC=0,40;  I=0,44;  S=0,95;  NN=1,00;  NA=0,00] #
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,458  [HC=0,25;  HNC=0,61;  I=0,00;  S=0,95;  N=0,00] #
+	0,625  [HC=0,25;  HNC=0,61;  I=0,00;  S=0,95;  NN=1,00;  NA=0,00] #
+internal void RemoveAllCertificates ( StoreName storeName , StoreLocation storeLocation )     453
+	0,538  [HC=0,23;  HNC=0,08;  I=0,00;  S=0,95;  NN=1,00;  NA=0,00] #
 public bool IsHttpsDevelopmentCertificate ( X509Certificate2 certificate )     59
-	0,457  [HC=0,18;  HNC=0,74;  I=0,00;  S=0,95;  N=0,00] #
+	0,457  [HC=0,18;  HNC=0,74;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -56,21 +56,21 @@ internal abstract void CorrectCertificateState ( X509Certificate2 candidate )   
 public IList < X509Certificate2 > ListCertificates ( StoreName storeName , StoreLocation location , bool isValid , bool requireExportable = true )     63
 	0,691  [HC=0,62;  H=0,23;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 protected abstract void TrustCertificateCore ( X509Certificate2 certificate )     324
-	0,560  [HC=0,50;  HNC=0,57;  I=0,00;  S=0,95;  N=0,00] 
+	0,560  [HC=0,50;  HNC=0,57;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
-	0,447  [HC=0,25;  HNC=0,39;  I=0,33;  S=0,95;  N=0,00] 
+	0,447  [HC=0,25;  HNC=0,39;  I=0,33;  S=0,95;  NN=0,00;  NA=0,00] 
 internal abstract void CorrectCertificateState ( X509Certificate2 candidate )     491
-	0,435  [HC=0,25;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] 
+	0,435  [HC=0,25;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,569  [HC=0,50;  HNC=0,61;  I=0,00;  S=0,95;  N=0,00] #
+	0,569  [HC=0,50;  HNC=0,61;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
-	0,511  [HC=0,25;  HNC=0,61;  I=0,46;  S=0,95;  N=0,00] #
+	0,511  [HC=0,25;  HNC=0,61;  I=0,46;  S=0,95;  NN=0,00;  NA=0,00] #
 private static void RemoveCertificateFromUserStore ( X509Certificate2 certificate )     536
-	0,488  [HC=0,20;  HNC=0,63;  I=0,42;  S=0,95;  N=0,00] #
+	0,488  [HC=0,20;  HNC=0,63;  I=0,42;  S=0,95;  NN=0,00;  NA=0,00] #
 internal void ExportCertificate ( X509Certificate2 certificate , string path , bool includePrivateKey , string password )     332
-	0,479  [HC=0,25;  HNC=0,48;  I=0,44;  S=0,95;  N=0,00] #
+	0,479  [HC=0,25;  HNC=0,48;  I=0,44;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -94,21 +94,21 @@ private static void RemoveCertificateFromUserStore ( X509Certificate2 certificat
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
 	0,741  [HC=0,65;  H=0,48;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=4,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 protected abstract void TrustCertificateCore ( X509Certificate2 certificate )     324
-	0,516  [HC=0,25;  HNC=0,87;  I=0,00;  S=0,95;  N=0,00] 
+	0,516  [HC=0,25;  HNC=0,87;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private static void RemoveCertificateFromUserStore ( X509Certificate2 certificate )     536
-	0,799  [HC=0,40;  HNC=1,00;  I=0,48;  S=0,95;  N=0,00] #
-internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,656  [HC=0,25;  HNC=0,87;  I=0,00;  S=0,95;  N=0,00] #
+	0,799  [HC=0,40;  HNC=1,00;  I=0,48;  S=0,95;  NN=0,00;  NA=0,00] #
 protected abstract void RemoveCertificateFromTrustedRoots ( X509Certificate2 certificate )     328
-	0,646  [HC=0,54;  HNC=0,87;  I=0,00;  S=0,95;  N=0,00] #
+	0,646  [HC=0,54;  HNC=0,87;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+internal void TrustCertificate ( X509Certificate2 certificate )     437
+	0,642  [HC=0,25;  HNC=0,87;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
-	0,632  [HC=0,50;  HNC=0,62;  I=0,63;  S=0,95;  N=0,00] #
-internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
-	0,532  [HC=0,23;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,632  [HC=0,50;  HNC=0,62;  I=0,63;  S=0,95;  NN=0,00;  NA=0,00] #
 public abstract bool IsTrusted ( X509Certificate2 certificate )     320
-	0,530  [HC=0,18;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,519  [HC=0,18;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
+	0,512  [HC=0,23;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -132,21 +132,21 @@ private static void RemoveCertificateFromUserStore ( X509Certificate2 certificat
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
 	0,712  [HC=0,59;  H=0,48;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void MacOSRemoveCertificateFromKeyChainStart ( string keyChain , string certificate )     693
-	0,540  [HC=0,63;  HNC=0,55;  I=0,00;  S=0,64;  N=0,00] 
+	0,540  [HC=0,63;  HNC=0,55;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void MacOSRemoveCertificateFromKeyChainError ( int exitCode )     699
-	0,502  [HC=0,63;  HNC=0,22;  I=0,31;  S=0,64;  N=0,00] 
+	0,502  [HC=0,63;  HNC=0,22;  I=0,31;  S=0,64;  NN=0,00;  NA=0,00] 
 public void MacOSRemoveCertificateFromKeyChainEnd ( )     696
-	0,467  [HC=0,63;  HNC=0,22;  I=0,00;  S=0,64;  N=0,00] 
+	0,467  [HC=0,63;  HNC=0,22;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 private static void RemoveCertificateFromUserStore ( X509Certificate2 certificate )     536
-	0,646  [HC=0,60;  HNC=0,75;  I=0,00;  S=0,95;  N=0,00] #
+	0,646  [HC=0,60;  HNC=0,75;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 protected abstract void RemoveCertificateFromTrustedRoots ( X509Certificate2 certificate )     328
-	0,616  [HC=0,60;  HNC=0,62;  I=0,00;  S=0,95;  N=0,00] #
+	0,616  [HC=0,60;  HNC=0,62;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
-	0,523  [HC=0,40;  HNC=0,37;  I=0,46;  S=0,95;  N=0,00] #
+	0,523  [HC=0,40;  HNC=0,37;  I=0,46;  S=0,95;  NN=0,00;  NA=0,00] #
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,469  [HC=0,20;  HNC=0,62;  I=0,28;  S=0,95;  N=0,00] #
+	0,469  [HC=0,20;  HNC=0,62;  I=0,28;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -170,21 +170,21 @@ internal void RemoveAllCertificates ( StoreName storeName , StoreLocation storeL
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
 	0,606  [HC=0,46;  H=0,10;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,90;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00]
 public void DescribeValidCertificates ( string validCertificates )     579
-	0,378  [HC=0,48;  HNC=0,10;  I=0,00;  S=0,64;  N=0,85] 
+	0,378  [HC=0,48;  HNC=0,10;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
 public void ValidCertificatesFound ( string certificates )     607
-	0,378  [HC=0,48;  HNC=0,10;  I=0,00;  S=0,64;  N=0,85] 
+	0,378  [HC=0,48;  HNC=0,10;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
 public void NoValidCertificatesFound ( )     614
-	0,371  [HC=0,48;  HNC=0,08;  I=0,00;  S=0,64;  N=0,85] 
+	0,371  [HC=0,48;  HNC=0,08;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
 public void CleanupHttpsCertificates ( )     298
-	0,367  [HC=0,23;  HNC=0,08;  I=0,32;  S=0,95;  N=0,00] 
+	0,367  [HC=0,23;  HNC=0,08;  I=0,32;  S=0,95;  NN=0,82;  NA=0,00] 
 public EnsureCertificateResult EnsureAspNetCoreHttpsDevelopmentCertificate ( DateTimeOffset notBefore , DateTimeOffset notAfter , string path = null , bool trust = false , bool includePrivateKey = false , string password = null , bool isInteractive = true )     149
-	0,529  [HC=0,14;  HNC=0,74;  I=0,68;  S=0,95;  N=0,00] #
+	0,529  [HC=0,14;  HNC=0,74;  I=0,68;  S=0,95;  NN=0,00;  NA=0,00] #
 public IList < X509Certificate2 > ListCertificates ( StoreName storeName , StoreLocation location , bool isValid , bool requireExportable = true )     63
-	0,424  [HC=0,23;  HNC=0,21;  I=0,50;  S=0,95;  N=0,00] #
+	0,424  [HC=0,23;  HNC=0,21;  I=0,50;  S=0,95;  NN=0,00;  NA=0,00] #
 internal void ExportCertificate ( X509Certificate2 certificate , string path , bool includePrivateKey , string password )     332
-	0,350  [HC=0,25;  HNC=0,26;  I=0,00;  S=0,95;  N=0,00] #
+	0,350  [HC=0,25;  HNC=0,26;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -208,21 +208,21 @@ public void CreateExportCertificateDirectory ( string path )     645
 public void CreateDevelopmentCertificateError ( string e )     624
 	0,433  [HC=0,06;  H=0,42;  I=1,00;  S=0,71] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,92;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,92;  NN=0,00;  NA=0,00]
 internal void MacOSAddCertificateToKeyChainStart ( string keychain , string certificate )     740
-	0,281  [HC=0,00;  HNC=0,63;  I=0,00;  S=0,67;  N=0,85] 
+	0,281  [HC=0,00;  HNC=0,63;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 internal abstract void CorrectCertificateState ( X509Certificate2 candidate )     491
-	0,254  [HC=0,00;  HNC=0,54;  I=0,00;  S=0,64;  N=0,00] 
+	0,254  [HC=0,00;  HNC=0,54;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
 public void MacOSRemoveCertificateFromKeyChainStart ( string keyChain , string certificate )     693
-	0,251  [HC=0,00;  HNC=0,49;  I=0,00;  S=0,67;  N=0,85] 
+	0,251  [HC=0,00;  HNC=0,49;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 public void ExportCertificateStart ( string certificate , string path , bool includePrivateKey )     638
-	0,245  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  N=0,85] 
+	0,245  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 public void DescribeFoundCertificates ( string matchingCertificates )     573
-	0,245  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  N=0,85] 
-public void DescribeValidCertificates ( string validCertificates )     579
-	0,245  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  N=0,85] 
+	0,245  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
+internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
+	0,287  [HC=0,00;  HNC=0,45;  I=0,47;  S=0,64;  NN=0,00;  NA=0,00] #
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,263  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,64;  N=0,00] #
+	0,263  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -246,21 +246,21 @@ public void FilteredCertificates ( string filteredCertificates )     591
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
 	0,684  [HC=0,75;  H=0,37;  I=1,00;  S=0,58] #
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,92;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,92;  NN=0,00;  NA=0,00]
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
-	0,546  [HC=0,46;  HNC=0,74;  I=0,33;  S=0,64;  N=0,00] 
+	0,546  [HC=0,46;  HNC=0,74;  I=0,33;  S=0,64;  NN=0,82;  NA=0,00] 
 public void DescribeValidCertificates ( string validCertificates )     579
-	0,527  [HC=0,67;  HNC=0,12;  I=0,51;  S=0,67;  N=0,85] 
+	0,508  [HC=0,67;  HNC=0,12;  I=0,34;  S=0,67;  NN=0,82;  NA=0,00] 
 public void DescribeFoundCertificates ( string matchingCertificates )     573
-	0,516  [HC=0,67;  HNC=0,12;  I=0,41;  S=0,67;  N=0,85] 
-public void ExcludedCertificates ( string excludedCertificates )     594
-	0,450  [HC=0,50;  HNC=0,12;  I=0,49;  S=0,67;  N=0,85] 
-internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,485  [HC=0,46;  HNC=0,64;  I=0,00;  S=0,64;  N=0,00] #
+	0,506  [HC=0,67;  HNC=0,12;  I=0,33;  S=0,67;  NN=0,82;  NA=0,00] 
+public void FilteredCertificates ( string filteredCertificates )     591
+	0,433  [HC=0,50;  HNC=0,12;  I=0,34;  S=0,67;  NN=0,82;  NA=0,00] 
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
-	0,457  [HC=0,50;  HNC=0,44;  I=0,00;  S=0,64;  N=0,00] #
+	0,486  [HC=0,50;  HNC=0,44;  I=0,25;  S=0,64;  NN=0,00;  NA=0,00] #
+internal void TrustCertificate ( X509Certificate2 certificate )     437
+	0,485  [HC=0,46;  HNC=0,64;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
-	0,454  [HC=0,46;  HNC=0,51;  I=0,00;  S=0,64;  N=0,00] #
+	0,454  [HC=0,46;  HNC=0,51;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -284,21 +284,21 @@ public void FilteredCertificates ( string filteredCertificates )     591
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
 	0,729  [HC=0,75;  H=0,69;  I=1,00;  S=0,58] #
 *
-HC=2;  HNC=1,21;  I=0,50;  S=0,92;  N=0,00]
+HC=2;  HNC=1,21;  I=0,50;  S=0,92;  NN=0,00;  NA=0,00]
 internal static string ToCertificateDescription ( IEnumerable < X509Certificate2 > matchingCertificates )     558
-	0,505  [HC=0,31;  HNC=0,81;  I=0,31;  S=0,64;  N=0,85] 
+	0,505  [HC=0,31;  HNC=0,81;  I=0,31;  S=0,64;  NN=0,82;  NA=0,00] 
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
-	0,499  [HC=0,46;  HNC=0,67;  I=0,00;  S=0,64;  N=0,00] 
+	0,499  [HC=0,46;  HNC=0,67;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
 public void DescribeFoundCertificates ( string matchingCertificates )     573
-	0,449  [HC=0,67;  HNC=0,11;  I=0,00;  S=0,67;  N=0,85] 
+	0,449  [HC=0,67;  HNC=0,11;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 public void DescribeValidCertificates ( string validCertificates )     579
-	0,449  [HC=0,67;  HNC=0,11;  I=0,00;  S=0,67;  N=0,85] 
+	0,449  [HC=0,67;  HNC=0,11;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
-	0,511  [HC=0,50;  HNC=0,64;  I=0,00;  S=0,64;  N=0,00] #
+	0,511  [HC=0,50;  HNC=0,64;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,508  [HC=0,46;  HNC=0,57;  I=0,34;  S=0,64;  N=0,00] #
+	0,508  [HC=0,46;  HNC=0,57;  I=0,34;  S=0,64;  NN=0,00;  NA=0,00] #
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
-	0,412  [HC=0,46;  HNC=0,34;  I=0,00;  S=0,64;  N=0,00] #
+	0,412  [HC=0,46;  HNC=0,34;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -322,21 +322,21 @@ public void DescribeInvalidValidCertificates ( string invalidCertificates )     
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
 	0,667  [HC=0,63;  H=0,61;  I=1,00;  S=0,58] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,92;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,92;  NN=0,00;  NA=0,00]
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
-	0,556  [HC=0,50;  HNC=0,67;  I=0,39;  S=0,64;  N=0,00] 
+	0,556  [HC=0,50;  HNC=0,67;  I=0,39;  S=0,64;  NN=0,82;  NA=0,00] 
 public void DescribeFoundCertificates ( string matchingCertificates )     573
-	0,491  [HC=0,64;  HNC=0,14;  I=0,32;  S=0,67;  N=0,85] 
+	0,491  [HC=0,64;  HNC=0,14;  I=0,32;  S=0,67;  NN=0,82;  NA=0,00] 
 public void DescribeValidCertificates ( string validCertificates )     579
-	0,455  [HC=0,64;  HNC=0,14;  I=0,00;  S=0,67;  N=0,85] 
+	0,455  [HC=0,64;  HNC=0,14;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 public void SelectedCertificate ( string certificate )     610
-	0,452  [HC=0,50;  HNC=0,15;  I=0,50;  S=0,67;  N=0,85] 
+	0,452  [HC=0,50;  HNC=0,15;  I=0,50;  S=0,67;  NN=0,82;  NA=0,00] 
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,557  [HC=0,50;  HNC=0,67;  I=0,42;  S=0,64;  N=0,00] #
+	0,557  [HC=0,50;  HNC=0,67;  I=0,42;  S=0,64;  NN=0,00;  NA=0,00] #
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
-	0,453  [HC=0,50;  HNC=0,42;  I=0,00;  S=0,64;  N=0,00] #
+	0,453  [HC=0,50;  HNC=0,42;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
-	0,440  [HC=0,46;  HNC=0,45;  I=0,00;  S=0,64;  N=0,00] #
+	0,440  [HC=0,46;  HNC=0,45;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -352,13 +352,13 @@ public async Task CheckAsync_CustomTestWithUnhealthyFailureStatusSpecified_Unhea
 public async Task CheckAsync_CustomTestWithDegradedFailureStatusSpecified_Degraded ( )     63
 	0,730  [HC=0,40;  H=0,90;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=2,00;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=2,00;  S=0,50;  NN=0,00;  NA=0,00]
 public async Task CheckAsync_CustomTestWithUnhealthyFailureStatusSpecified_Unhealthy ( )     85
-	0,818  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  N=0,94] 
+	0,818  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,75;  NA=0,00] 
 public async Task CheckAsync_CustomTestWithNoFailureStatusSpecified_Unhealthy ( )     107
-	0,805  [HC=0,50;  HNC=1,00;  I=0,96;  S=1,00;  N=0,94] 
+	0,805  [HC=0,50;  HNC=1,00;  I=0,96;  S=1,00;  NN=0,75;  NA=0,00] 
 public async Task CheckAsync_CustomTestWithDegradedFailureStatusSpecified_Degraded ( )     63
-	0,756  [HC=0,40;  HNC=1,00;  I=0,93;  S=1,00;  N=0,94] 
+	0,756  [HC=0,40;  HNC=1,00;  I=0,93;  S=1,00;  NN=0,75;  NA=0,00] 
 
 **************************************************************
 
@@ -382,21 +382,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,427  [HC=0,09;  H=0,38;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,567  [HC=0,17;  HNC=1,00;  I=0,43;  S=1,00;  N=0,58] 
+	0,567  [HC=0,17;  HNC=1,00;  I=0,43;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,519  [HC=0,17;  HNC=1,00;  I=0,00;  S=1,00;  N=0,58] 
+	0,519  [HC=0,17;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,500  [HC=0,13;  HNC=1,00;  I=0,00;  S=1,00;  N=0,58] 
+	0,500  [HC=0,13;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,479  [HC=0,08;  HNC=1,00;  I=0,00;  S=1,00;  N=0,58] 
+	0,479  [HC=0,08;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,347  [HC=0,09;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,347  [HC=0,09;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,345  [HC=0,05;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,345  [HC=0,05;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,341  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,341  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -420,21 +420,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,426  [HC=0,09;  H=0,38;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,575  [HC=0,17;  HNC=1,00;  I=0,51;  S=1,00;  N=0,58] 
+	0,575  [HC=0,17;  HNC=1,00;  I=0,51;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,568  [HC=0,13;  HNC=1,00;  I=0,58;  S=1,00;  N=0,58] 
+	0,568  [HC=0,13;  HNC=1,00;  I=0,58;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,544  [HC=0,14;  HNC=1,00;  I=0,33;  S=1,00;  N=0,58] 
+	0,544  [HC=0,14;  HNC=1,00;  I=0,33;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,530  [HC=0,10;  HNC=1,00;  I=0,37;  S=1,00;  N=0,58] 
+	0,530  [HC=0,10;  HNC=1,00;  I=0,37;  S=1,00;  NN=0,46;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,340  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,340  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,339  [HC=0,07;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,339  [HC=0,07;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,338  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,338  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -458,21 +458,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,439  [HC=0,12;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,587  [HC=0,23;  HNC=1,00;  I=0,36;  S=1,00;  N=0,58] 
+	0,587  [HC=0,23;  HNC=1,00;  I=0,36;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,559  [HC=0,14;  HNC=1,00;  I=0,48;  S=1,00;  N=0,58] 
+	0,559  [HC=0,14;  HNC=1,00;  I=0,48;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,521  [HC=0,08;  HNC=1,00;  I=0,36;  S=1,00;  N=0,58] 
+	0,521  [HC=0,08;  HNC=1,00;  I=0,36;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,500  [HC=0,00;  HNC=1,00;  I=0,50;  S=1,00;  N=0,58] 
+	0,500  [HC=0,00;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,331  [HC=0,05;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,331  [HC=0,05;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,331  [HC=0,02;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,331  [HC=0,02;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -496,21 +496,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,431  [HC=0,10;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,541  [HC=0,13;  HNC=1,00;  I=0,37;  S=1,00;  N=0,58] 
+	0,541  [HC=0,13;  HNC=1,00;  I=0,37;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,532  [HC=0,12;  HNC=1,00;  I=0,33;  S=1,00;  N=0,58] 
+	0,532  [HC=0,12;  HNC=1,00;  I=0,33;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,522  [HC=0,08;  HNC=1,00;  I=0,39;  S=1,00;  N=0,58] 
+	0,522  [HC=0,08;  HNC=1,00;  I=0,39;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,495  [HC=0,04;  HNC=1,00;  I=0,29;  S=1,00;  N=0,58] 
+	0,495  [HC=0,04;  HNC=1,00;  I=0,29;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,351  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,351  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,331  [HC=0,02;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,331  [HC=0,02;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -534,21 +534,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,428  [HC=0,09;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,532  [HC=0,11;  HNC=1,00;  I=0,36;  S=1,00;  N=0,58] 
+	0,532  [HC=0,11;  HNC=1,00;  I=0,36;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,516  [HC=0,10;  HNC=1,00;  I=0,26;  S=1,00;  N=0,58] 
+	0,516  [HC=0,10;  HNC=1,00;  I=0,26;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,514  [HC=0,06;  HNC=1,00;  I=0,38;  S=1,00;  N=0,58] 
+	0,514  [HC=0,06;  HNC=1,00;  I=0,38;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,511  [HC=0,07;  HNC=1,00;  I=0,31;  S=1,00;  N=0,58] 
+	0,511  [HC=0,07;  HNC=1,00;  I=0,31;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,342  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,342  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,329  [HC=0,01;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,329  [HC=0,01;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -572,21 +572,21 @@ public TFeature Get < TFeature > ( )     127
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
 	0,452  [HC=0,19;  H=0,25;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,517  [HC=0,04;  HNC=1,00;  I=0,48;  S=1,00;  N=0,58] 
+	0,517  [HC=0,04;  HNC=1,00;  I=0,48;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,515  [HC=0,07;  HNC=1,00;  I=0,35;  S=1,00;  N=0,58] 
+	0,515  [HC=0,07;  HNC=1,00;  I=0,35;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,513  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  N=0,58] 
+	0,513  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,503  [HC=0,00;  HNC=1,00;  I=0,53;  S=1,00;  N=0,58] 
+	0,503  [HC=0,00;  HNC=1,00;  I=0,53;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,350  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,350  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,340  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,340  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -610,21 +610,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,434  [HC=0,11;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,67;  S=1,00;  NN=0,00;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,540  [HC=0,08;  HNC=1,00;  I=0,53;  S=1,00;  N=0,58] 
+	0,540  [HC=0,08;  HNC=1,00;  I=0,53;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,515  [HC=0,00;  HNC=1,00;  I=0,63;  S=1,00;  N=0,58] 
+	0,519  [HC=0,00;  HNC=1,00;  I=0,63;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,515  [HC=0,04;  HNC=1,00;  I=0,48;  S=1,00;  N=0,58] 
+	0,513  [HC=0,04;  HNC=1,00;  I=0,48;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,514  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  N=0,58] 
+	0,512  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,344  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,332  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,335  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,323  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,311  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -648,21 +648,21 @@ public TFeature Get < TFeature > ( )     127
 IEnumerator IEnumerable . GetEnumerator ( )     133
 	0,454  [HC=0,16;  H=0,38;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,516  [HC=0,08;  HNC=1,00;  I=0,31;  S=1,00;  N=0,58] 
+	0,516  [HC=0,08;  HNC=1,00;  I=0,31;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,514  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  N=0,58] 
+	0,514  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,510  [HC=0,04;  HNC=1,00;  I=0,44;  S=1,00;  N=0,58] 
+	0,510  [HC=0,04;  HNC=1,00;  I=0,44;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,500  [HC=0,00;  HNC=1,00;  I=0,50;  S=1,00;  N=0,58] 
+	0,500  [HC=0,00;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,350  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,350  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,340  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,340  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -686,21 +686,21 @@ public TFeature Get < TFeature > ( )     127
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
 	0,430  [HC=0,14;  H=0,25;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,523  [HC=0,08;  HNC=1,00;  I=0,37;  S=1,00;  N=0,58] 
+	0,523  [HC=0,08;  HNC=1,00;  I=0,37;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,523  [HC=0,04;  HNC=1,00;  I=0,54;  S=1,00;  N=0,58] 
+	0,523  [HC=0,04;  HNC=1,00;  I=0,54;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,504  [HC=0,04;  HNC=1,00;  I=0,38;  S=1,00;  N=0,58] 
+	0,504  [HC=0,04;  HNC=1,00;  I=0,38;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,502  [HC=0,00;  HNC=1,00;  I=0,52;  S=1,00;  N=0,58] 
+	0,502  [HC=0,00;  HNC=1,00;  I=0,52;  S=1,00;  NN=0,46;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,337  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,337  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,323  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,314  [HC=0,02;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,314  [HC=0,02;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -724,21 +724,21 @@ public TFeature Get < TFeature > ( )     127
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
 	0,473  [HC=0,24;  H=0,27;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,382  [HC=0,24;  HNC=0,23;  I=0,00;  S=1,00;  N=0,58] 
+	0,382  [HC=0,24;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,346  [HC=0,16;  HNC=0,23;  I=0,00;  S=1,00;  N=0,58] 
+	0,346  [HC=0,16;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,346  [HC=0,16;  HNC=0,23;  I=0,00;  S=1,00;  N=0,58] 
+	0,346  [HC=0,16;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,341  [HC=0,15;  HNC=0,23;  I=0,00;  S=1,00;  N=0,58] 
+	0,341  [HC=0,15;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,261  [HC=0,24;  HNC=0,03;  I=0,00;  S=0,67;  N=0,00] 
+	0,261  [HC=0,24;  HNC=0,03;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void Set < TFeature > ( TFeature instance )     131
-	0,227  [HC=0,06;  HNC=0,23;  I=0,00;  S=0,67;  N=0,00] 
+	0,227  [HC=0,06;  HNC=0,23;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,183  [HC=0,06;  HNC=0,03;  I=0,00;  S=0,67;  N=0,00] 
+	0,183  [HC=0,06;  HNC=0,03;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -762,21 +762,21 @@ public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
 	0,407  [HC=0,05;  H=0,37;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,96;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,96;  NN=0,00;  NA=0,00]
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,267  [HC=0,06;  HNC=0,30;  I=0,00;  S=0,67;  N=0,00] 
+	0,267  [HC=0,06;  HNC=0,30;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,256  [HC=0,04;  HNC=0,30;  I=0,00;  S=0,67;  N=0,00] 
+	0,256  [HC=0,04;  HNC=0,30;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void Set < TFeature > ( TFeature instance )     131
-	0,251  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,73;  N=0,76] 
+	0,251  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,235  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,67;  N=0,00] 
+	0,235  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,235  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,67;  N=0,00] 
+	0,235  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,201  [HC=0,00;  HNC=0,10;  I=0,00;  S=0,73;  N=0,76] 
+	0,201  [HC=0,00;  HNC=0,10;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,201  [HC=0,00;  HNC=0,10;  I=0,00;  S=0,73;  N=0,76] 
+	0,201  [HC=0,00;  HNC=0,10;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 
 **************************************************************
 
@@ -800,21 +800,21 @@ public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
 	0,410  [HC=0,07;  H=0,34;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,19;  S=0,96;  N=0,00]
+HC=2;  HNC=1,00;  I=0,19;  S=0,96;  NN=0,00;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,248  [HC=0,04;  HNC=0,31;  I=0,00;  S=0,67;  N=0,00] 
+	0,248  [HC=0,04;  HNC=0,31;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,247  [HC=0,04;  HNC=0,31;  I=0,00;  S=0,67;  N=0,00] 
+	0,247  [HC=0,04;  HNC=0,31;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void Set < TFeature > ( TFeature instance )     131
-	0,244  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,73;  N=0,76] 
+	0,244  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,234  [HC=0,12;  HNC=0,02;  I=0,00;  S=0,73;  N=0,76] 
+	0,234  [HC=0,12;  HNC=0,02;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,228  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,67;  N=0,00] 
+	0,228  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,228  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,67;  N=0,00] 
+	0,228  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,192  [HC=0,00;  HNC=0,09;  I=0,00;  S=0,73;  N=0,76] 
+	0,192  [HC=0,00;  HNC=0,09;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 
 **************************************************************
 
@@ -838,21 +838,21 @@ public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
 	0,441  [HC=0,06;  H=0,58;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,96;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,96;  NN=0,00;  NA=0,00]
 public void Set < TFeature > ( TFeature instance )     131
-	0,260  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,73;  N=0,76] 
+	0,260  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,249  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  N=0,00] 
+	0,249  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,249  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  N=0,00] 
+	0,249  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,249  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  N=0,00] 
+	0,249  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,249  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  N=0,00] 
+	0,249  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,211  [HC=0,00;  HNC=0,14;  I=0,00;  S=0,73;  N=0,76] 
+	0,211  [HC=0,00;  HNC=0,14;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,211  [HC=0,00;  HNC=0,14;  I=0,00;  S=0,73;  N=0,76] 
+	0,211  [HC=0,00;  HNC=0,14;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 
 **************************************************************
 
@@ -876,51 +876,21 @@ public TFeature Get < TFeature > ( )     127
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
 	0,490  [HC=0,09;  H=0,82;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,96;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,96;  NN=0,00;  NA=0,00]
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,412  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,412  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,412  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,412  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,412  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,412  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,412  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,412  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,374  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,73;  N=0,76] 
+	0,374  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,374  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,73;  N=0,76] 
+	0,374  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,356  [HC=0,00;  HNC=0,71;  I=0,00;  S=0,73;  N=0,76] 
-
-**************************************************************
-
-file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\HttpParser.cs
-file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\HttpParser.cs
-*
-private unsafe int FindEndOfName ( byte * headerLine , int length )     302
-*
-private bool IsTlsHandshake ( ReadOnlySpan < byte > requestLine )     443
-	0,563  [HC=0,21;  H=0,30;  I=1,00;  S=1,00] 
-private void ParseRequestLine ( TRequestHandler handler , ReadOnlySpan < byte > requestLine )     49
-	0,488  [HC=0,06;  H=0,23;  I=1,00;  S=1,00] 
-public bool ParseRequestLine ( TRequestHandler handler , ref SequenceReader < byte > reader )     38
-	0,477  [HC=0,06;  H=0,15;  I=1,00;  S=1,00] 
-private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
-	0,538  [HC=0,14;  H=0,36;  I=1,00;  S=1,00] #
-private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan < byte > headerLine )     337
-	0,536  [HC=0,16;  H=0,28;  I=1,00;  S=1,00] #
-*
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=2,00]
-private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan < byte > headerLine )     337
-	0,455  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  N=1,00] 
-private bool IsTlsHandshake ( ReadOnlySpan < byte > requestLine )     443
-	0,148  [HC=0,00;  HNC=0,22;  I=0,33;  S=1,00;  N=0,00] 
-private void ParseRequestLine ( TRequestHandler handler , ReadOnlySpan < byte > requestLine )     49
-	0,182  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  N=0,00] #
-private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
-	0,138  [HC=0,00;  HNC=0,33;  I=0,00;  S=1,00;  N=0,00] #
-public bool ParseRequestLine ( TRequestHandler handler , ref SequenceReader < byte > reader )     38
-	0,113  [HC=0,00;  HNC=0,18;  I=0,00;  S=1,00;  N=0,00] #
+	0,356  [HC=0,00;  HNC=0,71;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 
 **************************************************************
 
@@ -940,17 +910,17 @@ private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan
 private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
 	0,571  [HC=0,18;  H=0,45;  I=1,00;  S=1,00] #
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=2,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan < byte > headerLine )     337
-	0,561  [HC=0,25;  HNC=0,37;  I=0,00;  S=1,00;  N=1,00] 
+	0,341  [HC=0,25;  HNC=0,37;  I=0,00;  S=1,00;  NN=0,82;  NA=0,00] 
 private bool IsTlsHandshake ( ReadOnlySpan < byte > requestLine )     443
-	0,202  [HC=0,00;  HNC=0,51;  I=0,39;  S=1,00;  N=0,00] 
-private void ParseRequestLine ( TRequestHandler handler , ReadOnlySpan < byte > requestLine )     49
-	0,281  [HC=0,25;  HNC=0,12;  I=0,00;  S=1,00;  N=0,00] #
+	0,303  [HC=0,00;  HNC=0,51;  I=0,39;  S=1,00;  NN=0,00;  NA=0,00] 
 public bool ParseRequestLine ( TRequestHandler handler , ref SequenceReader < byte > reader )     38
-	0,206  [HC=0,25;  HNC=0,24;  I=0,00;  S=1,00;  N=0,00] #
+	0,310  [HC=0,25;  HNC=0,24;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+private void ParseRequestLine ( TRequestHandler handler , ReadOnlySpan < byte > requestLine )     49
+	0,281  [HC=0,25;  HNC=0,12;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
-	0,130  [HC=0,00;  HNC=0,28;  I=0,00;  S=1,00;  N=0,00] #
+	0,196  [HC=0,00;  HNC=0,28;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -968,15 +938,15 @@ private async ValueTask ProcessRequest < TContext > ( IHttpApplication < TContex
 protected void PoisonBody ( Exception abortReason )     495
 	0,489  [HC=0,09;  H=0,15;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private async ValueTask ProcessRequest < TContext > ( IHttpApplication < TContext > application )     650
-	0,182  [HC=0,02;  HNC=0,19;  I=0,00;  S=1,00;  N=0,00] 
+	0,182  [HC=0,02;  HNC=0,19;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public void Initialize ( HttpConnectionContext context )     81
-	0,128  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] 
+	0,128  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private void CancelRequestAbortedTokenCallback ( )     448
-	0,198  [HC=0,00;  HNC=0,08;  I=0,41;  S=1,00;  N=0,00] #
+	0,198  [HC=0,00;  HNC=0,08;  I=0,41;  S=1,00;  NN=0,00;  NA=0,00] #
 protected void PoisonBody ( Exception abortReason )     495
-	0,128  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] #
+	0,128  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -994,15 +964,15 @@ private void CancelRequestAbortedTokenCallback ( )     448
 protected void PoisonBody ( Exception abortReason )     495
 	0,467  [HC=0,05;  H=0,12;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private async ValueTask ProcessRequest < TContext > ( IHttpApplication < TContext > application )     650
-	0,188  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
+	0,188  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public void Initialize ( HttpConnectionContext context )     81
-	0,171  [HC=0,00;  HNC=0,01;  I=0,35;  S=1,00;  N=0,00] 
+	0,171  [HC=0,00;  HNC=0,01;  I=0,35;  S=1,00;  NN=0,00;  NA=0,00] 
 private void CancelRequestAbortedTokenCallback ( )     448
-	0,144  [HC=0,00;  HNC=0,08;  I=0,00;  S=1,00;  N=0,00] #
+	0,144  [HC=0,00;  HNC=0,08;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 protected void PoisonBody ( Exception abortReason )     495
-	0,127  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] #
+	0,127  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1020,15 +990,15 @@ public void Initialize ( HttpConnectionContext context )     81
 private async ValueTask ProcessRequest < TContext > ( IHttpApplication < TContext > application )     650
 	0,504  [HC=0,08;  H=0,28;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private async ValueTask ProcessRequest < TContext > ( IHttpApplication < TContext > application )     650
-	0,182  [HC=0,02;  HNC=0,19;  I=0,00;  S=1,00;  N=0,00] 
+	0,182  [HC=0,02;  HNC=0,19;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public void Initialize ( HttpConnectionContext context )     81
-	0,128  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] 
+	0,128  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private void CancelRequestAbortedTokenCallback ( )     448
-	0,201  [HC=0,00;  HNC=0,08;  I=0,44;  S=1,00;  N=0,00] #
+	0,201  [HC=0,00;  HNC=0,08;  I=0,44;  S=1,00;  NN=0,00;  NA=0,00] #
 protected void PoisonBody ( Exception abortReason )     495
-	0,128  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] #
+	0,128  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1046,15 +1016,15 @@ private void CancelRequestAbortedTokenCallback ( )     448
 protected void PoisonBody ( Exception abortReason )     495
 	0,505  [HC=0,14;  H=0,12;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private async ValueTask ProcessRequest < TContext > ( IHttpApplication < TContext > application )     650
-	0,188  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
+	0,188  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public void Initialize ( HttpConnectionContext context )     81
-	0,127  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] 
+	0,127  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private void CancelRequestAbortedTokenCallback ( )     448
-	0,198  [HC=0,00;  HNC=0,08;  I=0,43;  S=1,00;  N=0,00] #
+	0,198  [HC=0,00;  HNC=0,08;  I=0,43;  S=1,00;  NN=0,00;  NA=0,00] #
 protected void PoisonBody ( Exception abortReason )     495
-	0,127  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] #
+	0,127  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1074,17 +1044,17 @@ public static void Http2DefaultCiphersInsufficient ( this ILogger logger )     3
 public static void AuthenticationTimedOut ( this ILogger logger )     354
 	0,462  [HC=0,09;  H=0,31;  I=1,00;  S=0,83] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public static void HttpsConnectionEstablished ( this ILogger logger , string connectionId , SslProtocols sslProtocol )     356
-	0,305  [HC=0,25;  HNC=0,06;  I=0,00;  S=0,81;  N=0,00] 
+	0,305  [HC=0,25;  HNC=0,06;  I=0,00;  S=0,81;  NN=0,00;  NA=0,00] 
 private static bool IsWindowsVersionIncompatible ( )     308
-	0,246  [HC=0,00;  HNC=0,11;  I=0,00;  S=1,00;  N=0,00] 
+	0,246  [HC=0,00;  HNC=0,11;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public static void AuthenticationTimedOut ( this ILogger logger )     354
-	0,187  [HC=0,00;  HNC=0,03;  I=0,00;  S=0,81;  N=0,00] 
+	0,187  [HC=0,00;  HNC=0,03;  I=0,00;  S=0,81;  NN=0,00;  NA=0,00] 
 public static void Http2DefaultCiphersInsufficient ( this ILogger logger )     358
-	0,187  [HC=0,00;  HNC=0,03;  I=0,00;  S=0,81;  N=0,00] 
+	0,187  [HC=0,00;  HNC=0,03;  I=0,00;  S=0,81;  NN=0,00;  NA=0,00] 
 public static void AuthenticationFailed ( this ILogger logger , Exception exception )     352
-	0,185  [HC=0,00;  HNC=0,02;  I=0,00;  S=0,81;  N=0,00] 
+	0,185  [HC=0,00;  HNC=0,02;  I=0,00;  S=0,81;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1108,21 +1078,21 @@ public static unsafe string GetHeaderName ( this ReadOnlySpan < byte > span )   
 public static bool GetKnownHttpScheme ( this Span < byte > span , out HttpScheme knownScheme )     385
 	0,608  [HC=0,23;  H=0,58;  I=1,00;  S=1,00] #
 *
-HC=4;  HNC=3,06;  I=0,50;  S=0,50;  N=2,00]
+HC=4;  HNC=3,06;  I=0,50;  S=0,50;  NN=1,17;  NA=0,00]
 public static string GetAsciiStringNonNullCharacters ( this Span < byte > span )     106
-	0,931  [HC=1,00;  HNC=0,94;  I=0,00;  S=1,00;  N=1,00] 
+	0,920  [HC=1,00;  HNC=0,94;  I=0,00;  S=1,00;  NN=0,96;  NA=0,00] 
 public static unsafe string GetAsciiStringNonNullCharacters ( this ReadOnlySpan < byte > span )     109
-	0,914  [HC=1,00;  HNC=0,80;  I=0,46;  S=1,00;  N=1,00] 
-public static unsafe string GetHeaderName ( this ReadOnlySpan < byte > span )     79
-	0,587  [HC=0,17;  HNC=0,80;  I=0,56;  S=1,00;  N=1,00] 
+	0,901  [HC=1,00;  HNC=0,80;  I=0,46;  S=1,00;  NN=0,96;  NA=0,00] 
 private static unsafe void GetAsciiStringNonNullCharacters ( Span < char > buffer , IntPtr state )     126
-	0,566  [HC=1,00;  HNC=0,32;  I=0,45;  S=1,00;  N=0,00] 
+	0,617  [HC=1,00;  HNC=0,32;  I=0,45;  S=1,00;  NN=0,00;  NA=0,00] 
+public static unsafe string GetHeaderName ( this ReadOnlySpan < byte > span )     79
+	0,545  [HC=0,17;  HNC=0,80;  I=0,56;  S=1,00;  NN=0,96;  NA=0,00] 
 private static unsafe void GetHeaderName ( Span < char > buffer , IntPtr state )     93
-	0,429  [HC=0,17;  HNC=0,32;  I=0,37;  S=1,00;  N=1,00] 
+	0,373  [HC=0,17;  HNC=0,32;  I=0,37;  S=1,00;  NN=0,96;  NA=0,00] 
 public static string GetRequestHeaderString ( this ReadOnlySpan < byte > span , string name , Func < string , Encoding > encodingSelector )     139
-	0,285  [HC=0,17;  HNC=0,51;  I=0,27;  S=1,00;  N=0,00] 
+	0,310  [HC=0,17;  HNC=0,51;  I=0,27;  S=1,00;  NN=0,00;  NA=0,00] 
 public static bool GetKnownHttpScheme ( this Span < byte > span , out HttpScheme knownScheme )     385
-	0,266  [HC=0,17;  HNC=0,41;  I=0,49;  S=1,00;  N=0,00] 
+	0,290  [HC=0,17;  HNC=0,41;  I=0,49;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1146,21 +1116,21 @@ public static bool GetKnownVersion ( this ReadOnlySpan < byte > span , out HttpV
 public static unsafe string GetHeaderName ( this ReadOnlySpan < byte > span )     79
 	0,614  [HC=0,33;  H=0,30;  I=1,00;  S=1,00] #
 *
-HC=4;  HNC=1,00;  I=1,72;  S=0,50;  N=2,00]
+HC=4;  HNC=1,00;  I=1,72;  S=0,50;  NN=0,33;  NA=0,00]
 public static bool GetKnownHttpScheme ( this Span < byte > span , out HttpScheme knownScheme )     385
-	0,927  [HC=1,00;  HNC=0,60;  I=0,84;  S=1,00;  N=1,00] 
+	0,908  [HC=1,00;  HNC=0,60;  I=0,84;  S=1,00;  NN=0,92;  NA=0,00] 
 internal static HttpVersion GetKnownVersionAndConfirmCR ( this ReadOnlySpan < byte > location )     352
-	0,514  [HC=0,33;  HNC=0,08;  I=0,48;  S=1,00;  N=1,00] 
+	0,403  [HC=0,33;  HNC=0,08;  I=0,48;  S=1,00;  NN=0,92;  NA=0,00] 
 public static unsafe string GetHeaderName ( this ReadOnlySpan < byte > span )     79
-	0,265  [HC=0,25;  HNC=0,14;  I=0,47;  S=1,00;  N=0,00] 
+	0,324  [HC=0,25;  HNC=0,14;  I=0,47;  S=1,00;  NN=0,00;  NA=0,00] 
 public static unsafe string GetAsciiStringNonNullCharacters ( this ReadOnlySpan < byte > span )     109
-	0,206  [HC=0,17;  HNC=0,14;  I=0,34;  S=1,00;  N=0,00] 
+	0,251  [HC=0,17;  HNC=0,14;  I=0,34;  S=1,00;  NN=0,00;  NA=0,00] 
 public static HttpMethod GetKnownMethod ( this ReadOnlySpan < byte > span , out int methodLength )     204
-	0,343  [HC=0,50;  HNC=0,19;  I=0,27;  S=1,00;  N=0,00] #
-public static bool GetKnownVersion ( this ReadOnlySpan < byte > span , out HttpVersion knownVersion , out byte length )     328
-	0,322  [HC=0,50;  HNC=0,47;  I=0,00;  S=1,00;  N=0,00] #
+	0,437  [HC=0,50;  HNC=0,19;  I=0,27;  S=1,00;  NN=0,00;  NA=0,00] #
 public static bool GetKnownMethod ( this ReadOnlySpan < byte > span , out HttpMethod method , out int length )     198
-	0,319  [HC=0,50;  HNC=0,44;  I=0,00;  S=1,00;  N=0,00] #
+	0,407  [HC=0,50;  HNC=0,44;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static bool GetKnownVersion ( this ReadOnlySpan < byte > span , out HttpVersion knownVersion , out byte length )     328
+	0,393  [HC=0,50;  HNC=0,47;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1178,15 +1148,15 @@ internal void SetShutdownSignal ( )     162
 private void UpdateUrlPrefixes ( IList < string > serverAddressCopy )     144
 	0,500  [HC=0,05;  H=0,34;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private void UpdateUrlPrefixes ( IList < string > serverAddressCopy )     144
-	0,197  [HC=0,00;  HNC=0,29;  I=0,00;  S=1,00;  N=0,00] 
+	0,197  [HC=0,00;  HNC=0,29;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 internal void SetShutdownSignal ( )     162
-	0,183  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  N=0,00] 
+	0,183  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 internal int IncrementOutstandingRequest ( )     152
-	0,133  [HC=0,00;  HNC=0,03;  I=0,00;  S=1,00;  N=0,00] 
+	0,133  [HC=0,00;  HNC=0,03;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 internal int DecrementOutstandingRequest ( )     157
-	0,133  [HC=0,00;  HNC=0,03;  I=0,00;  S=1,00;  N=0,00] 
+	0,133  [HC=0,00;  HNC=0,03;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1210,21 +1180,21 @@ public static string ? FormatValue ( decimal ? value , System . Globalization . 
 public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
 	0,979  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
 *
-HC=4;  HNC=1,00;  I=0,12;  S=1,00;  N=2,00]
+HC=4;  HNC=1,00;  I=0,48;  S=1,00;  NN=1,89;  NA=0,00]
 public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
-	0,998  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,997  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
 public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
-	0,997  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  N=1,00] 
-public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
-	0,742  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  N=0,00] 
-public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
-	0,742  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  N=0,00] #
-public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
-	0,742  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  N=0,00] #
-public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
-	0,741  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  N=0,00] #
-public static string ? FormatValue ( long ? value , System . Globalization . CultureInfo ? culture = null )     27
-	0,741  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  N=0,00] #
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,964  [HC=1,00;  HNC=0,86;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static bool FormatValue ( bool value , System . Globalization . CultureInfo ? culture = null )     8
+	0,955  [HC=1,00;  HNC=0,71;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,942  [HC=1,00;  HNC=0,81;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static bool ? FormatValue ( bool ? value , System . Globalization . CultureInfo ? culture = null )     18
+	0,835  [HC=1,00;  HNC=0,72;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,833  [HC=1,00;  HNC=0,79;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1248,21 +1218,21 @@ public static string ? FormatValue ( decimal ? value , System . Globalization . 
 public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
 	0,979  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
 *
-HC=4;  HNC=1,00;  I=0,12;  S=1,00;  N=2,00]
+HC=4;  HNC=1,00;  I=0,48;  S=1,00;  NN=1,89;  NA=0,00]
 public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
-	0,998  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,997  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
 public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
-	0,997  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  N=1,00] 
-public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
-	0,742  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  N=0,00] 
-public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
-	0,742  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  N=0,00] #
-public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
-	0,742  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  N=0,00] #
-public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
-	0,741  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  N=0,00] #
-public static string ? FormatValue ( long ? value , System . Globalization . CultureInfo ? culture = null )     27
-	0,741  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  N=0,00] #
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,964  [HC=1,00;  HNC=0,86;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static bool FormatValue ( bool value , System . Globalization . CultureInfo ? culture = null )     8
+	0,955  [HC=1,00;  HNC=0,71;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,942  [HC=1,00;  HNC=0,81;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static bool ? FormatValue ( bool ? value , System . Globalization . CultureInfo ? culture = null )     18
+	0,835  [HC=1,00;  HNC=0,72;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,833  [HC=1,00;  HNC=0,79;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 

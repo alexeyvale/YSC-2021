@@ -10,13 +10,13 @@ public async Task AuthZResourceShouldBeEndpointByDefaultWithCompatSwitch ( )    
 public async Task HasEndpointWithAuth_ChallengesAuthenticationSchemes ( )     139
 	0,620  [HC=0,16;  H=0,86;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public async Task AuthZResourceShouldBeEndpointByDefaultWithCompatSwitch ( )     344
-	0,787  [HC=0,55;  HNC=1,00;  I=0,77;  S=1,00;  N=1,00] 
+	0,787  [HC=0,55;  HNC=1,00;  I=0,77;  S=1,00;  NN=1,00;  NA=0,00] 
 public async Task AuthZResourceCanBeHttpContextAndHaveEndpoint ( )     317
-	0,787  [HC=0,50;  HNC=1,00;  I=0,90;  S=1,00;  N=1,00] 
+	0,787  [HC=0,50;  HNC=1,00;  I=0,90;  S=1,00;  NN=1,00;  NA=0,00] 
 public async Task HasEndpointWithAuth_ChallengesAuthenticationSchemes ( )     139
-	0,484  [HC=0,00;  HNC=1,00;  I=0,63;  S=1,00;  N=0,00] 
+	0,484  [HC=0,00;  HNC=1,00;  I=0,63;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -40,21 +40,59 @@ internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disp
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
 	0,667  [HC=0,50;  H=0,42;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal abstract CheckCertificateStateResult CheckCertificateState ( X509Certificate2 candidate , bool interactive )     489
-	0,527  [HC=0,50;  HNC=0,54;  I=0,00;  S=0,95;  N=0,00] 
+	0,593  [HC=0,50;  HNC=0,54;  I=0,00;  S=0,95;  NN=1,00;  NA=0,00] 
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
-	0,473  [HC=0,25;  HNC=0,61;  I=0,29;  S=0,95;  N=0,00] 
+	0,540  [HC=0,25;  HNC=0,61;  I=0,29;  S=0,95;  NN=1,00;  NA=0,00] 
 internal abstract void CorrectCertificateState ( X509Certificate2 candidate )     491
-	0,452  [HC=0,25;  HNC=0,73;  I=0,00;  S=0,95;  N=0,00] 
+	0,519  [HC=0,25;  HNC=0,73;  I=0,00;  S=0,95;  NN=1,00;  NA=0,00] 
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,435  [HC=0,25;  HNC=0,61;  I=0,00;  S=0,95;  N=0,00] 
+	0,502  [HC=0,25;  HNC=0,61;  I=0,00;  S=0,95;  NN=1,00;  NA=0,00] 
 protected abstract X509Certificate2 SaveCertificateCore ( X509Certificate2 certificate )     322
-	0,426  [HC=0,25;  HNC=0,54;  I=0,00;  S=0,95;  N=0,00] 
+	0,426  [HC=0,25;  HNC=0,54;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
-	0,467  [HC=0,25;  HNC=0,40;  I=0,44;  S=0,95;  N=0,00] #
+	0,533  [HC=0,25;  HNC=0,40;  I=0,44;  S=0,95;  NN=1,00;  NA=0,00] #
 internal void ExportCertificate ( X509Certificate2 certificate , string path , bool includePrivateKey , string password )     332
-	0,461  [HC=0,25;  HNC=0,27;  I=0,52;  S=0,95;  N=0,00] #
+	0,461  [HC=0,25;  HNC=0,27;  I=0,52;  S=0,95;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\CertificateManager.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\CertificateManager.cs
+*
+private static void TrustCertificateOnWindows ( X509Certificate2 certificate , X509Certificate2 publicCertificate , DiagnosticInformation diagnostics = null )     430
+*
+protected abstract void TrustCertificateCore ( X509Certificate2 certificate )     324
+	0,741  [HC=0,68;  H=0,40;  I=1,00;  S=0,88] 
+internal void TrustCertificate ( X509Certificate2 certificate )     437
+	0,719  [HC=0,64;  H=0,36;  I=1,00;  S=0,88] 
+public void TrustCertificateEnd ( )     663
+	0,654  [HC=0,72;  H=0,25;  I=1,00;  S=0,58] 
+protected abstract IList < X509Certificate2 > GetCertificatesToRemove ( StoreName storeName , StoreLocation storeLocation )     330
+	0,654  [HC=0,52;  H=0,27;  I=1,00;  S=0,88] 
+protected abstract X509Certificate2 SaveCertificateCore ( X509Certificate2 certificate )     322
+	0,645  [HC=0,48;  H=0,33;  I=1,00;  S=0,88] 
+public IList < X509Certificate2 > ListCertificates ( StoreName storeName , StoreLocation location , bool isValid , bool requireExportable = true )     63
+	0,682  [HC=0,56;  H=0,35;  I=1,00;  S=0,88] #
+internal void ExportCertificate ( X509Certificate2 certificate , string path , bool includePrivateKey , string password )     332
+	0,645  [HC=0,44;  H=0,44;  I=1,00;  S=0,88] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+internal void TrustCertificate ( X509Certificate2 certificate )     437
+	0,511  [HC=0,50;  HNC=0,42;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
+protected abstract void TrustCertificateCore ( X509Certificate2 certificate )     324
+	0,511  [HC=0,50;  HNC=0,42;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
+public void TrustCertificateError ( string ex )     666
+	0,444  [HC=0,50;  HNC=0,21;  I=0,35;  S=0,64;  NN=0,00;  NA=0,00] 
+internal static string ToCertificateDescription ( IEnumerable < X509Certificate2 > matchingCertificates )     558
+	0,429  [HC=0,25;  HNC=0,28;  I=0,28;  S=0,95;  NN=0,00;  NA=0,00] 
+internal void RemoveCertificate ( X509Certificate2 certificate , RemoveLocations locations )     468
+	0,495  [HC=0,25;  HNC=0,43;  I=0,63;  S=0,95;  NN=0,00;  NA=0,00] #
+internal void ExportCertificate ( X509Certificate2 certificate , string path , bool includePrivateKey , string password )     332
+	0,492  [HC=0,25;  HNC=0,43;  I=0,61;  S=0,95;  NN=0,00;  NA=0,00] #
+private static void RemoveCertificateFromUserStore ( X509Certificate2 certificate )     536
+	0,485  [HC=0,20;  HNC=0,56;  I=0,57;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -78,21 +116,21 @@ internal void RemoveAllCertificates ( StoreName storeName , StoreLocation storeL
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
 	0,606  [HC=0,46;  H=0,10;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
-public void DescribeValidCertificates ( string validCertificates )     579
-	0,432  [HC=0,48;  HNC=0,10;  I=0,00;  S=0,64;  N=0,85] 
-public void ValidCertificatesFound ( string certificates )     607
-	0,432  [HC=0,48;  HNC=0,10;  I=0,00;  S=0,64;  N=0,85] 
-public void NoValidCertificatesFound ( )     614
-	0,428  [HC=0,48;  HNC=0,08;  I=0,00;  S=0,64;  N=0,85] 
-internal static string ToCertificateDescription ( IEnumerable < X509Certificate2 > matchingCertificates )     558
-	0,417  [HC=0,25;  HNC=0,04;  I=0,00;  S=0,95;  N=0,85] 
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void CleanupHttpsCertificates ( )     298
-	0,399  [HC=0,23;  HNC=0,08;  I=0,32;  S=0,95;  N=0,00] 
+	0,454  [HC=0,23;  HNC=0,08;  I=0,32;  S=0,95;  NN=0,82;  NA=0,00] 
+public void DescribeValidCertificates ( string validCertificates )     579
+	0,430  [HC=0,48;  HNC=0,10;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
+public void ValidCertificatesFound ( string certificates )     607
+	0,430  [HC=0,48;  HNC=0,10;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
+public void NoValidCertificatesFound ( )     614
+	0,426  [HC=0,48;  HNC=0,08;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
+internal abstract CheckCertificateStateResult CheckCertificateState ( X509Certificate2 candidate , bool interactive )     489
+	0,424  [HC=0,25;  HNC=0,11;  I=0,00;  S=0,95;  NN=0,82;  NA=0,00] 
 public EnsureCertificateResult EnsureAspNetCoreHttpsDevelopmentCertificate ( DateTimeOffset notBefore , DateTimeOffset notAfter , string path = null , bool trust = false , bool includePrivateKey = false , string password = null , bool isInteractive = true )     149
-	0,501  [HC=0,14;  HNC=0,74;  I=0,68;  S=0,95;  N=0,00] #
+	0,501  [HC=0,14;  HNC=0,74;  I=0,68;  S=0,95;  NN=0,00;  NA=0,00] #
 public IList < X509Certificate2 > ListCertificates ( StoreName storeName , StoreLocation location , bool isValid , bool requireExportable = true )     63
-	0,441  [HC=0,23;  HNC=0,21;  I=0,50;  S=0,95;  N=0,00] #
+	0,441  [HC=0,23;  HNC=0,21;  I=0,50;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -116,21 +154,21 @@ public void CreateExportCertificateDirectory ( string path )     645
 public void CreateDevelopmentCertificateError ( string e )     624
 	0,433  [HC=0,06;  H=0,42;  I=1,00;  S=0,71] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal void MacOSAddCertificateToKeyChainStart ( string keychain , string certificate )     740
-	0,319  [HC=0,00;  HNC=0,63;  I=0,00;  S=0,67;  N=0,85] 
+	0,317  [HC=0,00;  HNC=0,63;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
+internal void TrustCertificate ( X509Certificate2 certificate )     437
+	0,301  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
 public void MacOSRemoveCertificateFromKeyChainStart ( string keyChain , string certificate )     693
-	0,301  [HC=0,00;  HNC=0,49;  I=0,00;  S=0,67;  N=0,85] 
+	0,299  [HC=0,00;  HNC=0,49;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
+internal abstract void CorrectCertificateState ( X509Certificate2 candidate )     491
+	0,296  [HC=0,00;  HNC=0,54;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
 public void ExportCertificateStart ( string certificate , string path , bool includePrivateKey )     638
-	0,298  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  N=0,85] 
+	0,296  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 public void DescribeFoundCertificates ( string matchingCertificates )     573
-	0,297  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  N=0,85] 
+	0,296  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 public void DescribeValidCertificates ( string validCertificates )     579
-	0,297  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  N=0,85] 
-public void DescribeInvalidValidCertificates ( string invalidCertificates )     582
-	0,297  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  N=0,85] 
-public void ListCertificatesError ( string e )     588
-	0,297  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  N=0,85] 
+	0,296  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 
 **************************************************************
 
@@ -154,21 +192,21 @@ public void FilteredCertificates ( string filteredCertificates )     591
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
 	0,729  [HC=0,75;  H=0,69;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
-public void DescribeFoundCertificates ( string matchingCertificates )     573
-	0,516  [HC=0,67;  HNC=0,11;  I=0,00;  S=0,67;  N=0,85] 
-public void DescribeValidCertificates ( string validCertificates )     579
-	0,516  [HC=0,67;  HNC=0,11;  I=0,00;  S=0,67;  N=0,85] 
-internal static string ToCertificateDescription ( IEnumerable < X509Certificate2 > matchingCertificates )     558
-	0,499  [HC=0,31;  HNC=0,81;  I=0,31;  S=0,64;  N=0,85] 
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,473  [HC=0,46;  HNC=0,57;  I=0,34;  S=0,64;  N=0,00] 
+	0,528  [HC=0,46;  HNC=0,57;  I=0,34;  S=0,64;  NN=0,82;  NA=0,00] 
+public void DescribeFoundCertificates ( string matchingCertificates )     573
+	0,514  [HC=0,67;  HNC=0,11;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
+public void DescribeValidCertificates ( string validCertificates )     579
+	0,514  [HC=0,67;  HNC=0,11;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
+internal static string ToCertificateDescription ( IEnumerable < X509Certificate2 > matchingCertificates )     558
+	0,497  [HC=0,31;  HNC=0,81;  I=0,31;  S=0,64;  NN=0,82;  NA=0,00] 
+internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
+	0,497  [HC=0,46;  HNC=0,67;  I=0,00;  S=0,64;  NN=0,82;  NA=0,00] 
 public void DescribeInvalidValidCertificates ( string invalidCertificates )     582
-	0,450  [HC=0,50;  HNC=0,11;  I=0,00;  S=0,67;  N=0,85] 
-public void FilteredCertificates ( string filteredCertificates )     591
-	0,450  [HC=0,50;  HNC=0,11;  I=0,00;  S=0,67;  N=0,85] 
+	0,448  [HC=0,50;  HNC=0,11;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 internal static void DisposeCertificates ( IEnumerable < X509Certificate2 > disposables )     522
-	0,455  [HC=0,50;  HNC=0,64;  I=0,00;  S=0,64;  N=0,00] #
+	0,455  [HC=0,50;  HNC=0,64;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -192,21 +230,21 @@ public void DescribeInvalidValidCertificates ( string invalidCertificates )     
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
 	0,667  [HC=0,63;  H=0,61;  I=1,00;  S=0,58] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
-public void DescribeFoundCertificates ( string matchingCertificates )     573
-	0,553  [HC=0,64;  HNC=0,14;  I=0,32;  S=0,67;  N=0,85] 
-public void SelectedCertificate ( string certificate )     610
-	0,522  [HC=0,50;  HNC=0,15;  I=0,50;  S=0,67;  N=0,85] 
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal void TrustCertificate ( X509Certificate2 certificate )     437
-	0,515  [HC=0,50;  HNC=0,67;  I=0,42;  S=0,64;  N=0,00] 
+	0,570  [HC=0,50;  HNC=0,67;  I=0,42;  S=0,64;  NN=0,82;  NA=0,00] 
 internal X509Certificate2 SaveCertificate ( X509Certificate2 certificate )     424
-	0,511  [HC=0,50;  HNC=0,67;  I=0,39;  S=0,64;  N=0,00] 
+	0,566  [HC=0,50;  HNC=0,67;  I=0,39;  S=0,64;  NN=0,82;  NA=0,00] 
+public void DescribeFoundCertificates ( string matchingCertificates )     573
+	0,551  [HC=0,64;  HNC=0,14;  I=0,32;  S=0,67;  NN=0,82;  NA=0,00] 
+public void SelectedCertificate ( string certificate )     610
+	0,521  [HC=0,50;  HNC=0,15;  I=0,50;  S=0,67;  NN=0,82;  NA=0,00] 
 public void DescribeValidCertificates ( string validCertificates )     579
-	0,510  [HC=0,64;  HNC=0,14;  I=0,00;  S=0,67;  N=0,85] 
+	0,508  [HC=0,64;  HNC=0,14;  I=0,00;  S=0,67;  NN=0,82;  NA=0,00] 
 public void ExcludedCertificates ( string excludedCertificates )     594
-	0,474  [HC=0,46;  HNC=0,14;  I=0,27;  S=0,67;  N=0,85] 
+	0,472  [HC=0,46;  HNC=0,14;  I=0,27;  S=0,67;  NN=0,82;  NA=0,00] 
 public void FilteredCertificates ( string filteredCertificates )     591
-	0,473  [HC=0,46;  HNC=0,14;  I=0,27;  S=0,67;  N=0,85] 
+	0,471  [HC=0,46;  HNC=0,14;  I=0,27;  S=0,67;  NN=0,82;  NA=0,00] 
 
 **************************************************************
 
@@ -222,13 +260,13 @@ public async Task CheckAsync_CustomTestWithUnhealthyFailureStatusSpecified_Unhea
 public async Task CheckAsync_CustomTestWithDegradedFailureStatusSpecified_Degraded ( )     63
 	0,730  [HC=0,40;  H=0,90;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public async Task CheckAsync_CustomTestWithUnhealthyFailureStatusSpecified_Unhealthy ( )     85
-	0,796  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  N=0,94] 
+	0,783  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,75;  NA=0,00] 
 public async Task CheckAsync_CustomTestWithNoFailureStatusSpecified_Unhealthy ( )     107
-	0,791  [HC=0,50;  HNC=1,00;  I=0,96;  S=1,00;  N=0,94] 
+	0,778  [HC=0,50;  HNC=1,00;  I=0,96;  S=1,00;  NN=0,75;  NA=0,00] 
 public async Task CheckAsync_CustomTestWithDegradedFailureStatusSpecified_Degraded ( )     63
-	0,747  [HC=0,40;  HNC=1,00;  I=0,93;  S=1,00;  N=0,94] 
+	0,734  [HC=0,40;  HNC=1,00;  I=0,93;  S=1,00;  NN=0,75;  NA=0,00] 
 
 **************************************************************
 
@@ -252,21 +290,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,427  [HC=0,09;  H=0,38;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,563  [HC=0,17;  HNC=1,00;  I=0,43;  S=1,00;  N=0,58] 
+	0,555  [HC=0,17;  HNC=1,00;  I=0,43;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,505  [HC=0,17;  HNC=1,00;  I=0,00;  S=1,00;  N=0,58] 
+	0,498  [HC=0,17;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,489  [HC=0,13;  HNC=1,00;  I=0,00;  S=1,00;  N=0,58] 
+	0,481  [HC=0,13;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,469  [HC=0,08;  HNC=1,00;  I=0,00;  S=1,00;  N=0,58] 
+	0,462  [HC=0,08;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,309  [HC=0,09;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,309  [HC=0,09;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,302  [HC=0,05;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,302  [HC=0,05;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,299  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,299  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -290,21 +328,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,426  [HC=0,09;  H=0,38;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,573  [HC=0,17;  HNC=1,00;  I=0,51;  S=1,00;  N=0,58] 
+	0,565  [HC=0,17;  HNC=1,00;  I=0,51;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,569  [HC=0,13;  HNC=1,00;  I=0,58;  S=1,00;  N=0,58] 
+	0,562  [HC=0,13;  HNC=1,00;  I=0,58;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,540  [HC=0,14;  HNC=1,00;  I=0,33;  S=1,00;  N=0,58] 
+	0,532  [HC=0,14;  HNC=1,00;  I=0,33;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,528  [HC=0,10;  HNC=1,00;  I=0,37;  S=1,00;  N=0,58] 
+	0,520  [HC=0,10;  HNC=1,00;  I=0,37;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,302  [HC=0,07;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,302  [HC=0,07;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,298  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,298  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,296  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,296  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -328,21 +366,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,439  [HC=0,12;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,579  [HC=0,23;  HNC=1,00;  I=0,36;  S=1,00;  N=0,58] 
+	0,571  [HC=0,23;  HNC=1,00;  I=0,36;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,558  [HC=0,14;  HNC=1,00;  I=0,48;  S=1,00;  N=0,58] 
+	0,550  [HC=0,14;  HNC=1,00;  I=0,48;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,520  [HC=0,08;  HNC=1,00;  I=0,36;  S=1,00;  N=0,58] 
+	0,512  [HC=0,08;  HNC=1,00;  I=0,36;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,506  [HC=0,00;  HNC=1,00;  I=0,50;  S=1,00;  N=0,58] 
+	0,498  [HC=0,00;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,295  [HC=0,05;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,295  [HC=0,05;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,290  [HC=0,02;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,290  [HC=0,02;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -366,21 +404,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,431  [HC=0,10;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,538  [HC=0,13;  HNC=1,00;  I=0,37;  S=1,00;  N=0,58] 
+	0,531  [HC=0,13;  HNC=1,00;  I=0,37;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,528  [HC=0,12;  HNC=1,00;  I=0,33;  S=1,00;  N=0,58] 
+	0,521  [HC=0,12;  HNC=1,00;  I=0,33;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,522  [HC=0,08;  HNC=1,00;  I=0,39;  S=1,00;  N=0,58] 
+	0,514  [HC=0,08;  HNC=1,00;  I=0,39;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,494  [HC=0,04;  HNC=1,00;  I=0,29;  S=1,00;  N=0,58] 
+	0,486  [HC=0,04;  HNC=1,00;  I=0,29;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,313  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,313  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,290  [HC=0,02;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,290  [HC=0,02;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -404,21 +442,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,428  [HC=0,09;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,529  [HC=0,11;  HNC=1,00;  I=0,36;  S=1,00;  N=0,58] 
+	0,521  [HC=0,11;  HNC=1,00;  I=0,36;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,513  [HC=0,06;  HNC=1,00;  I=0,38;  S=1,00;  N=0,58] 
+	0,506  [HC=0,06;  HNC=1,00;  I=0,38;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,512  [HC=0,10;  HNC=1,00;  I=0,26;  S=1,00;  N=0,58] 
+	0,504  [HC=0,10;  HNC=1,00;  I=0,26;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,509  [HC=0,07;  HNC=1,00;  I=0,31;  S=1,00;  N=0,58] 
+	0,501  [HC=0,07;  HNC=1,00;  I=0,31;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,304  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,304  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,288  [HC=0,01;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,288  [HC=0,01;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -442,21 +480,21 @@ public TFeature Get < TFeature > ( )     127
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
 	0,452  [HC=0,19;  H=0,25;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,520  [HC=0,04;  HNC=1,00;  I=0,48;  S=1,00;  N=0,58] 
+	0,512  [HC=0,04;  HNC=1,00;  I=0,48;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,516  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  N=0,58] 
+	0,508  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,513  [HC=0,07;  HNC=1,00;  I=0,35;  S=1,00;  N=0,58] 
+	0,506  [HC=0,07;  HNC=1,00;  I=0,35;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,509  [HC=0,00;  HNC=1,00;  I=0,53;  S=1,00;  N=0,58] 
+	0,501  [HC=0,00;  HNC=1,00;  I=0,53;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,312  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,312  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,298  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,298  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -480,21 +518,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,436  [HC=0,11;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,523  [HC=0,04;  HNC=1,00;  I=0,51;  S=1,00;  N=0,58] 
+	0,516  [HC=0,04;  HNC=1,00;  I=0,51;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,522  [HC=0,08;  HNC=1,00;  I=0,37;  S=1,00;  N=0,58] 
+	0,514  [HC=0,08;  HNC=1,00;  I=0,37;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,520  [HC=0,04;  HNC=1,00;  I=0,50;  S=1,00;  N=0,58] 
+	0,513  [HC=0,04;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,513  [HC=0,00;  HNC=1,00;  I=0,56;  S=1,00;  N=0,58] 
+	0,506  [HC=0,00;  HNC=1,00;  I=0,56;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,307  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,307  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,294  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,294  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -518,21 +556,21 @@ public void Set < TFeature > ( TFeature instance )     131
 public TFeature Get < TFeature > ( )     127
 	0,434  [HC=0,11;  H=0,39;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,543  [HC=0,08;  HNC=1,00;  I=0,53;  S=1,00;  N=0,58] 
+	0,535  [HC=0,08;  HNC=1,00;  I=0,53;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,523  [HC=0,00;  HNC=1,00;  I=0,63;  S=1,00;  N=0,58] 
+	0,515  [HC=0,00;  HNC=1,00;  I=0,63;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,518  [HC=0,04;  HNC=1,00;  I=0,48;  S=1,00;  N=0,58] 
+	0,510  [HC=0,04;  HNC=1,00;  I=0,48;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,516  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  N=0,58] 
+	0,509  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,307  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,307  [HC=0,08;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,294  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,294  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -556,21 +594,21 @@ public TFeature Get < TFeature > ( )     127
 IEnumerator IEnumerable . GetEnumerator ( )     133
 	0,454  [HC=0,16;  H=0,38;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,516  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  N=0,58] 
+	0,509  [HC=0,04;  HNC=1,00;  I=0,46;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,514  [HC=0,08;  HNC=1,00;  I=0,31;  S=1,00;  N=0,58] 
+	0,506  [HC=0,08;  HNC=1,00;  I=0,31;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,512  [HC=0,04;  HNC=1,00;  I=0,44;  S=1,00;  N=0,58] 
+	0,505  [HC=0,04;  HNC=1,00;  I=0,44;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,505  [HC=0,00;  HNC=1,00;  I=0,50;  S=1,00;  N=0,58] 
+	0,498  [HC=0,00;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,312  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,312  [HC=0,10;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,298  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,298  [HC=0,04;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -594,21 +632,21 @@ public TFeature Get < TFeature > ( )     127
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
 	0,430  [HC=0,14;  H=0,25;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,527  [HC=0,04;  HNC=1,00;  I=0,54;  S=1,00;  N=0,58] 
+	0,519  [HC=0,04;  HNC=1,00;  I=0,54;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,521  [HC=0,08;  HNC=1,00;  I=0,37;  S=1,00;  N=0,58] 
+	0,514  [HC=0,08;  HNC=1,00;  I=0,37;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,508  [HC=0,00;  HNC=1,00;  I=0,52;  S=1,00;  N=0,58] 
+	0,500  [HC=0,00;  HNC=1,00;  I=0,52;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,505  [HC=0,04;  HNC=1,00;  I=0,38;  S=1,00;  N=0,58] 
+	0,497  [HC=0,04;  HNC=1,00;  I=0,38;  S=1,00;  NN=0,46;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,295  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,295  [HC=0,03;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  N=0,00] 
+	0,283  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,280  [HC=0,02;  HNC=0,71;  I=0,00;  S=0,67;  N=0,00] 
+	0,280  [HC=0,02;  HNC=0,71;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -632,21 +670,21 @@ public TFeature Get < TFeature > ( )     127
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
 	0,473  [HC=0,24;  H=0,27;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,434  [HC=0,24;  HNC=0,23;  I=0,00;  S=1,00;  N=0,58] 
+	0,426  [HC=0,24;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,402  [HC=0,16;  HNC=0,23;  I=0,00;  S=1,00;  N=0,58] 
+	0,394  [HC=0,16;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,402  [HC=0,16;  HNC=0,23;  I=0,00;  S=1,00;  N=0,58] 
+	0,394  [HC=0,16;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,397  [HC=0,15;  HNC=0,23;  I=0,00;  S=1,00;  N=0,58] 
+	0,389  [HC=0,15;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,46;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,277  [HC=0,24;  HNC=0,03;  I=0,00;  S=0,67;  N=0,00] 
+	0,277  [HC=0,24;  HNC=0,03;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void Set < TFeature > ( TFeature instance )     131
-	0,234  [HC=0,06;  HNC=0,23;  I=0,00;  S=0,67;  N=0,00] 
+	0,234  [HC=0,06;  HNC=0,23;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,207  [HC=0,06;  HNC=0,03;  I=0,00;  S=0,67;  N=0,00] 
+	0,207  [HC=0,06;  HNC=0,03;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -670,21 +708,21 @@ public TFeature Get < TFeature > ( )     127
 IEnumerator IEnumerable . GetEnumerator ( )     133
 	0,384  [HC=0,04;  H=0,38;  I=1,00;  S=0,60] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public TFeature Get < TFeature > ( )     127
-	0,315  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,60;  N=0,76] 
+	0,305  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,60;  NN=0,61;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,315  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,60;  N=0,76] 
-IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,305  [HC=0,00;  HNC=0,71;  I=0,00;  S=0,60;  N=0,76] 
+	0,305  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,60;  NN=0,61;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,300  [HC=0,08;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00] 
+	0,300  [HC=0,08;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,297  [HC=0,08;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00] 
+	0,297  [HC=0,08;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00] 
+IEnumerator IEnumerable . GetEnumerator ( )     133
+	0,295  [HC=0,00;  HNC=0,71;  I=0,00;  S=0,60;  NN=0,61;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,267  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00] 
+	0,267  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,267  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00] 
+	0,267  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -708,21 +746,21 @@ public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
 	0,410  [HC=0,07;  H=0,34;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,298  [HC=0,12;  HNC=0,02;  I=0,00;  S=0,73;  N=0,76] 
+	0,288  [HC=0,12;  HNC=0,02;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public void Set < TFeature > ( TFeature instance )     131
-	0,287  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,73;  N=0,76] 
+	0,277  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,259  [HC=0,00;  HNC=0,09;  I=0,00;  S=0,73;  N=0,76] 
+	0,248  [HC=0,00;  HNC=0,09;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,259  [HC=0,00;  HNC=0,09;  I=0,00;  S=0,73;  N=0,76] 
+	0,248  [HC=0,00;  HNC=0,09;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,235  [HC=0,04;  HNC=0,31;  I=0,00;  S=0,67;  N=0,00] 
+	0,235  [HC=0,04;  HNC=0,31;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,234  [HC=0,04;  HNC=0,31;  I=0,00;  S=0,67;  N=0,00] 
+	0,234  [HC=0,04;  HNC=0,31;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,219  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,67;  N=0,00] 
+	0,219  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -746,21 +784,21 @@ public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
 	0,441  [HC=0,06;  H=0,58;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void Set < TFeature > ( TFeature instance )     131
-	0,290  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,73;  N=0,76] 
+	0,280  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public TFeature Get < TFeature > ( )     127
-	0,264  [HC=0,00;  HNC=0,14;  I=0,00;  S=0,73;  N=0,76] 
+	0,254  [HC=0,00;  HNC=0,14;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,264  [HC=0,00;  HNC=0,14;  I=0,00;  S=0,73;  N=0,76] 
+	0,254  [HC=0,00;  HNC=0,14;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,255  [HC=0,00;  HNC=0,06;  I=0,00;  S=0,73;  N=0,76] 
+	0,245  [HC=0,00;  HNC=0,06;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,225  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  N=0,00] 
+	0,225  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,225  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  N=0,00] 
+	0,225  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,225  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  N=0,00] 
+	0,225  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -784,21 +822,21 @@ public TFeature Get < TFeature > ( )     127
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
 	0,490  [HC=0,09;  H=0,82;  I=1,00;  S=0,67] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public TFeature Get < TFeature > ( )     127
-	0,351  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,73;  N=0,76] 
+	0,341  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public IEnumerator < KeyValuePair < Type , object > > GetEnumerator ( )     129
-	0,351  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,73;  N=0,76] 
+	0,341  [HC=0,00;  HNC=0,79;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 IEnumerator IEnumerable . GetEnumerator ( )     133
-	0,341  [HC=0,00;  HNC=0,71;  I=0,00;  S=0,73;  N=0,76] 
+	0,331  [HC=0,00;  HNC=0,71;  I=0,00;  S=0,73;  NN=0,61;  NA=0,00] 
 public void DisposeContextDoesNotClearHttpContextIfDefaultHttpContextFactoryUsed ( )     19
-	0,311  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,311  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void DisposeContextClearsHttpContextIfIHttpContextAccessorIsActive ( )     34
-	0,311  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,311  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextReinitializesPreviouslyStoredDefaultHttpContext ( )     49
-	0,311  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,311  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public void CreateContextCreatesNewContextIfNotUsingDefaultHttpContextFactory ( )     68
-	0,311  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,311  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -818,17 +856,17 @@ private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan
 private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
 	0,526  [HC=0,14;  H=0,27;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private void ParseRequestLine ( TRequestHandler handler , ReadOnlySpan < byte > requestLine )     49
-	0,811  [HC=1,00;  HNC=0,29;  I=0,30;  S=1,00;  N=1,00] 
+	0,805  [HC=1,00;  HNC=0,29;  I=0,30;  S=1,00;  NN=0,91;  NA=0,00] 
 public bool ParseRequestLine ( TRequestHandler handler , ref SequenceReader < byte > reader )     38
-	0,799  [HC=1,00;  HNC=0,49;  I=0,00;  S=1,00;  N=1,00] 
+	0,793  [HC=1,00;  HNC=0,49;  I=0,00;  S=1,00;  NN=0,91;  NA=0,00] 
 private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan < byte > headerLine )     337
-	0,416  [HC=0,13;  HNC=0,47;  I=0,28;  S=1,00;  N=0,00] 
+	0,416  [HC=0,13;  HNC=0,47;  I=0,28;  S=1,00;  NN=0,00;  NA=0,00] 
 private bool IsTlsHandshake ( ReadOnlySpan < byte > requestLine )     443
-	0,312  [HC=0,00;  HNC=0,34;  I=0,00;  S=1,00;  N=0,00] 
+	0,312  [HC=0,00;  HNC=0,34;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
-	0,283  [HC=0,00;  HNC=0,12;  I=0,00;  S=1,00;  N=0,00] #
+	0,283  [HC=0,00;  HNC=0,12;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -848,17 +886,17 @@ private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
 private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan < byte > headerLine )     337
 	0,536  [HC=0,16;  H=0,28;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan < byte > headerLine )     337
-	0,364  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  N=1,00] 
+	0,352  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,82;  NA=0,00] 
 private bool IsTlsHandshake ( ReadOnlySpan < byte > requestLine )     443
-	0,341  [HC=0,00;  HNC=0,22;  I=0,33;  S=1,00;  N=0,00] 
+	0,341  [HC=0,00;  HNC=0,22;  I=0,33;  S=1,00;  NN=0,00;  NA=0,00] 
 private void ParseRequestLine ( TRequestHandler handler , ReadOnlySpan < byte > requestLine )     49
-	0,297  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  N=0,00] 
+	0,297  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public bool ParseRequestLine ( TRequestHandler handler , ref SequenceReader < byte > reader )     38
-	0,291  [HC=0,00;  HNC=0,18;  I=0,00;  S=1,00;  N=0,00] 
+	0,291  [HC=0,00;  HNC=0,18;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
-	0,310  [HC=0,00;  HNC=0,33;  I=0,00;  S=1,00;  N=0,00] #
+	0,310  [HC=0,00;  HNC=0,33;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -878,17 +916,17 @@ private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan
 private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
 	0,571  [HC=0,18;  H=0,45;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static bool TryTakeSingleHeader ( TRequestHandler handler , ReadOnlySpan < byte > headerLine )     337
-	0,482  [HC=0,25;  HNC=0,37;  I=0,00;  S=1,00;  N=1,00] 
+	0,470  [HC=0,25;  HNC=0,37;  I=0,00;  S=1,00;  NN=0,82;  NA=0,00] 
 public bool ParseRequestLine ( TRequestHandler handler , ref SequenceReader < byte > reader )     38
-	0,398  [HC=0,25;  HNC=0,24;  I=0,00;  S=1,00;  N=0,00] 
+	0,398  [HC=0,25;  HNC=0,24;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private bool IsTlsHandshake ( ReadOnlySpan < byte > requestLine )     443
-	0,388  [HC=0,00;  HNC=0,51;  I=0,39;  S=1,00;  N=0,00] 
+	0,388  [HC=0,00;  HNC=0,51;  I=0,39;  S=1,00;  NN=0,00;  NA=0,00] 
 private void ParseRequestLine ( TRequestHandler handler , ReadOnlySpan < byte > requestLine )     49
-	0,383  [HC=0,25;  HNC=0,12;  I=0,00;  S=1,00;  N=0,00] 
+	0,383  [HC=0,25;  HNC=0,12;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private int GetUnknownMethodLength ( ReadOnlySpan < byte > span )     430
-	0,304  [HC=0,00;  HNC=0,28;  I=0,00;  S=1,00;  N=0,00] #
+	0,304  [HC=0,00;  HNC=0,28;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -906,15 +944,15 @@ private void CancelRequestAbortedTokenCallback ( )     448
 protected void PoisonBody ( Exception abortReason )     495
 	0,505  [HC=0,14;  H=0,12;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private void CancelRequestAbortedTokenCallback ( )     448
-	0,334  [HC=0,00;  HNC=0,08;  I=0,43;  S=1,00;  N=0,00] 
+	0,334  [HC=0,00;  HNC=0,08;  I=0,43;  S=1,00;  NN=0,00;  NA=0,00] 
 private async ValueTask ProcessRequest < TContext > ( IHttpApplication < TContext > application )     650
-	0,300  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
+	0,300  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public void Initialize ( HttpConnectionContext context )     81
-	0,268  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] 
+	0,268  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 protected void PoisonBody ( Exception abortReason )     495
-	0,268  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  N=0,00] #
+	0,268  [HC=0,00;  HNC=0,01;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -934,17 +972,17 @@ public static void Http2DefaultCiphersInsufficient ( this ILogger logger )     3
 public static void AuthenticationTimedOut ( this ILogger logger )     354
 	0,462  [HC=0,09;  H=0,31;  I=1,00;  S=0,83] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public static void HttpsConnectionEstablished ( this ILogger logger , string connectionId , SslProtocols sslProtocol )     356
-	0,324  [HC=0,25;  HNC=0,06;  I=0,00;  S=0,81;  N=0,00] 
+	0,324  [HC=0,25;  HNC=0,06;  I=0,00;  S=0,81;  NN=0,00;  NA=0,00] 
 private static bool IsWindowsVersionIncompatible ( )     308
-	0,281  [HC=0,00;  HNC=0,11;  I=0,00;  S=1,00;  N=0,00] 
+	0,281  [HC=0,00;  HNC=0,11;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public static void AuthenticationTimedOut ( this ILogger logger )     354
-	0,220  [HC=0,00;  HNC=0,03;  I=0,00;  S=0,81;  N=0,00] 
+	0,220  [HC=0,00;  HNC=0,03;  I=0,00;  S=0,81;  NN=0,00;  NA=0,00] 
 public static void Http2DefaultCiphersInsufficient ( this ILogger logger )     358
-	0,220  [HC=0,00;  HNC=0,03;  I=0,00;  S=0,81;  N=0,00] 
+	0,220  [HC=0,00;  HNC=0,03;  I=0,00;  S=0,81;  NN=0,00;  NA=0,00] 
 public static void AuthenticationFailed ( this ILogger logger , Exception exception )     352
-	0,219  [HC=0,00;  HNC=0,02;  I=0,00;  S=0,81;  N=0,00] 
+	0,219  [HC=0,00;  HNC=0,02;  I=0,00;  S=0,81;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -964,17 +1002,17 @@ public void Http2ThrowsOnIncompatibleWindowsVersions ( )     656
 public void Http1AndHttp2DowngradeToHttp1ForHttpsOnIncompatibleWindowsVersions ( )     626
 	0,562  [HC=0,14;  H=0,52;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public async Task Tls10CanBeDisabled ( )     364
-	0,588  [HC=0,00;  HNC=1,00;  I=0,91;  S=1,00;  N=1,00] 
+	0,588  [HC=0,00;  HNC=1,00;  I=0,91;  S=1,00;  NN=1,00;  NA=0,00] 
 public void Http2DoesNotThrowOnCompatibleWindowsVersions ( )     670
-	0,521  [HC=0,22;  HNC=0,73;  I=0,51;  S=1,00;  N=0,00] 
+	0,521  [HC=0,22;  HNC=0,73;  I=0,51;  S=1,00;  NN=0,00;  NA=0,00] 
 public void Http1AndHttp2DoesNotDowngradeOnCompatibleWindowsVersions ( )     641
-	0,486  [HC=0,17;  HNC=0,73;  I=0,41;  S=1,00;  N=0,00] 
+	0,486  [HC=0,17;  HNC=0,73;  I=0,41;  S=1,00;  NN=0,00;  NA=0,00] 
 public void Http1AndHttp2DowngradeToHttp1ForHttpsOnIncompatibleWindowsVersions ( )     626
-	0,441  [HC=0,03;  HNC=0,73;  I=0,47;  S=1,00;  N=0,00] 
+	0,441  [HC=0,03;  HNC=0,73;  I=0,47;  S=1,00;  NN=0,00;  NA=0,00] 
 public void Http2ThrowsOnIncompatibleWindowsVersions ( )     656
-	0,432  [HC=0,00;  HNC=0,73;  I=0,51;  S=1,00;  N=0,00] 
+	0,432  [HC=0,00;  HNC=0,73;  I=0,51;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -998,21 +1036,21 @@ public static bool GetKnownVersion ( this ReadOnlySpan < byte > span , out HttpV
 public static unsafe string GetHeaderName ( this ReadOnlySpan < byte > span )     79
 	0,614  [HC=0,33;  H=0,30;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public static bool GetKnownHttpScheme ( this Span < byte > span , out HttpScheme knownScheme )     385
-	0,926  [HC=1,00;  HNC=0,60;  I=0,84;  S=1,00;  N=1,00] 
+	0,920  [HC=1,00;  HNC=0,60;  I=0,84;  S=1,00;  NN=0,92;  NA=0,00] 
 internal static HttpVersion GetKnownVersionAndConfirmCR ( this ReadOnlySpan < byte > location )     352
-	0,541  [HC=0,33;  HNC=0,08;  I=0,48;  S=1,00;  N=1,00] 
+	0,536  [HC=0,33;  HNC=0,08;  I=0,48;  S=1,00;  NN=0,92;  NA=0,00] 
 public static unsafe string GetHeaderName ( this ReadOnlySpan < byte > span )     79
-	0,448  [HC=0,25;  HNC=0,14;  I=0,47;  S=1,00;  N=0,00] 
+	0,448  [HC=0,25;  HNC=0,14;  I=0,47;  S=1,00;  NN=0,00;  NA=0,00] 
 private static unsafe void GetHeaderName ( Span < char > buffer , IntPtr state )     93
-	0,398  [HC=0,25;  HNC=0,24;  I=0,00;  S=1,00;  N=0,00] 
+	0,398  [HC=0,25;  HNC=0,24;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public static bool GetKnownVersion ( this ReadOnlySpan < byte > span , out HttpVersion knownVersion , out byte length )     328
-	0,529  [HC=0,50;  HNC=0,47;  I=0,00;  S=1,00;  N=0,00] #
+	0,529  [HC=0,50;  HNC=0,47;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 public static HttpMethod GetKnownMethod ( this ReadOnlySpan < byte > span , out int methodLength )     204
-	0,528  [HC=0,50;  HNC=0,19;  I=0,27;  S=1,00;  N=0,00] #
+	0,528  [HC=0,50;  HNC=0,19;  I=0,27;  S=1,00;  NN=0,00;  NA=0,00] #
 public static bool GetKnownMethod ( this ReadOnlySpan < byte > span , out HttpMethod method , out int length )     198
-	0,525  [HC=0,50;  HNC=0,44;  I=0,00;  S=1,00;  N=0,00] #
+	0,525  [HC=0,50;  HNC=0,44;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1030,15 +1068,775 @@ internal void SetShutdownSignal ( )     162
 private void UpdateUrlPrefixes ( IList < string > serverAddressCopy )     144
 	0,500  [HC=0,05;  H=0,34;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private void UpdateUrlPrefixes ( IList < string > serverAddressCopy )     144
-	0,305  [HC=0,00;  HNC=0,29;  I=0,00;  S=1,00;  N=0,00] 
+	0,305  [HC=0,00;  HNC=0,29;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 internal void SetShutdownSignal ( )     162
-	0,298  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  N=0,00] 
+	0,298  [HC=0,00;  HNC=0,23;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 internal int IncrementOutstandingRequest ( )     152
-	0,271  [HC=0,00;  HNC=0,03;  I=0,00;  S=1,00;  N=0,00] 
+	0,271  [HC=0,00;  HNC=0,03;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 internal int DecrementOutstandingRequest ( )     157
-	0,271  [HC=0,00;  HNC=0,03;  I=0,00;  S=1,00;  N=0,00] 
+	0,271  [HC=0,00;  HNC=0,03;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( double value , System . Globalization . CultureInfo culture = null )     14
+*
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static bool FormatValue ( bool value , System . Globalization . CultureInfo ? culture = null )     8
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( int value , System . Globalization . CultureInfo culture = null )     15
+*
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,977  [HC=1,00;  H=0,84;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo culture = null )     18
+*
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,987  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,971  [HC=1,00;  H=0,80;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,966  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,991  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,990  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,984  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,983  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,977  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,977  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo culture = null )     19
+*
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,989  [HC=1,00;  H=0,92;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,988  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,966  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,992  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,990  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,985  [HC=1,00;  HNC=0,94;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,983  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,978  [HC=1,00;  HNC=0,89;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,976  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,972  [HC=1,00;  HNC=0,84;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo culture = null )     20
+*
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,987  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,967  [HC=1,00;  H=0,77;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,991  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,991  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,990  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,988  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,983  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,983  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,980  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( System . DateTime ? value , string format , System . Globalization . CultureInfo culture = null )     21
+*
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,988  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,984  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,966  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,992  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,992  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,977  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,977  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,975  [HC=1,00;  HNC=0,87;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( decimal ? value , System . Globalization . CultureInfo culture = null )     22
+*
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , System . Globalization . CultureInfo ? culture = null )     25
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,991  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,990  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( short ? value , System . Globalization . CultureInfo ? culture = null )     25
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( long ? value , System . Globalization . CultureInfo culture = null )     25
+*
+public static string ? FormatValue ( long ? value , System . Globalization . CultureInfo ? culture = null )     27
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , System . Globalization . CultureInfo ? culture = null )     25
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,991  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( long ? value , System . Globalization . CultureInfo ? culture = null )     27
+	0,990  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( float ? value , System . Globalization . CultureInfo culture = null )     26
+*
+public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , System . Globalization . CultureInfo ? culture = null )     25
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( long ? value , System . Globalization . CultureInfo ? culture = null )     27
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,979  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,991  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
+	0,990  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netcoreapp.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netcoreapp.cs
+*
+public static string FormatValue ( string value , System . Globalization . CultureInfo culture = null )     28
+*
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,987  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,977  [HC=1,00;  H=0,84;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( double value , System . Globalization . CultureInfo culture = null )     14
+*
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static bool FormatValue ( bool value , System . Globalization . CultureInfo ? culture = null )     8
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( int value , System . Globalization . CultureInfo culture = null )     15
+*
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,977  [HC=1,00;  H=0,84;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo culture = null )     18
+*
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,987  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,971  [HC=1,00;  H=0,80;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,966  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,991  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,990  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,984  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,983  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,977  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,977  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo culture = null )     19
+*
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,989  [HC=1,00;  H=0,92;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,988  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,966  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,992  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,990  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,985  [HC=1,00;  HNC=0,94;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,983  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,978  [HC=1,00;  HNC=0,89;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,976  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,972  [HC=1,00;  HNC=0,84;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo culture = null )     20
+*
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,987  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,967  [HC=1,00;  H=0,77;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,991  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,991  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,990  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , System . Globalization . CultureInfo ? culture = null )     19
+	0,988  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,983  [HC=1,00;  HNC=0,93;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,983  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,980  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( System . DateTime ? value , string format , System . Globalization . CultureInfo culture = null )     21
+*
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,988  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,985  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,984  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,969  [HC=1,00;  H=0,78;  I=1,00;  S=1,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,966  [HC=1,00;  H=0,76;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( System . DateTimeOffset value , string format , System . Globalization . CultureInfo ? culture = null )     12
+	0,992  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , string format , System . Globalization . CultureInfo ? culture = null )     10
+	0,992  [HC=1,00;  HNC=0,99;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , string ? format , System . Globalization . CultureInfo ? culture = null )     22
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTimeOffset ? value , string format , System . Globalization . CultureInfo ? culture = null )     20
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTime value , System . Globalization . CultureInfo ? culture = null )     9
+	0,977  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( System . DateTimeOffset value , System . Globalization . CultureInfo ? culture = null )     11
+	0,977  [HC=1,00;  HNC=0,88;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( System . DateTime ? value , System . Globalization . CultureInfo ? culture = null )     21
+	0,975  [HC=1,00;  HNC=0,87;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( decimal ? value , System . Globalization . CultureInfo culture = null )     22
+*
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , System . Globalization . CultureInfo ? culture = null )     25
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,991  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,990  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( short ? value , System . Globalization . CultureInfo ? culture = null )     25
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( long ? value , System . Globalization . CultureInfo culture = null )     25
+*
+public static string ? FormatValue ( long ? value , System . Globalization . CultureInfo ? culture = null )     27
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , System . Globalization . CultureInfo ? culture = null )     25
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,991  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( long ? value , System . Globalization . CultureInfo ? culture = null )     27
+	0,990  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( float ? value , System . Globalization . CultureInfo culture = null )     26
+*
+public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
+	0,986  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( short ? value , System . Globalization . CultureInfo ? culture = null )     25
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( long ? value , System . Globalization . CultureInfo ? culture = null )     27
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int ? value , System . Globalization . CultureInfo ? culture = null )     26
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,979  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,991  [HC=1,00;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( float ? value , System . Globalization . CultureInfo ? culture = null )     28
+	0,990  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,981  [HC=1,00;  HNC=0,91;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( decimal ? value , System . Globalization . CultureInfo ? culture = null )     23
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double ? value , System . Globalization . CultureInfo ? culture = null )     24
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Microsoft.AspNetCore.Components.netstandard2.0.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Microsoft.AspNetCore.Components.netstandard2.0.cs
+*
+public static string FormatValue ( string value , System . Globalization . CultureInfo culture = null )     28
+*
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,987  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,985  [HC=1,00;  H=0,90;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,984  [HC=1,00;  H=0,89;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,977  [HC=1,00;  H=0,84;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( string ? value , System . Globalization . CultureInfo ? culture = null )     30
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( decimal value , System . Globalization . CultureInfo ? culture = null )     13
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( short value , System . Globalization . CultureInfo ? culture = null )     15
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( long value , System . Globalization . CultureInfo ? culture = null )     17
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( float value , System . Globalization . CultureInfo ? culture = null )     29
+	0,982  [HC=1,00;  HNC=0,92;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( double value , System . Globalization . CultureInfo ? culture = null )     14
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( int value , System . Globalization . CultureInfo ? culture = null )     16
+	0,979  [HC=1,00;  HNC=0,90;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] 
 
 **************************************************************
 
@@ -1050,9 +1848,9 @@ internal Task FinalizeCacheHeadersAsync ( ResponseCachingContext context )     3
 internal void FinalizeCacheBody ( ResponseCachingContext context )     356
 	0,800  [HC=0,60;  H=0,80;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal void FinalizeCacheBody ( ResponseCachingContext context )     356
-	0,571  [HC=0,50;  HNC=0,79;  I=0,00;  S=1,00;  N=0,00] #
+	0,571  [HC=0,50;  HNC=0,79;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1064,9 +1862,9 @@ internal Task StartResponseAsync ( ResponseCachingContext context )     406
 internal void FinalizeCacheBody ( ResponseCachingContext context )     356
 	0,580  [HC=0,11;  H=0,73;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal void FinalizeCacheBody ( ResponseCachingContext context )     356
-	0,371  [HC=0,00;  HNC=0,79;  I=0,00;  S=1,00;  N=0,00] #
+	0,371  [HC=0,00;  HNC=0,79;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 

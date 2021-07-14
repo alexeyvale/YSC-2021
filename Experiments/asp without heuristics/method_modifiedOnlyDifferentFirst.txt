@@ -1,0 +1,174 @@
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( string value , CultureInfo culture = null )     38
+*
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,975  [HC=1,00;  H=0,82;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,995  [HC=1,00;  HNC=0,96;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,905  [HC=1,00;  HNC=0,89;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,902  [HC=1,00;  HNC=0,87;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,901  [HC=1,00;  HNC=0,89;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,895  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( int value , CultureInfo culture = null )     99
+*
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,982  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,907  [HC=1,00;  HNC=0,89;  I=0,92;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,904  [HC=1,00;  HNC=0,89;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,904  [HC=1,00;  HNC=0,89;  I=0,89;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( int ? value , CultureInfo ? culture = null )     114
+	0,904  [HC=1,00;  HNC=0,96;  I=0,82;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string ? FormatValue ( string ? value , CultureInfo ? culture = null )     38
+	0,901  [HC=1,00;  HNC=0,86;  I=0,90;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( double value , CultureInfo culture = null )     204
+*
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( double value , CultureInfo ? culture = null )     239
+	0,996  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string ? FormatValue ( double ? value , CultureInfo ? culture = null )     254
+	0,906  [HC=1,00;  HNC=0,96;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( decimal value , CultureInfo ? culture = null )     274
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( short value , CultureInfo ? culture = null )     169
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] 
+public static string FormatValue ( long value , CultureInfo ? culture = null )     134
+	0,901  [HC=1,00;  HNC=0,89;  I=0,87;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string FormatValue ( float value , CultureInfo ? culture = null )     204
+	0,898  [HC=1,00;  HNC=0,89;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( int value , CultureInfo ? culture = null )     99
+	0,895  [HC=1,00;  HNC=0,87;  I=0,85;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\BindConverter.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\BindConverter.cs
+*
+public static string FormatValue ( DateTime ? value , string format , CultureInfo culture = null )     321
+*
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,983  [HC=1,00;  H=0,88;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,982  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,980  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,979  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTime value , CultureInfo ? culture = null )     309
+	0,960  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,960  [HC=1,00;  H=0,72;  I=1,00;  S=1,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,957  [HC=1,00;  H=0,70;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string ? FormatValue ( DateTime ? value , string ? format , CultureInfo ? culture = null )     356
+	0,989  [HC=1,00;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,89;  NA=0,00] *
+public static string ? FormatValue ( DateTimeOffset ? value , string format , CultureInfo ? culture = null )     439
+	0,975  [HC=1,00;  HNC=0,96;  I=0,90;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , string format , CultureInfo ? culture = null )     403
+	0,958  [HC=1,00;  HNC=0,99;  I=0,75;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string ? FormatValue ( DateTimeOffset ? value , CultureInfo ? culture = null )     428
+	0,946  [HC=1,00;  HNC=0,82;  I=0,84;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( DateTimeOffset value , CultureInfo ? culture = null )     391
+	0,929  [HC=1,00;  HNC=0,84;  I=0,68;  S=1,00;  NN=0,89;  NA=0,00] 
+public static string FormatValue ( DateTime value , string format , CultureInfo ? culture = null )     320
+	0,912  [HC=1,00;  HNC=0,99;  I=0,86;  S=1,00;  NN=0,00;  NA=0,00] #
+public static string ? FormatValue ( DateTime ? value , CultureInfo ? culture = null )     345
+	0,900  [HC=1,00;  HNC=0,83;  I=0,92;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\QueryHelpers.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\QueryHelpers.cs
+*
+private static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , string > > queryString )     63
+*
+public static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , StringValues > > queryString )     80
+	0,989  [HC=1,00;  H=0,92;  I=1,00;  S=1,00] 
+public static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , string ? > > queryString )     103
+	0,987  [HC=1,00;  H=0,91;  I=1,00;  S=1,00] 
+public static string AddQueryString ( string uri , IDictionary < string , string ? > queryString )     57
+	0,964  [HC=1,00;  H=0,75;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , string ? > > queryString )     103
+	0,986  [HC=1,00;  HNC=0,93;  I=0,97;  S=1,00;  NN=1,00;  NA=0,00] *
+public static string AddQueryString ( string uri , IEnumerable < KeyValuePair < string , StringValues > > queryString )     80
+	0,901  [HC=1,00;  HNC=0,87;  I=0,39;  S=1,00;  NN=1,00;  NA=0,00] 
+public static string AddQueryString ( string uri , IDictionary < string , string ? > queryString )     57
+	0,759  [HC=1,00;  HNC=0,70;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+

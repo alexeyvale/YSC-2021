@@ -6,9 +6,9 @@ public static TheoryData < string , string [ ] > AddressRegistrationDataIPv6Port
 public static TheoryData < string , string [ ] > AddressRegistrationDataIPv6Port5000And5001Default     1047
 	0,937  [HC=0,86;  H=0,99;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public static TheoryData < string , string [ ] > AddressRegistrationDataIPv6Port5000And5001Default     1047
-	0,884  [HC=0,82;  HNC=1,00;  I=0,67;  S=1,00;  N=1,00] *
+	0,884  [HC=0,82;  HNC=1,00;  I=0,67;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -20,9 +20,9 @@ private MvcDiagnosticAnalyzerRunner Executor     14
 private MvcDiagnosticAnalyzerRunner Executor     14
 	0,968  [HC=1,00;  H=1,00;  I=1,00;  S=0,89] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private MvcDiagnosticAnalyzerRunner Executor     14
-	0,914  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,93;  N=0,00] *
+	0,914  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,93;  NN=0,00;  NA=0,00] *
 
 **************************************************************
 
@@ -44,19 +44,19 @@ public string Message     757
 public bool Result     756
 	0,396  [HC=0,10;  H=0,29;  I=1,00;  S=0,58] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public int AspNetHttpsCertificateVersion     39
-	0,761  [HC=1,00;  HNC=0,80;  I=0,00;  S=0,95;  N=0,00] *
+	0,761  [HC=1,00;  HNC=0,80;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] *
 public string Subject     46
-	0,343  [HC=0,00;  HNC=0,20;  I=0,46;  S=0,95;  N=0,00] 
+	0,343  [HC=0,00;  HNC=0,20;  I=0,46;  S=0,95;  NN=0,00;  NA=0,00] 
 public static CertificateManagerEventSource Log     35
-	0,343  [HC=0,00;  HNC=0,40;  I=0,26;  S=0,95;  N=0,00] 
+	0,343  [HC=0,00;  HNC=0,40;  I=0,26;  S=0,95;  NN=0,00;  NA=0,00] 
 public static CertificateManager Instance     29
-	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] 
+	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public bool Result     756
-	0,258  [HC=0,00;  HNC=0,20;  I=0,46;  S=0,64;  N=0,00] 
+	0,258  [HC=0,00;  HNC=0,20;  I=0,46;  S=0,64;  NN=0,00;  NA=0,00] 
 public string Message     757
-	0,258  [HC=0,00;  HNC=0,20;  I=0,46;  S=0,64;  N=0,00] 
+	0,258  [HC=0,00;  HNC=0,20;  I=0,46;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -68,9 +68,9 @@ private IKestrelTrace Log     27
 private IKestrelTrace Log     29
 	0,929  [HC=1,00;  H=1,00;  I=1,00;  S=0,75] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private IKestrelTrace Log     29
-	0,893  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,85;  N=0,00] *
+	0,893  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,85;  NN=0,00;  NA=0,00] *
 
 **************************************************************
 
@@ -88,15 +88,15 @@ int ICollection < KeyValuePair < object , object ? > > . Count     87
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     92
 	0,694  [HC=0,46;  H=0,48;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 ICollection < object > IDictionary < object , object ? > . Keys     47
-	0,947  [HC=0,98;  HNC=1,00;  I=1,00;  S=1,00;  N=0,31] *
+	0,943  [HC=0,98;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,25;  NA=0,00] *
 ICollection < object ? > IDictionary < object , object ? > . Values     62
-	0,844  [HC=0,80;  HNC=0,97;  I=0,81;  S=1,00;  N=0,31] 
+	0,840  [HC=0,80;  HNC=0,97;  I=0,81;  S=1,00;  NN=0,25;  NA=0,00] 
 int ICollection < KeyValuePair < object , object ? > > . Count     87
-	0,615  [HC=0,55;  HNC=0,00;  I=0,80;  S=1,00;  N=0,31] 
+	0,611  [HC=0,55;  HNC=0,00;  I=0,80;  S=1,00;  NN=0,25;  NA=0,00] 
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     92
-	0,598  [HC=0,54;  HNC=0,00;  I=0,70;  S=1,00;  N=0,31] 
+	0,593  [HC=0,54;  HNC=0,00;  I=0,70;  S=1,00;  NN=0,25;  NA=0,00] 
 
 **************************************************************
 
@@ -114,15 +114,15 @@ bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     92
 ICollection < object > IDictionary < object , object ? > . Keys     47
 	0,902  [HC=0,82;  H=0,86;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 ICollection < object ? > IDictionary < object , object ? > . Values     62
-	0,964  [HC=0,98;  HNC=0,97;  I=1,00;  S=1,00;  N=0,63] *
+	0,955  [HC=0,98;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,50;  NA=0,00] *
 int ICollection < KeyValuePair < object , object ? > > . Count     87
-	0,637  [HC=0,55;  HNC=0,00;  I=0,81;  S=1,00;  N=0,63] 
+	0,628  [HC=0,55;  HNC=0,00;  I=0,81;  S=1,00;  NN=0,50;  NA=0,00] 
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     92
-	0,525  [HC=0,54;  HNC=0,00;  I=0,00;  S=1,00;  N=0,63] 
+	0,610  [HC=0,54;  HNC=0,00;  I=0,70;  S=1,00;  NN=0,50;  NA=0,00] 
 ICollection < object > IDictionary < object , object ? > . Keys     47
-	0,828  [HC=0,80;  HNC=1,00;  I=0,81;  S=1,00;  N=0,00] #
+	0,828  [HC=0,80;  HNC=1,00;  I=0,81;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -140,15 +140,15 @@ ICollection < object > IDictionary < object , object ? > . Keys     47
 ICollection < object ? > IDictionary < object , object ? > . Values     62
 	0,717  [HC=0,50;  H=0,52;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 int ICollection < KeyValuePair < object , object ? > > . Count     87
-	0,991  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  N=0,94] *
+	0,979  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,75;  NA=0,00] *
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     92
-	0,766  [HC=0,86;  HNC=0,00;  I=0,70;  S=1,00;  N=0,94] 
+	0,754  [HC=0,86;  HNC=0,00;  I=0,70;  S=1,00;  NN=0,75;  NA=0,00] 
 ICollection < object ? > IDictionary < object , object ? > . Values     62
-	0,532  [HC=0,40;  HNC=0,00;  I=0,81;  S=1,00;  N=0,00] #
+	0,532  [HC=0,40;  HNC=0,00;  I=0,81;  S=1,00;  NN=0,00;  NA=0,00] #
 ICollection < object > IDictionary < object , object ? > . Keys     47
-	0,531  [HC=0,40;  HNC=0,00;  I=0,80;  S=1,00;  N=0,00] #
+	0,531  [HC=0,40;  HNC=0,00;  I=0,80;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -166,15 +166,15 @@ ICollection < object > IDictionary < object , object ? > . Keys     47
 ICollection < object ? > IDictionary < object , object ? > . Values     62
 	0,704  [HC=0,47;  H=0,51;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     92
-	0,996  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,996  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 int ICollection < KeyValuePair < object , object ? > > . Count     87
-	0,644  [HC=0,71;  HNC=0,00;  I=0,70;  S=1,00;  N=0,00] #
-ICollection < object > IDictionary < object , object ? > . Keys     47
-	0,488  [HC=0,32;  HNC=0,00;  I=0,70;  S=1,00;  N=0,00] #
+	0,644  [HC=0,71;  HNC=0,00;  I=0,70;  S=1,00;  NN=0,00;  NA=0,00] #
 ICollection < object ? > IDictionary < object , object ? > . Values     62
-	0,395  [HC=0,32;  HNC=0,00;  I=0,00;  S=1,00;  N=0,00] #
+	0,488  [HC=0,32;  HNC=0,00;  I=0,70;  S=1,00;  NN=0,00;  NA=0,00] #
+ICollection < object > IDictionary < object , object ? > . Keys     47
+	0,488  [HC=0,32;  HNC=0,00;  I=0,70;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -198,21 +198,21 @@ public ITimeoutControl TimeoutControl     137
 public PipeReader Input     132
 	0,454  [HC=0,08;  H=0,20;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public static ReadOnlySpan < byte > ClientPreface     31
-	0,742  [HC=1,00;  HNC=0,66;  I=0,00;  S=0,95;  N=0,00] *
+	0,742  [HC=1,00;  HNC=0,66;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] *
 public IKestrelTrace Log     134
-	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  N=0,00] 
+	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public IFeatureCollection ConnectionFeatures     135
-	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  N=0,00] 
+	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public ISystemClock SystemClock     136
-	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  N=0,00] 
+	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public ITimeoutControl TimeoutControl     137
-	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  N=0,00] 
+	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public KestrelServerLimits Limits     138
-	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  N=0,00] 
+	0,331  [HC=0,00;  HNC=0,58;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public PipeReader Input     132
-	0,318  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,95;  N=0,00] 
+	0,318  [HC=0,00;  HNC=0,47;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -236,21 +236,21 @@ internal Http2PeerSettings ServerSettings     140
 public IKestrelTrace Log     134
 	0,491  [HC=0,08;  H=0,44;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public string ConnectionId     130
-	0,930  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,14] *
+	0,929  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,11;  NA=0,00] *
 public IFeatureCollection ConnectionFeatures     135
-	0,595  [HC=0,50;  HNC=0,25;  I=0,73;  S=0,95;  N=0,14] 
+	0,593  [HC=0,50;  HNC=0,25;  I=0,73;  S=0,95;  NN=0,11;  NA=0,00] 
 public ITimeoutControl TimeoutControl     137
-	0,374  [HC=0,00;  HNC=0,25;  I=0,58;  S=0,95;  N=0,14] 
+	0,372  [HC=0,00;  HNC=0,25;  I=0,58;  S=0,95;  NN=0,11;  NA=0,00] 
 public IKestrelTrace Log     134
-	0,368  [HC=0,00;  HNC=0,25;  I=0,53;  S=0,95;  N=0,14] 
+	0,366  [HC=0,00;  HNC=0,25;  I=0,53;  S=0,95;  NN=0,11;  NA=0,00] 
 public ISystemClock SystemClock     136
-	0,357  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  N=0,14] 
+	0,355  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  NN=0,11;  NA=0,00] 
 public KestrelServerLimits Limits     138
-	0,357  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  N=0,14] 
+	0,355  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  NN=0,11;  NA=0,00] 
 public PipeReader Input     132
-	0,342  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  N=0,14] 
+	0,340  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  NN=0,11;  NA=0,00] 
 
 **************************************************************
 
@@ -274,21 +274,21 @@ public string ConnectionId     130
 public static ReadOnlySpan < byte > ClientPreface     31
 	0,452  [HC=0,08;  H=0,18;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public PipeReader Input     132
-	0,940  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,28] *
+	0,936  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,22;  NA=0,00] *
 public ITimeoutControl TimeoutControl     137
-	0,353  [HC=0,00;  HNC=0,25;  I=0,35;  S=0,95;  N=0,28] 
+	0,349  [HC=0,00;  HNC=0,25;  I=0,35;  S=0,95;  NN=0,22;  NA=0,00] 
 public IKestrelTrace Log     134
-	0,351  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  N=0,28] 
+	0,347  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  NN=0,22;  NA=0,00] 
 public IFeatureCollection ConnectionFeatures     135
-	0,351  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  N=0,28] 
+	0,347  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  NN=0,22;  NA=0,00] 
 public ISystemClock SystemClock     136
-	0,341  [HC=0,00;  HNC=0,25;  I=0,26;  S=0,95;  N=0,28] 
+	0,338  [HC=0,00;  HNC=0,25;  I=0,26;  S=0,95;  NN=0,22;  NA=0,00] 
 public string ConnectionId     130
-	0,332  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  N=0,00] #
+	0,332  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  NN=0,00;  NA=0,00] #
 public static ReadOnlySpan < byte > ClientPreface     31
-	0,332  [HC=0,00;  HNC=0,20;  I=0,38;  S=0,95;  N=0,00] #
+	0,332  [HC=0,00;  HNC=0,20;  I=0,38;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -312,21 +312,21 @@ public string ConnectionId     130
 public PipeReader Input     132
 	0,448  [HC=0,00;  H=0,38;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public IKestrelTrace Log     134
-	0,949  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,42] *
-public IFeatureCollection ConnectionFeatures     135
-	0,422  [HC=0,00;  HNC=0,50;  I=0,55;  S=0,95;  N=0,42] 
+	0,943  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,33;  NA=0,00] *
 public ISystemClock SystemClock     136
-	0,413  [HC=0,00;  HNC=0,50;  I=0,48;  S=0,95;  N=0,42] 
-public KestrelServerLimits Limits     138
-	0,381  [HC=0,00;  HNC=0,25;  I=0,49;  S=0,95;  N=0,42] 
+	0,445  [HC=0,00;  HNC=0,50;  I=0,76;  S=0,95;  NN=0,33;  NA=0,00] 
+public IFeatureCollection ConnectionFeatures     135
+	0,419  [HC=0,00;  HNC=0,50;  I=0,57;  S=0,95;  NN=0,33;  NA=0,00] 
 public ITimeoutControl TimeoutControl     137
-	0,349  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,42] 
+	0,419  [HC=0,00;  HNC=0,50;  I=0,57;  S=0,95;  NN=0,33;  NA=0,00] 
+public KestrelServerLimits Limits     138
+	0,390  [HC=0,00;  HNC=0,25;  I=0,60;  S=0,95;  NN=0,33;  NA=0,00] 
 public string ConnectionId     130
-	0,359  [HC=0,00;  HNC=0,25;  I=0,53;  S=0,95;  N=0,00] #
+	0,359  [HC=0,00;  HNC=0,25;  I=0,53;  S=0,95;  NN=0,00;  NA=0,00] #
 public PipeReader Input     132
-	0,332  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  N=0,00] #
+	0,332  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -350,21 +350,21 @@ public string ConnectionId     130
 public static ReadOnlySpan < byte > ClientPreface     31
 	0,543  [HC=0,28;  H=0,21;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public IFeatureCollection ConnectionFeatures     135
-	0,958  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,56] *
-public ISystemClock SystemClock     136
-	0,393  [HC=0,00;  HNC=0,50;  I=0,26;  S=0,95;  N=0,56] 
-public KestrelServerLimits Limits     138
-	0,362  [HC=0,00;  HNC=0,25;  I=0,28;  S=0,95;  N=0,56] 
+	0,951  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,44;  NA=0,00] *
 public ITimeoutControl TimeoutControl     137
-	0,358  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,56] 
-internal Http2PeerSettings ServerSettings     140
-	0,336  [HC=0,00;  HNC=0,00;  I=0,33;  S=0,95;  N=0,56] 
+	0,426  [HC=0,00;  HNC=0,50;  I=0,57;  S=0,95;  NN=0,44;  NA=0,00] 
+public ISystemClock SystemClock     136
+	0,414  [HC=0,00;  HNC=0,50;  I=0,47;  S=0,95;  NN=0,44;  NA=0,00] 
+public KestrelServerLimits Limits     138
+	0,377  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  NN=0,44;  NA=0,00] 
 public string ConnectionId     130
-	0,586  [HC=0,50;  HNC=0,25;  I=0,73;  S=0,95;  N=0,00] #
+	0,586  [HC=0,50;  HNC=0,25;  I=0,73;  S=0,95;  NN=0,00;  NA=0,00] #
 public IKestrelTrace Log     134
-	0,395  [HC=0,00;  HNC=0,50;  I=0,55;  S=0,95;  N=0,00] #
+	0,397  [HC=0,00;  HNC=0,50;  I=0,57;  S=0,95;  NN=0,00;  NA=0,00] #
+public PipeReader Input     132
+	0,332  [HC=0,00;  HNC=0,25;  I=0,33;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -388,21 +388,21 @@ public IKestrelTrace Log     134
 public static ReadOnlySpan < byte > ClientPreface     31
 	0,490  [HC=0,15;  H=0,22;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public ISystemClock SystemClock     136
-	0,968  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,69] *
+	0,958  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,56;  NA=0,00] *
 public ITimeoutControl TimeoutControl     137
-	0,420  [HC=0,00;  HNC=0,50;  I=0,39;  S=0,95;  N=0,69] 
-internal Http2PeerSettings ServerSettings     140
-	0,343  [HC=0,00;  HNC=0,00;  I=0,32;  S=0,95;  N=0,69] 
+	0,421  [HC=0,00;  HNC=0,50;  I=0,47;  S=0,95;  NN=0,56;  NA=0,00] 
 public KestrelServerLimits Limits     138
-	0,334  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,95;  N=0,69] 
+	0,410  [HC=0,00;  HNC=0,25;  I=0,64;  S=0,95;  NN=0,56;  NA=0,00] 
+internal Http2PeerSettings ServerSettings     140
+	0,334  [HC=0,00;  HNC=0,00;  I=0,32;  S=0,95;  NN=0,56;  NA=0,00] 
 public IKestrelTrace Log     134
-	0,385  [HC=0,00;  HNC=0,50;  I=0,48;  S=0,95;  N=0,00] #
+	0,423  [HC=0,00;  HNC=0,50;  I=0,76;  S=0,95;  NN=0,00;  NA=0,00] #
 public IFeatureCollection ConnectionFeatures     135
-	0,356  [HC=0,00;  HNC=0,50;  I=0,26;  S=0,95;  N=0,00] #
+	0,384  [HC=0,00;  HNC=0,50;  I=0,47;  S=0,95;  NN=0,00;  NA=0,00] #
 public string ConnectionId     130
-	0,348  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  N=0,00] #
+	0,348  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -426,21 +426,21 @@ public IKestrelTrace Log     134
 public ISystemClock SystemClock     136
 	0,481  [HC=0,07;  H=0,40;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public ITimeoutControl TimeoutControl     137
-	0,977  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,83] *
-internal Http2PeerSettings ServerSettings     140
-	0,351  [HC=0,00;  HNC=0,00;  I=0,31;  S=0,95;  N=0,83] 
+	0,966  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,67;  NA=0,00] *
 public KestrelServerLimits Limits     138
-	0,343  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,95;  N=0,83] 
+	0,389  [HC=0,00;  HNC=0,25;  I=0,43;  S=0,95;  NN=0,67;  NA=0,00] 
+internal Http2PeerSettings ServerSettings     140
+	0,340  [HC=0,00;  HNC=0,00;  I=0,31;  S=0,95;  NN=0,67;  NA=0,00] 
+public IFeatureCollection ConnectionFeatures     135
+	0,397  [HC=0,00;  HNC=0,50;  I=0,57;  S=0,95;  NN=0,00;  NA=0,00] #
+public IKestrelTrace Log     134
+	0,397  [HC=0,00;  HNC=0,50;  I=0,57;  S=0,95;  NN=0,00;  NA=0,00] #
 public ISystemClock SystemClock     136
-	0,374  [HC=0,00;  HNC=0,50;  I=0,39;  S=0,95;  N=0,00] #
+	0,384  [HC=0,00;  HNC=0,50;  I=0,47;  S=0,95;  NN=0,00;  NA=0,00] #
 public string ConnectionId     130
-	0,365  [HC=0,00;  HNC=0,25;  I=0,58;  S=0,95;  N=0,00] #
-public PipeReader Input     132
-	0,334  [HC=0,00;  HNC=0,25;  I=0,35;  S=0,95;  N=0,00] #
-public static ReadOnlySpan < byte > ClientPreface     31
-	0,322  [HC=0,00;  HNC=0,20;  I=0,31;  S=0,95;  N=0,00] #
+	0,365  [HC=0,00;  HNC=0,25;  I=0,58;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -464,21 +464,21 @@ public string ConnectionId     130
 public ISystemClock SystemClock     136
 	0,489  [HC=0,09;  H=0,40;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public KestrelServerLimits Limits     138
-	0,986  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,97] *
+	0,973  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,78;  NA=0,00] *
 internal Http2PeerSettings ServerSettings     140
-	0,374  [HC=0,00;  HNC=0,09;  I=0,32;  S=0,95;  N=0,97] 
+	0,361  [HC=0,00;  HNC=0,09;  I=0,32;  S=0,95;  NN=0,78;  NA=0,00] 
+public ISystemClock SystemClock     136
+	0,373  [HC=0,00;  HNC=0,25;  I=0,64;  S=0,95;  NN=0,00;  NA=0,00] #
 public IKestrelTrace Log     134
-	0,353  [HC=0,00;  HNC=0,25;  I=0,49;  S=0,95;  N=0,00] #
-public string ConnectionId     130
-	0,347  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  N=0,00] #
+	0,367  [HC=0,00;  HNC=0,25;  I=0,60;  S=0,95;  NN=0,00;  NA=0,00] #
 public IFeatureCollection ConnectionFeatures     135
-	0,325  [HC=0,00;  HNC=0,25;  I=0,28;  S=0,95;  N=0,00] #
-public static ReadOnlySpan < byte > ClientPreface     31
-	0,315  [HC=0,00;  HNC=0,20;  I=0,26;  S=0,95;  N=0,00] #
-public PipeReader Input     132
-	0,305  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,95;  N=0,00] #
+	0,347  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  NN=0,00;  NA=0,00] #
+public string ConnectionId     130
+	0,347  [HC=0,00;  HNC=0,25;  I=0,45;  S=0,95;  NN=0,00;  NA=0,00] #
+public ITimeoutControl TimeoutControl     137
+	0,345  [HC=0,00;  HNC=0,25;  I=0,43;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -502,21 +502,21 @@ public PipeReader Input     132
 public IKestrelTrace Log     134
 	0,432  [HC=0,07;  H=0,06;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal Http2PeerSettings ServerSettings     140
-	0,988  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=1,00] *
+	0,980  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,89;  NA=0,00] *
 public string ConnectionId     130
-	0,317  [HC=0,00;  HNC=0,09;  I=0,38;  S=0,95;  N=0,00] #
+	0,317  [HC=0,00;  HNC=0,09;  I=0,38;  S=0,95;  NN=0,00;  NA=0,00] #
 public KestrelServerLimits Limits     138
-	0,310  [HC=0,00;  HNC=0,09;  I=0,32;  S=0,95;  N=0,00] #
+	0,310  [HC=0,00;  HNC=0,09;  I=0,32;  S=0,95;  NN=0,00;  NA=0,00] #
 public PipeReader Input     132
-	0,304  [HC=0,00;  HNC=0,09;  I=0,28;  S=0,95;  N=0,00] #
+	0,304  [HC=0,00;  HNC=0,09;  I=0,28;  S=0,95;  NN=0,00;  NA=0,00] #
 public IKestrelTrace Log     134
-	0,303  [HC=0,00;  HNC=0,00;  I=0,37;  S=0,95;  N=0,00] #
+	0,303  [HC=0,00;  HNC=0,00;  I=0,37;  S=0,95;  NN=0,00;  NA=0,00] #
 public IFeatureCollection ConnectionFeatures     135
-	0,299  [HC=0,00;  HNC=0,00;  I=0,33;  S=0,95;  N=0,00] #
+	0,299  [HC=0,00;  HNC=0,00;  I=0,33;  S=0,95;  NN=0,00;  NA=0,00] #
 public ISystemClock SystemClock     136
-	0,297  [HC=0,00;  HNC=0,00;  I=0,32;  S=0,95;  N=0,00] #
+	0,297  [HC=0,00;  HNC=0,00;  I=0,32;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -540,21 +540,21 @@ public string ConnectionId     130
 public ITimeoutControl TimeoutControl     137
 	0,435  [HC=0,14;  H=0,45;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public bool IsCompleted     1470
-	0,992  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  N=1,00] *
+	0,992  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  NN=1,00;  NA=0,00] *
 public KestrelServerLimits Limits     138
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
+	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 public ITimeoutControl TimeoutControl     137
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
+	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 public ISystemClock SystemClock     136
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
+	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 public IFeatureCollection ConnectionFeatures     135
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
+	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 public IKestrelTrace Log     134
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
+	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 public PipeReader Input     132
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
+	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -572,15 +572,15 @@ int ICollection < KeyValuePair < object , object ? > > . Count     108
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     110
 	0,694  [HC=0,46;  H=0,48;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 ICollection < object > IDictionary < object , object ? > . Keys     51
-	0,974  [HC=0,98;  HNC=1,00;  I=1,00;  S=1,00;  N=0,71] *
+	0,964  [HC=0,98;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,57;  NA=0,00] *
 ICollection < object ? > IDictionary < object , object ? > . Values     73
-	0,837  [HC=0,80;  HNC=0,97;  I=0,55;  S=1,00;  N=0,71] 
+	0,872  [HC=0,80;  HNC=0,97;  I=0,88;  S=1,00;  NN=0,57;  NA=0,00] 
 int ICollection < KeyValuePair < object , object ? > > . Count     108
-	0,535  [HC=0,55;  HNC=0,00;  I=0,00;  S=1,00;  N=0,71] 
+	0,525  [HC=0,55;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,57;  NA=0,00] 
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     110
-	0,531  [HC=0,54;  HNC=0,00;  I=0,00;  S=1,00;  N=0,71] 
+	0,522  [HC=0,54;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,57;  NA=0,00] 
 
 **************************************************************
 
@@ -598,15 +598,15 @@ bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     110
 ICollection < object > IDictionary < object , object ? > . Keys     51
 	0,902  [HC=0,82;  H=0,86;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 ICollection < object ? > IDictionary < object , object ? > . Values     73
-	0,982  [HC=0,98;  HNC=0,97;  I=1,00;  S=1,00;  N=0,89] *
+	0,970  [HC=0,98;  HNC=0,97;  I=1,00;  S=1,00;  NN=0,71;  NA=0,00] *
 int ICollection < KeyValuePair < object , object ? > > . Count     108
-	0,547  [HC=0,55;  HNC=0,00;  I=0,00;  S=1,00;  N=0,89] 
+	0,535  [HC=0,55;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,71;  NA=0,00] 
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     110
-	0,543  [HC=0,54;  HNC=0,00;  I=0,00;  S=1,00;  N=0,89] 
+	0,531  [HC=0,54;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,71;  NA=0,00] 
 ICollection < object > IDictionary < object , object ? > . Keys     51
-	0,794  [HC=0,80;  HNC=1,00;  I=0,55;  S=1,00;  N=0,00] #
+	0,838  [HC=0,80;  HNC=1,00;  I=0,88;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -624,15 +624,15 @@ ICollection < object > IDictionary < object , object ? > . Keys     51
 ICollection < object ? > IDictionary < object , object ? > . Values     73
 	0,717  [HC=0,50;  H=0,52;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 int ICollection < KeyValuePair < object , object ? > > . Count     108
-	0,995  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,986  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,86;  NA=0,00] *
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     110
-	0,744  [HC=0,86;  HNC=0,00;  I=0,50;  S=1,00;  N=1,00] 
+	0,734  [HC=0,86;  HNC=0,00;  I=0,50;  S=1,00;  NN=0,86;  NA=0,00] 
 ICollection < object > IDictionary < object , object ? > . Keys     51
-	0,425  [HC=0,40;  HNC=0,00;  I=0,00;  S=1,00;  N=0,00] #
+	0,425  [HC=0,40;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 ICollection < object ? > IDictionary < object , object ? > . Values     73
-	0,425  [HC=0,40;  HNC=0,00;  I=0,00;  S=1,00;  N=0,00] #
+	0,425  [HC=0,40;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -650,15 +650,15 @@ ICollection < object > IDictionary < object , object ? > . Keys     51
 ICollection < object ? > IDictionary < object , object ? > . Values     73
 	0,704  [HC=0,47;  H=0,51;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 bool ICollection < KeyValuePair < object , object ? > > . IsReadOnly     110
-	0,996  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,996  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 int ICollection < KeyValuePair < object , object ? > > . Count     108
-	0,617  [HC=0,71;  HNC=0,00;  I=0,50;  S=1,00;  N=0,00] #
+	0,617  [HC=0,71;  HNC=0,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00] #
 ICollection < object ? > IDictionary < object , object ? > . Values     73
-	0,395  [HC=0,32;  HNC=0,00;  I=0,00;  S=1,00;  N=0,00] #
+	0,395  [HC=0,32;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 ICollection < object > IDictionary < object , object ? > . Keys     51
-	0,395  [HC=0,32;  HNC=0,00;  I=0,00;  S=1,00;  N=0,00] #
+	0,395  [HC=0,32;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -676,15 +676,15 @@ public CancellationToken ConnectionClosedRequested     43
 public Task ExecutionTask     44
 	0,444  [HC=0,08;  H=0,12;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 protected IKestrelTrace Logger     41
-	0,888  [HC=1,00;  HNC=0,75;  I=1,00;  S=0,95;  N=0,00] *
+	0,888  [HC=1,00;  HNC=0,75;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 public abstract BaseConnectionContext TransportConnection     62
-	0,388  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,00] 
+	0,388  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public CancellationToken ConnectionClosedRequested     43
-	0,335  [HC=0,00;  HNC=0,00;  I=0,60;  S=0,95;  N=0,00] 
+	0,335  [HC=0,00;  HNC=0,00;  I=0,60;  S=0,95;  NN=0,00;  NA=0,00] 
 public Task ExecutionTask     44
-	0,255  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  N=0,00] 
+	0,255  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -702,15 +702,15 @@ public Task ExecutionTask     44
 protected IKestrelTrace Logger     41
 	0,462  [HC=0,11;  H=0,17;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract BaseConnectionContext TransportConnection     62
-	0,842  [HC=1,00;  HNC=0,60;  I=0,60;  S=0,95;  N=0,42] *
+	0,837  [HC=1,00;  HNC=0,60;  I=0,60;  S=0,95;  NN=0,33;  NA=0,00] *
 public CancellationToken ConnectionClosedRequested     43
-	0,478  [HC=0,00;  HNC=0,47;  I=1,00;  S=0,95;  N=0,42] 
+	0,473  [HC=0,00;  HNC=0,47;  I=1,00;  S=0,95;  NN=0,33;  NA=0,00] 
 public Task ExecutionTask     44
-	0,316  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,95;  N=0,42] 
+	0,310  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,95;  NN=0,33;  NA=0,00] 
 protected IKestrelTrace Logger     41
-	0,335  [HC=0,00;  HNC=0,00;  I=0,60;  S=0,95;  N=0,00] #
+	0,335  [HC=0,00;  HNC=0,00;  I=0,60;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -728,15 +728,15 @@ public abstract BaseConnectionContext TransportConnection     62
 protected IKestrelTrace Logger     41
 	0,450  [HC=0,08;  H=0,16;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public CancellationToken ConnectionClosedRequested     43
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 public Task ExecutionTask     44
-	0,355  [HC=0,17;  HNC=0,25;  I=0,00;  S=0,95;  N=0,00] 
+	0,355  [HC=0,17;  HNC=0,25;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public abstract BaseConnectionContext TransportConnection     62
-	0,377  [HC=0,00;  HNC=0,32;  I=0,60;  S=0,95;  N=0,00] #
+	0,377  [HC=0,00;  HNC=0,32;  I=0,60;  S=0,95;  NN=0,00;  NA=0,00] #
 protected IKestrelTrace Logger     41
-	0,335  [HC=0,00;  HNC=0,00;  I=0,60;  S=0,95;  N=0,00] #
+	0,335  [HC=0,00;  HNC=0,00;  I=0,60;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -754,15 +754,15 @@ public abstract BaseConnectionContext TransportConnection     62
 protected IKestrelTrace Logger     41
 	0,447  [HC=0,08;  H=0,15;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public Task ExecutionTask     44
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,988  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=1,00;  NA=0,00] *
 public CancellationToken ConnectionClosedRequested     43
-	0,355  [HC=0,17;  HNC=0,25;  I=0,00;  S=0,95;  N=0,00] #
+	0,355  [HC=0,17;  HNC=0,25;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public abstract BaseConnectionContext TransportConnection     62
-	0,295  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,95;  N=0,00] #
+	0,295  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 protected IKestrelTrace Logger     41
-	0,255  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,255  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -776,11 +776,11 @@ public DateTime Timestamp     12
 public WriteContext Write     13
 	0,493  [HC=0,11;  H=0,45;  I=1,00;  S=0,83] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public DateTime Timestamp     12
-	0,920  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,920  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 public WriteContext Write     13
-	0,420  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] 
+	0,420  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -794,11 +794,11 @@ public WriteContext Write     13
 public DateTime Timestamp     12
 	0,493  [HC=0,11;  H=0,45;  I=1,00;  S=0,83] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public WriteContext Write     13
-	0,987  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=1,00] *
+	0,987  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=1,00;  NA=0,00] *
 public DateTime Timestamp     12
-	0,420  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,420  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -810,9 +810,9 @@ public byte [ ] Array     40
 public byte [ ] PinnedArray     26
 	0,751  [HC=0,45;  H=0,89;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public byte [ ] PinnedArray     26
-	0,775  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  N=0,63] *
+	0,767  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,50;  NA=0,00] *
 
 **************************************************************
 
@@ -836,21 +836,21 @@ public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Fe
 System . IServiceProvider ApplicationServices     134
 	0,536  [HC=0,32;  H=0,31;  I=1,00;  S=0,75] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  N=0,00] *
+	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] *
 public abstract string ? ConnectionId     15
-	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  N=0,00] 
+	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] 
+	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] 
+	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] 
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,279  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,89;  N=0,00] 
+	0,279  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -874,21 +874,21 @@ System . IServiceProvider ApplicationServices     134
 public virtual System . Threading . CancellationToken ConnectionClosed     14
 	0,760  [HC=0,69;  H=0,30;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract string ? ConnectionId     15
-	0,896  [HC=1,00;  HNC=0,95;  I=1,00;  S=0,89;  N=0,00] *
+	0,957  [HC=1,00;  HNC=0,95;  I=1,00;  S=0,89;  NN=0,91;  NA=0,00] *
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] 
-long StreamId     239
-	0,412  [HC=0,50;  HNC=0,00;  I=0,60;  S=0,50;  N=0,00] 
+	0,484  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,91;  NA=0,00] 
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  N=0,00] 
-System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,314  [HC=0,14;  HNC=0,00;  I=0,35;  S=0,79;  N=0,00] 
-System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,314  [HC=0,14;  HNC=0,00;  I=0,35;  S=0,79;  N=0,00] 
+	0,431  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  NN=0,91;  NA=0,00] 
+long StreamId     239
+	0,412  [HC=0,50;  HNC=0,00;  I=0,60;  S=0,50;  NN=0,00;  NA=0,00] 
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,324  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,91;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,324  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,91;  NA=0,00] 
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  N=0,00] #
+	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -912,21 +912,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract string ? ConnectionId     15
 	0,525  [HC=0,17;  H=0,21;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  N=0,00] *
+	0,966  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  NN=0,93;  NA=0,00] *
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,374  [HC=0,00;  HNC=0,42;  I=0,60;  S=0,89;  N=0,00] 
+	0,436  [HC=0,00;  HNC=0,42;  I=0,60;  S=0,89;  NN=0,93;  NA=0,00] 
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,336  [HC=0,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,93;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,336  [HC=0,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,93;  NA=0,00] 
 System . Net . EndPoint EndPoint     144
-	0,321  [HC=0,00;  HNC=0,08;  I=1,00;  S=0,67;  N=0,00] 
+	0,321  [HC=0,00;  HNC=0,08;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 System . IServiceProvider ApplicationServices     134
-	0,320  [HC=0,00;  HNC=0,07;  I=1,00;  S=0,67;  N=0,00] 
-System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,291  [HC=0,06;  HNC=0,08;  I=0,35;  S=0,79;  N=0,00] 
-bool CanRead     234
-	0,279  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,55;  N=0,00] 
+	0,320  [HC=0,00;  HNC=0,07;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public abstract string ? ConnectionId     15
-	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  N=0,00] #
+	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -950,21 +950,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract string ? ConnectionId     15
 	0,484  [HC=0,08;  H=0,18;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,902  [HC=1,00;  HNC=0,98;  I=1,00;  S=0,89;  N=0,00] *
+	0,965  [HC=1,00;  HNC=0,98;  I=1,00;  S=0,89;  NN=0,96;  NA=0,00] *
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,340  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  NN=0,96;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,340  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  NN=0,96;  NA=0,00] 
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  N=0,00] 
+	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  NN=0,00;  NA=0,00] 
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  N=0,00] 
-System . IServiceProvider ApplicationServices     134
-	0,280  [HC=0,00;  HNC=0,17;  I=0,60;  S=0,67;  N=0,00] 
+	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  NN=0,00;  NA=0,00] 
 public abstract string ? ConnectionId     15
-	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] #
+	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,392  [HC=0,00;  HNC=0,56;  I=0,60;  S=0,89;  N=0,00] #
-public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,276  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  N=0,00] #
+	0,392  [HC=0,00;  HNC=0,56;  I=0,60;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -988,21 +988,21 @@ public abstract string ? ConnectionId     15
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
 	0,502  [HC=0,08;  H=0,32;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,902  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] *
+	0,967  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,98;  NA=0,00] *
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] 
+	0,834  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,98;  NA=0,00] 
 System . Net . EndPoint EndPoint     144
-	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  N=0,00] 
+	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] #
+	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  N=0,00] #
+	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] #
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1026,21 +1026,21 @@ public abstract System . Collections . Generic . IDictionary < object , object ?
 public abstract string ? ConnectionId     15
 	0,511  [HC=0,14;  H=0,19;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,902  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] *
+	0,969  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  NN=1,00;  NA=0,00] *
 System . Net . EndPoint EndPoint     144
-	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  N=0,00] 
+	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] #
+	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] #
+	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  N=0,00] #
+	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] #
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1064,21 +1064,21 @@ public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Fe
 System . IServiceProvider ApplicationServices     134
 	0,536  [HC=0,32;  H=0,31;  I=1,00;  S=0,75] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  N=0,00] *
+	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] *
 public abstract string ? ConnectionId     15
-	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  N=0,00] 
+	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] 
+	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] 
+	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] 
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,279  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,89;  N=0,00] 
+	0,279  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1102,21 +1102,21 @@ System . IServiceProvider ApplicationServices     134
 public virtual System . Threading . CancellationToken ConnectionClosed     14
 	0,760  [HC=0,69;  H=0,30;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract string ? ConnectionId     15
-	0,896  [HC=1,00;  HNC=0,95;  I=1,00;  S=0,89;  N=0,00] *
+	0,957  [HC=1,00;  HNC=0,95;  I=1,00;  S=0,89;  NN=0,91;  NA=0,00] *
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] 
-long StreamId     239
-	0,412  [HC=0,50;  HNC=0,00;  I=0,60;  S=0,50;  N=0,00] 
+	0,484  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,91;  NA=0,00] 
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  N=0,00] 
-System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,314  [HC=0,14;  HNC=0,00;  I=0,35;  S=0,79;  N=0,00] 
-System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,314  [HC=0,14;  HNC=0,00;  I=0,35;  S=0,79;  N=0,00] 
+	0,431  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  NN=0,91;  NA=0,00] 
+long StreamId     239
+	0,412  [HC=0,50;  HNC=0,00;  I=0,60;  S=0,50;  NN=0,00;  NA=0,00] 
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,324  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,91;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,324  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,91;  NA=0,00] 
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  N=0,00] #
+	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1140,21 +1140,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract string ? ConnectionId     15
 	0,525  [HC=0,17;  H=0,21;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  N=0,00] *
+	0,966  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  NN=0,93;  NA=0,00] *
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,374  [HC=0,00;  HNC=0,42;  I=0,60;  S=0,89;  N=0,00] 
+	0,436  [HC=0,00;  HNC=0,42;  I=0,60;  S=0,89;  NN=0,93;  NA=0,00] 
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,336  [HC=0,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,93;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,336  [HC=0,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,93;  NA=0,00] 
 System . Net . EndPoint EndPoint     144
-	0,321  [HC=0,00;  HNC=0,08;  I=1,00;  S=0,67;  N=0,00] 
+	0,321  [HC=0,00;  HNC=0,08;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 System . IServiceProvider ApplicationServices     134
-	0,320  [HC=0,00;  HNC=0,07;  I=1,00;  S=0,67;  N=0,00] 
-System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,291  [HC=0,06;  HNC=0,08;  I=0,35;  S=0,79;  N=0,00] 
-bool CanRead     234
-	0,279  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,55;  N=0,00] 
+	0,320  [HC=0,00;  HNC=0,07;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public abstract string ? ConnectionId     15
-	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  N=0,00] #
+	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1178,21 +1178,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract string ? ConnectionId     15
 	0,484  [HC=0,08;  H=0,18;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,902  [HC=1,00;  HNC=0,98;  I=1,00;  S=0,89;  N=0,00] *
+	0,965  [HC=1,00;  HNC=0,98;  I=1,00;  S=0,89;  NN=0,96;  NA=0,00] *
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,340  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  NN=0,96;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,340  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  NN=0,96;  NA=0,00] 
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  N=0,00] 
+	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  NN=0,00;  NA=0,00] 
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  N=0,00] 
-System . IServiceProvider ApplicationServices     134
-	0,280  [HC=0,00;  HNC=0,17;  I=0,60;  S=0,67;  N=0,00] 
+	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  NN=0,00;  NA=0,00] 
 public abstract string ? ConnectionId     15
-	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] #
+	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,392  [HC=0,00;  HNC=0,56;  I=0,60;  S=0,89;  N=0,00] #
-public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,276  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  N=0,00] #
+	0,392  [HC=0,00;  HNC=0,56;  I=0,60;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1216,21 +1216,21 @@ public abstract string ? ConnectionId     15
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
 	0,502  [HC=0,08;  H=0,32;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,902  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] *
+	0,967  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,98;  NA=0,00] *
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] 
+	0,834  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,98;  NA=0,00] 
 System . Net . EndPoint EndPoint     144
-	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  N=0,00] 
+	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] #
+	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  N=0,00] #
+	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] #
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1254,21 +1254,21 @@ public abstract System . Collections . Generic . IDictionary < object , object ?
 public abstract string ? ConnectionId     15
 	0,511  [HC=0,14;  H=0,19;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,902  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] *
+	0,969  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  NN=1,00;  NA=0,00] *
 System . Net . EndPoint EndPoint     144
-	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  N=0,00] 
+	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] #
+	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] #
+	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  N=0,00] #
+	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] #
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1292,21 +1292,21 @@ public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Fe
 System . IServiceProvider ApplicationServices     134
 	0,536  [HC=0,32;  H=0,31;  I=1,00;  S=0,75] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  N=0,00] *
+	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] *
 public abstract string ? ConnectionId     15
-	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  N=0,00] 
+	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] 
+	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] 
+	0,446  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] 
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,279  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,89;  N=0,00] 
+	0,279  [HC=0,00;  HNC=0,31;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1330,21 +1330,21 @@ System . IServiceProvider ApplicationServices     134
 public virtual System . Threading . CancellationToken ConnectionClosed     14
 	0,760  [HC=0,69;  H=0,30;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract string ? ConnectionId     15
-	0,896  [HC=1,00;  HNC=0,95;  I=1,00;  S=0,89;  N=0,00] *
+	0,957  [HC=1,00;  HNC=0,95;  I=1,00;  S=0,89;  NN=0,91;  NA=0,00] *
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] 
-long StreamId     239
-	0,412  [HC=0,50;  HNC=0,00;  I=0,60;  S=0,50;  N=0,00] 
+	0,484  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,91;  NA=0,00] 
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  N=0,00] 
-System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,314  [HC=0,14;  HNC=0,00;  I=0,35;  S=0,79;  N=0,00] 
-System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,314  [HC=0,14;  HNC=0,00;  I=0,35;  S=0,79;  N=0,00] 
+	0,431  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  NN=0,91;  NA=0,00] 
+long StreamId     239
+	0,412  [HC=0,50;  HNC=0,00;  I=0,60;  S=0,50;  NN=0,00;  NA=0,00] 
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,324  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,91;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,324  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,91;  NA=0,00] 
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  N=0,00] #
+	0,464  [HC=0,50;  HNC=0,20;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1368,21 +1368,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract string ? ConnectionId     15
 	0,525  [HC=0,17;  H=0,21;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,904  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  N=0,00] *
+	0,966  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  NN=0,93;  NA=0,00] *
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,374  [HC=0,00;  HNC=0,42;  I=0,60;  S=0,89;  N=0,00] 
+	0,436  [HC=0,00;  HNC=0,42;  I=0,60;  S=0,89;  NN=0,93;  NA=0,00] 
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,336  [HC=0,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,93;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,336  [HC=0,00;  HNC=0,28;  I=0,00;  S=0,89;  NN=0,93;  NA=0,00] 
 System . Net . EndPoint EndPoint     144
-	0,321  [HC=0,00;  HNC=0,08;  I=1,00;  S=0,67;  N=0,00] 
+	0,321  [HC=0,00;  HNC=0,08;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 System . IServiceProvider ApplicationServices     134
-	0,320  [HC=0,00;  HNC=0,07;  I=1,00;  S=0,67;  N=0,00] 
-System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,291  [HC=0,06;  HNC=0,08;  I=0,35;  S=0,79;  N=0,00] 
-bool CanRead     234
-	0,279  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,55;  N=0,00] 
+	0,320  [HC=0,00;  HNC=0,07;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public abstract string ? ConnectionId     15
-	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  N=0,00] #
+	0,370  [HC=0,00;  HNC=0,40;  I=0,60;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1406,21 +1406,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract string ? ConnectionId     15
 	0,484  [HC=0,08;  H=0,18;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,902  [HC=1,00;  HNC=0,98;  I=1,00;  S=0,89;  N=0,00] *
+	0,965  [HC=1,00;  HNC=0,98;  I=1,00;  S=0,89;  NN=0,96;  NA=0,00] *
+public virtual System . Net . EndPoint ? LocalEndPoint     18
+	0,340  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  NN=0,96;  NA=0,00] 
+public virtual System . Net . EndPoint ? RemoteEndPoint     19
+	0,340  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  NN=0,96;  NA=0,00] 
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  N=0,00] 
+	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  NN=0,00;  NA=0,00] 
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  N=0,00] 
-System . IServiceProvider ApplicationServices     134
-	0,280  [HC=0,00;  HNC=0,17;  I=0,60;  S=0,67;  N=0,00] 
+	0,316  [HC=0,00;  HNC=0,43;  I=0,35;  S=0,79;  NN=0,00;  NA=0,00] 
 public abstract string ? ConnectionId     15
-	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] #
+	0,424  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,392  [HC=0,00;  HNC=0,56;  I=0,60;  S=0,89;  N=0,00] #
-public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,276  [HC=0,00;  HNC=0,29;  I=0,00;  S=0,89;  N=0,00] #
+	0,392  [HC=0,00;  HNC=0,56;  I=0,60;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1444,21 +1444,21 @@ public abstract string ? ConnectionId     15
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
 	0,502  [HC=0,08;  H=0,32;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,902  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] *
+	0,967  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,98;  NA=0,00] *
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] 
+	0,834  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,98;  NA=0,00] 
 System . Net . EndPoint EndPoint     144
-	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  N=0,00] 
+	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] #
+	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  N=0,00] #
+	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] #
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1482,21 +1482,21 @@ public abstract System . Collections . Generic . IDictionary < object , object ?
 public abstract string ? ConnectionId     15
 	0,511  [HC=0,14;  H=0,19;  I=1,00;  S=0,98] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual System . Net . EndPoint ? RemoteEndPoint     19
-	0,902  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] *
+	0,969  [HC=1,00;  HNC=0,99;  I=1,00;  S=0,89;  NN=1,00;  NA=0,00] *
 System . Net . EndPoint EndPoint     144
-	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  N=0,00] 
+	0,524  [HC=0,67;  HNC=0,60;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
 public System . IServiceProvider ApplicationServices     155
-	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  N=0,00] 
+	0,366  [HC=0,00;  HNC=0,36;  I=0,91;  S=0,74;  NN=0,00;  NA=0,00] 
 public virtual System . Net . EndPoint ? LocalEndPoint     18
-	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  N=0,00] #
+	0,769  [HC=0,67;  HNC=0,99;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public virtual System . Threading . CancellationToken ConnectionClosed     14
-	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  N=0,00] #
+	0,447  [HC=0,00;  HNC=0,57;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  N=0,00] #
+	0,288  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  N=0,00] #
+	0,284  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1516,17 +1516,17 @@ public bool PreserveMatchedPathSegment     71
 public int StatusCode     106
 	0,406  [HC=0,06;  H=0,03;  I=1,00;  S=0,82] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < string , object ? > > . IsReadOnly     516
-	0,946  [HC=0,86;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,944  [HC=0,86;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] *
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , object ? > . Keys     517
-	0,598  [HC=0,33;  HNC=0,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,596  [HC=0,33;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 System . Collections . Generic . IEnumerable < object ? > System . Collections . Generic . IReadOnlyDictionary < string , object ? > . Values     518
-	0,598  [HC=0,33;  HNC=0,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,596  [HC=0,33;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 public bool PreserveMatchedPathSegment     71
-	0,236  [HC=0,03;  HNC=0,75;  I=0,00;  S=0,47;  N=0,00] 
+	0,236  [HC=0,03;  HNC=0,75;  I=0,00;  S=0,47;  NN=0,00;  NA=0,00] 
 public int StatusCode     106
-	0,144  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,54;  N=0,00] 
+	0,144  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,54;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1548,19 +1548,19 @@ public Microsoft . AspNetCore . Mvc . ModelBinding . EmptyBodyBehavior EmptyBody
 public Microsoft . AspNetCore . Mvc . ModelBinding . BindingInfo ? BindingInfo     163
 	0,444  [HC=0,07;  H=0,25;  I=1,00;  S=0,83] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Keys     728
-	0,976  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,976  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Values     729
-	0,870  [HC=0,89;  HNC=0,35;  I=1,00;  S=1,00;  N=1,00] 
+	0,870  [HC=0,89;  HNC=0,35;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] 
 System . Collections . Generic . IEnumerable < object > System . Collections . Generic . IReadOnlyDictionary < object , Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > . Keys     1015
-	0,799  [HC=0,84;  HNC=0,85;  I=1,00;  S=0,81;  N=0,00] 
+	0,799  [HC=0,84;  HNC=0,85;  I=1,00;  S=0,81;  NN=0,00;  NA=0,00] 
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > System . Collections . Generic . IReadOnlyDictionary < object , Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > . Values     1016
-	0,710  [HC=0,79;  HNC=0,32;  I=1,00;  S=0,81;  N=0,00] 
+	0,710  [HC=0,79;  HNC=0,32;  I=1,00;  S=0,81;  NN=0,00;  NA=0,00] 
 public Microsoft . AspNetCore . Mvc . ModelBinding . EmptyBodyBehavior EmptyBodyBehavior     467
-	0,206  [HC=0,00;  HNC=0,27;  I=0,00;  S=0,64;  N=0,00] 
+	0,206  [HC=0,00;  HNC=0,27;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public Microsoft . AspNetCore . Mvc . ModelBinding . BindingInfo ? BindingInfo     163
-	0,183  [HC=0,05;  HNC=0,23;  I=0,00;  S=0,50;  N=0,00] 
+	0,183  [HC=0,05;  HNC=0,23;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1582,19 +1582,19 @@ public Microsoft . AspNetCore . Mvc . ModelBinding . BindingInfo ? BindingInfo  
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Keys     728
 	0,918  [HC=0,90;  H=0,72;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Values     729
-	0,976  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,976  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > System . Collections . Generic . IReadOnlyDictionary < object , Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > . Values     1016
-	0,803  [HC=0,84;  HNC=0,88;  I=1,00;  S=0,81;  N=0,00] 
+	0,803  [HC=0,84;  HNC=0,88;  I=1,00;  S=0,81;  NN=0,00;  NA=0,00] 
 System . Collections . Generic . IEnumerable < object > System . Collections . Generic . IReadOnlyDictionary < object , Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > . Keys     1015
-	0,713  [HC=0,79;  HNC=0,35;  I=1,00;  S=0,81;  N=0,00] 
+	0,713  [HC=0,79;  HNC=0,35;  I=1,00;  S=0,81;  NN=0,00;  NA=0,00] 
 public Microsoft . AspNetCore . Mvc . ModelBinding . EmptyBodyBehavior EmptyBodyBehavior     467
-	0,216  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,64;  N=0,00] 
+	0,216  [HC=0,00;  HNC=0,35;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public Microsoft . AspNetCore . Mvc . ModelBinding . BindingInfo ? BindingInfo     163
-	0,199  [HC=0,05;  HNC=0,35;  I=0,00;  S=0,50;  N=0,00] 
+	0,199  [HC=0,05;  HNC=0,35;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00] 
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Keys     728
-	0,803  [HC=0,89;  HNC=0,35;  I=1,00;  S=1,00;  N=0,00] #
+	0,803  [HC=0,89;  HNC=0,35;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1616,19 +1616,19 @@ System . Collections . Generic . IEnumerable < string > System . Collections . G
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Values     729
 	0,791  [HC=0,74;  H=0,62;  I=1,00;  S=0,84] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . IEnumerable < object > System . Collections . Generic . IReadOnlyDictionary < object , Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > . Keys     1015
-	0,977  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,977  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > System . Collections . Generic . IReadOnlyDictionary < object , Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > . Values     1016
-	0,869  [HC=0,90;  HNC=0,32;  I=1,00;  S=1,00;  N=1,00] 
+	0,869  [HC=0,90;  HNC=0,32;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] 
 public Microsoft . AspNetCore . Mvc . ModelBinding . EmptyBodyBehavior EmptyBodyBehavior     467
-	0,188  [HC=0,00;  HNC=0,27;  I=0,00;  S=0,57;  N=0,00] 
+	0,188  [HC=0,00;  HNC=0,27;  I=0,00;  S=0,57;  NN=0,00;  NA=0,00] 
 public Microsoft . AspNetCore . Mvc . ModelBinding . BindingInfo ? BindingInfo     163
-	0,169  [HC=0,04;  HNC=0,23;  I=0,00;  S=0,45;  N=0,00] 
+	0,169  [HC=0,04;  HNC=0,23;  I=0,00;  S=0,45;  NN=0,00;  NA=0,00] 
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Keys     728
-	0,788  [HC=0,81;  HNC=0,85;  I=1,00;  S=0,81;  N=0,00] #
+	0,788  [HC=0,81;  HNC=0,85;  I=1,00;  S=0,81;  NN=0,00;  NA=0,00] #
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Values     729
-	0,703  [HC=0,77;  HNC=0,35;  I=1,00;  S=0,81;  N=0,00] #
+	0,703  [HC=0,77;  HNC=0,35;  I=1,00;  S=0,81;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1650,19 +1650,19 @@ System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . Mo
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Keys     728
 	0,794  [HC=0,75;  H=0,63;  I=1,00;  S=0,84] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > System . Collections . Generic . IReadOnlyDictionary < object , Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > . Values     1016
-	0,977  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,977  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 public Microsoft . AspNetCore . Mvc . ModelBinding . EmptyBodyBehavior EmptyBodyBehavior     467
-	0,196  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,57;  N=0,00] 
+	0,196  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,57;  NN=0,00;  NA=0,00] 
 public Microsoft . AspNetCore . Mvc . ModelBinding . BindingInfo ? BindingInfo     163
-	0,182  [HC=0,04;  HNC=0,33;  I=0,00;  S=0,45;  N=0,00] 
+	0,182  [HC=0,04;  HNC=0,33;  I=0,00;  S=0,45;  NN=0,00;  NA=0,00] 
 System . Collections . Generic . IEnumerable < object > System . Collections . Generic . IReadOnlyDictionary < object , Microsoft . AspNetCore . Mvc . ModelBinding . Validation . ValidationStateEntry > . Keys     1015
-	0,802  [HC=0,90;  HNC=0,32;  I=1,00;  S=1,00;  N=0,00] #
+	0,802  [HC=0,90;  HNC=0,32;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 System . Collections . Generic . IEnumerable < Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Values     729
-	0,792  [HC=0,81;  HNC=0,88;  I=1,00;  S=0,81;  N=0,00] #
+	0,792  [HC=0,81;  HNC=0,88;  I=1,00;  S=0,81;  NN=0,00;  NA=0,00] #
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , Microsoft . AspNetCore . Mvc . ModelBinding . ModelStateEntry > . Keys     728
-	0,700  [HC=0,77;  HNC=0,32;  I=1,00;  S=0,81;  N=0,00] #
+	0,700  [HC=0,77;  HNC=0,32;  I=1,00;  S=0,81;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1674,9 +1674,9 @@ private bool IsHttp2     60
 private bool IsSupportedProtocol     60
 	0,624  [HC=0,21;  H=0,74;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private bool IsSupportedProtocol     60
-	0,600  [HC=0,33;  HNC=1,00;  I=0,00;  S=1,00;  N=1,00] *
+	0,650  [HC=0,33;  HNC=1,00;  I=0,37;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -1690,11 +1690,11 @@ public Dictionary < string , object > CaptureUnmatchedValuesProp1     635
 public IDictionary < string , object > CaptureUnmatchedValuesProp2     636
 	0,981  [HC=0,96;  H=0,98;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public Dictionary < string , object > CaptureUnmatchedValuesProp1     635
-	0,999  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,99;  N=1,00] *
+	0,996  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,99;  NN=0,96;  NA=0,00] *
 public IDictionary < string , object > CaptureUnmatchedValuesProp2     636
-	0,895  [HC=0,80;  HNC=0,83;  I=1,00;  S=0,99;  N=1,00] 
+	0,893  [HC=0,80;  HNC=0,83;  I=1,00;  S=0,99;  NN=0,96;  NA=0,00] 
 
 **************************************************************
 
@@ -1708,11 +1708,11 @@ public IDictionary < string , object > CaptureUnmatchedValuesProp2     636
 public Dictionary < string , object > CaptureUnmatchedValuesProp1     635
 	0,981  [HC=0,96;  H=0,98;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public IDictionary < string , object > CaptureUnmatchedValuesProp2     636
-	0,999  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,99;  N=1,00] *
+	0,999  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,99;  NN=1,00;  NA=0,00] *
 public Dictionary < string , object > CaptureUnmatchedValuesProp1     635
-	0,829  [HC=0,80;  HNC=0,83;  I=1,00;  S=0,99;  N=0,00] #
+	0,829  [HC=0,80;  HNC=0,83;  I=1,00;  S=0,99;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1724,9 +1724,9 @@ public static int StaticActivatablProperty     155
 public static int StaticActivatableProperty     155
 	0,981  [HC=0,96;  H=0,99;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public static int StaticActivatableProperty     155
-	0,988  [HC=0,97;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,988  [HC=0,97;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -1742,13 +1742,13 @@ IEnumerable < string > IReadOnlyDictionary < string , object ? > . Keys     238
 IEnumerable < object ? > IReadOnlyDictionary < string , object ? > . Values     258
 	0,674  [HC=0,41;  H=0,48;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 bool ICollection < KeyValuePair < string , object ? > > . IsReadOnly     218
-	0,996  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,996  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 IEnumerable < object ? > IReadOnlyDictionary < string , object ? > . Values     258
-	0,484  [HC=0,32;  HNC=0,00;  I=0,67;  S=1,00;  N=0,00] 
+	0,484  [HC=0,32;  HNC=0,00;  I=0,67;  S=1,00;  NN=0,00;  NA=0,00] 
 IEnumerable < string > IReadOnlyDictionary < string , object ? > . Keys     238
-	0,462  [HC=0,32;  HNC=0,00;  I=0,50;  S=1,00;  N=0,00] 
+	0,462  [HC=0,32;  HNC=0,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1764,13 +1764,13 @@ IEnumerable < object ? > IReadOnlyDictionary < string , object ? > . Values     
 bool ICollection < KeyValuePair < string , object ? > > . IsReadOnly     218
 	0,662  [HC=0,40;  H=0,42;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 IEnumerable < string > IReadOnlyDictionary < string , object ? > . Keys     238
-	0,995  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,995  [HC=0,99;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 IEnumerable < object ? > IReadOnlyDictionary < string , object ? > . Values     258
-	0,756  [HC=0,85;  HNC=0,67;  I=0,44;  S=1,00;  N=0,00] 
+	0,756  [HC=0,85;  HNC=0,67;  I=0,44;  S=1,00;  NN=0,00;  NA=0,00] 
 bool ICollection < KeyValuePair < string , object ? > > . IsReadOnly     218
-	0,550  [HC=0,54;  HNC=0,00;  I=0,50;  S=1,00;  N=0,00] #
+	0,550  [HC=0,54;  HNC=0,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1786,13 +1786,13 @@ IEnumerable < string > IReadOnlyDictionary < string , object ? > . Keys     238
 bool ICollection < KeyValuePair < string , object ? > > . IsReadOnly     218
 	0,665  [HC=0,40;  H=0,44;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 IEnumerable < object ? > IReadOnlyDictionary < string , object ? > . Values     258
-	0,991  [HC=0,99;  HNC=0,97;  I=1,00;  S=1,00;  N=1,00] *
+	0,991  [HC=0,99;  HNC=0,97;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 IEnumerable < string > IReadOnlyDictionary < string , object ? > . Keys     238
-	0,759  [HC=0,85;  HNC=0,69;  I=0,44;  S=1,00;  N=0,00] #
+	0,759  [HC=0,85;  HNC=0,69;  I=0,44;  S=1,00;  NN=0,00;  NA=0,00] #
 bool ICollection < KeyValuePair < string , object ? > > . IsReadOnly     218
-	0,572  [HC=0,54;  HNC=0,00;  I=0,67;  S=1,00;  N=0,00] #
+	0,572  [HC=0,54;  HNC=0,00;  I=0,67;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1806,11 +1806,11 @@ private static ReadOnlySpan < byte > DataPrefix     19
 private static ReadOnlySpan < byte > SseLineEnding     20
 	0,619  [HC=0,15;  H=0,87;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static ReadOnlySpan < byte > DataPrefix     19
-	0,883  [HC=0,88;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] *
+	0,883  [HC=0,88;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] *
 private static ReadOnlySpan < byte > SseLineEnding     20
-	0,400  [HC=0,00;  HNC=1,00;  I=0,00;  S=1,00;  N=0,00] 
+	0,457  [HC=0,00;  HNC=1,00;  I=0,43;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1824,11 +1824,11 @@ private static ReadOnlySpan < byte > SseLineEnding     20
 private static ReadOnlySpan < byte > DataPrefix     19
 	0,620  [HC=0,15;  H=0,88;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static ReadOnlySpan < byte > SseLineEnding     20
-	0,956  [HC=0,89;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,956  [HC=0,89;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 private static ReadOnlySpan < byte > DataPrefix     19
-	0,400  [HC=0,00;  HNC=1,00;  I=0,00;  S=1,00;  N=0,00] #
+	0,457  [HC=0,00;  HNC=1,00;  I=0,43;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1840,9 +1840,9 @@ public bool IsCompleted     28
 public bool IsCompleted     29
 	0,964  [HC=1,00;  H=1,00;  I=1,00;  S=0,88] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public bool IsCompleted     29
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 
 **************************************************************
 

@@ -1,0 +1,54 @@
+AddParameterCheckTests.cs skipped...
+
+Total count: 3216
+Total marked: 2104
+Simple rebinding: 2072
+Modified only auto: 0
+Basic only auto: 0
+Same auto: 17
+Different auto: 0
+Same first: 15
+Different first: 0
+Different first when modified auto: 0
+Identical candidates: 2
+'class_struct_interface' done!
+
+Total count: 43678
+Total marked: 6749
+Simple rebinding: 5665
+Modified only auto: 79
+Basic only auto: 31
+Same auto: 514
+Different auto: 4
+Same first: 366
+Different first: 90
+Overloaded methods when modified auto: 49
+Different first when modified auto: 7
+Identical candidates: 0
+'method' done!
+
+Total count: 7002
+Total marked: 468
+Simple rebinding: 199
+Modified only auto: 14
+Basic only auto: 11
+Same auto: 72
+Different auto: 0
+Same first: 146
+Different first: 26
+Different first when modified auto: 0
+Identical candidates: 0
+'field' done!
+
+Total count: 7131
+Total marked: 339
+Simple rebinding: 207
+Modified only auto: 1
+Basic only auto: 2
+Same auto: 35
+Different auto: 0
+Same first: 89
+Different first: 5
+Different first when modified auto: 0
+Identical candidates: 0
+'property' done!

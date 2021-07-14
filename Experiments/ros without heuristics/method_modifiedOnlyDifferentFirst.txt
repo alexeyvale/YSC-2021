@@ -1,0 +1,218 @@
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\AbstractRecommendationServiceRunner.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\AbstractRecommendationServiceRunner.cs
+*
+public abstract ImmutableArray < ISymbol > GetSymbols ( )     40
+*
+protected ImmutableArray < ISymbol > GetMemberSymbols ( ISymbol container , int position , bool excludeInstance , bool useBaseReferenceAccessibility )     298
+	0,740  [HC=0,63;  H=0,31;  I=1,00;  S=1,00] 
+public abstract RecommendedSymbols GetRecommendedSymbols ( )     40
+	0,709  [HC=0,48;  H=0,53;  I=1,00;  S=1,00] 
+private ImmutableArray < ISymbol > GetMemberSymbolsForParameter ( IParameterSymbol parameter , int position , bool useBaseReferenceAccessibility )     47
+	0,631  [HC=0,36;  H=0,34;  I=1,00;  S=1,00] 
+private ImmutableArray < ISymbol > TryGetMemberSymbolsForLambdaParameter ( IParameterSymbol parameter , int position )     55
+	0,604  [HC=0,27;  H=0,42;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public abstract RecommendedSymbols GetRecommendedSymbols ( )     40
+	0,845  [HC=0,67;  HNC=0,84;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+protected ImmutableArray < ISymbol > GetMemberSymbols ( ISymbol container , int position , bool excludeInstance , bool useBaseReferenceAccessibility )     298
+	0,561  [HC=0,67;  HNC=0,21;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+private ImmutableArray < ISymbol > GetMemberSymbolsForParameter ( IParameterSymbol parameter , int position , bool useBaseReferenceAccessibility )     47
+	0,455  [HC=0,40;  HNC=0,21;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+private ImmutableArray < ISymbol > TryGetMemberSymbolsForLambdaParameter ( IParameterSymbol parameter , int position )     55
+	0,410  [HC=0,29;  HNC=0,22;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\BackgroundCompiler.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\BackgroundCompiler.cs
+*
+private Task BuildCompilationsAsync ( Solution solution , ProjectId initialProject , ISet < ProjectId > projectsToBuild , CancellationToken cancellationToken )     139
+*
+private Task BuildCompilationsAsync ( Solution solution , ProjectId initialProject , ISet < ProjectId > allOpenProjects , ProjectId activeProject )     130
+	0,981  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+private Task BuildCompilationsAsync ( Solution solution , ProjectId initialProject , ISet < ProjectId > projectsToBuild , ProjectId activeProject , CancellationToken cancellationToken )     143
+	0,981  [HC=1,00;  H=0,86;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private Task BuildCompilationsAsync ( Solution solution , ProjectId initialProject , ISet < ProjectId > projectsToBuild , ProjectId activeProject , CancellationToken cancellationToken )     143
+	0,968  [HC=1,00;  HNC=0,87;  I=0,90;  S=1,00;  NN=1,00;  NA=0,00] *
+private Task BuildCompilationsAsync ( Solution solution , ProjectId initialProject , ISet < ProjectId > allOpenProjects , ProjectId activeProject )     130
+	0,815  [HC=1,00;  HNC=0,72;  I=0,39;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\CSharpRecommendationServiceRunner.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\CSharpRecommendationServiceRunner.cs
+*
+public override ImmutableArray < ISymbol > GetSymbols ( )     31
+*
+private ImmutableArray < ISymbol > GetUnnamedSymbols ( ExpressionSyntax originalExpression )     507
+	0,727  [HC=0,59;  H=0,57;  I=1,00;  S=0,88] 
+public override RecommendedSymbols GetRecommendedSymbols ( )     30
+	0,673  [HC=0,48;  H=0,53;  I=1,00;  S=0,88] 
+private ImmutableArray < ISymbol > GetSymbolsForLabelContext ( )     183
+	0,668  [HC=0,40;  H=0,73;  I=1,00;  S=0,88] #
+private ImmutableArray < ISymbol > GetSymbolsForCurrentContext ( )     65
+	0,655  [HC=0,37;  H=0,72;  I=1,00;  S=0,88] #
+private RecommendedSymbols GetSymbolsOffOfName ( NameSyntax name )     250
+	0,646  [HC=0,53;  H=0,20;  I=1,00;  S=0,88] #
+private RecommendedSymbols GetSymbolsOffOffAlias ( IdentifierNameSyntax alias )     172
+	0,625  [HC=0,48;  H=0,19;  I=1,00;  S=0,88] #
+private RecommendedSymbols GetSymbolsOffOfContainer ( )     106
+	0,617  [HC=0,42;  H=0,32;  I=1,00;  S=0,88] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public override RecommendedSymbols GetRecommendedSymbols ( )     30
+	0,806  [HC=0,67;  HNC=0,84;  I=0,79;  S=0,95;  NN=1,00;  NA=0,00] *
+private ImmutableArray < ISymbol > GetUnnamedSymbols ( ExpressionSyntax originalExpression )     507
+	0,552  [HC=0,67;  HNC=0,23;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
+private ImmutableArray < ISymbol > GetSymbolsForCurrentContext ( )     65
+	0,590  [HC=0,40;  HNC=0,87;  I=0,45;  S=0,95;  NN=0,00;  NA=0,00] #
+private ImmutableArray < ISymbol > GetSymbolsForLabelContext ( )     183
+	0,574  [HC=0,40;  HNC=0,87;  I=0,33;  S=0,95;  NN=0,00;  NA=0,00] #
+private ImmutableArray < ISymbol > GetSymbolsForTypeOrNamespaceContext ( )     194
+	0,541  [HC=0,29;  HNC=0,87;  I=0,43;  S=0,95;  NN=0,00;  NA=0,00] #
+private RecommendedSymbols GetSymbolsOffOfContainer ( )     106
+	0,509  [HC=0,40;  HNC=0,71;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private ImmutableArray < ISymbol > GetSymbolsForTypeArgumentOfConstraintClause ( )     157
+	0,506  [HC=0,25;  HNC=0,87;  I=0,27;  S=0,95;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\NullableContextTests.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\NullableContextTests.cs
+*
+public void AnalyzeMethodsInEnabledContextOnly_01 ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     498
+*
+public void AnalyzeMethodsInEnabledContextOnly_01A ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     518
+	0,988  [HC=0,97;  H=1,00;  I=1,00;  S=1,00] 
+public void AnalyzeMethodsInEnabledContextOnly_01B ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     526
+	0,988  [HC=0,97;  H=1,00;  I=1,00;  S=1,00] 
+private static void AnalyzeMethodsInEnabledContextOnly_01_Execute ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     534
+	0,913  [HC=0,84;  H=0,88;  I=1,00;  S=1,00] 
+public static IEnumerable < object [ ] > AnalyzeMethodsInEnabledContextOnly_01_Data1 ( )     477
+	0,833  [HC=0,88;  H=0,20;  I=1,00;  S=1,00] 
+public static IEnumerable < object [ ] > AnalyzeMethodsInEnabledContextOnly_01_Data2 ( )     497
+	0,833  [HC=0,88;  H=0,20;  I=1,00;  S=1,00] 
+public void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_A ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2175
+	0,806  [HC=0,58;  H=0,91;  I=1,00;  S=1,00] 
+public void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_B ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2183
+	0,806  [HC=0,58;  H=0,91;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private static void AnalyzeMethodsInEnabledContextOnly_01_Execute ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     534
+	0,929  [HC=0,88;  HNC=0,87;  I=0,99;  S=1,00;  NN=0,98;  NA=0,00] *
+public void AnalyzeMethodsInEnabledContextOnly_01A ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     518
+	0,815  [HC=0,88;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,98;  NA=0,00] 
+public void AnalyzeMethodsInEnabledContextOnly_01B ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     526
+	0,815  [HC=0,88;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,98;  NA=0,00] 
+private static void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_Execute ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2191
+	0,685  [HC=0,60;  HNC=0,77;  I=0,57;  S=1,00;  NN=0,00;  NA=0,00] 
+public static IEnumerable < object [ ] > AnalyzeMethodsInEnabledContextOnly_01_Data1 ( )     477
+	0,653  [HC=0,78;  HNC=0,08;  I=0,00;  S=1,00;  NN=0,98;  NA=0,00] 
+public static IEnumerable < object [ ] > AnalyzeMethodsInEnabledContextOnly_01_Data2 ( )     497
+	0,653  [HC=0,78;  HNC=0,08;  I=0,00;  S=1,00;  NN=0,98;  NA=0,00] 
+public void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_A ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2175
+	0,626  [HC=0,60;  HNC=0,89;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\NullableContextTests.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\NullableContextTests.cs
+*
+public void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2142
+*
+public void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_A ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2175
+	0,992  [HC=0,98;  H=1,00;  I=1,00;  S=1,00] 
+public void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_B ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2183
+	0,992  [HC=0,98;  H=1,00;  I=1,00;  S=1,00] 
+private static void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_Execute ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2191
+	0,937  [HC=0,89;  H=0,88;  I=1,00;  S=1,00] 
+private static void AnalyzeMethodsInEnabledContextOnly_01_Execute ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     534
+	0,818  [HC=0,64;  H=0,81;  I=1,00;  S=1,00] 
+public void AnalyzeMethodsInEnabledContextOnly_01A ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     518
+	0,810  [HC=0,59;  H=0,91;  I=1,00;  S=1,00] 
+public void AnalyzeMethodsInEnabledContextOnly_01B ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     526
+	0,810  [HC=0,59;  H=0,91;  I=1,00;  S=1,00] 
+public static IEnumerable < object [ ] > AnalyzeMethodsInEnabledContextOnly_01_Data1 ( )     477
+	0,730  [HC=0,64;  H=0,20;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private static void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_Execute ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2191
+	0,942  [HC=0,90;  HNC=0,87;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
+public void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_A ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2175
+	0,827  [HC=0,90;  HNC=1,00;  I=0,00;  S=1,00;  NN=1,00;  NA=0,00] 
+public void AnalyzeMethodsInEnabledContextOnly_SpeculativeSemanticModel_B ( NullableContextOptions ? projectContext , NullableDirectives sourceDirectives , NullableDirectives speculativeDirectives )     2183
+	0,827  [HC=0,90;  HNC=1,00;  I=0,00;  S=1,00;  NN=1,00;  NA=0,00] 
+public void AnalyzeMethodsInEnabledContextOnly_01A ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     518
+	0,653  [HC=0,67;  HNC=0,89;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void AnalyzeMethodsInEnabledContextOnly_01B ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     526
+	0,653  [HC=0,67;  HNC=0,89;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public static IEnumerable < object [ ] > AnalyzeMethodsInEnabledContextOnly_01_Data1 ( )     477
+	0,592  [HC=0,67;  HNC=0,08;  I=0,36;  S=1,00;  NN=0,00;  NA=0,00] 
+private static void AnalyzeMethodsInEnabledContextOnly_01_Execute ( NullableContextOptions ? projectContext , NullableDirectives classDirectives , NullableDirectives methodDirectives )     534
+	0,711  [HC=0,67;  HNC=0,77;  I=0,57;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\Symbol.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\Symbol.cs
+*
+internal virtual DiagnosticInfo GetUseSiteDiagnostic ( )     882
+*
+internal static bool ReportUseSiteDiagnostic ( DiagnosticInfo info , BindingDiagnosticBag diagnostics , Location location )     1030
+	0,824  [HC=0,83;  H=0,29;  I=1,00;  S=1,00] 
+internal virtual UseSiteInfo < AssemblySymbol > GetUseSiteInfo ( )     894
+	0,742  [HC=0,55;  H=0,55;  I=1,00;  S=1,00] 
+internal bool DeriveUseSiteInfoFromType ( ref UseSiteInfo < AssemblySymbol > result , TypeSymbol type )     1038
+	0,612  [HC=0,36;  H=0,20;  I=1,00;  S=1,00] 
+internal bool DeriveUseSiteInfoFromType ( ref UseSiteInfo < AssemblySymbol > result , TypeWithAnnotations type , AllowedRequiredModifierType allowedRequiredModifierType )     1069
+	0,607  [HC=0,36;  H=0,17;  I=1,00;  S=1,00] 
+internal bool MergeUseSiteInfo ( ref UseSiteInfo < AssemblySymbol > result , UseSiteInfo < AssemblySymbol > info )     983
+	0,604  [HC=0,35;  H=0,18;  I=1,00;  S=1,00] 
+internal bool DeriveUseSiteInfoFromParameter ( ref UseSiteInfo < AssemblySymbol > result , ParameterSymbol param )     1075
+	0,600  [HC=0,33;  H=0,20;  I=1,00;  S=1,00] 
+internal bool DeriveUseSiteInfoFromCustomModifiers ( ref UseSiteInfo < AssemblySymbol > result , ImmutableArray < CustomModifier > customModifiers , AllowedRequiredModifierType allowedRequiredModifierType )     1108
+	0,591  [HC=0,33;  H=0,14;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+internal virtual UseSiteInfo < AssemblySymbol > GetUseSiteInfo ( )     894
+	0,836  [HC=0,75;  HNC=0,84;  I=0,69;  S=1,00;  NN=0,98;  NA=0,00] *
+internal static bool ReportUseSiteDiagnostic ( DiagnosticInfo info , BindingDiagnosticBag diagnostics , Location location )     1030
+	0,577  [HC=0,75;  HNC=0,08;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+private UseSiteInfo < AssemblySymbol > GetSymbolSpecificUnsupportedMetadataUseSiteErrorInfo ( )     1062
+	0,494  [HC=0,33;  HNC=0,71;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+internal bool MergeUseSiteInfo ( ref UseSiteInfo < AssemblySymbol > result , UseSiteInfo < AssemblySymbol > info )     983
+	0,477  [HC=0,50;  HNC=0,08;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+internal bool DeriveUseSiteInfoFromType ( ref UseSiteInfo < AssemblySymbol > result , TypeSymbol type )     1038
+	0,411  [HC=0,33;  HNC=0,08;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+internal bool DeriveUseSiteInfoFromParameter ( ref UseSiteInfo < AssemblySymbol > result , ParameterSymbol param )     1075
+	0,411  [HC=0,33;  HNC=0,08;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+internal bool DeriveUseSiteInfoFromParameters ( ref UseSiteInfo < AssemblySymbol > result , ImmutableArray < ParameterSymbol > parameters )     1084
+	0,410  [HC=0,33;  HNC=0,08;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\TaggedText.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\TaggedText.cs
+*
+public static ImmutableArray < TaggedText > ToTaggedText ( this IEnumerable < SymbolDisplayPart > displayParts , TaggedTextStyle style )     93
+*
+public static ImmutableArray < TaggedText > ToTaggedText ( this IEnumerable < SymbolDisplayPart > displayParts , Func < ISymbol , string > getNavigationHint = null )     90
+	0,951  [HC=1,00;  H=0,66;  I=1,00;  S=1,00] 
+public static ImmutableArray < TaggedText > ToTaggedText ( this IEnumerable < SymbolDisplayPart > displayParts , TaggedTextStyle style , Func < ISymbol , string > getNavigationHint = null )     93
+	0,949  [HC=1,00;  H=0,64;  I=1,00;  S=1,00] 
+private static string GetNavigationHint ( ISymbol symbol )     120
+	0,536  [HC=0,18;  H=0,22;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static ImmutableArray < TaggedText > ToTaggedText ( this IEnumerable < SymbolDisplayPart > displayParts , TaggedTextStyle style , Func < ISymbol , string > getNavigationHint = null )     93
+	0,939  [HC=1,00;  HNC=0,73;  I=0,81;  S=1,00;  NN=1,00;  NA=0,00] *
+private static string GetNavigationHint ( ISymbol symbol )     120
+	0,358  [HC=0,00;  HNC=0,18;  I=0,00;  S=1,00;  NN=1,00;  NA=0,00] 
+public static ImmutableArray < TaggedText > ToTaggedText ( this IEnumerable < SymbolDisplayPart > displayParts , Func < ISymbol , string > getNavigationHint = null )     90
+	0,758  [HC=1,00;  HNC=0,69;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+

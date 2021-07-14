@@ -1,0 +1,206 @@
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\AlwaysActivateInProcLanguageClient.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\AlwaysActivateInProcLanguageClient.cs
+*
+private readonly IGlobalOptionService _globalOptionService     30
+*
+private readonly DefaultCapabilitiesProvider _defaultCapabilitiesProvider     33
+	0,648  [HC=0,30;  H=0,65;  I=1,00;  S=1,00] *
+*
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
+private readonly DefaultCapabilitiesProvider _defaultCapabilitiesProvider     33
+	0,369  [HC=0,00;  HNC=0,40;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\EditAndContinueWorkspaceServiceTests.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\EditAndContinueWorkspaceServiceTests.cs
+*
+private readonly MockManagedEditAndContinueDebuggerService _loadedModulesProvider     50
+*
+private readonly MockManagedEditAndContinueDebuggerService _debuggerService     55
+	0,641  [HC=0,29;  H=0,83;  I=1,00;  S=0,90] *
+private Func < Project , CompilationOutputs > _mockCompilationOutputsProvider     51
+	0,602  [HC=0,40;  H=0,21;  I=1,00;  S=0,90] #
+private int _telemetryId     53
+	0,530  [HC=0,19;  H=0,34;  I=1,00;  S=0,90] #
+private static readonly TestComposition s_composition     41
+	0,527  [HC=0,14;  H=0,46;  I=1,00;  S=0,90] #
+private const TargetFramework DefaultTargetFramework     49
+	0,513  [HC=0,14;  H=0,38;  I=1,00;  S=0,90] #
+private readonly List < string > _telemetryLog     52
+	0,508  [HC=0,14;  H=0,33;  I=1,00;  S=0,90] #
+private static readonly DocumentActiveStatementSpanProvider s_noDocumentActiveSpans     46
+	0,506  [HC=0,09;  H=0,47;  I=1,00;  S=0,90] #
+*
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
+private readonly MockManagedEditAndContinueDebuggerService _debuggerService     55
+	0,526  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,96;  NN=1,00;  NA=0,00] 
+private Func < Project , CompilationOutputs > _mockCompilationOutputsProvider     51
+	0,445  [HC=0,25;  HNC=0,22;  I=1,00;  S=0,96;  NN=0,00;  NA=0,00] #
+private readonly List < string > _telemetryLog     52
+	0,359  [HC=0,00;  HNC=0,42;  I=1,00;  S=0,96;  NN=0,00;  NA=0,00] #
+private int _telemetryId     53
+	0,326  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,96;  NN=0,00;  NA=0,00] #
+private static readonly DocumentActiveStatementSpanProvider s_noDocumentActiveSpans     46
+	0,300  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,96;  NN=0,00;  NA=0,00] #
+private static readonly SolutionActiveStatementSpanProvider s_noSolutionActiveSpans     43
+	0,300  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,96;  NN=0,00;  NA=0,00] #
+private static readonly TestComposition s_composition     41
+	0,300  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,96;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\Project.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\Project.cs
+*
+private static readonly Func < DocumentId , Project , Document > s_createDocumentFunction     351
+*
+private static readonly Func < DocumentId , Project , Document ? > s_tryCreateDocumentFunction     340
+	0,921  [HC=0,85;  H=0,91;  I=1,00;  S=1,00] *
+private static readonly Func < DocumentId , Project , AdditionalDocument ? > s_tryCreateAdditionalDocumentFunction     343
+	0,812  [HC=0,61;  H=0,85;  I=1,00;  S=1,00] 
+private static readonly Func < DocumentId , Project , AnalyzerConfigDocument ? > s_tryCreateAnalyzerConfigDocumentFunction     346
+	0,784  [HC=0,55;  H=0,84;  I=1,00;  S=1,00] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private static readonly Func < DocumentId , Project , Document ? > s_tryCreateDocumentFunction     340
+	0,757  [HC=0,77;  HNC=0,99;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+private static readonly Func < DocumentId , Project , AdditionalDocument ? > s_tryCreateAdditionalDocumentFunction     343
+	0,696  [HC=0,64;  HNC=0,92;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+private static readonly Func < DocumentId , Project , AnalyzerConfigDocument ? > s_tryCreateAnalyzerConfigDocumentFunction     346
+	0,652  [HC=0,55;  HNC=0,86;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\Project.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\Project.cs
+*
+private static readonly Func < DocumentId , Project , AdditionalDocument > s_createAdditionalDocumentFunction     359
+*
+private static readonly Func < DocumentId , Project , AdditionalDocument ? > s_tryCreateAdditionalDocumentFunction     343
+	0,940  [HC=0,89;  H=0,91;  I=1,00;  S=1,00] *
+private static readonly Func < DocumentId , Project , AnalyzerConfigDocument ? > s_tryCreateAnalyzerConfigDocumentFunction     346
+	0,819  [HC=0,63;  H=0,86;  I=1,00;  S=1,00] 
+private static readonly Func < DocumentId , Project , Document ? > s_tryCreateDocumentFunction     340
+	0,810  [HC=0,61;  H=0,85;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private static readonly Func < DocumentId , Project , AdditionalDocument ? > s_tryCreateAdditionalDocumentFunction     343
+	0,773  [HC=0,81;  HNC=0,99;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+private static readonly Func < DocumentId , Project , Document ? > s_tryCreateDocumentFunction     340
+	0,681  [HC=0,60;  HNC=0,92;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+private static readonly Func < DocumentId , Project , AnalyzerConfigDocument ? > s_tryCreateAnalyzerConfigDocumentFunction     346
+	0,652  [HC=0,55;  HNC=0,86;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\Project.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\Project.cs
+*
+private static readonly Func < DocumentId , Project , AnalyzerConfigDocument > s_createAnalyzerConfigDocumentFunction     367
+*
+private static readonly Func < DocumentId , Project , AnalyzerConfigDocument ? > s_tryCreateAnalyzerConfigDocumentFunction     346
+	0,945  [HC=0,90;  H=0,92;  I=1,00;  S=1,00] *
+private static readonly Func < DocumentId , Project , AdditionalDocument ? > s_tryCreateAdditionalDocumentFunction     343
+	0,805  [HC=0,59;  H=0,85;  I=1,00;  S=1,00] #
+private static readonly Func < DocumentId , Project , Document ? > s_tryCreateDocumentFunction     340
+	0,792  [HC=0,57;  H=0,84;  I=1,00;  S=1,00] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private static readonly Func < DocumentId , Project , AnalyzerConfigDocument ? > s_tryCreateAnalyzerConfigDocumentFunction     346
+	0,784  [HC=0,83;  HNC=0,99;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+private static readonly Func < DocumentId , Project , Document ? > s_tryCreateDocumentFunction     340
+	0,633  [HC=0,50;  HNC=0,86;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+private static readonly Func < DocumentId , Project , AdditionalDocument ? > s_tryCreateAdditionalDocumentFunction     343
+	0,633  [HC=0,50;  HNC=0,86;  I=0,00;  S=1,00;  NN=0,78;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\ReferenceFinders.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\ReferenceFinders.cs
+*
+public static readonly IReferenceFinder LinkedFiles     18
+*
+public static readonly IReferenceFinder ExplicitConversion     14
+	0,619  [HC=0,17;  H=0,83;  I=1,00;  S=1,00] *
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+public static readonly IReferenceFinder ExplicitConversion     14
+	0,477  [HC=0,00;  HNC=1,00;  I=0,58;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\RemoteEditAndContinueServiceProxy.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\RemoteEditAndContinueServiceProxy.cs
+*
+private readonly IManagedEditAndContinueDebuggerService _managedModuleInfoProvider     98
+*
+private readonly IManagedEditAndContinueDebuggerService _debuggerService     100
+	0,648  [HC=0,24;  H=0,82;  I=1,00;  S=1,00] *
+*
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
+private readonly IManagedEditAndContinueDebuggerService _debuggerService     100
+	0,538  [HC=0,00;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\SolutionUpdate.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\SolutionUpdate.cs
+*
+public readonly ImmutableArray < IDisposable > ModuleReaders     16
+*
+public readonly ImmutableArray < ( DocumentId DocumentId , ImmutableArray < RudeEditDiagnostic > Diagnostics ) > DocumentsWithRudeEdits     18
+	0,615  [HC=0,32;  H=0,35;  I=1,00;  S=1,00] *
+*
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
+public readonly ImmutableArray < ( DocumentId DocumentId , ImmutableArray < RudeEditDiagnostic > Diagnostics ) > DocumentsWithRudeEdits     18
+	0,389  [HC=0,00;  HNC=0,53;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\SourceGeneratedFileManager.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\SourceGeneratedFileManager.cs
+*
+private readonly DocumentId _documentId     241
+*
+private readonly SourceGeneratedDocumentIdentity _documentIdentity     232
+	0,802  [HC=0,63;  H=0,74;  I=1,00;  S=1,00] *
+internal static readonly Option2 < bool ? > EnableOpeningInWorkspace     77
+	0,409  [HC=0,13;  H=0,15;  I=1,00;  S=0,67] 
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+private readonly SourceGeneratedDocumentIdentity _documentIdentity     232
+	0,737  [HC=0,50;  HNC=0,55;  I=1,00;  S=1,00;  NN=0,96;  NA=0,00] 
+internal static readonly Option2 < bool ? > EnableOpeningInWorkspace     77
+	0,250  [HC=0,13;  HNC=0,17;  I=0,00;  S=0,67;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\VisualStudioRuleSetManager.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\VisualStudioRuleSetManager.cs
+*
+private readonly IForegroundNotificationService _foregroundNotificationService     17
+*
+private readonly IThreadingContext _threadingContext     16
+	0,622  [HC=0,24;  H=0,63;  I=1,00;  S=1,00] *
+*
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
+private readonly IThreadingContext _threadingContext     16
+	0,392  [HC=0,00;  HNC=0,55;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\base\VisualStudioRuleSetManagerFactory.cs
+file:///D:\Repositories\_mapping\Roslyn\3459\Common\modified\VisualStudioRuleSetManagerFactory.cs
+*
+private readonly IForegroundNotificationService _foregroundNotificationService     24
+*
+private readonly IThreadingContext _threadingContext     17
+	0,622  [HC=0,24;  H=0,63;  I=1,00;  S=1,00] *
+*
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
+private readonly IThreadingContext _threadingContext     17
+	0,392  [HC=0,00;  HNC=0,55;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
+
+**************************************************************
+

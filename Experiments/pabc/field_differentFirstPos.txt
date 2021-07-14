@@ -10,13 +10,13 @@ public PascalABCCompiler . TreeRealization . common_type_node class_type     317
 public Scope DefScope     450
 	0,524  [HC=0,00;  H=0,67;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=1,00;  N=2,00]
+HC=2;  HNC=1,00;  I=0,00;  S=1,00;  NN=2,00;  NA=0,00]
 public Scope DefScope     450
-	0,667  [HC=0,00;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,667  [HC=0,00;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] 
 public Scope CurrentLambdaDefScope     454
-	0,667  [HC=0,00;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,667  [HC=0,00;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] 
 public PascalABCCompiler . TreeRealization . common_type_node class_type     317
-	0,186  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,87;  N=0,00] 
+	0,186  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,87;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 

@@ -8,11 +8,11 @@ private IWebDriver _browser     22
 private ExceptionDispatchInfo _exceptionDispatchInfo     21
 	0,526  [HC=0,10;  H=0,39;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private ExceptionDispatchInfo _exceptionDispatchInfo     21
-	0,404  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,75] 
+	0,392  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,60;  NA=0,00] 
 private IWebDriver _browser     22
-	0,404  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,75] 
+	0,392  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,60;  NA=0,00] 
 
 **************************************************************
 
@@ -26,11 +26,11 @@ private readonly int _maxTotalRequest     13
 private int _totalRequests     16
 	0,556  [HC=0,12;  H=0,54;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int _totalRequests     16
-	0,431  [HC=0,00;  HNC=0,80;  I=1,00;  S=1,00;  N=0,00] 
+	0,431  [HC=0,00;  HNC=0,80;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private readonly int _maxTotalRequest     13
-	0,462  [HC=0,00;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,462  [HC=0,00;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 

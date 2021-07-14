@@ -6,9 +6,9 @@ public List < ListenOptions > ListenOptions     14
 public ServerAddressesFeature ServerAddressesFeature     13
 	0,496  [HC=0,09;  H=0,20;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public ServerAddressesFeature ServerAddressesFeature     13
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -82,17 +82,17 @@ public long ? TotalJSHeapSize     21
 public long ? DownloadSize     11
 	0,473  [HC=0,00;  H=0,31;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < BenchmarkScenarioResult > ScenarioResults     8
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? DownloadSize     11
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? WasmMemory     14
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? UsedJSHeapSize     18
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public long ? TotalJSHeapSize     21
-	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,433  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -132,53 +132,19 @@ public string Message     757
 public int AspNetHttpsCertificateVersion     39
 	0,427  [HC=0,14;  H=0,41;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public bool Result     756
-	0,531  [HC=0,50;  HNC=0,25;  I=0,60;  S=0,74;  N=0,31] 
+	0,526  [HC=0,50;  HNC=0,25;  I=0,60;  S=0,74;  NN=0,25;  NA=0,00] 
 public string Message     757
-	0,331  [HC=0,00;  HNC=0,25;  I=0,60;  S=0,74;  N=0,31] 
+	0,326  [HC=0,00;  HNC=0,25;  I=0,60;  S=0,74;  NN=0,25;  NA=0,00] 
 public string Subject     46
-	0,304  [HC=0,00;  HNC=0,25;  I=0,60;  S=0,64;  N=0,31] 
+	0,300  [HC=0,00;  HNC=0,25;  I=0,60;  S=0,64;  NN=0,25;  NA=0,00] 
 public static CertificateManager Instance     29
-	0,223  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,64;  N=0,00] 
+	0,223  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public static CertificateManagerEventSource Log     35
-	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  N=0,00] 
+	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public int AspNetHttpsCertificateVersion     39
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
-
-**************************************************************
-
-file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\CertificateManager.cs
-file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\CertificateManager.cs
-*
-public IList < Exception > Exceptions     860
-*
-public bool Result     756
-	0,418  [HC=0,10;  H=0,20;  I=1,00;  S=0,71] 
-public static CertificateManager Instance     29
-	0,384  [HC=0,10;  H=0,22;  I=1,00;  S=0,58] 
-public static CertificateManagerEventSource Log     35
-	0,384  [HC=0,10;  H=0,22;  I=1,00;  S=0,58] 
-public string Subject     46
-	0,383  [HC=0,10;  H=0,21;  I=1,00;  S=0,58] 
-public int AspNetHttpsCertificateVersion     39
-	0,422  [HC=0,17;  H=0,27;  I=1,00;  S=0,58] #
-public string Message     757
-	0,419  [HC=0,10;  H=0,21;  I=1,00;  S=0,71] #
-*
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
-public bool Result     756
-	0,233  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,67;  N=0,31] 
-public string Message     757
-	0,233  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,67;  N=0,31] 
-public string Subject     46
-	0,224  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,31] 
-public static CertificateManagerEventSource Log     35
-	0,215  [HC=0,00;  HNC=0,34;  I=0,00;  S=0,64;  N=0,00] 
-public static CertificateManager Instance     29
-	0,196  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,64;  N=0,00] 
-public int AspNetHttpsCertificateVersion     39
-	0,219  [HC=0,00;  HNC=0,37;  I=0,00;  S=0,64;  N=0,00] #
+	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -192,11 +158,11 @@ public SslProtocols ? SslProtocols     136
 public SslProtocols ? SslProtocols     156
 	0,483  [HC=0,08;  H=0,32;  I=1,00;  S=0,92] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public SslProtocols ? SslProtocols     136
-	0,503  [HC=0,00;  HNC=0,27;  I=1,00;  S=1,00;  N=1,00] 
+	0,503  [HC=0,00;  HNC=0,27;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] 
 public SslProtocols ? SslProtocols     156
-	0,383  [HC=0,00;  HNC=0,27;  I=1,00;  S=0,80;  N=0,00] 
+	0,383  [HC=0,00;  HNC=0,27;  I=1,00;  S=0,80;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -316,9 +282,9 @@ private ConnectionManager ConnectionManager     102
 private AddressBindContext AddressBindContext     139
 	0,563  [HC=0,17;  H=0,44;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private AddressBindContext AddressBindContext     139
-	0,367  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  N=1,00] 
+	0,367  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  NN=1,00;  NA=0,00] 
 
 **************************************************************
 
@@ -330,9 +296,9 @@ internal bool IsHttp     89
 internal EndpointConfig EndpointConfig     48
 	0,517  [HC=0,07;  H=0,40;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal EndpointConfig EndpointConfig     48
-	0,383  [HC=0,00;  HNC=0,25;  I=0,63;  S=1,00;  N=0,00] 
+	0,383  [HC=0,00;  HNC=0,25;  I=0,63;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -344,9 +310,9 @@ public List < byte [ ] > BodySegments     18
 public CachedResponseBody Body     18
 	0,596  [HC=0,33;  H=0,17;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public CachedResponseBody Body     18
-	0,725  [HC=0,50;  HNC=0,47;  I=1,00;  S=1,00;  N=0,94] 
+	0,713  [HC=0,50;  HNC=0,47;  I=1,00;  S=1,00;  NN=0,75;  NA=0,00] 
 
 **************************************************************
 
@@ -358,9 +324,9 @@ public long BodyLength     20
 public CachedResponseBody Body     18
 	0,672  [HC=0,40;  H=0,50;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public CachedResponseBody Body     18
-	0,696  [HC=0,50;  HNC=0,25;  I=1,00;  S=1,00;  N=0,94] 
+	0,683  [HC=0,50;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,75;  NA=0,00] 
 
 **************************************************************
 
@@ -372,9 +338,9 @@ public IntPtr NativePointer     38
 public byte [ ] PinnedArray     26
 	0,497  [HC=0,08;  H=0,25;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public byte [ ] PinnedArray     26
-	0,438  [HC=0,00;  HNC=0,28;  I=1,00;  S=1,00;  N=0,00] #
+	0,438  [HC=0,00;  HNC=0,28;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -386,9 +352,9 @@ public IList < IFormatterResolver > FormatterResolvers     14
 public MessagePackSerializerOptions SerializerOptions     21
 	0,556  [HC=0,22;  H=0,23;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public MessagePackSerializerOptions SerializerOptions     21
-	0,384  [HC=0,00;  HNC=0,25;  I=0,63;  S=1,00;  N=0,00] 
+	0,384  [HC=0,00;  HNC=0,25;  I=0,63;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -412,21 +378,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
 	0,478  [HC=0,07;  H=0,42;  I=1,00;  S=0,86] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,903  [HC=0,76;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,902  [HC=0,76;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,865  [HC=0,67;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,863  [HC=0,67;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 int System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Count     61
-	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . IsReadOnly     62
-	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  N=0,00] #
+	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract string ? ConnectionId     15
-	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  N=0,00] #
+	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,274  [HC=0,00;  HNC=0,23;  I=0,35;  S=0,74;  N=0,00] #
+	0,274  [HC=0,00;  HNC=0,23;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -450,21 +416,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
 	0,476  [HC=0,07;  H=0,42;  I=1,00;  S=0,86] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,901  [HC=0,76;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,900  [HC=0,76;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,867  [HC=0,67;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,865  [HC=0,67;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 int System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Count     61
-	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . IsReadOnly     62
-	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  N=0,00] #
+	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,292  [HC=0,05;  HNC=0,23;  I=0,35;  S=0,74;  N=0,00] #
+	0,292  [HC=0,05;  HNC=0,23;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract string ? ConnectionId     15
-	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  N=0,00] #
+	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -488,21 +454,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
 	0,478  [HC=0,07;  H=0,42;  I=1,00;  S=0,86] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,903  [HC=0,76;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,902  [HC=0,76;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,865  [HC=0,67;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,863  [HC=0,67;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 int System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Count     61
-	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . IsReadOnly     62
-	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  N=0,00] #
+	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract string ? ConnectionId     15
-	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  N=0,00] #
+	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,274  [HC=0,00;  HNC=0,23;  I=0,35;  S=0,74;  N=0,00] #
+	0,274  [HC=0,00;  HNC=0,23;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -526,21 +492,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
 	0,476  [HC=0,07;  H=0,42;  I=1,00;  S=0,86] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,901  [HC=0,76;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,900  [HC=0,76;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,867  [HC=0,67;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,865  [HC=0,67;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 int System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Count     61
-	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . IsReadOnly     62
-	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  N=0,00] #
+	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,292  [HC=0,05;  HNC=0,23;  I=0,35;  S=0,74;  N=0,00] #
+	0,292  [HC=0,05;  HNC=0,23;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract string ? ConnectionId     15
-	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  N=0,00] #
+	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -564,21 +530,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
 	0,478  [HC=0,07;  H=0,42;  I=1,00;  S=0,86] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,903  [HC=0,76;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,902  [HC=0,76;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,865  [HC=0,67;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,863  [HC=0,67;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 int System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Count     61
-	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . IsReadOnly     62
-	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  N=0,00] #
+	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract string ? ConnectionId     15
-	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  N=0,00] #
+	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,274  [HC=0,00;  HNC=0,23;  I=0,35;  S=0,74;  N=0,00] #
+	0,274  [HC=0,00;  HNC=0,23;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -602,21 +568,21 @@ public virtual System . Threading . CancellationToken ConnectionClosed     14
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
 	0,476  [HC=0,07;  H=0,42;  I=1,00;  S=0,86] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . ICollection < object ? > System . Collections . Generic . IDictionary < object , object ? > . Values     65
-	0,901  [HC=0,76;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,900  [HC=0,76;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 System . Collections . Generic . ICollection < object > System . Collections . Generic . IDictionary < object , object ? > . Keys     64
-	0,867  [HC=0,67;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,865  [HC=0,67;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 int System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . Count     61
-	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,660  [HC=0,65;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < object , object ? > > . IsReadOnly     62
-	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,648  [HC=0,62;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 public abstract System . Collections . Generic . IDictionary < object , object ? > ? Items     17
-	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  N=0,00] #
+	0,308  [HC=0,00;  HNC=0,48;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract Microsoft . AspNetCore . Http . Features . IFeatureCollection Features     16
-	0,292  [HC=0,05;  HNC=0,23;  I=0,35;  S=0,74;  N=0,00] #
+	0,292  [HC=0,05;  HNC=0,23;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 public abstract string ? ConnectionId     15
-	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  N=0,00] #
+	0,288  [HC=0,11;  HNC=0,00;  I=0,35;  S=0,74;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -636,17 +602,17 @@ public int StatusCode     106
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < string , object ? > > . IsReadOnly     516
 	0,711  [HC=0,45;  H=0,62;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , object ? > . Keys     517
-	0,918  [HC=0,80;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,918  [HC=0,80;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
 System . Collections . Generic . IEnumerable < object ? > System . Collections . Generic . IReadOnlyDictionary < string , object ? > . Values     518
-	0,865  [HC=0,72;  HNC=0,83;  I=1,00;  S=1,00;  N=1,00] 
+	0,864  [HC=0,72;  HNC=0,83;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
 public int StatusCode     106
-	0,144  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,54;  N=0,00] 
+	0,144  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,54;  NN=0,00;  NA=0,00] 
 public bool PreserveMatchedPathSegment     71
-	0,125  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,47;  N=0,00] 
+	0,125  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,47;  NN=0,00;  NA=0,00] 
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < string , object ? > > . IsReadOnly     516
-	0,604  [HC=0,51;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,604  [HC=0,51;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -666,17 +632,17 @@ public int StatusCode     106
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < string , object ? > > . IsReadOnly     516
 	0,711  [HC=0,45;  H=0,62;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 System . Collections . Generic . IEnumerable < object ? > System . Collections . Generic . IReadOnlyDictionary < string , object ? > . Values     518
-	0,916  [HC=0,80;  HNC=0,98;  I=1,00;  S=1,00;  N=1,00] 
+	0,916  [HC=0,80;  HNC=0,98;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
 System . Collections . Generic . IEnumerable < string > System . Collections . Generic . IReadOnlyDictionary < string , object ? > . Keys     517
-	0,867  [HC=0,72;  HNC=0,85;  I=1,00;  S=1,00;  N=1,00] 
+	0,866  [HC=0,72;  HNC=0,85;  I=1,00;  S=1,00;  NN=0,99;  NA=0,00] 
 public int StatusCode     106
-	0,144  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,54;  N=0,00] 
+	0,144  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,54;  NN=0,00;  NA=0,00] 
 public bool PreserveMatchedPathSegment     71
-	0,125  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,47;  N=0,00] 
+	0,125  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,47;  NN=0,00;  NA=0,00] 
 bool System . Collections . Generic . ICollection < System . Collections . Generic . KeyValuePair < string , object ? > > . IsReadOnly     516
-	0,604  [HC=0,51;  HNC=0,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,604  [HC=0,51;  HNC=0,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -726,11 +692,11 @@ ICollection < string > IServerAddressesFeature . Addresses     13
 public ServerAddressesCollection InternalCollection     11
 	0,513  [HC=0,11;  H=0,26;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 ICollection < string > IServerAddressesFeature . Addresses     13
-	0,512  [HC=0,20;  HNC=0,75;  I=0,00;  S=1,00;  N=1,00] 
+	0,512  [HC=0,20;  HNC=0,75;  I=0,00;  S=1,00;  NN=1,00;  NA=0,00] 
 public ServerAddressesCollection InternalCollection     11
-	0,419  [HC=0,00;  HNC=0,25;  I=0,39;  S=1,00;  N=1,00] 
+	0,419  [HC=0,00;  HNC=0,25;  I=0,39;  S=1,00;  NN=1,00;  NA=0,00] 
 
 **************************************************************
 

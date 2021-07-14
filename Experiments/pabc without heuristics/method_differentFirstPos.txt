@@ -18,21 +18,21 @@ public virtual void visit ( tuple_pattern_var_parameter _tuple_pattern_var_param
 public virtual void visit ( recursive_tuple_parameter _recursive_tuple_parameter )     1251
 	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public virtual void visit ( pattern_parameter _pattern_parameter )     1156
-	0,910  [HC=1,00;  HNC=0,78;  I=0,54;  S=1,00;  N=1,00] 
-public virtual void visit ( const_pattern_parameter _const_pattern_parameter )     1201
-	0,823  [HC=1,00;  HNC=0,57;  I=0,60;  S=1,00;  N=0,00] 
-public virtual void visit ( recursive_tuple_parameter _recursive_tuple_parameter )     1251
-	0,818  [HC=1,00;  HNC=0,57;  I=0,57;  S=1,00;  N=0,00] 
-public virtual void visit ( collection_pattern_var_parameter _collection_pattern_var_parameter )     1226
-	0,818  [HC=1,00;  HNC=0,67;  I=0,46;  S=1,00;  N=0,00] 
-public virtual void visit ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     1216
-	0,817  [HC=1,00;  HNC=0,67;  I=0,45;  S=1,00;  N=0,00] 
-public virtual void visit ( tuple_pattern_wild_card _tuple_pattern_wild_card )     1196
-	0,795  [HC=1,00;  HNC=0,51;  I=0,45;  S=1,00;  N=0,00] 
+	0,933  [HC=1,00;  HNC=0,78;  I=0,71;  S=1,00;  NN=1,00;  NA=0,00] 
 public virtual void visit ( wild_card_deconstructor_parameter _wild_card_deconstructor_parameter )     1206
-	0,794  [HC=1,00;  HNC=0,67;  I=0,28;  S=1,00;  N=0,00] 
+	0,869  [HC=1,00;  HNC=0,67;  I=0,84;  S=1,00;  NN=0,00;  NA=0,00] 
+public virtual void visit ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )     1246
+	0,844  [HC=1,00;  HNC=0,67;  I=0,65;  S=1,00;  NN=0,00;  NA=0,00] 
+public virtual void visit ( collection_pattern_var_parameter _collection_pattern_var_parameter )     1226
+	0,842  [HC=1,00;  HNC=0,67;  I=0,64;  S=1,00;  NN=0,00;  NA=0,00] 
+public virtual void visit ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     1216
+	0,839  [HC=1,00;  HNC=0,67;  I=0,62;  S=1,00;  NN=0,00;  NA=0,00] 
+public virtual void visit ( const_pattern_parameter _const_pattern_parameter )     1201
+	0,832  [HC=1,00;  HNC=0,57;  I=0,67;  S=1,00;  NN=0,00;  NA=0,00] 
+public virtual void visit ( recursive_collection_parameter _recursive_collection_parameter )     1231
+	0,832  [HC=1,00;  HNC=0,57;  I=0,67;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -56,21 +56,21 @@ public override void visit ( tuple_pattern_var_parameter _tuple_pattern_var_para
 public override void visit ( recursive_tuple_parameter _recursive_tuple_parameter )     4152
 	0,981  [HC=1,00;  H=0,87;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public override void visit ( pattern_parameter _pattern_parameter )     4004
-	0,892  [HC=1,00;  HNC=0,78;  I=0,40;  S=1,00;  N=1,00] 
+	0,892  [HC=1,00;  HNC=0,78;  I=0,40;  S=1,00;  NN=1,00;  NA=0,00] 
 public override void visit ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     4098
-	0,842  [HC=1,00;  HNC=0,67;  I=0,64;  S=1,00;  N=0,00] 
+	0,842  [HC=1,00;  HNC=0,67;  I=0,64;  S=1,00;  NN=0,00;  NA=0,00] 
 public override void visit ( const_pattern_parameter _const_pattern_parameter )     4076
-	0,833  [HC=1,00;  HNC=0,57;  I=0,68;  S=1,00;  N=0,00] 
+	0,833  [HC=1,00;  HNC=0,57;  I=0,68;  S=1,00;  NN=0,00;  NA=0,00] 
 public override void visit ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )     4143
-	0,830  [HC=1,00;  HNC=0,67;  I=0,55;  S=1,00;  N=0,00] 
+	0,830  [HC=1,00;  HNC=0,67;  I=0,55;  S=1,00;  NN=0,00;  NA=0,00] 
 public override void visit ( collection_pattern_var_parameter _collection_pattern_var_parameter )     4112
-	0,817  [HC=1,00;  HNC=0,67;  I=0,45;  S=1,00;  N=0,00] 
+	0,817  [HC=1,00;  HNC=0,67;  I=0,45;  S=1,00;  NN=0,00;  NA=0,00] 
 public override void visit ( wild_card_deconstructor_parameter _wild_card_deconstructor_parameter )     4084
-	0,809  [HC=1,00;  HNC=0,67;  I=0,39;  S=1,00;  N=0,00] 
+	0,809  [HC=1,00;  HNC=0,67;  I=0,39;  S=1,00;  NN=0,00;  NA=0,00] 
 public override void visit ( recursive_pattern_parameter _recursive_pattern_parameter )     4128
-	0,808  [HC=1,00;  HNC=0,57;  I=0,49;  S=1,00;  N=0,00] 
+	0,808  [HC=1,00;  HNC=0,57;  I=0,49;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -94,21 +94,21 @@ private CollectionDesugaringResult DesugarCollectionPattern ( collection_pattern
 private List < statement > ProcessDesugaringForDeconstructorPattern ( is_pattern_expr isExpression )     767
 	0,705  [HC=0,58;  H=0,21;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private void DesugarConstPatternCase ( expression matchingExpression , pattern_case patternCase )     307
-	0,846  [HC=0,75;  HNC=0,93;  I=0,67;  S=1,00;  N=1,00] 
+	0,846  [HC=0,75;  HNC=0,93;  I=0,67;  S=1,00;  NN=1,00;  NA=0,00] 
 private expression DesugarDeconstructorPatternParameters ( deconstructor_pattern pattern )     250
-	0,721  [HC=0,75;  HNC=0,22;  I=0,44;  S=1,00;  N=1,00] 
+	0,721  [HC=0,75;  HNC=0,22;  I=0,44;  S=1,00;  NN=1,00;  NA=0,00] 
 private void DefaultDesugarPattern ( expression matchingExpression , pattern_case patternCase )     220
-	0,675  [HC=0,25;  HNC=0,93;  I=0,88;  S=1,00;  N=1,00] 
+	0,675  [HC=0,25;  HNC=0,93;  I=0,88;  S=1,00;  NN=1,00;  NA=0,00] 
 private DeconstructionDesugaringResult DesugarDeconstructorPattern ( deconstructor_pattern pattern , expression matchingExpression )     475
-	0,636  [HC=0,75;  HNC=0,11;  I=0,41;  S=1,00;  N=0,00] 
+	0,636  [HC=0,75;  HNC=0,11;  I=0,41;  S=1,00;  NN=0,00;  NA=0,00] 
 private TupleDesugaringResult DesugarTuplePattern ( tuple_pattern pattern , expression matchingExpression )     578
-	0,527  [HC=0,50;  HNC=0,11;  I=0,35;  S=1,00;  N=0,00] 
+	0,527  [HC=0,50;  HNC=0,11;  I=0,35;  S=1,00;  NN=0,00;  NA=0,00] 
 private CollectionDesugaringResult DesugarCollectionPattern ( collection_pattern pattern , expression matchingExpression )     503
-	0,522  [HC=0,50;  HNC=0,11;  I=0,31;  S=1,00;  N=0,00] 
+	0,522  [HC=0,50;  HNC=0,11;  I=0,31;  S=1,00;  NN=0,00;  NA=0,00] 
 private expression DesugarRecursiveParameters ( expression expression , pattern_node pattern )     656
-	0,519  [HC=0,38;  HNC=0,41;  I=0,36;  S=1,00;  N=0,00] #
+	0,519  [HC=0,38;  HNC=0,41;  I=0,36;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -132,21 +132,21 @@ private expression DesugarRecursiveParameters ( expression expression , pattern_
 private expression DesugarDeconstructorPatternParameters ( deconstructor_pattern pattern )     250
 	0,670  [HC=0,38;  H=0,55;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private DeconstructionDesugaringResult DesugarDeconstructorPattern ( deconstructor_pattern pattern , expression matchingExpression )     475
-	0,867  [HC=0,67;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,867  [HC=0,67;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] 
 private TupleDesugaringResult DesugarTuplePattern ( tuple_pattern pattern , expression matchingExpression )     578
-	0,809  [HC=0,67;  HNC=0,82;  I=0,75;  S=1,00;  N=1,00] 
+	0,809  [HC=0,67;  HNC=0,82;  I=0,75;  S=1,00;  NN=1,00;  NA=0,00] 
 private CollectionDesugaringResult DesugarCollectionPattern ( collection_pattern pattern , expression matchingExpression )     503
-	0,791  [HC=0,67;  HNC=0,82;  I=0,62;  S=1,00;  N=1,00] 
+	0,791  [HC=0,67;  HNC=0,82;  I=0,62;  S=1,00;  NN=1,00;  NA=0,00] 
 private expression DesugarDeconstructorPatternParameters ( deconstructor_pattern pattern )     250
-	0,618  [HC=0,50;  HNC=0,43;  I=0,70;  S=1,00;  N=0,00] 
+	0,618  [HC=0,50;  HNC=0,43;  I=0,70;  S=1,00;  NN=0,00;  NA=0,00] 
 private void DefaultDesugarPattern ( expression matchingExpression , pattern_case patternCase )     220
-	0,615  [HC=0,67;  HNC=0,18;  I=0,43;  S=1,00;  N=0,00] 
+	0,615  [HC=0,67;  HNC=0,18;  I=0,43;  S=1,00;  NN=0,00;  NA=0,00] 
 private void DesugarConstPatternCase ( expression matchingExpression , pattern_case patternCase )     307
-	0,581  [HC=0,50;  HNC=0,18;  I=0,68;  S=1,00;  N=0,00] 
+	0,581  [HC=0,50;  HNC=0,18;  I=0,68;  S=1,00;  NN=0,00;  NA=0,00] 
 private expression DesugarRecursiveParameters ( expression expression , pattern_node pattern )     656
-	0,545  [HC=0,50;  HNC=0,20;  I=0,39;  S=1,00;  N=0,00] #
+	0,545  [HC=0,50;  HNC=0,20;  I=0,39;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -170,21 +170,21 @@ public void visit ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )  
 public void visit ( recursive_tuple_parameter _recursive_tuple_parameter )     4356
 	0,978  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void visit ( pattern_parameter _pattern_parameter )     4108
-	0,900  [HC=1,00;  HNC=0,77;  I=0,48;  S=1,00;  N=1,00] 
+	0,918  [HC=1,00;  HNC=0,77;  I=0,62;  S=1,00;  NN=1,00;  NA=0,00] 
 public void visit ( wild_card_deconstructor_parameter _wild_card_deconstructor_parameter )     4252
-	0,825  [HC=1,00;  HNC=0,65;  I=0,54;  S=1,00;  N=0,00] 
-public void visit ( collection_pattern_var_parameter _collection_pattern_var_parameter )     4296
-	0,819  [HC=1,00;  HNC=0,65;  I=0,49;  S=1,00;  N=0,00] 
-public void visit ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     4274
-	0,814  [HC=1,00;  HNC=0,65;  I=0,46;  S=1,00;  N=0,00] 
+	0,859  [HC=1,00;  HNC=0,65;  I=0,79;  S=1,00;  NN=0,00;  NA=0,00] 
 public void visit ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )     4343
-	0,809  [HC=1,00;  HNC=0,65;  I=0,42;  S=1,00;  N=0,00] 
-public void visit ( recursive_pattern_parameter _recursive_pattern_parameter )     4320
-	0,799  [HC=1,00;  HNC=0,54;  I=0,45;  S=1,00;  N=0,00] 
+	0,825  [HC=1,00;  HNC=0,65;  I=0,53;  S=1,00;  NN=0,00;  NA=0,00] 
+public void visit ( collection_pattern_var_parameter _collection_pattern_var_parameter )     4296
+	0,823  [HC=1,00;  HNC=0,65;  I=0,52;  S=1,00;  NN=0,00;  NA=0,00] 
+public void visit ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     4274
+	0,819  [HC=1,00;  HNC=0,65;  I=0,49;  S=1,00;  NN=0,00;  NA=0,00] 
 public void visit ( const_pattern_parameter _const_pattern_parameter )     4240
-	0,793  [HC=1,00;  HNC=0,54;  I=0,41;  S=1,00;  N=0,00] 
+	0,813  [HC=1,00;  HNC=0,54;  I=0,56;  S=1,00;  NN=0,00;  NA=0,00] 
+public void visit ( recursive_collection_parameter _recursive_collection_parameter )     4309
+	0,813  [HC=1,00;  HNC=0,54;  I=0,56;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -208,21 +208,21 @@ public void read_recursive_pattern_parameter ( recursive_pattern_parameter _recu
 public void read_recursive_tuple_parameter ( recursive_tuple_parameter _recursive_tuple_parameter )     4361
 	0,748  [HC=0,48;  H=0,78;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void read_pattern_parameter ( pattern_parameter _pattern_parameter )     4113
-	0,790  [HC=0,75;  HNC=0,77;  I=0,40;  S=1,00;  N=1,00] 
-public void read_collection_pattern_gap_parameter ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     4279
-	0,655  [HC=0,60;  HNC=0,65;  I=0,46;  S=1,00;  N=0,00] 
+	0,837  [HC=0,75;  HNC=0,77;  I=0,76;  S=1,00;  NN=1,00;  NA=0,00] 
 public void read_wild_card_deconstructor_parameter ( wild_card_deconstructor_parameter _wild_card_deconstructor_parameter )     4257
-	0,636  [HC=0,60;  HNC=0,65;  I=0,32;  S=1,00;  N=0,00] 
-public void read_collection_pattern_var_parameter ( collection_pattern_var_parameter _collection_pattern_var_parameter )     4301
-	0,594  [HC=0,60;  HNC=0,65;  I=0,00;  S=1,00;  N=0,00] 
-public void read_tuple_pattern_var_parameter ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )     4348
-	0,594  [HC=0,60;  HNC=0,65;  I=0,00;  S=1,00;  N=0,00] 
-public void read_const_pattern_parameter ( const_pattern_parameter _const_pattern_parameter )     4245
-	0,592  [HC=0,50;  HNC=0,54;  I=0,40;  S=1,00;  N=0,00] 
+	0,677  [HC=0,60;  HNC=0,65;  I=0,62;  S=1,00;  NN=0,00;  NA=0,00] 
+public void read_collection_pattern_gap_parameter ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     4279
+	0,651  [HC=0,60;  HNC=0,65;  I=0,43;  S=1,00;  NN=0,00;  NA=0,00] 
 public void read_recursive_tuple_parameter ( recursive_tuple_parameter _recursive_tuple_parameter )     4361
-	0,573  [HC=0,50;  HNC=0,54;  I=0,26;  S=1,00;  N=0,00] 
+	0,604  [HC=0,50;  HNC=0,54;  I=0,49;  S=1,00;  NN=0,00;  NA=0,00] 
+public void read_recursive_collection_parameter ( recursive_collection_parameter _recursive_collection_parameter )     4314
+	0,603  [HC=0,50;  HNC=0,54;  I=0,49;  S=1,00;  NN=0,00;  NA=0,00] 
+public void read_collection_pattern_var_parameter ( collection_pattern_var_parameter _collection_pattern_var_parameter )     4301
+	0,594  [HC=0,60;  HNC=0,65;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void read_tuple_pattern_var_parameter ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )     4348
+	0,594  [HC=0,60;  HNC=0,65;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -246,21 +246,21 @@ public void visit ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )  
 public void visit ( recursive_tuple_parameter _recursive_tuple_parameter )     6787
 	0,978  [HC=1,00;  H=0,85;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void visit ( pattern_parameter _pattern_parameter )     6416
-	0,836  [HC=1,00;  HNC=0,77;  I=0,00;  S=1,00;  N=1,00] 
-public void visit ( const_pattern_parameter _const_pattern_parameter )     6613
-	0,832  [HC=1,00;  HNC=0,54;  I=0,70;  S=1,00;  N=0,00] 
+	0,930  [HC=1,00;  HNC=0,77;  I=0,71;  S=1,00;  NN=1,00;  NA=0,00] 
 public void visit ( wild_card_deconstructor_parameter _wild_card_deconstructor_parameter )     6634
-	0,832  [HC=1,00;  HNC=0,65;  I=0,59;  S=1,00;  N=0,00] 
+	0,864  [HC=1,00;  HNC=0,65;  I=0,83;  S=1,00;  NN=0,00;  NA=0,00] 
+public void visit ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )     6757
+	0,836  [HC=1,00;  HNC=0,65;  I=0,62;  S=1,00;  NN=0,00;  NA=0,00] 
 public void visit ( collection_pattern_var_parameter _collection_pattern_var_parameter )     6682
-	0,829  [HC=1,00;  HNC=0,65;  I=0,56;  S=1,00;  N=0,00] 
+	0,835  [HC=1,00;  HNC=0,65;  I=0,61;  S=1,00;  NN=0,00;  NA=0,00] 
+public void visit ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     6658
+	0,832  [HC=1,00;  HNC=0,65;  I=0,59;  S=1,00;  NN=0,00;  NA=0,00] 
+public void visit ( const_pattern_parameter _const_pattern_parameter )     6613
+	0,824  [HC=1,00;  HNC=0,54;  I=0,64;  S=1,00;  NN=0,00;  NA=0,00] 
 public void visit ( recursive_collection_parameter _recursive_collection_parameter )     6712
-	0,825  [HC=1,00;  HNC=0,54;  I=0,65;  S=1,00;  N=0,00] 
-public void visit ( recursive_tuple_parameter _recursive_tuple_parameter )     6787
-	0,820  [HC=1,00;  HNC=0,54;  I=0,61;  S=1,00;  N=0,00] 
-public void visit ( recursive_pattern_parameter _recursive_pattern_parameter )     6724
-	0,807  [HC=1,00;  HNC=0,54;  I=0,52;  S=1,00;  N=0,00] 
+	0,824  [HC=1,00;  HNC=0,54;  I=0,64;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -284,21 +284,21 @@ public void write_recursive_pattern_parameter ( recursive_pattern_parameter _rec
 public void write_recursive_tuple_parameter ( recursive_tuple_parameter _recursive_tuple_parameter )     6793
 	0,754  [HC=0,50;  H=0,78;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void write_pattern_parameter ( pattern_parameter _pattern_parameter )     6422
-	0,802  [HC=0,75;  HNC=0,77;  I=0,50;  S=1,00;  N=1,00] 
+	0,837  [HC=0,75;  HNC=0,77;  I=0,76;  S=1,00;  NN=1,00;  NA=0,00] 
 public void write_wild_card_deconstructor_parameter ( wild_card_deconstructor_parameter _wild_card_deconstructor_parameter )     6640
-	0,678  [HC=0,60;  HNC=0,65;  I=0,63;  S=1,00;  N=0,00] 
+	0,677  [HC=0,60;  HNC=0,65;  I=0,63;  S=1,00;  NN=0,00;  NA=0,00] 
 public void write_collection_pattern_gap_parameter ( collection_pattern_gap_parameter _collection_pattern_gap_parameter )     6664
-	0,627  [HC=0,60;  HNC=0,65;  I=0,25;  S=1,00;  N=0,00] 
-public void write_collection_pattern_var_parameter ( collection_pattern_var_parameter _collection_pattern_var_parameter )     6688
-	0,594  [HC=0,60;  HNC=0,65;  I=0,00;  S=1,00;  N=0,00] 
-public void write_tuple_pattern_var_parameter ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )     6763
-	0,594  [HC=0,60;  HNC=0,65;  I=0,00;  S=1,00;  N=0,00] 
+	0,653  [HC=0,60;  HNC=0,65;  I=0,44;  S=1,00;  NN=0,00;  NA=0,00] 
 public void write_recursive_tuple_parameter ( recursive_tuple_parameter _recursive_tuple_parameter )     6793
-	0,583  [HC=0,50;  HNC=0,54;  I=0,33;  S=1,00;  N=0,00] 
-public void write_recursive_pattern_parameter ( recursive_pattern_parameter _recursive_pattern_parameter )     6730
-	0,577  [HC=0,50;  HNC=0,54;  I=0,29;  S=1,00;  N=0,00] 
+	0,605  [HC=0,50;  HNC=0,54;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00] 
+public void write_recursive_collection_parameter ( recursive_collection_parameter _recursive_collection_parameter )     6718
+	0,604  [HC=0,50;  HNC=0,54;  I=0,49;  S=1,00;  NN=0,00;  NA=0,00] 
+public void write_collection_pattern_var_parameter ( collection_pattern_var_parameter _collection_pattern_var_parameter )     6688
+	0,594  [HC=0,60;  HNC=0,65;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public void write_tuple_pattern_var_parameter ( tuple_pattern_var_parameter _tuple_pattern_var_parameter )     6763
+	0,594  [HC=0,60;  HNC=0,65;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -322,21 +322,21 @@ public new tuple_pattern_var_parameter TypedClone ( )     53053
 public new recursive_tuple_parameter TypedClone ( )     53191
 	0,967  [HC=1,00;  H=0,91;  I=1,00;  S=0,93] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public new pattern_parameter TypedClone ( )     49946
-	0,881  [HC=1,00;  HNC=0,93;  I=0,42;  S=0,88;  N=1,00] 
-public new tuple_pattern_var_parameter TypedClone ( )     53053
-	0,825  [HC=1,00;  HNC=0,90;  I=0,65;  S=0,82;  N=0,00] 
-public new collection_pattern_var_parameter TypedClone ( )     52440
-	0,802  [HC=1,00;  HNC=0,90;  I=0,48;  S=0,82;  N=0,00] 
-public new recursive_collection_parameter TypedClone ( )     52578
-	0,799  [HC=1,00;  HNC=0,87;  I=0,61;  S=0,76;  N=0,00] 
+	0,921  [HC=1,00;  HNC=0,93;  I=0,71;  S=0,88;  NN=1,00;  NA=0,00] 
 public new wild_card_deconstructor_parameter TypedClone ( )     51944
-	0,799  [HC=1,00;  HNC=0,90;  I=0,46;  S=0,82;  N=0,00] 
+	0,851  [HC=1,00;  HNC=0,90;  I=0,84;  S=0,82;  NN=0,00;  NA=0,00] 
+public new tuple_pattern_var_parameter TypedClone ( )     53053
+	0,825  [HC=1,00;  HNC=0,90;  I=0,65;  S=0,82;  NN=0,00;  NA=0,00] 
+public new collection_pattern_var_parameter TypedClone ( )     52440
+	0,824  [HC=1,00;  HNC=0,90;  I=0,64;  S=0,82;  NN=0,00;  NA=0,00] 
 public new collection_pattern_gap_parameter TypedClone ( )     52188
-	0,789  [HC=1,00;  HNC=0,90;  I=0,38;  S=0,82;  N=0,00] 
-public new recursive_pattern_parameter TypedClone ( )     52727
-	0,787  [HC=1,00;  HNC=0,87;  I=0,52;  S=0,76;  N=0,00] 
+	0,821  [HC=1,00;  HNC=0,90;  I=0,62;  S=0,82;  NN=0,00;  NA=0,00] 
+public new const_pattern_parameter TypedClone ( )     51838
+	0,807  [HC=1,00;  HNC=0,87;  I=0,67;  S=0,76;  NN=0,00;  NA=0,00] 
+public new recursive_collection_parameter TypedClone ( )     52578
+	0,807  [HC=1,00;  HNC=0,87;  I=0,67;  S=0,76;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 

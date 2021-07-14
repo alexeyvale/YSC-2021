@@ -6,9 +6,9 @@ public SideTabItem ChoosedItem     215
 public SideTabItem ChosenItem     232
 	0,913  [HC=0,82;  H=0,94;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public SideTabItem ChosenItem     232
-	0,894  [HC=0,86;  HNC=1,00;  I=0,63;  S=1,00;  N=1,00] *
+	0,894  [HC=0,86;  HNC=1,00;  I=0,63;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -32,21 +32,21 @@ public bool has_deref     53742
 public List < syntax_tree_node > lst     51131
 	0,546  [HC=0,10;  H=0,72;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public List < pattern_parameter > parameters     48182
-	0,813  [HC=1,00;  HNC=0,82;  I=1,00;  S=0,64;  N=0,00] *
+	0,813  [HC=1,00;  HNC=0,82;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] *
 public pattern_node pattern     52696
-	0,524  [HC=0,50;  HNC=0,43;  I=0,49;  S=0,76;  N=0,00] 
+	0,517  [HC=0,50;  HNC=0,43;  I=0,43;  S=0,76;  NN=0,00;  NA=0,00] 
 public expression_list pattern_expressions     51525
-	0,392  [HC=0,25;  HNC=0,25;  I=0,31;  S=0,82;  N=0,00] 
-public expression const_params_check     49755
-	0,380  [HC=0,20;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
+	0,392  [HC=0,25;  HNC=0,25;  I=0,31;  S=0,82;  NN=0,00;  NA=0,00] 
 public expression const_param     51807
-	0,335  [HC=0,25;  HNC=0,25;  I=0,00;  S=0,76;  N=0,00] 
-public override Int32 subnodes_without_list_elements_count     51602
-	0,284  [HC=0,00;  HNC=0,20;  I=0,29;  S=0,82;  N=0,00] 
-public override Int32 subnodes_without_list_elements_count     52098
-	0,284  [HC=0,00;  HNC=0,20;  I=0,29;  S=0,82;  N=0,00] 
+	0,382  [HC=0,25;  HNC=0,25;  I=0,35;  S=0,76;  NN=0,00;  NA=0,00] 
+public expression const_params_check     49755
+	0,380  [HC=0,20;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
+public override Int32 subnodes_count     51612
+	0,330  [HC=0,00;  HNC=0,20;  I=0,64;  S=0,82;  NN=0,00;  NA=0,00] 
+public override Int32 subnodes_count     52108
+	0,330  [HC=0,00;  HNC=0,20;  I=0,64;  S=0,82;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -70,21 +70,21 @@ public statement statment_for_formatting     15745
 public List < pattern_parameter > parameters     48182
 	0,660  [HC=0,50;  H=0,34;  I=1,00;  S=0,89] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public pattern_node pattern     52696
-	0,901  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,88;  N=0,00] *
+	0,901  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,88;  NN=0,00;  NA=0,00] *
 public expression_list pattern_expressions     51525
-	0,470  [HC=0,50;  HNC=0,25;  I=0,50;  S=0,64;  N=0,00] 
-public bool var_keyword_used     50280
-	0,304  [HC=0,00;  HNC=0,25;  I=0,27;  S=0,88;  N=0,00] 
+	0,470  [HC=0,50;  HNC=0,25;  I=0,50;  S=0,64;  NN=0,00;  NA=0,00] 
 public type_definition type     52404
-	0,282  [HC=0,00;  HNC=0,25;  I=0,41;  S=0,73;  N=0,00] 
+	0,321  [HC=0,00;  HNC=0,25;  I=0,70;  S=0,73;  NN=0,00;  NA=0,00] 
 public type_definition type     53017
-	0,282  [HC=0,00;  HNC=0,25;  I=0,41;  S=0,73;  N=0,00] 
-public override Int32 subnodes_without_list_elements_count     52600
-	0,261  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,88;  N=0,00] 
+	0,321  [HC=0,00;  HNC=0,25;  I=0,70;  S=0,73;  NN=0,00;  NA=0,00] 
+public expression const_param     51807
+	0,319  [HC=0,00;  HNC=0,25;  I=0,63;  S=0,76;  NN=0,00;  NA=0,00] 
+public ident identifier     52387
+	0,315  [HC=0,00;  HNC=0,25;  I=0,66;  S=0,73;  NN=0,00;  NA=0,00] 
 public List < pattern_parameter > parameters     48182
-	0,499  [HC=0,50;  HNC=0,48;  I=0,49;  S=0,64;  N=0,00] #
+	0,492  [HC=0,50;  HNC=0,48;  I=0,43;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -96,9 +96,9 @@ public bool IsRecursive     1784
 public bool IsRecursive     1848
 	0,971  [HC=1,00;  H=1,00;  I=1,00;  S=0,90] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public bool IsRecursive     1848
-	0,770  [HC=1,00;  HNC=1,00;  I=0,00;  S=0,64;  N=1,00] *
+	0,878  [HC=1,00;  HNC=1,00;  I=0,81;  S=0,64;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 

@@ -60,9 +60,9 @@ private const int ErrorResult     27
 private readonly BlazorPackHubProtocolWorker _worker     22
 	0,601  [HC=0,27;  H=0,39;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly BlazorPackHubProtocolWorker _worker     22
-	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -74,9 +74,9 @@ private const int VoidResult     28
 private readonly BlazorPackHubProtocolWorker _worker     22
 	0,564  [HC=0,20;  H=0,35;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly BlazorPackHubProtocolWorker _worker     22
-	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -88,9 +88,9 @@ private const int NonVoidResult     29
 private readonly BlazorPackHubProtocolWorker _worker     22
 	0,546  [HC=0,15;  H=0,36;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly BlazorPackHubProtocolWorker _worker     22
-	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -104,11 +104,11 @@ private IWebDriver _browser     22
 private ExceptionDispatchInfo _exceptionDispatchInfo     21
 	0,465  [HC=0,00;  H=0,26;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,29;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,29;  S=0,50;  NN=0,00;  NA=0,00]
 private IWebDriver _browser     22
-	0,308  [HC=0,25;  HNC=0,17;  I=0,00;  S=1,00;  N=0,75] 
+	0,308  [HC=0,25;  HNC=0,17;  I=0,00;  S=1,00;  NN=0,60;  NA=0,00] 
 private ExceptionDispatchInfo _exceptionDispatchInfo     21
-	0,176  [HC=0,00;  HNC=0,17;  I=0,00;  S=1,00;  N=0,75] 
+	0,176  [HC=0,00;  HNC=0,17;  I=0,00;  S=1,00;  NN=0,60;  NA=0,00] 
 
 **************************************************************
 
@@ -122,11 +122,11 @@ private ExceptionDispatchInfo _exceptionDispatchInfo     21
 private IWebDriver _browser     22
 	0,513  [HC=0,11;  H=0,26;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,40;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,40;  S=0,50;  NN=0,00;  NA=0,00]
 private ExceptionDispatchInfo _exceptionDispatchInfo     21
-	0,171  [HC=0,00;  HNC=0,17;  I=0,00;  S=1,00;  N=0,75] 
+	0,171  [HC=0,00;  HNC=0,17;  I=0,00;  S=1,00;  NN=0,60;  NA=0,00] 
 private IWebDriver _browser     22
-	0,171  [HC=0,00;  HNC=0,17;  I=0,00;  S=1,00;  N=0,75] 
+	0,171  [HC=0,00;  HNC=0,17;  I=0,00;  S=1,00;  NN=0,60;  NA=0,00] 
 
 **************************************************************
 
@@ -150,21 +150,21 @@ private const string LocalhostHttpsDnsName     24
 internal const string AspNetHttpsOid     18
 	0,434  [HC=0,07;  H=0,09;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,24;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,24;  S=0,50;  NN=0,00;  NA=0,00]
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,172  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,95;  N=0,00] #
+	0,172  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,172  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,95;  N=0,00] #
+	0,172  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDnsName     24
-	0,172  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,95;  N=0,00] #
+	0,172  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDistinguishedName     25
-	0,172  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,95;  N=0,00] #
+	0,172  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,128  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,128  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,128  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,128  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,128  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,128  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -188,21 +188,21 @@ internal const string AspNetHttpsOid     18
 internal const string AspNetHttpsOidFriendlyName     19
 	0,500  [HC=0,08;  H=0,52;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
-private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private const string LocalhostHttpsDnsName     24
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -226,21 +226,21 @@ internal const string AspNetHttpsOidFriendlyName     19
 internal const string AspNetHttpsOid     18
 	0,513  [HC=0,11;  H=0,53;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,519  [HC=0,17;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,523  [HC=0,17;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,495  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,499  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -264,21 +264,21 @@ public const int RSAMinimumKeySizeInBits     27
 internal const string AspNetHttpsOid     18
 	0,486  [HC=0,12;  H=0,30;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,369  [HC=0,17;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,369  [HC=0,17;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,348  [HC=0,13;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,348  [HC=0,13;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDnsName     24
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDistinguishedName     25
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] #
+	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] #
+	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,119  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,119  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -302,21 +302,21 @@ public const int RSAMinimumKeySizeInBits     27
 internal const string AspNetHttpsOidFriendlyName     19
 	0,509  [HC=0,10;  H=0,52;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
-private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private const string LocalhostHttpsDnsName     24
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -340,21 +340,21 @@ public const int RSAMinimumKeySizeInBits     27
 internal const string AspNetHttpsOid     18
 	0,472  [HC=0,09;  H=0,29;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDnsName     24
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDistinguishedName     25
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] #
+	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] #
+	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,151  [HC=0,06;  HNC=0,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,151  [HC=0,06;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -378,21 +378,21 @@ internal const string AspNetHttpsOidFriendlyName     19
 public const int RSAMinimumKeySizeInBits     27
 	0,505  [HC=0,13;  H=0,40;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
-private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private const string LocalhostHttpsDnsName     24
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -416,21 +416,21 @@ internal const string AspNetHttpsOidFriendlyName     19
 public const int RSAMinimumKeySizeInBits     27
 	0,519  [HC=0,16;  H=0,41;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
-private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private const string LocalhostHttpsDnsName     24
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -454,21 +454,21 @@ public const int RSAMinimumKeySizeInBits     27
 internal const string AspNetHttpsOid     18
 	0,508  [HC=0,09;  H=0,52;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
-private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private const string LocalhostHttpsDnsName     24
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,225  [HC=0,06;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,225  [HC=0,06;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -492,21 +492,21 @@ internal const string AspNetHttpsOidFriendlyName     19
 public const int RSAMinimumKeySizeInBits     27
 	0,516  [HC=0,15;  H=0,41;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
-private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private const string LocalhostHttpsDnsName     24
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -530,21 +530,21 @@ public const int RSAMinimumKeySizeInBits     27
 internal const string AspNetHttpsOid     18
 	0,513  [HC=0,10;  H=0,53;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
-private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private const string LocalhostHttpsDnsName     24
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,229  [HC=0,06;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,229  [HC=0,06;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -568,21 +568,21 @@ internal const string AspNetHttpsOidFriendlyName     19
 public const int RSAMinimumKeySizeInBits     27
 	0,518  [HC=0,16;  H=0,41;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,01;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,01;  S=0,50;  NN=0,00;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
-private const string LocalhostHttpsDnsName     24
-	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,424  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private const string LocalhostHttpsDnsName     24
+	0,429  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,367  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,193  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -606,21 +606,21 @@ public const int RSAMinimumKeySizeInBits     27
 internal const string AspNetHttpsOid     18
 	0,488  [HC=0,12;  H=0,30;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDnsName     24
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDistinguishedName     25
-	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,286  [HC=0,00;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] #
+	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] #
+	0,244  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 public const int RSAMinimumKeySizeInBits     27
-	0,119  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,119  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -644,21 +644,21 @@ private const string LocalhostHttpsDnsName     24
 public const int RSAMinimumKeySizeInBits     27
 	0,490  [HC=0,04;  H=0,55;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,05;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,05;  S=0,50;  NN=0,00;  NA=0,00]
 public const int RSAMinimumKeySizeInBits     27
-	0,360  [HC=0,00;  HNC=0,80;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,80;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,247  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] #
+	0,247  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,247  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] #
+	0,247  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDnsName     24
-	0,247  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] #
+	0,247  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDistinguishedName     25
-	0,247  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] #
+	0,247  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,191  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,191  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,191  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,191  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -789,11 +789,11 @@ private Thread _timerThread     19
 private volatile bool _stopped     20
 	0,605  [HC=0,29;  H=0,38;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=2,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private Thread _timerThread     19
-	0,682  [HC=0,50;  HNC=0,25;  I=1,00;  S=1,00;  N=1,00] 
+	0,500  [HC=0,50;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,86;  NA=0,00] 
 private volatile bool _stopped     20
-	0,491  [HC=0,00;  HNC=0,20;  I=1,00;  S=1,00;  N=1,00] 
+	0,200  [HC=0,00;  HNC=0,20;  I=1,00;  S=1,00;  NN=0,86;  NA=0,00] 
 
 **************************************************************
 
@@ -807,11 +807,11 @@ private Thread _timerThread     19
 private volatile bool _stopped     20
 	0,517  [HC=0,10;  H=0,32;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=2,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private Thread _timerThread     19
-	0,500  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=1,00] 
+	0,214  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,86;  NA=0,00] 
 private volatile bool _stopped     20
-	0,491  [HC=0,00;  HNC=0,20;  I=1,00;  S=1,00;  N=1,00] 
+	0,200  [HC=0,00;  HNC=0,20;  I=1,00;  S=1,00;  NN=0,86;  NA=0,00] 
 
 **************************************************************
 
@@ -868,9 +868,9 @@ private readonly HttpContext _httpContext     16
 private readonly HostingApplication . Context _context     18
 	0,739  [HC=0,55;  H=0,54;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly HostingApplication . Context _context     18
-	0,557  [HC=0,43;  HNC=0,59;  I=1,00;  S=1,00;  N=0,83] 
+	0,557  [HC=0,43;  HNC=0,59;  I=1,00;  S=1,00;  NN=0,67;  NA=0,00] 
 
 **************************************************************
 
@@ -882,9 +882,9 @@ private readonly TimeSpan _elapsed     17
 private readonly HostingApplication . Context _context     18
 	0,484  [HC=0,00;  H=0,39;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly HostingApplication . Context _context     18
-	0,257  [HC=0,00;  HNC=0,40;  I=1,00;  S=1,00;  N=0,83] 
+	0,257  [HC=0,00;  HNC=0,40;  I=1,00;  S=1,00;  NN=0,67;  NA=0,00] 
 
 **************************************************************
 
@@ -902,15 +902,15 @@ private string _parsedRawTarget     39
 private string _parsedPath     37
 	0,563  [HC=0,14;  H=0,51;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private Uri _parsedAbsoluteRequestTarget     40
-	0,337  [HC=0,21;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,337  [HC=0,21;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private string _parsedPath     37
-	0,214  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
+	0,214  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private string _parsedQueryString     38
-	0,214  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
+	0,214  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private string _parsedRawTarget     39
-	0,214  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
+	0,214  [HC=0,00;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -934,21 +934,21 @@ private readonly OutputFlowControl _outputFlowControl     43
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
 	0,508  [HC=0,16;  H=0,33;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,19;  I=0,47;  S=1,00;  N=0,00]
+HC=2;  HNC=1,19;  I=0,47;  S=1,00;  NN=0,00;  NA=0,00]
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,412  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
-private readonly OutputFlowControl _outputFlowControl     43
-	0,385  [HC=0,00;  HNC=0,65;  I=0,26;  S=0,95;  N=0,00] #
+	0,439  [HC=0,00;  HNC=0,81;  I=0,26;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private readonly OutputFlowControl _outputFlowControl     43
+	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,358  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -972,21 +972,21 @@ private readonly Http2PeerSettings _clientSettings     46
 private Http2Stream _currentHeadersStream     50
 	0,530  [HC=0,25;  H=0,21;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,19;  I=0,44;  S=1,00;  N=0,00]
+HC=2;  HNC=1,19;  I=0,44;  S=1,00;  NN=0,00;  NA=0,00]
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,415  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
-private readonly OutputFlowControl _outputFlowControl     43
-	0,386  [HC=0,00;  HNC=0,65;  I=0,26;  S=0,95;  N=0,00] #
+	0,439  [HC=0,00;  HNC=0,81;  I=0,25;  S=0,95;  NN=0,00;  NA=0,00] #
 private bool _isMethodConnect     55
-	0,378  [HC=0,28;  HNC=0,17;  I=0,00;  S=0,95;  N=0,00] #
+	0,378  [HC=0,28;  HNC=0,17;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private readonly OutputFlowControl _outputFlowControl     43
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1010,21 +1010,21 @@ private readonly InputFlowControl _inputFlowControl     42
 private readonly OutputFlowControl _outputFlowControl     43
 	0,515  [HC=0,18;  H=0,33;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,19;  I=0,42;  S=1,00;  N=0,00]
+HC=2;  HNC=1,19;  I=0,42;  S=1,00;  NN=0,00;  NA=0,00]
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,417  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
+	0,439  [HC=0,00;  HNC=0,81;  I=0,25;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly OutputFlowControl _outputFlowControl     43
-	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,362  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1048,21 +1048,21 @@ private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
 private int _highestOpenedStreamId     56
 	0,526  [HC=0,24;  H=0,22;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,19;  I=0,44;  S=1,00;  N=0,00]
+HC=2;  HNC=1,19;  I=0,44;  S=1,00;  NN=0,00;  NA=0,00]
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,415  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
+	0,445  [HC=0,00;  HNC=0,81;  I=0,32;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly OutputFlowControl _outputFlowControl     43
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1086,21 +1086,21 @@ internal readonly Dictionary < int , Http2Stream > _streams     70
 private readonly Pipe _input     38
 	0,522  [HC=0,18;  H=0,36;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,19;  I=0,44;  S=1,00;  N=0,00]
+HC=2;  HNC=1,19;  I=0,44;  S=1,00;  NN=0,00;  NA=0,00]
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,415  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
+	0,439  [HC=0,00;  HNC=0,81;  I=0,25;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly OutputFlowControl _outputFlowControl     43
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,360  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1124,21 +1124,21 @@ private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields  
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
 	0,532  [HC=0,25;  H=0,22;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,38;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,38;  S=1,00;  NN=0,00;  NA=0,00]
 private readonly HttpConnectionContext _context     36
-	0,480  [HC=0,25;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,480  [HC=0,25;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,441  [HC=0,17;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,441  [HC=0,17;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,420  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
+	0,420  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,365  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,365  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,365  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,365  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly OutputFlowControl _outputFlowControl     43
-	0,365  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,365  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,365  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,365  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1162,21 +1162,21 @@ private Task _inputTask     39
 private readonly HPackDecoder _hpackDecoder     41
 	0,512  [HC=0,17;  H=0,33;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,19;  I=0,30;  S=1,00;  N=0,00]
+HC=2;  HNC=1,19;  I=0,30;  S=1,00;  NN=0,00;  NA=0,00]
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,428  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
+	0,428  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly OutputFlowControl _outputFlowControl     43
-	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,372  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1200,21 +1200,21 @@ private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields  
 private readonly Http2PeerSettings _serverSettings     45
 	0,533  [HC=0,21;  H=0,34;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,19;  I=0,36;  S=1,00;  N=0,00]
+HC=2;  HNC=1,19;  I=0,36;  S=1,00;  NN=0,00;  NA=0,00]
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,422  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
+	0,422  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private Http2Stream _currentHeadersStream     50
-	0,405  [HC=0,17;  HNC=0,48;  I=0,00;  S=0,95;  N=0,00] #
+	0,405  [HC=0,17;  HNC=0,48;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
+	0,390  [HC=0,00;  HNC=0,65;  I=0,28;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly OutputFlowControl _outputFlowControl     43
-	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
-private readonly Http2Frame _incomingFrame     48
-	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,367  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1238,81 +1238,21 @@ private readonly Http2PeerSettings _serverSettings     45
 private bool _gracefulCloseStarted     57
 	0,531  [HC=0,25;  H=0,22;  I=1,00;  S=0,88] #
 *
-HC=2;  HNC=1,00;  I=0,35;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,35;  S=1,00;  NN=0,00;  NA=0,00]
 private readonly HttpConnectionContext _context     36
-	0,532  [HC=0,36;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,532  [HC=0,36;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,423  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  N=0,00] #
+	0,423  [HC=0,00;  HNC=0,81;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly InputFlowControl _inputFlowControl     42
-	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly OutputFlowControl _outputFlowControl     43
-	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
+	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  N=0,00] #
-
-**************************************************************
-
-file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Http2OutputProducer.cs
-file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Http2OutputProducer.cs
-*
-private readonly int _streamId     22
-*
-private bool _streamCompleted     40
-	0,691  [HC=0,47;  H=0,44;  I=1,00;  S=1,00] 
-private bool _writerComplete     43
-	0,575  [HC=0,21;  H=0,38;  I=1,00;  S=1,00] 
-private readonly Pipe _pipe     34
-	0,570  [HC=0,13;  H=0,62;  I=1,00;  S=1,00] 
-private readonly ManualResetValueTaskSource < object > _resetAwaitable     37
-	0,570  [HC=0,21;  H=0,35;  I=1,00;  S=1,00] 
-private ManualResetValueTaskSourceCore < FlushResult > _responseCompleteTaskSource     50
-	0,510  [HC=0,12;  H=0,22;  I=1,00;  S=1,00] 
-*
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
-private bool _streamCompleted     40
-	0,486  [HC=0,50;  HNC=0,20;  I=1,00;  S=1,00;  N=0,00] 
-private readonly Pipe _pipe     34
-	0,257  [HC=0,00;  HNC=0,40;  I=1,00;  S=1,00;  N=0,00] 
-private readonly ManualResetValueTaskSource < object > _resetAwaitable     37
-	0,257  [HC=0,00;  HNC=0,40;  I=0,00;  S=1,00;  N=0,00] 
-private bool _writerComplete     43
-	0,200  [HC=0,00;  HNC=0,20;  I=1,00;  S=1,00;  N=0,00] 
-private ManualResetValueTaskSourceCore < FlushResult > _responseCompleteTaskSource     50
-	0,200  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
-
-**************************************************************
-
-file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\Http2OutputProducer.cs
-file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\Http2OutputProducer.cs
-*
-private bool _completed     37
-*
-private bool _streamCompleted     40
-	0,779  [HC=0,53;  H=0,85;  I=1,00;  S=1,00] 
-private bool _writerComplete     43
-	0,730  [HC=0,43;  H=0,82;  I=1,00;  S=1,00] 
-private readonly Pipe _pipe     34
-	0,579  [HC=0,22;  H=0,39;  I=1,00;  S=1,00] 
-private ManualResetValueTaskSourceCore < FlushResult > _responseCompleteTaskSource     50
-	0,577  [HC=0,27;  H=0,23;  I=1,00;  S=1,00] 
-private readonly ManualResetValueTaskSource < object > _resetAwaitable     37
-	0,489  [HC=0,07;  H=0,21;  I=1,00;  S=1,00] 
-*
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
-private bool _streamCompleted     40
-	0,683  [HC=0,44;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] 
-private bool _writerComplete     43
-	0,651  [HC=0,39;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] 
-private ManualResetValueTaskSourceCore < FlushResult > _responseCompleteTaskSource     50
-	0,325  [HC=0,19;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
-private readonly ManualResetValueTaskSource < object > _resetAwaitable     37
-	0,200  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
-private readonly Pipe _pipe     34
-	0,200  [HC=0,00;  HNC=0,20;  I=1,00;  S=1,00;  N=0,00] 
+	0,368  [HC=0,00;  HNC=0,65;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1324,9 +1264,9 @@ protected string _parsedPath     133
 private string _httpProtocol     65
 	0,540  [HC=0,08;  H=0,53;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,05;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,05;  S=0,50;  NN=0,00;  NA=0,00]
 private string _httpProtocol     65
-	0,352  [HC=0,00;  HNC=0,75;  I=0,00;  S=1,00;  N=0,00] 
+	0,352  [HC=0,00;  HNC=0,75;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1338,9 +1278,9 @@ protected string _parsedQueryString     136
 private string _httpProtocol     65
 	0,556  [HC=0,12;  H=0,54;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,05;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,05;  S=0,50;  NN=0,00;  NA=0,00]
 private string _httpProtocol     65
-	0,352  [HC=0,00;  HNC=0,75;  I=0,00;  S=1,00;  N=0,00] 
+	0,352  [HC=0,00;  HNC=0,75;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1352,9 +1292,9 @@ protected string _parsedRawTarget     139
 private string _httpProtocol     65
 	0,500  [HC=0,00;  H=0,50;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,05;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,05;  S=0,50;  NN=0,00;  NA=0,00]
 private string _httpProtocol     65
-	0,352  [HC=0,00;  HNC=0,75;  I=0,00;  S=1,00;  N=0,00] 
+	0,352  [HC=0,00;  HNC=0,75;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1609,9 +1549,9 @@ private readonly bool _reuseHeaderValues     17
 private KnownHeaderType _currentKnownType     158
 	0,435  [HC=0,12;  H=0,36;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private KnownHeaderType _currentKnownType     158
-	0,152  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,67;  N=0,00] 
+	0,152  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1633,19 +1573,19 @@ private readonly ISystemClock _systemClock     39
 private readonly CancellationTokenRegistration _closedRegistration     40
 	0,563  [HC=0,19;  H=0,37;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,22;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,22;  S=0,50;  NN=0,00;  NA=0,00]
 private long _receivedMessageTimestamp     52
-	0,521  [HC=0,22;  HNC=1,00;  I=0,00;  S=1,00;  N=0,00] 
+	0,521  [HC=0,22;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private long _receivedMessageElapsedTicks     51
-	0,403  [HC=0,00;  HNC=1,00;  I=0,00;  S=1,00;  N=0,00] 
+	0,403  [HC=0,00;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private readonly object _receiveMessageTimeoutLock     38
-	0,265  [HC=0,14;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,265  [HC=0,14;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private readonly ISystemClock _systemClock     39
-	0,188  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,188  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private readonly CancellationTokenRegistration _closedRegistration     40
-	0,188  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,188  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private bool _receivedMessageTimeoutEnabled     50
-	0,278  [HC=0,14;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] #
+	0,278  [HC=0,14;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1683,17 +1623,17 @@ private readonly SemaphoreSlim _bindSemaphore     30
 private IDisposable _configChangedRegistration     36
 	0,515  [HC=0,16;  H=0,13;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,38;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,38;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly TransportManager _transportManager     26
-	0,464  [HC=0,45;  HNC=0,40;  I=0,00;  S=1,00;  N=0,00] 
+	0,464  [HC=0,45;  HNC=0,40;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private readonly IMultiplexedConnectionListenerFactory _multiplexedTransportFactory     28
-	0,426  [HC=0,27;  HNC=0,62;  I=0,00;  S=1,00;  N=0,00] 
+	0,426  [HC=0,27;  HNC=0,62;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 private readonly CancellationTokenSource _stopCts     33
-	0,248  [HC=0,00;  HNC=0,46;  I=0,00;  S=1,00;  N=0,00] 
+	0,282  [HC=0,00;  HNC=0,46;  I=0,34;  S=1,00;  NN=0,00;  NA=0,00] 
 private readonly SemaphoreSlim _bindSemaphore     30
-	0,232  [HC=0,00;  HNC=0,40;  I=0,00;  S=1,00;  N=0,00] 
+	0,258  [HC=0,00;  HNC=0,40;  I=0,26;  S=1,00;  NN=0,00;  NA=0,00] 
 private IDisposable _configChangedRegistration     36
-	0,209  [HC=0,00;  HNC=0,31;  I=0,00;  S=1,00;  N=0,00] 
+	0,209  [HC=0,00;  HNC=0,31;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1750,9 +1690,9 @@ private const int ErrorResult     24
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
 	0,601  [HC=0,27;  H=0,39;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
-	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1764,9 +1704,9 @@ private const int VoidResult     25
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
 	0,564  [HC=0,20;  H=0,34;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
-	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1778,9 +1718,9 @@ private const int NonVoidResult     26
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
 	0,546  [HC=0,15;  H=0,36;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,02;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,02;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
-	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] 
+	0,199  [HC=0,00;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1792,9 +1732,9 @@ private IFormatterResolver _resolver     28
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
 	0,648  [HC=0,38;  H=0,41;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
-	0,200  [HC=0,00;  HNC=0,20;  I=1,00;  S=1,00;  N=0,00] 
+	0,200  [HC=0,00;  HNC=0,20;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1806,9 +1746,9 @@ private readonly IList < IFormatterResolver > _resolvers     738
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
 	0,529  [HC=0,33;  H=0,37;  I=1,00;  S=0,67] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private readonly DefaultMessagePackHubProtocolWorker _worker     22
-	0,237  [HC=0,00;  HNC=0,50;  I=1,00;  S=0,67;  N=0,00] 
+	0,237  [HC=0,00;  HNC=0,50;  I=1,00;  S=0,67;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -1820,9 +1760,9 @@ private IList < IFormatterResolver > _formatterResolvers     12
 private MessagePackSerializerOptions _messagePackSerializerOptions     12
 	0,553  [HC=0,21;  H=0,23;  I=1,00;  S=1,00] 
 *
-HC=2;  HNC=1,00;  I=0,00;  S=0,50;  N=0,00]
+HC=2;  HNC=1,00;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00]
 private MessagePackSerializerOptions _messagePackSerializerOptions     12
-	0,214  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  N=0,00] 
+	0,214  [HC=0,00;  HNC=0,25;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 

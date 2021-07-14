@@ -1,0 +1,22 @@
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\base\CertificateManager.cs
+file:///D:\Repositories\_mapping\ASP.NET Core\3551\Common\modified\CertificateManager.cs
+*
+internal class DiagnosticInformation     856
+*
+public class CertificateManagerEventSource     567
+	0,380  [HC=0,17;  H=0,39;  I=0,00;  S=0,88] 
+internal struct CheckCertificateStateResult     754
+	0,368  [HC=0,15;  H=0,38;  I=0,00;  S=0,88] 
+internal class UserCancelledTrustException     750
+	0,433  [HC=0,19;  H=0,73;  I=0,00;  S=0,88] #
+*
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
+internal struct CheckCertificateStateResult     754
+	0,366  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,67;  NA=0,00] 
+public class CertificateManagerEventSource     567
+	0,321  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
+internal class UserCancelledTrustException     750
+	0,388  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+
+**************************************************************
+

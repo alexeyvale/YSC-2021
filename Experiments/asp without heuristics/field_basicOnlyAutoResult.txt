@@ -6,9 +6,9 @@ private static ConcurrentDictionary < IHubProtocol , ReadOnlyMemory < byte > > _
 private static readonly ReadOnlyMemory < byte > _successHandshakeData     29
 	0,614  [HC=0,25;  H=0,54;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly ReadOnlyMemory < byte > _successHandshakeData     29
-	0,407  [HC=0,00;  HNC=0,55;  I=0,00;  S=1,00;  N=1,00] 
+	0,407  [HC=0,00;  HNC=0,55;  I=0,00;  S=1,00;  NN=1,00;  NA=0,00] 
 
 **************************************************************
 
@@ -32,21 +32,21 @@ private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted 
 private readonly object _heartbeatLock     17
 	0,525  [HC=0,11;  H=0,60;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 protected readonly TransportConnectionManager _transportConnectionManager     26
-	0,571  [HC=0,30;  HNC=0,40;  I=1,00;  S=0,95;  N=1,00] 
+	0,571  [HC=0,30;  HNC=0,40;  I=1,00;  S=0,95;  NN=1,00;  NA=0,00] 
 private readonly CancellationTokenSource _connectionClosingCts     22
-	0,457  [HC=0,33;  HNC=0,52;  I=0,00;  S=0,95;  N=0,00] #
+	0,457  [HC=0,33;  HNC=0,52;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly TaskCompletionSource _completionTcs     23
-	0,444  [HC=0,30;  HNC=0,52;  I=0,00;  S=0,95;  N=0,00] #
+	0,444  [HC=0,30;  HNC=0,52;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
-	0,421  [HC=0,00;  HNC=0,24;  I=1,00;  S=0,95;  N=0,00] #
+	0,421  [HC=0,00;  HNC=0,24;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private bool _completed     20
-	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted     19
-	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 protected readonly ServiceContext _serviceContext     25
-	0,324  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,324  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -60,11 +60,11 @@ private int _totalRequests     16
 private readonly int _maxTotalRequest     13
 	0,690  [HC=0,47;  H=0,42;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int _totalRequests     16
-	0,633  [HC=0,67;  HNC=0,25;  I=0,00;  S=1,00;  N=1,00] 
+	0,633  [HC=0,67;  HNC=0,25;  I=0,00;  S=1,00;  NN=1,00;  NA=0,00] 
 private readonly int _maxTotalRequest     13
-	0,383  [HC=0,23;  HNC=0,20;  I=0,00;  S=1,00;  N=0,00] #
+	0,383  [HC=0,23;  HNC=0,20;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -76,9 +76,9 @@ private readonly StringBuilder _output     20
 private readonly ITestOutputHelper _testOut     21
 	0,710  [HC=0,43;  H=0,68;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly ITestOutputHelper _testOut     21
-	0,387  [HC=0,00;  HNC=0,40;  I=0,00;  S=1,00;  N=1,00] 
+	0,387  [HC=0,00;  HNC=0,40;  I=0,00;  S=1,00;  NN=1,00;  NA=0,00] 
 
 **************************************************************
 

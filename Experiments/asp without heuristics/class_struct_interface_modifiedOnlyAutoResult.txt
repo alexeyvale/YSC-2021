@@ -14,17 +14,17 @@ private class IgnoreCaseSchemeProvider     216
 public class AuthenticationSchemeProviderTests     16
 	0,206  [HC=0,15;  H=0,43;  I=0,00;  S=0,28] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private class SignInHandler     195
-	0,864  [HC=1,00;  HNC=1,00;  I=0,78;  S=0,85;  N=0,00] *
+	0,897  [HC=1,00;  HNC=1,00;  I=0,78;  S=0,85;  NN=0,50;  NA=0,00] *
 private class SignOutHandler     208
-	0,718  [HC=0,67;  HNC=1,00;  I=0,68;  S=0,85;  N=0,00] 
+	0,751  [HC=0,67;  HNC=1,00;  I=0,68;  S=0,85;  NN=0,50;  NA=0,00] 
 private class IgnoreCaseSchemeProvider     216
-	0,360  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,85;  N=0,00] 
+	0,394  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,85;  NN=0,50;  NA=0,00] 
 private class Handler     172
-	0,580  [HC=0,33;  HNC=1,00;  I=0,65;  S=0,85;  N=0,00] #
+	0,580  [HC=0,33;  HNC=1,00;  I=0,65;  S=0,85;  NN=0,00;  NA=0,00] #
 public class AuthenticationSchemeProviderTests     16
-	0,160  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,35;  N=0,00] #
+	0,177  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,35;  NN=0,25;  NA=0,00] #
 
 **************************************************************
 
@@ -44,17 +44,17 @@ private class IgnoreCaseSchemeProvider     216
 public class AuthenticationSchemeProviderTests     16
 	0,206  [HC=0,15;  H=0,43;  I=0,00;  S=0,28] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private class SignOutHandler     208
-	0,883  [HC=1,00;  HNC=1,00;  I=0,92;  S=0,85;  N=0,00] *
+	0,942  [HC=1,00;  HNC=1,00;  I=0,99;  S=0,85;  NN=0,75;  NA=0,00] *
 private class IgnoreCaseSchemeProvider     216
-	0,360  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,85;  N=0,00] 
+	0,410  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,85;  NN=0,75;  NA=0,00] 
 private class SignInHandler     195
-	0,727  [HC=0,67;  HNC=1,00;  I=0,75;  S=0,85;  N=0,00] #
+	0,727  [HC=0,67;  HNC=1,00;  I=0,75;  S=0,85;  NN=0,00;  NA=0,00] #
 private class Handler     172
-	0,561  [HC=0,33;  HNC=1,00;  I=0,51;  S=0,85;  N=0,00] #
+	0,561  [HC=0,33;  HNC=1,00;  I=0,51;  S=0,85;  NN=0,00;  NA=0,00] #
 public class AuthenticationSchemeProviderTests     16
-	0,160  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,35;  N=0,00] #
+	0,177  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,35;  NN=0,25;  NA=0,00] #
 
 **************************************************************
 
@@ -78,21 +78,21 @@ private class ForbidHandler     382
 public class AuthenticationServiceTests     13
 	0,207  [HC=0,15;  H=0,43;  I=0,00;  S=0,28] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private class SignInHandler     283
-	0,881  [HC=1,00;  HNC=1,00;  I=0,90;  S=0,85;  N=0,00] *
+	0,907  [HC=1,00;  HNC=1,00;  I=0,90;  S=0,85;  NN=0,40;  NA=0,00] *
 public class SignOutHandler     316
-	0,679  [HC=0,67;  HNC=0,50;  I=0,89;  S=0,85;  N=0,00] 
+	0,705  [HC=0,67;  HNC=0,50;  I=0,89;  S=0,85;  NN=0,40;  NA=0,00] 
 private class UberHandler     344
-	0,614  [HC=0,33;  HNC=1,00;  I=0,90;  S=0,85;  N=0,00] 
+	0,640  [HC=0,33;  HNC=1,00;  I=0,90;  S=0,85;  NN=0,40;  NA=0,00] 
 private class ForbidHandler     382
-	0,567  [HC=0,33;  HNC=1,00;  I=0,55;  S=0,85;  N=0,00] 
+	0,594  [HC=0,33;  HNC=1,00;  I=0,55;  S=0,85;  NN=0,40;  NA=0,00] 
 private class RunOnce     246
-	0,360  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,85;  N=0,00] 
+	0,360  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] 
 private class BaseHandler     256
-	0,589  [HC=0,33;  HNC=1,00;  I=0,72;  S=0,85;  N=0,00] #
+	0,589  [HC=0,33;  HNC=1,00;  I=0,72;  S=0,85;  NN=0,00;  NA=0,00] #
 public class AuthenticationServiceTests     13
-	0,160  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,35;  N=0,00] #
+	0,174  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,35;  NN=0,20;  NA=0,00] #
 
 **************************************************************
 
@@ -116,21 +116,21 @@ private class ForbidHandler     382
 public class AuthenticationServiceTests     13
 	0,248  [HC=0,15;  H=0,72;  I=0,00;  S=0,28] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public class SignOutHandler     316
-	0,884  [HC=1,00;  HNC=1,00;  I=0,93;  S=0,85;  N=0,00] *
+	0,924  [HC=1,00;  HNC=1,00;  I=0,93;  S=0,85;  NN=0,60;  NA=0,00] *
 private class UberHandler     344
-	0,550  [HC=0,33;  HNC=0,50;  I=0,92;  S=0,85;  N=0,00] 
+	0,590  [HC=0,33;  HNC=0,50;  I=0,92;  S=0,85;  NN=0,60;  NA=0,00] 
 private class ForbidHandler     382
-	0,502  [HC=0,33;  HNC=0,50;  I=0,56;  S=0,85;  N=0,00] 
+	0,542  [HC=0,33;  HNC=0,50;  I=0,56;  S=0,85;  NN=0,60;  NA=0,00] 
 private class RunOnce     246
-	0,294  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,85;  N=0,00] 
+	0,294  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] 
 private class SignInHandler     283
-	0,683  [HC=0,67;  HNC=0,50;  I=0,92;  S=0,85;  N=0,00] #
+	0,683  [HC=0,67;  HNC=0,50;  I=0,92;  S=0,85;  NN=0,00;  NA=0,00] #
 private class BaseHandler     256
-	0,528  [HC=0,33;  HNC=0,50;  I=0,76;  S=0,85;  N=0,00] #
+	0,528  [HC=0,33;  HNC=0,50;  I=0,76;  S=0,85;  NN=0,00;  NA=0,00] #
 public class AuthenticationServiceTests     13
-	0,227  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,35;  N=0,00] #
+	0,240  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,35;  NN=0,20;  NA=0,00] #
 
 **************************************************************
 

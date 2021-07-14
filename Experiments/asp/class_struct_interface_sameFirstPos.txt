@@ -19,13 +19,13 @@ public class CertificateManagerEventSource     567
 internal class UserCancelledTrustException     750
 	0,422  [HC=0,16;  H=0,72;  I=0,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 internal struct CheckCertificateStateResult     754
-	0,425  [HC=0,25;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] 
+	0,425  [HC=0,25;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,67;  NA=0,00] 
 public class CertificateManagerEventSource     567
-	0,354  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] 
+	0,354  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 internal class UserCancelledTrustException     750
-	0,640  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,640  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -41,13 +41,13 @@ internal struct CheckCertificateStateResult     754
 internal class UserCancelledTrustException     750
 	0,433  [HC=0,19;  H=0,73;  I=0,00;  S=0,88] #
 *
-HC=2;  HNC=4,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 public class CertificateManagerEventSource     567
-	0,354  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] 
+	0,354  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 internal struct CheckCertificateStateResult     754
-	0,354  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  N=0,00] 
+	0,354  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,67;  NA=0,00] 
 internal class UserCancelledTrustException     750
-	0,640  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,640  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -68,9 +68,9 @@ private class NullScopeLogger     445
 private class FeaturesWithContext < T >     110
 	0,396  [HC=0,14;  H=0,36;  I=0,00;  S=1,00] 
 *
-HC=2;  HNC=4,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private class FeaturesWithContext < T >     110
-	0,663  [HC=0,00;  HNC=1,00;  I=0,28;  S=1,00;  N=0,00] 
+	0,663  [HC=0,00;  HNC=1,00;  I=0,28;  S=1,00;  NN=0,20;  NA=0,00] 
 
 **************************************************************
 
@@ -82,9 +82,9 @@ private class LoggerWithScopes     462
 private class FeaturesWithContext < T >     110
 	0,458  [HC=0,27;  H=0,39;  I=0,00;  S=1,00] 
 *
-HC=2;  HNC=4,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private class FeaturesWithContext < T >     110
-	0,737  [HC=0,24;  HNC=1,00;  I=0,36;  S=1,00;  N=0,00] 
+	0,737  [HC=0,24;  HNC=1,00;  I=0,36;  S=1,00;  NN=0,25;  NA=0,00] 
 
 **************************************************************
 
@@ -96,9 +96,9 @@ private class Scope     485
 private class FeaturesWithContext < T >     110
 	0,280  [HC=0,09;  H=0,35;  I=0,00;  S=0,67] 
 *
-HC=2;  HNC=4,00;  I=0,21;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,21;  S=0,50;  NN=0,00;  NA=0,00]
 private class FeaturesWithContext < T >     110
-	0,646  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  N=0,00] 
+	0,646  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,67;  NN=0,20;  NA=0,00] 
 
 **************************************************************
 
@@ -110,9 +110,9 @@ private class NoopDiagnosticListener     493
 private class FeaturesWithContext < T >     110
 	0,356  [HC=0,05;  H=0,36;  I=0,00;  S=1,00] 
 *
-HC=2;  HNC=4,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private class FeaturesWithContext < T >     110
-	0,643  [HC=0,00;  HNC=1,00;  I=0,00;  S=1,00;  N=0,00] 
+	0,643  [HC=0,00;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,20;  NA=0,00] 
 
 **************************************************************
 
@@ -124,9 +124,9 @@ private class CallbackDiagnosticListener     509
 private class FeaturesWithContext < T >     110
 	0,403  [HC=0,15;  H=0,36;  I=0,00;  S=1,00] 
 *
-HC=2;  HNC=4,00;  I=0,50;  S=0,50;  N=0,00]
+HC=2;  HNC=4,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 private class FeaturesWithContext < T >     110
-	0,643  [HC=0,00;  HNC=1,00;  I=0,00;  S=1,00;  N=0,00] 
+	0,643  [HC=0,00;  HNC=1,00;  I=0,00;  S=1,00;  NN=0,20;  NA=0,00] 
 
 **************************************************************
 
@@ -138,9 +138,9 @@ private class SslDuplexPipe     292
 internal static class HttpsConnectionMiddlewareLoggerExtensions     325
 	0,240  [HC=0,12;  H=0,32;  I=0,00;  S=0,50] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=0,50;  N=2,00]
+HC=2;  HNC=1,00;  I=0,50;  S=0,50;  NN=0,00;  NA=0,00]
 internal static class HttpsConnectionMiddlewareLoggerExtensions     325
-	0,431  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,50;  N=1,00] 
+	0,146  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,50;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -192,13 +192,13 @@ public readonly partial struct TargetOffsetPathLength     270
 public partial class Http3Limits     83
 	0,323  [HC=0,18;  H=0,34;  I=0,00;  S=0,69] 
 *
-HC=2;  HNC=1,00;  I=0,50;  S=1,00;  N=0,00]
+HC=2;  HNC=1,00;  I=0,50;  S=1,00;  NN=0,00;  NA=0,00]
 public partial struct HttpVersionAndMethod     250
-	0,485  [HC=0,16;  HNC=0,67;  I=0,38;  S=1,00;  N=0,00] 
+	0,485  [HC=0,16;  HNC=0,67;  I=0,38;  S=1,00;  NN=0,00;  NA=0,00] 
 public readonly partial struct TargetOffsetPathLength     270
-	0,410  [HC=0,08;  HNC=0,50;  I=0,37;  S=1,00;  N=0,00] 
+	0,410  [HC=0,08;  HNC=0,50;  I=0,37;  S=1,00;  NN=0,00;  NA=0,00] 
 public partial class Http3Limits     83
-	0,391  [HC=0,16;  HNC=0,67;  I=0,00;  S=0,77;  N=0,00] 
+	0,391  [HC=0,16;  HNC=0,67;  I=0,00;  S=0,77;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 

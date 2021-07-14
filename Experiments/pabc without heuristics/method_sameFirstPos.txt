@@ -8,11 +8,11 @@ void ButtonsEnableDisable_RunStart ( )     27
 void ButtonsEnableDisable_RunStop ( )     35
 	0,591  [HC=0,20;  H=0,54;  I=1,00;  S=1,00] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 void ButtonsEnableDisable_RunStart ( )     27
-	0,304  [HC=0,00;  HNC=0,28;  I=0,00;  S=1,00;  N=0,00] 
+	0,304  [HC=0,00;  HNC=0,28;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 void ButtonsEnableDisable_RunStop ( )     35
-	0,304  [HC=0,00;  HNC=0,28;  I=0,00;  S=1,00;  N=0,00] 
+	0,304  [HC=0,00;  HNC=0,28;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -36,21 +36,21 @@ public void AddFirst ( syntax_tree_node el )     51154
 public void AddFirst ( IEnumerable < syntax_tree_node > els )     51162
 	0,608  [HC=0,38;  H=0,33;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public pattern_node Add ( pattern_parameter elem , SourceContext sc = null )     48195
-	0,796  [HC=1,00;  HNC=0,70;  I=1,00;  S=0,64;  N=0,00] 
+	0,796  [HC=1,00;  HNC=0,70;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public semantic_check_sugared_var_def_statement_node Add ( syntax_tree_node elem , SourceContext sc = null )     51144
-	0,752  [HC=1,00;  HNC=0,53;  I=0,83;  S=0,64;  N=0,00] 
+	0,761  [HC=1,00;  HNC=0,53;  I=0,91;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddMany ( params pattern_parameter [ ] els )     48223
-	0,473  [HC=0,50;  HNC=0,20;  I=0,57;  S=0,64;  N=0,00] 
+	0,473  [HC=0,50;  HNC=0,20;  I=0,57;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( pattern_parameter el )     48205
-	0,466  [HC=0,50;  HNC=0,30;  I=0,42;  S=0,64;  N=0,00] 
+	0,466  [HC=0,50;  HNC=0,30;  I=0,42;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddMany ( params syntax_tree_node [ ] els )     51172
-	0,447  [HC=0,50;  HNC=0,14;  I=0,44;  S=0,64;  N=0,00] 
+	0,447  [HC=0,50;  HNC=0,14;  I=0,44;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( syntax_tree_node el )     51154
-	0,447  [HC=0,50;  HNC=0,13;  I=0,45;  S=0,64;  N=0,00] 
+	0,447  [HC=0,50;  HNC=0,13;  I=0,45;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( IEnumerable < pattern_parameter > els )     48213
-	0,444  [HC=0,50;  HNC=0,11;  I=0,44;  S=0,64;  N=0,00] 
+	0,444  [HC=0,50;  HNC=0,11;  I=0,44;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -74,21 +74,21 @@ public void AddMany ( params syntax_tree_node [ ] els )     51172
 public pattern_node Add ( pattern_parameter elem , SourceContext sc = null )     48195
 	0,614  [HC=0,38;  H=0,38;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void AddFirst ( pattern_parameter el )     48205
-	0,814  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  N=0,00] 
+	0,814  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( syntax_tree_node el )     51154
-	0,731  [HC=1,00;  HNC=0,49;  I=0,72;  S=0,64;  N=0,00] 
+	0,731  [HC=1,00;  HNC=0,49;  I=0,72;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( IEnumerable < pattern_parameter > els )     48213
-	0,718  [HC=1,00;  HNC=0,53;  I=0,58;  S=0,64;  N=0,00] 
+	0,718  [HC=1,00;  HNC=0,53;  I=0,58;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( IEnumerable < syntax_tree_node > els )     51162
-	0,673  [HC=1,00;  HNC=0,38;  I=0,39;  S=0,64;  N=0,00] 
+	0,673  [HC=1,00;  HNC=0,38;  I=0,39;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddMany ( params pattern_parameter [ ] els )     48223
-	0,522  [HC=0,50;  HNC=0,59;  I=0,55;  S=0,64;  N=0,00] 
+	0,522  [HC=0,50;  HNC=0,59;  I=0,55;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddMany ( params syntax_tree_node [ ] els )     51172
-	0,500  [HC=0,50;  HNC=0,40;  I=0,58;  S=0,64;  N=0,00] 
+	0,500  [HC=0,50;  HNC=0,40;  I=0,58;  S=0,64;  NN=0,00;  NA=0,00] 
 public pattern_node Add ( pattern_parameter elem , SourceContext sc = null )     48195
-	0,457  [HC=0,50;  HNC=0,24;  I=0,42;  S=0,64;  N=0,00] 
+	0,457  [HC=0,50;  HNC=0,24;  I=0,42;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -112,21 +112,21 @@ public void AddMany ( params pattern_parameter [ ] els )     48223
 public semantic_check_sugared_var_def_statement_node Add ( syntax_tree_node elem , SourceContext sc = null )     51144
 	0,610  [HC=0,38;  H=0,34;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void AddFirst ( IEnumerable < pattern_parameter > els )     48213
-	0,821  [HC=1,00;  HNC=0,89;  I=1,00;  S=0,64;  N=0,00] 
+	0,821  [HC=1,00;  HNC=0,89;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( IEnumerable < syntax_tree_node > els )     51162
-	0,769  [HC=1,00;  HNC=0,67;  I=0,83;  S=0,64;  N=0,00] 
+	0,769  [HC=1,00;  HNC=0,67;  I=0,83;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( pattern_parameter el )     48205
-	0,727  [HC=1,00;  HNC=0,61;  I=0,58;  S=0,64;  N=0,00] 
+	0,727  [HC=1,00;  HNC=0,61;  I=0,58;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( syntax_tree_node el )     51154
-	0,711  [HC=1,00;  HNC=0,38;  I=0,68;  S=0,64;  N=0,00] 
+	0,711  [HC=1,00;  HNC=0,38;  I=0,68;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddMany ( params pattern_parameter [ ] els )     48223
-	0,557  [HC=0,50;  HNC=0,63;  I=0,77;  S=0,64;  N=0,00] 
+	0,557  [HC=0,50;  HNC=0,63;  I=0,77;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddMany ( params syntax_tree_node [ ] els )     51172
-	0,539  [HC=0,50;  HNC=0,42;  I=0,85;  S=0,64;  N=0,00] 
+	0,539  [HC=0,50;  HNC=0,42;  I=0,85;  S=0,64;  NN=0,00;  NA=0,00] 
 public semantic_check_sugared_var_def_statement_node Add ( syntax_tree_node elem , SourceContext sc = null )     51144
-	0,464  [HC=0,50;  HNC=0,24;  I=0,46;  S=0,64;  N=0,00] 
+	0,464  [HC=0,50;  HNC=0,24;  I=0,46;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -150,21 +150,21 @@ public void AddFirst ( syntax_tree_node el )     51154
 public pattern_node Add ( pattern_parameter elem , SourceContext sc = null )     48195
 	0,634  [HC=0,43;  H=0,35;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void AddMany ( params pattern_parameter [ ] els )     48223
-	0,819  [HC=1,00;  HNC=0,87;  I=1,00;  S=0,64;  N=0,00] 
+	0,819  [HC=1,00;  HNC=0,87;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddMany ( params syntax_tree_node [ ] els )     51172
-	0,756  [HC=1,00;  HNC=0,60;  I=0,80;  S=0,64;  N=0,00] 
+	0,756  [HC=1,00;  HNC=0,60;  I=0,80;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( IEnumerable < pattern_parameter > els )     48213
-	0,547  [HC=0,50;  HNC=0,56;  I=0,77;  S=0,64;  N=0,00] 
+	0,547  [HC=0,50;  HNC=0,56;  I=0,77;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( pattern_parameter el )     48205
-	0,532  [HC=0,50;  HNC=0,66;  I=0,55;  S=0,64;  N=0,00] 
+	0,532  [HC=0,50;  HNC=0,66;  I=0,55;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( IEnumerable < syntax_tree_node > els )     51162
-	0,530  [HC=0,50;  HNC=0,52;  I=0,68;  S=0,64;  N=0,00] 
+	0,530  [HC=0,50;  HNC=0,52;  I=0,68;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( syntax_tree_node el )     51154
-	0,498  [HC=0,50;  HNC=0,40;  I=0,56;  S=0,64;  N=0,00] 
+	0,498  [HC=0,50;  HNC=0,40;  I=0,56;  S=0,64;  NN=0,00;  NA=0,00] 
 public pattern_node Add ( pattern_parameter elem , SourceContext sc = null )     48195
-	0,481  [HC=0,50;  HNC=0,26;  I=0,57;  S=0,64;  N=0,00] 
+	0,481  [HC=0,50;  HNC=0,26;  I=0,57;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -188,21 +188,21 @@ public void ReplaceInList ( syntax_tree_node el , IEnumerable < syntax_tree_node
 public void AddFirst ( pattern_parameter el )     48205
 	0,595  [HC=0,27;  H=0,57;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int FindIndexInList ( pattern_parameter el )     48233
-	0,814  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  N=0,00] 
+	0,814  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 private int FindIndexInList ( syntax_tree_node el )     51182
-	0,755  [HC=1,00;  HNC=0,49;  I=0,90;  S=0,64;  N=0,00] 
+	0,755  [HC=1,00;  HNC=0,49;  I=0,90;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( pattern_parameter el , pattern_parameter newel )     48292
-	0,479  [HC=0,50;  HNC=0,25;  I=0,57;  S=0,64;  N=0,00] 
+	0,479  [HC=0,50;  HNC=0,25;  I=0,57;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( syntax_tree_node el , syntax_tree_node newel )     51241
-	0,447  [HC=0,50;  HNC=0,10;  I=0,48;  S=0,64;  N=0,00] 
+	0,447  [HC=0,50;  HNC=0,10;  I=0,48;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51251
-	0,425  [HC=0,50;  HNC=0,08;  I=0,33;  S=0,64;  N=0,00] 
+	0,425  [HC=0,50;  HNC=0,08;  I=0,33;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48302
-	0,394  [HC=0,50;  HNC=0,18;  I=0,00;  S=0,64;  N=0,00] 
+	0,394  [HC=0,50;  HNC=0,18;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public override void FillParentsInDirectChilds ( )     52446
-	0,361  [HC=0,30;  HNC=0,03;  I=0,32;  S=0,73;  N=0,00] 
+	0,361  [HC=0,30;  HNC=0,03;  I=0,32;  S=0,73;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -226,21 +226,21 @@ public void InsertBefore ( syntax_tree_node el , syntax_tree_node newel )     51
 public void InsertBefore ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48275
 	0,743  [HC=0,58;  H=0,65;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void InsertAfter ( pattern_parameter el , pattern_parameter newel )     48243
-	0,813  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  N=0,00] 
+	0,813  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48253
-	0,772  [HC=1,00;  HNC=0,70;  I=0,81;  S=0,64;  N=0,00] 
+	0,772  [HC=1,00;  HNC=0,70;  I=0,81;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51202
-	0,733  [HC=1,00;  HNC=0,49;  I=0,74;  S=0,64;  N=0,00] 
+	0,733  [HC=1,00;  HNC=0,49;  I=0,74;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( syntax_tree_node el , syntax_tree_node newel )     51192
-	0,716  [HC=1,00;  HNC=0,48;  I=0,62;  S=0,64;  N=0,00] 
+	0,716  [HC=1,00;  HNC=0,48;  I=0,62;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , pattern_parameter newel )     48265
-	0,584  [HC=0,50;  HNC=0,83;  I=0,78;  S=0,64;  N=0,00] 
+	0,584  [HC=0,50;  HNC=0,83;  I=0,78;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48275
-	0,572  [HC=0,50;  HNC=0,70;  I=0,81;  S=0,64;  N=0,00] 
+	0,572  [HC=0,50;  HNC=0,70;  I=0,81;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51224
-	0,542  [HC=0,50;  HNC=0,49;  I=0,80;  S=0,64;  N=0,00] 
+	0,542  [HC=0,50;  HNC=0,49;  I=0,80;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -264,21 +264,21 @@ public void InsertBefore ( syntax_tree_node el , IEnumerable < syntax_tree_node 
 public void InsertBefore ( pattern_parameter el , pattern_parameter newel )     48265
 	0,743  [HC=0,58;  H=0,65;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void InsertAfter ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48253
-	0,818  [HC=1,00;  HNC=0,86;  I=1,00;  S=0,64;  N=0,00] 
+	0,818  [HC=1,00;  HNC=0,86;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( pattern_parameter el , pattern_parameter newel )     48243
-	0,772  [HC=1,00;  HNC=0,70;  I=0,81;  S=0,64;  N=0,00] 
+	0,772  [HC=1,00;  HNC=0,70;  I=0,81;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51202
-	0,745  [HC=1,00;  HNC=0,59;  I=0,72;  S=0,64;  N=0,00] 
+	0,745  [HC=1,00;  HNC=0,59;  I=0,72;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( syntax_tree_node el , syntax_tree_node newel )     51192
-	0,687  [HC=1,00;  HNC=0,43;  I=0,45;  S=0,64;  N=0,00] 
+	0,687  [HC=1,00;  HNC=0,43;  I=0,45;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48275
-	0,612  [HC=0,50;  HNC=0,86;  I=0,95;  S=0,64;  N=0,00] 
+	0,612  [HC=0,50;  HNC=0,86;  I=0,95;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51224
-	0,557  [HC=0,50;  HNC=0,59;  I=0,82;  S=0,64;  N=0,00] 
+	0,557  [HC=0,50;  HNC=0,59;  I=0,82;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , pattern_parameter newel )     48265
-	0,542  [HC=0,50;  HNC=0,70;  I=0,59;  S=0,64;  N=0,00] 
+	0,542  [HC=0,50;  HNC=0,70;  I=0,59;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -302,21 +302,21 @@ public void InsertAfter ( syntax_tree_node el , syntax_tree_node newel )     511
 public void InsertAfter ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48253
 	0,743  [HC=0,58;  H=0,65;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void InsertBefore ( pattern_parameter el , pattern_parameter newel )     48265
-	0,813  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  N=0,00] 
+	0,813  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( syntax_tree_node el , syntax_tree_node newel )     51214
-	0,748  [HC=1,00;  HNC=0,48;  I=0,85;  S=0,64;  N=0,00] 
+	0,748  [HC=1,00;  HNC=0,48;  I=0,85;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48275
-	0,742  [HC=1,00;  HNC=0,70;  I=0,59;  S=0,64;  N=0,00] 
+	0,742  [HC=1,00;  HNC=0,70;  I=0,59;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51224
-	0,737  [HC=1,00;  HNC=0,49;  I=0,77;  S=0,64;  N=0,00] 
+	0,737  [HC=1,00;  HNC=0,49;  I=0,77;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( pattern_parameter el , pattern_parameter newel )     48243
-	0,584  [HC=0,50;  HNC=0,83;  I=0,78;  S=0,64;  N=0,00] 
+	0,584  [HC=0,50;  HNC=0,83;  I=0,78;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51202
-	0,550  [HC=0,50;  HNC=0,49;  I=0,87;  S=0,64;  N=0,00] 
+	0,550  [HC=0,50;  HNC=0,49;  I=0,87;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48253
-	0,542  [HC=0,50;  HNC=0,70;  I=0,59;  S=0,64;  N=0,00] 
+	0,542  [HC=0,50;  HNC=0,70;  I=0,59;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -340,21 +340,21 @@ public void InsertAfter ( syntax_tree_node el , IEnumerable < syntax_tree_node >
 public void InsertAfter ( pattern_parameter el , pattern_parameter newel )     48243
 	0,743  [HC=0,58;  H=0,65;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void InsertBefore ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48275
-	0,818  [HC=1,00;  HNC=0,86;  I=1,00;  S=0,64;  N=0,00] 
+	0,818  [HC=1,00;  HNC=0,86;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51224
-	0,758  [HC=1,00;  HNC=0,59;  I=0,82;  S=0,64;  N=0,00] 
+	0,758  [HC=1,00;  HNC=0,59;  I=0,82;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , pattern_parameter newel )     48265
-	0,742  [HC=1,00;  HNC=0,70;  I=0,59;  S=0,64;  N=0,00] 
+	0,742  [HC=1,00;  HNC=0,70;  I=0,59;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( syntax_tree_node el , syntax_tree_node newel )     51214
-	0,706  [HC=1,00;  HNC=0,43;  I=0,59;  S=0,64;  N=0,00] 
+	0,706  [HC=1,00;  HNC=0,43;  I=0,59;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48253
-	0,612  [HC=0,50;  HNC=0,86;  I=0,95;  S=0,64;  N=0,00] 
+	0,612  [HC=0,50;  HNC=0,86;  I=0,95;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( pattern_parameter el , pattern_parameter newel )     48243
-	0,572  [HC=0,50;  HNC=0,70;  I=0,81;  S=0,64;  N=0,00] 
+	0,572  [HC=0,50;  HNC=0,70;  I=0,81;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51202
-	0,540  [HC=0,50;  HNC=0,59;  I=0,69;  S=0,64;  N=0,00] 
+	0,540  [HC=0,50;  HNC=0,59;  I=0,69;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -378,21 +378,21 @@ public override syntax_tree_node Clone ( )     52045
 public override syntax_tree_node Clone ( )     51934
 	0,604  [HC=0,33;  H=0,34;  I=1,00;  S=0,94] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public bool Remove ( pattern_parameter el )     48287
-	0,814  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  N=0,00] 
+	0,814  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public bool Remove ( syntax_tree_node el )     51236
-	0,728  [HC=1,00;  HNC=0,49;  I=0,70;  S=0,64;  N=0,00] 
-public int RemoveAll ( Predicate < syntax_tree_node > match )     51265
-	0,416  [HC=0,50;  HNC=0,10;  I=0,25;  S=0,64;  N=0,00] 
+	0,728  [HC=1,00;  HNC=0,49;  I=0,70;  S=0,64;  NN=0,00;  NA=0,00] 
 public int RemoveAll ( Predicate < pattern_parameter > match )     48316
-	0,405  [HC=0,50;  HNC=0,27;  I=0,00;  S=0,64;  N=0,00] 
+	0,509  [HC=0,50;  HNC=0,27;  I=0,78;  S=0,64;  NN=0,00;  NA=0,00] 
+public int RemoveAll ( Predicate < syntax_tree_node > match )     51265
+	0,441  [HC=0,50;  HNC=0,10;  I=0,43;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , pattern_parameter newel )     48265
-	0,312  [HC=0,25;  HNC=0,32;  I=0,00;  S=0,64;  N=0,00] 
+	0,312  [HC=0,25;  HNC=0,32;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48275
-	0,304  [HC=0,25;  HNC=0,26;  I=0,00;  S=0,64;  N=0,00] 
+	0,304  [HC=0,25;  HNC=0,26;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( syntax_tree_node el , syntax_tree_node newel )     51214
-	0,293  [HC=0,25;  HNC=0,17;  I=0,00;  S=0,64;  N=0,00] 
+	0,293  [HC=0,25;  HNC=0,17;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -416,21 +416,21 @@ private int FindIndexInList ( syntax_tree_node el )     51182
 public void Insert ( int pos , pattern_parameter el )     48333
 	0,588  [HC=0,23;  H=0,62;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void ReplaceInList ( pattern_parameter el , pattern_parameter newel )     48292
-	0,813  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  N=0,00] 
+	0,813  [HC=1,00;  HNC=0,83;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( syntax_tree_node el , syntax_tree_node newel )     51241
-	0,745  [HC=1,00;  HNC=0,48;  I=0,83;  S=0,64;  N=0,00] 
+	0,745  [HC=1,00;  HNC=0,48;  I=0,83;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51251
-	0,720  [HC=1,00;  HNC=0,49;  I=0,64;  S=0,64;  N=0,00] 
+	0,720  [HC=1,00;  HNC=0,49;  I=0,64;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48302
-	0,716  [HC=1,00;  HNC=0,70;  I=0,39;  S=0,64;  N=0,00] 
+	0,716  [HC=1,00;  HNC=0,70;  I=0,39;  S=0,64;  NN=0,00;  NA=0,00] 
 private int FindIndexInList ( pattern_parameter el )     48233
-	0,483  [HC=0,50;  HNC=0,28;  I=0,57;  S=0,64;  N=0,00] 
+	0,483  [HC=0,50;  HNC=0,28;  I=0,57;  S=0,64;  NN=0,00;  NA=0,00] 
 private int FindIndexInList ( syntax_tree_node el )     51182
-	0,457  [HC=0,50;  HNC=0,10;  I=0,55;  S=0,64;  N=0,00] 
+	0,457  [HC=0,50;  HNC=0,10;  I=0,55;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , pattern_parameter newel )     48265
-	0,398  [HC=0,00;  HNC=0,83;  I=0,89;  S=0,64;  N=0,00] 
+	0,398  [HC=0,00;  HNC=0,83;  I=0,89;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -454,21 +454,21 @@ private int FindIndexInList ( syntax_tree_node el )     51182
 public override void FillParentsInDirectChilds ( )     51575
 	0,571  [HC=0,28;  H=0,25;  I=1,00;  S=0,95] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void ReplaceInList ( pattern_parameter el , IEnumerable < pattern_parameter > newels )     48302
-	0,818  [HC=1,00;  HNC=0,86;  I=1,00;  S=0,64;  N=0,00] 
+	0,818  [HC=1,00;  HNC=0,86;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51251
-	0,744  [HC=1,00;  HNC=0,59;  I=0,71;  S=0,64;  N=0,00] 
+	0,744  [HC=1,00;  HNC=0,59;  I=0,71;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( pattern_parameter el , pattern_parameter newel )     48292
-	0,716  [HC=1,00;  HNC=0,70;  I=0,39;  S=0,64;  N=0,00] 
+	0,716  [HC=1,00;  HNC=0,70;  I=0,39;  S=0,64;  NN=0,00;  NA=0,00] 
 public void ReplaceInList ( syntax_tree_node el , syntax_tree_node newel )     51241
-	0,674  [HC=1,00;  HNC=0,43;  I=0,35;  S=0,64;  N=0,00] 
+	0,674  [HC=1,00;  HNC=0,43;  I=0,35;  S=0,64;  NN=0,00;  NA=0,00] 
 private int FindIndexInList ( syntax_tree_node el )     51182
-	0,421  [HC=0,50;  HNC=0,08;  I=0,30;  S=0,64;  N=0,00] 
+	0,421  [HC=0,50;  HNC=0,08;  I=0,30;  S=0,64;  NN=0,00;  NA=0,00] 
 public void AddFirst ( IEnumerable < pattern_parameter > els )     48213
-	0,413  [HC=0,20;  HNC=0,62;  I=0,60;  S=0,64;  N=0,00] 
+	0,413  [HC=0,20;  HNC=0,62;  I=0,60;  S=0,64;  NN=0,00;  NA=0,00] 
 public override void FillParentsInDirectChilds ( )     51575
-	0,401  [HC=0,20;  HNC=0,28;  I=0,49;  S=0,82;  N=0,00] 
+	0,401  [HC=0,20;  HNC=0,28;  I=0,49;  S=0,82;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -492,21 +492,21 @@ public void ReplaceInList ( syntax_tree_node el , IEnumerable < syntax_tree_node
 public void ReplaceInList ( syntax_tree_node el , syntax_tree_node newel )     51241
 	0,549  [HC=0,23;  H=0,34;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public int RemoveAll ( Predicate < pattern_parameter > match )     48316
-	0,819  [HC=1,00;  HNC=0,87;  I=1,00;  S=0,64;  N=0,00] 
+	0,819  [HC=1,00;  HNC=0,87;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public int RemoveAll ( Predicate < syntax_tree_node > match )     51265
-	0,695  [HC=1,00;  HNC=0,60;  I=0,34;  S=0,64;  N=0,00] 
-public bool Remove ( syntax_tree_node el )     51236
-	0,453  [HC=0,50;  HNC=0,10;  I=0,53;  S=0,64;  N=0,00] 
+	0,750  [HC=1,00;  HNC=0,60;  I=0,75;  S=0,64;  NN=0,00;  NA=0,00] 
 public bool Remove ( pattern_parameter el )     48287
-	0,418  [HC=0,50;  HNC=0,36;  I=0,00;  S=0,64;  N=0,00] 
-public override void FillParentsInAllChilds ( )     51588
-	0,310  [HC=0,20;  HNC=0,09;  I=0,00;  S=0,82;  N=0,00] 
-public override void FillParentsInAllChilds ( )     52085
-	0,310  [HC=0,20;  HNC=0,09;  I=0,00;  S=0,82;  N=0,00] 
-public override void FillParentsInAllChilds ( )     52882
-	0,310  [HC=0,20;  HNC=0,09;  I=0,00;  S=0,82;  N=0,00] 
+	0,522  [HC=0,50;  HNC=0,36;  I=0,78;  S=0,64;  NN=0,00;  NA=0,00] 
+public bool Remove ( syntax_tree_node el )     51236
+	0,453  [HC=0,50;  HNC=0,10;  I=0,53;  S=0,64;  NN=0,00;  NA=0,00] 
+public override void FillParentsInAllChilds ( )     52740
+	0,332  [HC=0,20;  HNC=0,09;  I=0,28;  S=0,76;  NN=0,00;  NA=0,00] 
+public override void FillParentsInAllChilds ( )     51851
+	0,331  [HC=0,20;  HNC=0,09;  I=0,28;  S=0,76;  NN=0,00;  NA=0,00] 
+public override void FillParentsInAllChilds ( )     51714
+	0,323  [HC=0,20;  HNC=0,09;  I=0,28;  S=0,73;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -530,21 +530,21 @@ public override void visit ( IVisitor visitor )     52951
 public override void visit ( IVisitor visitor )     51910
 	0,643  [HC=0,40;  H=0,44;  I=1,00;  S=0,93] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public pattern_parameter Last ( )     48321
-	0,827  [HC=1,00;  HNC=0,93;  I=1,00;  S=0,64;  N=0,00] 
+	0,827  [HC=1,00;  HNC=0,93;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public syntax_tree_node Last ( )     51270
-	0,753  [HC=1,00;  HNC=0,79;  I=0,59;  S=0,64;  N=0,00] 
+	0,753  [HC=1,00;  HNC=0,79;  I=0,59;  S=0,64;  NN=0,00;  NA=0,00] 
 public override syntax_tree_node Clone ( )     52842
-	0,379  [HC=0,00;  HNC=0,73;  I=0,47;  S=0,82;  N=0,00] 
+	0,379  [HC=0,00;  HNC=0,73;  I=0,47;  S=0,82;  NN=0,00;  NA=0,00] 
 public override syntax_tree_node Clone ( )     52045
-	0,372  [HC=0,00;  HNC=0,73;  I=0,42;  S=0,82;  N=0,00] 
+	0,372  [HC=0,00;  HNC=0,73;  I=0,42;  S=0,82;  NN=0,00;  NA=0,00] 
 public override void FillParentsInDirectChilds ( )     51575
-	0,362  [HC=0,00;  HNC=0,73;  I=0,34;  S=0,82;  N=0,00] 
+	0,362  [HC=0,00;  HNC=0,73;  I=0,34;  S=0,82;  NN=0,00;  NA=0,00] 
 public override void FillParentsInAllChilds ( )     52085
-	0,360  [HC=0,00;  HNC=0,73;  I=0,33;  S=0,82;  N=0,00] 
+	0,360  [HC=0,00;  HNC=0,73;  I=0,33;  S=0,82;  NN=0,00;  NA=0,00] 
 public override void FillParentsInAllChilds ( )     52882
-	0,360  [HC=0,00;  HNC=0,73;  I=0,33;  S=0,82;  N=0,00] 
+	0,360  [HC=0,00;  HNC=0,73;  I=0,33;  S=0,82;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -568,21 +568,21 @@ public void InsertAfter ( pattern_parameter el , IEnumerable < pattern_parameter
 public void InsertBefore ( syntax_tree_node el , syntax_tree_node newel )     51214
 	0,704  [HC=0,50;  H=0,62;  I=1,00;  S=0,90] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public void Insert ( int pos , pattern_parameter el )     48333
-	0,821  [HC=1,00;  HNC=0,89;  I=1,00;  S=0,64;  N=0,00] 
+	0,821  [HC=1,00;  HNC=0,89;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 public void Insert ( int pos , syntax_tree_node el )     51282
-	0,763  [HC=1,00;  HNC=0,66;  I=0,79;  S=0,64;  N=0,00] 
+	0,763  [HC=1,00;  HNC=0,66;  I=0,79;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( pattern_parameter el , pattern_parameter newel )     48265
-	0,532  [HC=0,50;  HNC=0,52;  I=0,70;  S=0,64;  N=0,00] 
+	0,532  [HC=0,50;  HNC=0,52;  I=0,70;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( pattern_parameter el , pattern_parameter newel )     48243
-	0,525  [HC=0,50;  HNC=0,52;  I=0,64;  S=0,64;  N=0,00] 
+	0,525  [HC=0,50;  HNC=0,52;  I=0,64;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( syntax_tree_node el , IEnumerable < syntax_tree_node > newels )     51202
-	0,495  [HC=0,50;  HNC=0,36;  I=0,58;  S=0,64;  N=0,00] 
+	0,495  [HC=0,50;  HNC=0,36;  I=0,58;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertBefore ( syntax_tree_node el , syntax_tree_node newel )     51214
-	0,494  [HC=0,50;  HNC=0,38;  I=0,55;  S=0,64;  N=0,00] 
+	0,494  [HC=0,50;  HNC=0,38;  I=0,55;  S=0,64;  NN=0,00;  NA=0,00] 
 public void InsertAfter ( syntax_tree_node el , syntax_tree_node newel )     51192
-	0,492  [HC=0,50;  HNC=0,38;  I=0,54;  S=0,64;  N=0,00] 
+	0,492  [HC=0,50;  HNC=0,38;  I=0,54;  S=0,64;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 

@@ -6,9 +6,9 @@ private System . Windows . Forms . CheckBox cbUseOutputDirecory     178
 private System . Windows . Forms . CheckBox cbUseOutputDirectory     178
 	0,978  [HC=0,95;  H=0,99;  I=1,00;  S=1,00] *
 *
-HC=3,72222222222222;  HNC=4,00;  I=0,00;  S=0,50;  N=2,00]
+HC=3,72222222222222;  HNC=4,00;  I=0,00;  S=0,50;  NN=2,00;  NA=0,00]
 private System . Windows . Forms . CheckBox cbUseOutputDirectory     178
-	0,990  [HC=0,97;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,990  [HC=0,97;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -22,11 +22,11 @@ private string OptionsItemNameSkipStackTraceItemIfSourceFileInSystemDirectory   
 private string OptionsItemNameAutoInsertCode     67
 	0,703  [HC=0,38;  H=0,79;  I=1,00;  S=1,00] 
 *
-HC=3,84615384615385;  HNC=4,00;  I=0,01;  S=0,50;  N=2,00]
+HC=3,84615384615385;  HNC=4,00;  I=0,04;  S=0,50;  NN=2,00;  NA=0,00]
 private string OptionsItemNameSkipStackTraceItemIfSourceFileInSystemDirectory     61
-	0,994  [HC=0,98;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,994  [HC=0,98;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 private string OptionsItemNameAutoInsertCode     67
-	0,521  [HC=0,23;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] 
+	0,523  [HC=0,23;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -40,11 +40,11 @@ SideTabItem chosenItem     103
 float dpiY     109
 	0,487  [HC=0,09;  H=0,14;  I=1,00;  S=1,00] 
 *
-HC=2,57142857142857;  HNC=4,00;  I=0,20;  S=0,50;  N=2,00]
+HC=2,57142857142857;  HNC=4,00;  I=0,20;  S=0,50;  NN=2,00;  NA=0,00]
 SideTabItem chosenItem     103
-	0,960  [HC=0,86;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,960  [HC=0,86;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 float dpiY     109
-	0,054  [HC=0,00;  HNC=0,00;  I=0,00;  S=1,00;  N=0,00] 
+	0,054  [HC=0,00;  HNC=0,00;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -68,21 +68,21 @@ protected bool _has_deref     53720
 protected List < syntax_tree_node > _lst     51111
 	0,548  [HC=0,10;  H=0,73;  I=1,00;  S=0,90] 
 *
-HC=4;  HNC=1,32;  I=0,43;  S=1,00;  N=0,00]
+HC=4;  HNC=1,32;  I=0,75;  S=1,00;  NN=0,00;  NA=0,00]
 protected List < pattern_parameter > _parameters     48177
-	0,877  [HC=1,00;  HNC=0,82;  I=0,47;  S=0,64;  N=0,00] *
+	0,881  [HC=1,00;  HNC=0,82;  I=0,67;  S=0,64;  NN=0,00;  NA=0,00] *
 protected pattern_node _pattern     52691
-	0,492  [HC=0,50;  HNC=0,43;  I=0,00;  S=0,76;  N=0,00] 
+	0,470  [HC=0,50;  HNC=0,43;  I=0,00;  S=0,76;  NN=0,00;  NA=0,00] 
 protected expression_list _pattern_expressions     51520
-	0,318  [HC=0,25;  HNC=0,25;  I=0,00;  S=0,82;  N=0,00] 
+	0,304  [HC=0,25;  HNC=0,25;  I=0,00;  S=0,82;  NN=0,00;  NA=0,00] 
 protected expression _const_params_check     49733
-	0,316  [HC=0,20;  HNC=0,25;  I=0,00;  S=1,00;  N=0,00] 
+	0,301  [HC=0,20;  HNC=0,25;  I=0,00;  S=1,00;  NN=0,00;  NA=0,00] 
 protected expression _const_param     51802
-	0,309  [HC=0,25;  HNC=0,25;  I=0,00;  S=0,76;  N=0,00] 
+	0,295  [HC=0,25;  HNC=0,25;  I=0,00;  S=0,76;  NN=0,00;  NA=0,00] 
 protected List < syntax_tree_node > _lst     51111
-	0,185  [HC=0,00;  HNC=0,46;  I=0,00;  S=0,64;  N=0,00] 
+	0,221  [HC=0,00;  HNC=0,46;  I=0,42;  S=0,64;  NN=0,00;  NA=0,00] 
 protected bool _var_keyword_used     50241
-	0,161  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,76;  N=0,00] 
+	0,154  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,76;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -106,21 +106,21 @@ protected statement _statment_for_formatting     15706
 protected List < pattern_parameter > _parameters     48177
 	0,661  [HC=0,50;  H=0,35;  I=1,00;  S=0,89] #
 *
-HC=4;  HNC=4,00;  I=0,00;  S=1,00;  N=2,00]
+HC=4;  HNC=4,00;  I=0,00;  S=1,00;  NN=2,00;  NA=0,00]
 protected pattern_node _pattern     52691
-	0,807  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,88;  N=0,00] *
+	0,807  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,88;  NN=0,00;  NA=0,00] *
 protected bool _var_keyword_used     50241
-	0,353  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,88;  N=1,00] 
+	0,353  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,88;  NN=1,00;  NA=0,00] 
 protected expression_list _pattern_expressions     51520
-	0,331  [HC=0,50;  HNC=0,25;  I=1,00;  S=0,64;  N=0,00] 
+	0,331  [HC=0,50;  HNC=0,25;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] 
 protected List < syntax_tree_node > _lst     51111
-	0,214  [HC=0,00;  HNC=0,43;  I=0,00;  S=0,64;  N=0,00] 
+	0,214  [HC=0,00;  HNC=0,43;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] 
 protected expression _const_params_check     49733
-	0,160  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,76;  N=0,00] 
+	0,160  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,76;  NN=0,00;  NA=0,00] 
 protected expression _const_param     51802
-	0,160  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,76;  N=0,00] 
+	0,160  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,76;  NN=0,00;  NA=0,00] 
 protected List < pattern_parameter > _parameters     48177
-	0,416  [HC=0,50;  HNC=0,48;  I=0,00;  S=0,64;  N=0,00] #
+	0,416  [HC=0,50;  HNC=0,48;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -134,11 +134,11 @@ public bool SkipStackTraceItemIfSourceFileInSystemDirectory     35
 public bool AutoInsertCodeIsEnabledOnStartup     41
 	0,617  [HC=0,20;  H=0,73;  I=1,00;  S=1,00] 
 *
-HC=3,8;  HNC=4,00;  I=0,05;  S=0,50;  N=2,00]
+HC=3,8;  HNC=4,00;  I=0,20;  S=0,50;  NN=2,00;  NA=0,00]
 public bool SkipStackTraceItemIfSourceFileInSystemDirectory     35
-	0,993  [HC=0,98;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,993  [HC=0,98;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 public bool AutoInsertCodeIsEnabledOnStartup     41
-	0,476  [HC=0,10;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] 
+	0,484  [HC=0,10;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 

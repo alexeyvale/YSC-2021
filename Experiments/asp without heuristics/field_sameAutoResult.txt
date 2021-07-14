@@ -6,9 +6,9 @@ private readonly string _npmScriptName     25
 private readonly string _scriptName     28
 	0,858  [HC=0,69;  H=0,93;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly string _scriptName     28
-	0,821  [HC=0,61;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,821  [HC=0,61;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -20,9 +20,9 @@ private readonly StartupAnalysis _context     12
 private readonly StartupAnalysis _context     12
 	0,989  [HC=1,00;  H=1,00;  I=1,00;  S=0,96] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly StartupAnalysis _context     12
-	0,892  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,90;  N=0,00] *
+	0,892  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,90;  NN=0,00;  NA=0,00] *
 
 **************************************************************
 
@@ -46,21 +46,21 @@ private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
 public const int RSAMinimumKeySizeInBits     27
 	0,537  [HC=0,13;  H=0,62;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal const string AspNetHttpsOid     18
-	0,895  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] *
+	0,895  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 internal const string AspNetHttpsOidFriendlyName     19
-	0,761  [HC=0,67;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] 
+	0,761  [HC=0,67;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,561  [HC=0,17;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] 
+	0,561  [HC=0,17;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,545  [HC=0,13;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] 
+	0,545  [HC=0,13;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private const string LocalhostHttpsDnsName     24
-	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] 
+	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private const string LocalhostHttpsDistinguishedName     25
-	0,361  [HC=0,00;  HNC=0,80;  I=0,00;  S=0,95;  N=0,00] 
+	0,361  [HC=0,00;  HNC=0,80;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public const int RSAMinimumKeySizeInBits     27
-	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] 
+	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -84,21 +84,21 @@ public const int RSAMinimumKeySizeInBits     27
 internal const string AspNetHttpsOid     18
 	0,714  [HC=0,54;  H=0,63;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal const string AspNetHttpsOidFriendlyName     19
-	0,899  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,06] *
+	0,898  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,05;  NA=0,00] *
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,649  [HC=0,38;  HNC=0,80;  I=1,00;  S=0,95;  N=0,06] 
+	0,648  [HC=0,38;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,05;  NA=0,00] 
 private const string LocalhostHttpsDnsName     24
-	0,632  [HC=0,33;  HNC=0,80;  I=1,00;  S=0,95;  N=0,06] 
+	0,631  [HC=0,33;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,05;  NA=0,00] 
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,499  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,06] 
+	0,498  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,05;  NA=0,00] 
 private const string LocalhostHttpsDistinguishedName     25
-	0,499  [HC=0,33;  HNC=0,80;  I=0,00;  S=0,95;  N=0,06] 
+	0,498  [HC=0,33;  HNC=0,80;  I=0,00;  S=0,95;  NN=0,05;  NA=0,00] 
 public const int RSAMinimumKeySizeInBits     27
-	0,312  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,06] 
+	0,311  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,05;  NA=0,00] 
 internal const string AspNetHttpsOid     18
-	0,761  [HC=0,67;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,761  [HC=0,67;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -122,21 +122,21 @@ internal const string AspNetHttpsOidFriendlyName     19
 internal const string AspNetHttpsOid     18
 	0,560  [HC=0,21;  H=0,55;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,930  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,13] *
+	0,928  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,10;  NA=0,00] *
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,830  [HC=0,75;  HNC=1,00;  I=1,00;  S=0,95;  N=0,13] 
+	0,828  [HC=0,75;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,10;  NA=0,00] 
 private const string LocalhostHttpsDnsName     24
-	0,530  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,13] 
+	0,528  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,10;  NA=0,00] 
 private const string LocalhostHttpsDistinguishedName     25
-	0,396  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,13] 
+	0,395  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,10;  NA=0,00] 
 public const int RSAMinimumKeySizeInBits     27
-	0,290  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,13] 
+	0,288  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,10;  NA=0,00] 
 internal const string AspNetHttpsOid     18
-	0,561  [HC=0,17;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,561  [HC=0,17;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -160,21 +160,21 @@ internal const string AspNetHttpsOidFriendlyName     19
 internal const string AspNetHttpsOid     18
 	0,537  [HC=0,16;  H=0,54;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,934  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,19] *
+	0,931  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,15;  NA=0,00] *
 private const string LocalhostHttpsDnsName     24
-	0,584  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  N=0,19] 
+	0,581  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,15;  NA=0,00] 
 private const string LocalhostHttpsDistinguishedName     25
-	0,450  [HC=0,13;  HNC=1,00;  I=0,00;  S=0,95;  N=0,19] 
+	0,448  [HC=0,13;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,15;  NA=0,00] 
 public const int RSAMinimumKeySizeInBits     27
-	0,344  [HC=0,13;  HNC=0,20;  I=0,00;  S=0,95;  N=0,19] 
+	0,341  [HC=0,13;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,15;  NA=0,00] 
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,821  [HC=0,75;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,821  [HC=0,75;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,645  [HC=0,38;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,645  [HC=0,38;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,545  [HC=0,13;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,545  [HC=0,13;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -198,21 +198,21 @@ private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
 	0,571  [HC=0,15;  H=0,79;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private const string LocalhostHttpsDnsName     24
-	0,938  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,25] *
+	0,935  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,20;  NA=0,00] *
 private const string LocalhostHttpsDistinguishedName     25
-	0,705  [HC=0,75;  HNC=1,00;  I=0,00;  S=0,95;  N=0,25] 
+	0,701  [HC=0,75;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,20;  NA=0,00] 
 public const int RSAMinimumKeySizeInBits     27
-	0,298  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,25] 
+	0,295  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,20;  NA=0,00] 
 internal const string AspNetHttpsOidFriendlyName     19
-	0,628  [HC=0,33;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,628  [HC=0,33;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,571  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,571  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -236,21 +236,21 @@ internal const string AspNetHttpsOid     18
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
 	0,583  [HC=0,18;  H=0,79;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private const string LocalhostHttpsDistinguishedName     25
-	0,942  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,31] *
+	0,938  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,25;  NA=0,00] *
 public const int RSAMinimumKeySizeInBits     27
-	0,302  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,31] 
+	0,298  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,25;  NA=0,00] 
 private const string LocalhostHttpsDnsName     24
-	0,688  [HC=0,75;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,75;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,495  [HC=0,33;  HNC=0,80;  I=0,00;  S=0,95;  N=0,00] #
+	0,495  [HC=0,33;  HNC=0,80;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,438  [HC=0,13;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,438  [HC=0,13;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,388  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,388  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,361  [HC=0,00;  HNC=0,80;  I=0,00;  S=0,95;  N=0,00] #
+	0,361  [HC=0,00;  HNC=0,80;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -274,21 +274,21 @@ internal const string AspNetHttpsOidFriendlyName     19
 private const string LocalhostHttpsDnsName     24
 	0,446  [HC=0,00;  H=0,37;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public const int RSAMinimumKeySizeInBits     27
-	0,946  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,38] *
+	0,941  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,30;  NA=0,00] *
 private const string ServerAuthenticationEnhancedKeyUsageOidFriendlyName     22
-	0,331  [HC=0,13;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,331  [HC=0,13;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDistinguishedName     25
-	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string LocalhostHttpsDnsName     24
-	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private const string ServerAuthenticationEnhancedKeyUsageOid     21
-	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOidFriendlyName     19
-	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 internal const string AspNetHttpsOid     18
-	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -300,9 +300,9 @@ private CertificateAuthenticationEvents sucessfulValidationEvents     567
 private CertificateAuthenticationEvents successfulValidationEvents     696
 	0,982  [HC=0,96;  H=0,99;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private CertificateAuthenticationEvents successfulValidationEvents     696
-	0,987  [HC=0,97;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,987  [HC=0,97;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -322,17 +322,17 @@ private static readonly Action < ILogger , CircuitId , Exception > _disposeSucce
 public static readonly EventId LocationChangeSucceeded     643
 	0,489  [HC=0,22;  H=0,27;  I=1,00;  S=0,75] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly Action < ILogger , Exception > _initializationStarted     581
-	0,986  [HC=0,96;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,984  [HC=0,96;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,97;  NA=0,00] *
 private static readonly Action < ILogger , Exception > _initializationSucceded     582
-	0,786  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,784  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,97;  NA=0,00] 
 private static readonly Action < ILogger , Exception > _initializationFailed     583
-	0,786  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,784  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,97;  NA=0,00] 
 private static readonly Action < ILogger , CircuitId , Exception > _disposeSucceeded     585
-	0,511  [HC=0,00;  HNC=0,84;  I=1,00;  S=1,00;  N=0,00] 
+	0,511  [HC=0,00;  HNC=0,84;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public static readonly EventId LocationChangeSucceeded     643
-	0,252  [HC=0,00;  HNC=0,39;  I=0,00;  S=0,75;  N=0,00] 
+	0,252  [HC=0,00;  HNC=0,39;  I=0,00;  S=0,75;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -352,17 +352,17 @@ public static readonly EventId LocationChangeSucceeded     643
 private static readonly Action < ILogger , Exception > _initializationStarted     581
 	0,874  [HC=0,71;  H=0,97;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly Action < ILogger , Exception > _initializationSucceded     582
-	0,986  [HC=0,96;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,985  [HC=0,96;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] *
 private static readonly Action < ILogger , Exception > _initializationFailed     583
-	0,786  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] 
+	0,785  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,98;  NA=0,00] 
 private static readonly Action < ILogger , CircuitId , Exception > _disposeSucceeded     585
-	0,689  [HC=0,44;  HNC=0,84;  I=1,00;  S=1,00;  N=0,00] 
+	0,689  [HC=0,44;  HNC=0,84;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public static readonly EventId LocationChangeSucceeded     643
-	0,371  [HC=0,30;  HNC=0,39;  I=0,00;  S=0,75;  N=0,00] 
+	0,371  [HC=0,30;  HNC=0,39;  I=0,00;  S=0,75;  NN=0,00;  NA=0,00] 
 private static readonly Action < ILogger , Exception > _initializationStarted     581
-	0,719  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,719  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -382,17 +382,17 @@ private static readonly Action < ILogger , Exception > _initializationStarted   
 private static readonly Action < ILogger , Exception > _initializationSucceded     582
 	0,859  [HC=0,68;  H=0,97;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly Action < ILogger , Exception > _initializationFailed     583
-	0,986  [HC=0,96;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,986  [HC=0,96;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 private static readonly Action < ILogger , CircuitId , Exception > _disposeSucceeded     585
-	0,511  [HC=0,00;  HNC=0,84;  I=1,00;  S=1,00;  N=0,00] 
+	0,511  [HC=0,00;  HNC=0,84;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] 
 public static readonly EventId LocationChangeSucceeded     643
-	0,252  [HC=0,00;  HNC=0,39;  I=0,00;  S=0,75;  N=0,00] 
+	0,252  [HC=0,00;  HNC=0,39;  I=0,00;  S=0,75;  NN=0,00;  NA=0,00] 
 private static readonly Action < ILogger , Exception > _initializationSucceded     582
-	0,719  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,719  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 private static readonly Action < ILogger , Exception > _initializationStarted     581
-	0,719  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  N=0,00] #
+	0,719  [HC=0,46;  HNC=1,00;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -412,17 +412,17 @@ private static readonly Action < ILogger , Exception > _initializationFailed    
 private static readonly Action < ILogger , Exception > _initializationStarted     581
 	0,599  [HC=0,14;  H=0,77;  I=1,00;  S=1,00] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly Action < ILogger , CircuitId , Exception > _disposeSucceeded     585
-	0,978  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,978  [HC=0,94;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 public static readonly EventId LocationChangeSucceeded     643
-	0,373  [HC=0,30;  HNC=0,41;  I=0,00;  S=0,75;  N=0,00] 
+	0,373  [HC=0,30;  HNC=0,41;  I=0,00;  S=0,75;  NN=0,00;  NA=0,00] 
 private static readonly Action < ILogger , Exception > _initializationSucceded     582
-	0,711  [HC=0,50;  HNC=0,84;  I=1,00;  S=1,00;  N=0,00] #
+	0,711  [HC=0,50;  HNC=0,84;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 private static readonly Action < ILogger , Exception > _initializationStarted     581
-	0,511  [HC=0,00;  HNC=0,84;  I=1,00;  S=1,00;  N=0,00] #
+	0,511  [HC=0,00;  HNC=0,84;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 private static readonly Action < ILogger , Exception > _initializationFailed     583
-	0,511  [HC=0,00;  HNC=0,84;  I=1,00;  S=1,00;  N=0,00] #
+	0,511  [HC=0,00;  HNC=0,84;  I=1,00;  S=1,00;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -442,17 +442,17 @@ private static readonly Action < ILogger , Exception > _initializationStarted   
 private static readonly Action < ILogger , Exception > _initializationFailed     583
 	0,493  [HC=0,23;  H=0,27;  I=1,00;  S=0,75] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public static readonly EventId LocationChangeSucceeded     643
-	0,985  [HC=0,96;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,985  [HC=0,96;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 private static readonly Action < ILogger , Exception > _initializationSucceded     582
-	0,386  [HC=0,33;  HNC=0,39;  I=0,00;  S=0,75;  N=0,00] #
+	0,386  [HC=0,33;  HNC=0,39;  I=0,00;  S=0,75;  NN=0,00;  NA=0,00] #
 private static readonly Action < ILogger , CircuitId , Exception > _disposeSucceeded     585
-	0,373  [HC=0,30;  HNC=0,41;  I=0,00;  S=0,75;  N=0,00] #
+	0,373  [HC=0,30;  HNC=0,41;  I=0,00;  S=0,75;  NN=0,00;  NA=0,00] #
 private static readonly Action < ILogger , Exception > _initializationStarted     581
-	0,252  [HC=0,00;  HNC=0,39;  I=0,00;  S=0,75;  N=0,00] #
+	0,252  [HC=0,00;  HNC=0,39;  I=0,00;  S=0,75;  NN=0,00;  NA=0,00] #
 private static readonly Action < ILogger , Exception > _initializationFailed     583
-	0,252  [HC=0,00;  HNC=0,39;  I=0,00;  S=0,75;  N=0,00] #
+	0,252  [HC=0,00;  HNC=0,39;  I=0,00;  S=0,75;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -472,17 +472,17 @@ private readonly TaskCompletionSource _acceptLoopTcs     20
 private readonly ServiceContext _serviceContext     17
 	0,462  [HC=0,13;  H=0,36;  I=1,00;  S=0,75] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static long _lastConnectionId     15
-	0,893  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,85;  N=0,00] *
+	0,893  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,85;  NN=0,00;  NA=0,00] *
 private readonly TransportConnectionManager _transportConnectionManager     19
-	0,387  [HC=0,33;  HNC=0,20;  I=0,00;  S=0,85;  N=0,00] 
+	0,387  [HC=0,33;  HNC=0,20;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] 
 private readonly Func < T , Task > _connectionDelegate     18
-	0,373  [HC=0,30;  HNC=0,20;  I=0,00;  S=0,85;  N=0,00] 
+	0,373  [HC=0,30;  HNC=0,20;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] 
 private readonly ServiceContext _serviceContext     17
-	0,320  [HC=0,17;  HNC=0,20;  I=0,00;  S=0,85;  N=0,00] 
+	0,320  [HC=0,17;  HNC=0,20;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] 
 private readonly TaskCompletionSource _acceptLoopTcs     20
-	0,253  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,85;  N=0,00] 
+	0,253  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -502,17 +502,17 @@ private readonly TaskCompletionSource _acceptLoopTcs     20
 private static long _lastConnectionId     15
 	0,462  [HC=0,13;  H=0,36;  I=1,00;  S=0,75] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly ServiceContext _serviceContext     17
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,85;  N=0,42] *
+	0,916  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,85;  NN=0,33;  NA=0,00] *
 private readonly TransportConnectionManager _transportConnectionManager     19
-	0,521  [HC=0,17;  HNC=0,50;  I=1,00;  S=0,85;  N=0,42] 
+	0,516  [HC=0,17;  HNC=0,50;  I=1,00;  S=0,85;  NN=0,33;  NA=0,00] 
 private readonly Func < T , Task > _connectionDelegate     18
-	0,441  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,85;  N=0,42] 
+	0,436  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,85;  NN=0,33;  NA=0,00] 
 private readonly TaskCompletionSource _acceptLoopTcs     20
-	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,85;  N=0,42] 
+	0,302  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,85;  NN=0,33;  NA=0,00] 
 private static long _lastConnectionId     15
-	0,320  [HC=0,17;  HNC=0,20;  I=0,00;  S=0,85;  N=0,00] #
+	0,320  [HC=0,17;  HNC=0,20;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -532,17 +532,17 @@ private readonly ServiceContext _serviceContext     17
 private static long _lastConnectionId     15
 	0,534  [HC=0,28;  H=0,40;  I=1,00;  S=0,75] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly Func < T , Task > _connectionDelegate     18
-	0,869  [HC=1,00;  HNC=0,40;  I=1,00;  S=0,85;  N=0,83] *
+	0,858  [HC=1,00;  HNC=0,40;  I=1,00;  S=0,85;  NN=0,67;  NA=0,00] *
 private readonly TransportConnectionManager _transportConnectionManager     19
-	0,616  [HC=0,30;  HNC=0,60;  I=1,00;  S=0,85;  N=0,83] 
+	0,604  [HC=0,30;  HNC=0,60;  I=1,00;  S=0,85;  NN=0,67;  NA=0,00] 
 private readonly TaskCompletionSource _acceptLoopTcs     20
-	0,352  [HC=0,00;  HNC=0,52;  I=0,00;  S=0,85;  N=0,83] 
+	0,340  [HC=0,00;  HNC=0,52;  I=0,00;  S=0,85;  NN=0,67;  NA=0,00] 
 private readonly ServiceContext _serviceContext     17
-	0,413  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,85;  N=0,00] #
+	0,413  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,85;  NN=0,00;  NA=0,00] #
 private static long _lastConnectionId     15
-	0,373  [HC=0,30;  HNC=0,20;  I=0,00;  S=0,85;  N=0,00] #
+	0,373  [HC=0,30;  HNC=0,20;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -562,17 +562,17 @@ private static long _lastConnectionId     15
 private readonly ServiceContext _serviceContext     17
 	0,436  [HC=0,07;  H=0,34;  I=1,00;  S=0,75] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly TaskCompletionSource _acceptLoopTcs     20
-	0,876  [HC=1,00;  HNC=0,83;  I=0,54;  S=0,85;  N=1,00] *
+	0,924  [HC=1,00;  HNC=0,83;  I=0,90;  S=0,85;  NN=1,00;  NA=0,00] *
 private readonly TransportConnectionManager _transportConnectionManager     19
-	0,358  [HC=0,00;  HNC=0,49;  I=0,00;  S=0,85;  N=1,00] 
+	0,358  [HC=0,00;  HNC=0,49;  I=0,00;  S=0,85;  NN=1,00;  NA=0,00] 
 private readonly Func < T , Task > _connectionDelegate     18
-	0,284  [HC=0,00;  HNC=0,43;  I=0,00;  S=0,85;  N=0,00] #
+	0,284  [HC=0,00;  HNC=0,43;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] #
 private readonly ServiceContext _serviceContext     17
-	0,280  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,85;  N=0,00] #
+	0,280  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] #
 private static long _lastConnectionId     15
-	0,253  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,85;  N=0,00] #
+	0,253  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,85;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -592,17 +592,17 @@ private bool _connectionReleased     57
 private readonly ResourceCounter _concurrentConnectionCounter     56
 	0,416  [HC=0,11;  H=0,58;  I=1,00;  S=0,50] 
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly Func < T , Task > _next     14
-	0,796  [HC=1,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] *
+	0,796  [HC=1,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] *
 private readonly ResourceCounter _concurrentConnectionCounter     15
-	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] 
+	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] 
 private readonly IKestrelTrace _trace     16
-	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] 
+	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] 
 private readonly ResourceCounter _concurrentConnectionCounter     56
-	0,243  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,59;  N=0,00] 
+	0,243  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] 
 private bool _connectionReleased     57
-	0,212  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,59;  N=0,00] 
+	0,212  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -622,17 +622,17 @@ private readonly IKestrelTrace _trace     16
 private readonly Func < T , Task > _next     14
 	0,441  [HC=0,11;  H=0,25;  I=1,00;  S=0,75] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly ResourceCounter _concurrentConnectionCounter     15
-	0,912  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  N=0,31] *
+	0,965  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  NN=1,00;  NA=0,00] *
 private readonly ResourceCounter _concurrentConnectionCounter     56
-	0,821  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,59;  N=0,31] 
+	0,797  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] #
 private bool _connectionReleased     57
-	0,375  [HC=0,30;  HNC=0,20;  I=1,00;  S=0,59;  N=0,31] 
+	0,351  [HC=0,30;  HNC=0,20;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] #
 private readonly IKestrelTrace _trace     16
-	0,358  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,31] 
+	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 private readonly Func < T , Task > _next     14
-	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] #
+	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -652,17 +652,17 @@ private readonly ResourceCounter _concurrentConnectionCounter     15
 private readonly Func < T , Task > _next     14
 	0,394  [HC=0,00;  H=0,26;  I=1,00;  S=0,75] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly IKestrelTrace _trace     16
-	0,936  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  N=0,63] *
-private readonly ResourceCounter _concurrentConnectionCounter     56
-	0,291  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,59;  N=0,63] 
-private bool _connectionReleased     57
-	0,261  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,59;  N=0,63] 
+	0,907  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,89;  NN=0,25;  NA=0,00] *
 private readonly ResourceCounter _concurrentConnectionCounter     15
-	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] #
+	0,353  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,25;  NA=0,00] 
+private readonly ResourceCounter _concurrentConnectionCounter     56
+	0,262  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,59;  NN=0,25;  NA=0,00] 
+private bool _connectionReleased     57
+	0,232  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,59;  NN=0,25;  NA=0,00] 
 private readonly Func < T , Task > _next     14
-	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  N=0,00] #
+	0,334  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,89;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -682,17 +682,17 @@ private readonly IKestrelTrace _trace     16
 private readonly Func < T , Task > _next     14
 	0,369  [HC=0,11;  H=0,25;  I=1,00;  S=0,50] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly ResourceCounter _concurrentConnectionCounter     56
-	0,972  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,92;  N=0,94] *
-private bool _connectionReleased     57
-	0,526  [HC=0,30;  HNC=0,20;  I=1,00;  S=0,92;  N=0,94] 
+	0,957  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,92;  NN=0,75;  NA=0,00] *
 private readonly ResourceCounter _concurrentConnectionCounter     15
-	0,797  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,59;  N=0,00] #
+	0,797  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] 
+private bool _connectionReleased     57
+	0,511  [HC=0,30;  HNC=0,20;  I=1,00;  S=0,92;  NN=0,75;  NA=0,00] 
 private readonly IKestrelTrace _trace     16
-	0,243  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,59;  N=0,00] #
+	0,243  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] #
 private readonly Func < T , Task > _next     14
-	0,243  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,59;  N=0,00] #
+	0,243  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -712,17 +712,17 @@ private readonly IKestrelTrace _trace     16
 private readonly Func < T , Task > _next     14
 	0,380  [HC=0,17;  H=0,16;  I=1,00;  S=0,50] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private bool _connectionReleased     57
-	0,977  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,92;  N=1,00] *
-private readonly ResourceCounter _concurrentConnectionCounter     56
-	0,453  [HC=0,30;  HNC=0,20;  I=1,00;  S=0,92;  N=0,00] #
+	0,977  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,92;  NN=1,00;  NA=0,00] *
 private readonly ResourceCounter _concurrentConnectionCounter     15
-	0,351  [HC=0,30;  HNC=0,20;  I=1,00;  S=0,59;  N=0,00] #
+	0,351  [HC=0,30;  HNC=0,20;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] 
+private readonly ResourceCounter _concurrentConnectionCounter     56
+	0,453  [HC=0,30;  HNC=0,20;  I=1,00;  S=0,92;  NN=0,00;  NA=0,00] #
 private readonly IKestrelTrace _trace     16
-	0,212  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,59;  N=0,00] #
+	0,212  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] #
 private readonly Func < T , Task > _next     14
-	0,212  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,59;  N=0,00] #
+	0,212  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,59;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -734,9 +734,9 @@ private long _inputLength     16
 private long _unexaminedInputLength     16
 	0,774  [HC=0,52;  H=0,85;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private long _unexaminedInputLength     16
-	0,815  [HC=0,60;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,815  [HC=0,60;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -760,21 +760,21 @@ private readonly int _minAllocBufferSize     40
 private readonly Http2PeerSettings _serverSettings     45
 	0,538  [HC=0,18;  H=0,48;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
-	0,583  [HC=0,60;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] 
+	0,583  [HC=0,60;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private RequestHeaderParsingState _requestHeaderParsingState     51
-	0,362  [HC=0,17;  HNC=0,29;  I=0,00;  S=0,95;  N=0,00] 
+	0,362  [HC=0,17;  HNC=0,29;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private int _totalParsedHeaderSize     54
-	0,357  [HC=0,20;  HNC=0,17;  I=0,00;  S=0,95;  N=0,00] 
+	0,357  [HC=0,20;  HNC=0,17;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private Http2HeadersFrameFlags _headerFlags     53
-	0,355  [HC=0,17;  HNC=0,25;  I=0,00;  S=0,95;  N=0,00] 
+	0,355  [HC=0,17;  HNC=0,25;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private readonly Http2PeerSettings _serverSettings     45
-	0,347  [HC=0,10;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] 
+	0,347  [HC=0,10;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private Http2Stream _currentHeadersStream     50
-	0,345  [HC=0,17;  HNC=0,17;  I=0,00;  S=0,95;  N=0,00] 
+	0,345  [HC=0,17;  HNC=0,17;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -798,21 +798,21 @@ private bool _isMethodConnect     55
 private readonly InputFlowControl _inputFlowControl     42
 	0,563  [HC=0,19;  H=0,63;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly HttpConnectionContext _context     36
-	0,923  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,03] *
+	0,923  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,03;  NA=0,00] *
 private bool _isMethodConnect     55
-	0,493  [HC=0,19;  HNC=0,20;  I=1,00;  S=0,95;  N=0,03] 
+	0,492  [HC=0,19;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,03;  NA=0,00] 
 private readonly Http2FrameWriter _frameWriter     37
-	0,463  [HC=0,00;  HNC=0,55;  I=1,00;  S=0,95;  N=0,03] 
+	0,463  [HC=0,00;  HNC=0,55;  I=1,00;  S=0,95;  NN=0,03;  NA=0,00] 
 private readonly InputFlowControl _inputFlowControl     42
-	0,459  [HC=0,00;  HNC=0,51;  I=1,00;  S=0,95;  N=0,03] 
+	0,458  [HC=0,00;  HNC=0,51;  I=1,00;  S=0,95;  NN=0,03;  NA=0,00] 
 private readonly Pipe _input     38
-	0,443  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,03] 
+	0,443  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,03;  NA=0,00] 
 private readonly int _minAllocBufferSize     40
-	0,443  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,03] 
+	0,443  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,03;  NA=0,00] 
 private readonly HPackDecoder _hpackDecoder     41
-	0,443  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,03] 
+	0,443  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,03;  NA=0,00] 
 
 **************************************************************
 
@@ -836,21 +836,21 @@ private readonly Http2Frame _incomingFrame     48
 private readonly HttpConnectionContext _context     36
 	0,563  [HC=0,18;  H=0,65;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly Http2FrameWriter _frameWriter     37
-	0,944  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,34] *
+	0,940  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,28;  NA=0,00] *
 private Http2HeadersFrameFlags _headerFlags     53
-	0,485  [HC=0,00;  HNC=0,56;  I=1,00;  S=0,95;  N=0,34] 
+	0,481  [HC=0,00;  HNC=0,56;  I=1,00;  S=0,95;  NN=0,28;  NA=0,00] 
 private Http2Stream _currentHeadersStream     50
-	0,477  [HC=0,00;  HNC=0,50;  I=1,00;  S=0,95;  N=0,34] 
+	0,473  [HC=0,00;  HNC=0,50;  I=1,00;  S=0,95;  NN=0,28;  NA=0,00] 
 internal readonly Http2KeepAlive _keepAlive     69
-	0,477  [HC=0,00;  HNC=0,50;  I=1,00;  S=0,95;  N=0,34] 
+	0,473  [HC=0,00;  HNC=0,50;  I=1,00;  S=0,95;  NN=0,28;  NA=0,00] 
 private readonly Pipe _input     38
-	0,464  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,34] 
+	0,460  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,28;  NA=0,00] 
 private readonly int _minAllocBufferSize     40
-	0,464  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,34] 
-private readonly HPackDecoder _hpackDecoder     41
-	0,464  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,34] 
+	0,460  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,28;  NA=0,00] 
+private readonly HttpConnectionContext _context     36
+	0,461  [HC=0,00;  HNC=0,55;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -874,21 +874,21 @@ private readonly OutputFlowControl _outputFlowControl     43
 private readonly HttpConnectionContext _context     36
 	0,604  [HC=0,29;  H=0,62;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly Pipe _input     38
-	0,946  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,38] *
+	0,941  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,30;  NA=0,00] *
 private Task _inputTask     39
-	0,640  [HC=0,50;  HNC=0,20;  I=1,00;  S=0,95;  N=0,38] 
+	0,635  [HC=0,50;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,30;  NA=0,00] 
 private readonly InputFlowControl _inputFlowControl     42
-	0,600  [HC=0,33;  HNC=0,40;  I=1,00;  S=0,95;  N=0,38] 
+	0,595  [HC=0,33;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,30;  NA=0,00] 
 private readonly int _minAllocBufferSize     40
-	0,466  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,38] 
+	0,461  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,30;  NA=0,00] 
 private readonly HPackDecoder _hpackDecoder     41
-	0,466  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,38] 
+	0,461  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,30;  NA=0,00] 
 private readonly Http2FrameWriter _frameWriter     37
-	0,441  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,00] #
+	0,441  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,441  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,00] #
+	0,441  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -912,21 +912,21 @@ private int _clientActiveStreamCount     59
 private readonly Pipe _input     38
 	0,693  [HC=0,56;  H=0,43;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private Task _inputTask     39
-	0,948  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,41] *
+	0,943  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,33;  NA=0,00] *
 private readonly InputFlowControl _inputFlowControl     42
-	0,575  [HC=0,33;  HNC=0,20;  I=1,00;  S=0,95;  N=0,41] 
+	0,570  [HC=0,33;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,33;  NA=0,00] 
 private readonly HPackDecoder _hpackDecoder     41
-	0,455  [HC=0,00;  HNC=0,30;  I=1,00;  S=0,95;  N=0,41] 
+	0,450  [HC=0,00;  HNC=0,30;  I=1,00;  S=0,95;  NN=0,33;  NA=0,00] 
 private Http2Stream _currentHeadersStream     50
-	0,448  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,41] 
+	0,443  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,33;  NA=0,00] 
 private RequestHeaderParsingState _requestHeaderParsingState     51
-	0,448  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,41] 
+	0,443  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,33;  NA=0,00] 
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
-	0,448  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,41] 
+	0,443  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,33;  NA=0,00] 
 private readonly Pipe _input     38
-	0,615  [HC=0,50;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,615  [HC=0,50;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -950,21 +950,21 @@ private readonly InputFlowControl _inputFlowControl     42
 private readonly Pipe _input     38
 	0,552  [HC=0,17;  H=0,62;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly int _minAllocBufferSize     40
-	0,950  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,44] *
+	0,945  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,35;  NA=0,00] *
 private int _totalParsedHeaderSize     54
-	0,624  [HC=0,25;  HNC=0,80;  I=1,00;  S=0,95;  N=0,44] 
+	0,618  [HC=0,25;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,35;  NA=0,00] 
 private int _highestOpenedStreamId     56
-	0,524  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,44] 
+	0,518  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,35;  NA=0,00] 
 private int _gracefulCloseInitiator     65
-	0,524  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,44] 
+	0,518  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,35;  NA=0,00] 
 private int _isClosed     66
-	0,524  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,44] 
+	0,518  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,35;  NA=0,00] 
 private readonly HPackDecoder _hpackDecoder     41
-	0,470  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,44] 
+	0,465  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,35;  NA=0,00] 
 private readonly InputFlowControl _inputFlowControl     42
-	0,470  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,44] 
+	0,465  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,35;  NA=0,00] 
 
 **************************************************************
 
@@ -988,21 +988,21 @@ private int _totalParsedHeaderSize     54
 private readonly Http2FrameWriter _frameWriter     37
 	0,591  [HC=0,25;  H=0,64;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly HPackDecoder _hpackDecoder     41
-	0,952  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,47] *
+	0,946  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] *
 private RequestHeaderParsingState _requestHeaderParsingState     51
-	0,503  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  N=0,47] 
+	0,497  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] 
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
-	0,503  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  N=0,47] 
+	0,497  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] 
 private int _totalParsedHeaderSize     54
-	0,503  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  N=0,47] 
+	0,497  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] 
 private readonly InputFlowControl _inputFlowControl     42
-	0,472  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  N=0,47] 
-private Http2Stream _currentHeadersStream     50
-	0,446  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,47] 
-private Http2HeadersFrameFlags _headerFlags     53
-	0,446  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,47] 
+	0,466  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] 
+private readonly int _minAllocBufferSize     40
+	0,441  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private readonly Pipe _input     38
+	0,441  [HC=0,00;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1026,21 +1026,21 @@ private Task _inputTask     39
 private readonly HttpConnectionContext _context     36
 	0,563  [HC=0,19;  H=0,63;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly InputFlowControl _inputFlowControl     42
-	0,955  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,50] *
+	0,948  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,40;  NA=0,00] *
 private readonly OutputFlowControl _outputFlowControl     43
-	0,741  [HC=0,83;  HNC=0,90;  I=0,00;  S=0,95;  N=0,50] 
+	0,735  [HC=0,83;  HNC=0,90;  I=0,00;  S=0,95;  NN=0,40;  NA=0,00] 
 private Http2Stream _currentHeadersStream     50
-	0,448  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,50] 
+	0,441  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,40;  NA=0,00] 
 private RequestHeaderParsingState _requestHeaderParsingState     51
-	0,448  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,50] 
+	0,441  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,40;  NA=0,00] 
 private readonly Pipe _input     38
-	0,575  [HC=0,33;  HNC=0,40;  I=1,00;  S=0,95;  N=0,00] #
+	0,575  [HC=0,33;  HNC=0,40;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private Task _inputTask     39
-	0,548  [HC=0,33;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,548  [HC=0,33;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,456  [HC=0,00;  HNC=0,51;  I=1,00;  S=0,95;  N=0,00] #
+	0,456  [HC=0,00;  HNC=0,51;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1064,21 +1064,21 @@ private readonly HttpConnectionContext _context     36
 private readonly HPackDecoder _hpackDecoder     41
 	0,552  [HC=0,18;  H=0,58;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly OutputFlowControl _outputFlowControl     43
-	0,926  [HC=1,00;  HNC=1,00;  I=0,77;  S=0,95;  N=0,53] *
+	0,906  [HC=1,00;  HNC=1,00;  I=0,68;  S=0,95;  NN=0,43;  NA=0,00] *
 private readonly Http2PeerSettings _serverSettings     45
-	0,388  [HC=0,00;  HNC=0,40;  I=0,34;  S=0,95;  N=0,53] 
+	0,381  [HC=0,00;  HNC=0,40;  I=0,34;  S=0,95;  NN=0,43;  NA=0,00] 
 private readonly Http2PeerSettings _clientSettings     46
-	0,388  [HC=0,00;  HNC=0,40;  I=0,34;  S=0,95;  N=0,53] 
+	0,381  [HC=0,00;  HNC=0,40;  I=0,34;  S=0,95;  NN=0,43;  NA=0,00] 
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
-	0,343  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,53] 
+	0,336  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,43;  NA=0,00] 
 private readonly InputFlowControl _inputFlowControl     42
-	0,708  [HC=0,83;  HNC=0,90;  I=0,00;  S=0,95;  N=0,00] #
+	0,708  [HC=0,83;  HNC=0,90;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Pipe _input     38
-	0,375  [HC=0,17;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] #
+	0,375  [HC=0,17;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private Task _inputTask     39
-	0,348  [HC=0,17;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,348  [HC=0,17;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1102,21 +1102,21 @@ private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
 private readonly Http2FrameWriter _frameWriter     37
 	0,580  [HC=0,21;  H=0,67;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly Http2PeerSettings _serverSettings     45
-	0,959  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,56] *
+	0,951  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,45;  NA=0,00] *
 private readonly Http2PeerSettings _clientSettings     46
-	0,759  [HC=0,50;  HNC=1,00;  I=1,00;  S=0,95;  N=0,56] 
+	0,751  [HC=0,50;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,45;  NA=0,00] 
 private readonly Http2Frame _incomingFrame     48
-	0,455  [HC=0,00;  HNC=0,70;  I=0,52;  S=0,95;  N=0,56] 
+	0,447  [HC=0,00;  HNC=0,70;  I=0,52;  S=0,95;  NN=0,45;  NA=0,00] 
 private Http2HeadersFrameFlags _headerFlags     53
-	0,451  [HC=0,25;  HNC=0,44;  I=0,00;  S=0,95;  N=0,56] 
+	0,443  [HC=0,25;  HNC=0,44;  I=0,00;  S=0,95;  NN=0,45;  NA=0,00] 
 private int _serverActiveStreamCount     60
-	0,419  [HC=0,25;  HNC=0,20;  I=0,00;  S=0,95;  N=0,56] 
+	0,411  [HC=0,25;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,45;  NA=0,00] 
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
-	0,402  [HC=0,00;  HNC=0,53;  I=0,29;  S=0,95;  N=0,56] 
+	0,394  [HC=0,00;  HNC=0,53;  I=0,29;  S=0,95;  NN=0,45;  NA=0,00] 
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,397  [HC=0,00;  HNC=0,40;  I=0,38;  S=0,95;  N=0,56] 
+	0,389  [HC=0,00;  HNC=0,40;  I=0,38;  S=0,95;  NN=0,45;  NA=0,00] 
 
 **************************************************************
 
@@ -1140,21 +1140,21 @@ private readonly HttpConnectionContext _context     36
 private readonly Pipe _input     38
 	0,570  [HC=0,21;  H=0,60;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly Http2PeerSettings _clientSettings     46
-	0,961  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,59] *
+	0,953  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,48;  NA=0,00] *
 private readonly Http2Frame _incomingFrame     48
-	0,457  [HC=0,00;  HNC=0,70;  I=0,52;  S=0,95;  N=0,59] 
+	0,449  [HC=0,00;  HNC=0,70;  I=0,52;  S=0,95;  NN=0,48;  NA=0,00] 
 private Http2Stream _currentHeadersStream     50
-	0,437  [HC=0,19;  HNC=0,50;  I=0,00;  S=0,95;  N=0,59] 
+	0,429  [HC=0,19;  HNC=0,50;  I=0,00;  S=0,95;  NN=0,48;  NA=0,00] 
 private int _clientActiveStreamCount     59
-	0,421  [HC=0,25;  HNC=0,20;  I=0,00;  S=0,95;  N=0,59] 
+	0,413  [HC=0,25;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,48;  NA=0,00] 
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
-	0,404  [HC=0,00;  HNC=0,53;  I=0,29;  S=0,95;  N=0,59] 
+	0,396  [HC=0,00;  HNC=0,53;  I=0,29;  S=0,95;  NN=0,48;  NA=0,00] 
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,399  [HC=0,00;  HNC=0,40;  I=0,38;  S=0,95;  N=0,59] 
+	0,391  [HC=0,00;  HNC=0,40;  I=0,38;  S=0,95;  NN=0,48;  NA=0,00] 
 private readonly Http2PeerSettings _serverSettings     45
-	0,721  [HC=0,50;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,721  [HC=0,50;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1178,21 +1178,21 @@ private readonly Http2FrameWriter _frameWriter     37
 private readonly InputFlowControl _inputFlowControl     42
 	0,555  [HC=0,19;  H=0,57;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly Http2Frame _incomingFrame     48
-	0,963  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,63] *
+	0,955  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,50;  NA=0,00] *
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
-	0,435  [HC=0,00;  HNC=0,63;  I=0,41;  S=0,95;  N=0,63] 
+	0,427  [HC=0,00;  HNC=0,63;  I=0,41;  S=0,95;  NN=0,50;  NA=0,00] 
 internal readonly Dictionary < int , Http2Stream > _streams     70
-	0,410  [HC=0,00;  HNC=0,43;  I=0,42;  S=0,95;  N=0,63] 
+	0,401  [HC=0,00;  HNC=0,43;  I=0,42;  S=0,95;  NN=0,50;  NA=0,00] 
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,396  [HC=0,00;  HNC=0,40;  I=0,35;  S=0,95;  N=0,63] 
-private Http2Stream _currentHeadersStream     50
-	0,376  [HC=0,00;  HNC=0,60;  I=0,00;  S=0,95;  N=0,63] 
+	0,387  [HC=0,00;  HNC=0,40;  I=0,35;  S=0,95;  NN=0,50;  NA=0,00] 
 private readonly Http2PeerSettings _clientSettings     46
-	0,417  [HC=0,00;  HNC=0,70;  I=0,52;  S=0,95;  N=0,00] #
+	0,417  [HC=0,00;  HNC=0,70;  I=0,52;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2PeerSettings _serverSettings     45
-	0,417  [HC=0,00;  HNC=0,70;  I=0,52;  S=0,95;  N=0,00] #
+	0,417  [HC=0,00;  HNC=0,70;  I=0,52;  S=0,95;  NN=0,00;  NA=0,00] #
+private readonly Http2FrameWriter _frameWriter     37
+	0,368  [HC=0,00;  HNC=0,85;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1216,21 +1216,21 @@ private int _serverActiveStreamCount     60
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
 	0,586  [HC=0,29;  H=0,48;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private Http2Stream _currentHeadersStream     50
-	0,965  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,66] *
+	0,956  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,53;  NA=0,00] *
 private Http2HeadersFrameFlags _headerFlags     53
-	0,600  [HC=0,24;  HNC=0,55;  I=1,00;  S=0,95;  N=0,66] 
+	0,591  [HC=0,24;  HNC=0,55;  I=1,00;  S=0,95;  NN=0,53;  NA=0,00] 
 private int _highestOpenedStreamId     56
-	0,565  [HC=0,25;  HNC=0,25;  I=1,00;  S=0,95;  N=0,66] 
+	0,556  [HC=0,25;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,53;  NA=0,00] 
 private RequestHeaderParsingState _requestHeaderParsingState     51
-	0,551  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  N=0,66] 
+	0,542  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,53;  NA=0,00] 
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
-	0,551  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  N=0,66] 
+	0,542  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,53;  NA=0,00] 
 private int _totalParsedHeaderSize     54
-	0,551  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  N=0,66] 
+	0,542  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,53;  NA=0,00] 
 internal Http2StreamStack StreamPool     71
-	0,507  [HC=0,00;  HNC=0,56;  I=1,00;  S=0,95;  N=0,66] 
+	0,498  [HC=0,00;  HNC=0,56;  I=1,00;  S=0,95;  NN=0,53;  NA=0,00] 
 
 **************************************************************
 
@@ -1254,21 +1254,21 @@ private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields  
 private readonly Http2PeerSettings _clientSettings     46
 	0,550  [HC=0,24;  H=0,38;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private RequestHeaderParsingState _requestHeaderParsingState     51
-	0,967  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,69] *
+	0,958  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,55;  NA=0,00] *
 private Http2HeadersFrameFlags _headerFlags     53
-	0,568  [HC=0,21;  HNC=0,38;  I=1,00;  S=0,95;  N=0,69] 
+	0,558  [HC=0,21;  HNC=0,38;  I=1,00;  S=0,95;  NN=0,55;  NA=0,00] 
 private bool _gracefulCloseStarted     57
-	0,538  [HC=0,18;  HNC=0,25;  I=1,00;  S=0,95;  N=0,69] 
+	0,529  [HC=0,18;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,55;  NA=0,00] 
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
-	0,492  [HC=0,00;  HNC=0,44;  I=1,00;  S=0,95;  N=0,69] 
+	0,483  [HC=0,00;  HNC=0,44;  I=1,00;  S=0,95;  NN=0,55;  NA=0,00] 
 private int _totalParsedHeaderSize     54
-	0,467  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,69] 
+	0,458  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,55;  NA=0,00] 
 private Http2Stream _currentHeadersStream     50
-	0,507  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,507  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,472  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,472  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1292,21 +1292,21 @@ private Http2Stream _currentHeadersStream     50
 private readonly HPackDecoder _hpackDecoder     41
 	0,554  [HC=0,25;  H=0,38;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
-	0,969  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,72] *
+	0,960  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,58;  NA=0,00] *
 private Http2HeadersFrameFlags _headerFlags     53
-	0,570  [HC=0,21;  HNC=0,38;  I=1,00;  S=0,95;  N=0,72] 
+	0,560  [HC=0,21;  HNC=0,38;  I=1,00;  S=0,95;  NN=0,58;  NA=0,00] 
 private int _totalParsedHeaderSize     54
-	0,569  [HC=0,25;  HNC=0,25;  I=1,00;  S=0,95;  N=0,72] 
+	0,560  [HC=0,25;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,58;  NA=0,00] 
 private bool _isMethodConnect     55
-	0,469  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,72] 
+	0,460  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,58;  NA=0,00] 
 private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,583  [HC=0,60;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,583  [HC=0,60;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private Http2Stream _currentHeadersStream     50
-	0,507  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,507  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly HPackDecoder _hpackDecoder     41
-	0,472  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,472  [HC=0,14;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1330,21 +1330,21 @@ private Http2Stream _currentHeadersStream     50
 private RequestHeaderParsingState _requestHeaderParsingState     51
 	0,571  [HC=0,24;  H=0,53;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private Http2HeadersFrameFlags _headerFlags     53
-	0,971  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,75] *
+	0,961  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,60;  NA=0,00] *
 private int _totalParsedHeaderSize     54
-	0,555  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  N=0,75] 
+	0,545  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,60;  NA=0,00] 
 internal Http2StreamStack StreamPool     71
-	0,478  [HC=0,00;  HNC=0,30;  I=1,00;  S=0,95;  N=0,75] 
-private bool _isMethodConnect     55
-	0,471  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,75] 
+	0,468  [HC=0,00;  HNC=0,30;  I=1,00;  S=0,95;  NN=0,60;  NA=0,00] 
 private Http2Stream _currentHeadersStream     50
-	0,556  [HC=0,24;  HNC=0,55;  I=1,00;  S=0,95;  N=0,00] #
+	0,556  [HC=0,24;  HNC=0,55;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
-	0,522  [HC=0,21;  HNC=0,38;  I=1,00;  S=0,95;  N=0,00] #
+	0,522  [HC=0,21;  HNC=0,38;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private RequestHeaderParsingState _requestHeaderParsingState     51
-	0,522  [HC=0,21;  HNC=0,38;  I=1,00;  S=0,95;  N=0,00] #
+	0,522  [HC=0,21;  HNC=0,38;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private readonly Http2FrameWriter _frameWriter     37
+	0,463  [HC=0,00;  HNC=0,56;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1368,21 +1368,21 @@ private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields  
 private Http2Stream _currentHeadersStream     50
 	0,582  [HC=0,29;  H=0,47;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int _totalParsedHeaderSize     54
-	0,973  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,78] *
+	0,963  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,63;  NA=0,00] *
 private int _isClosed     66
-	0,623  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  N=0,78] 
+	0,613  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,63;  NA=0,00] 
 private int _highestOpenedStreamId     56
-	0,573  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,78] 
+	0,563  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,63;  NA=0,00] 
 private int _gracefulCloseInitiator     65
-	0,573  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,78] 
+	0,563  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,63;  NA=0,00] 
 private readonly int _minAllocBufferSize     40
-	0,595  [HC=0,25;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,595  [HC=0,25;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
-	0,521  [HC=0,25;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,521  [HC=0,25;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private Http2Stream _currentHeadersStream     50
-	0,507  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,507  [HC=0,21;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1406,21 +1406,21 @@ private readonly HttpConnectionContext _context     36
 private PseudoHeaderFields _parsedPseudoHeaderFields     52
 	0,546  [HC=0,21;  H=0,45;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private bool _isMethodConnect     55
-	0,975  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,81] *
+	0,965  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,65;  NA=0,00] *
 private int _isClosed     66
-	0,609  [HC=0,33;  HNC=0,25;  I=1,00;  S=0,95;  N=0,81] 
+	0,598  [HC=0,33;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,65;  NA=0,00] 
 private bool _gracefulCloseStarted     57
-	0,575  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,81] 
+	0,565  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,65;  NA=0,00] 
 private int _highestOpenedStreamId     56
-	0,475  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,81] 
+	0,465  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,65;  NA=0,00] 
 private int _gracefulCloseInitiator     65
-	0,475  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,81] 
+	0,465  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,65;  NA=0,00] 
 internal readonly Http2KeepAlive _keepAlive     69
-	0,442  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,81] 
+	0,431  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,65;  NA=0,00] 
 private readonly HttpConnectionContext _context     36
-	0,491  [HC=0,19;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,491  [HC=0,19;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1444,21 +1444,21 @@ private int _gracefulCloseInitiator     65
 private Http2Stream _currentHeadersStream     50
 	0,628  [HC=0,38;  H=0,50;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int _highestOpenedStreamId     56
-	0,977  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,84] *
+	0,966  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,68;  NA=0,00] *
 private int _gracefulCloseInitiator     65
-	0,577  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,84] 
+	0,566  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,68;  NA=0,00] 
 private int _isClosed     66
-	0,577  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,84] 
+	0,566  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,68;  NA=0,00] 
 private int _clientActiveStreamCount     59
-	0,544  [HC=0,25;  HNC=1,00;  I=0,00;  S=0,95;  N=0,84] 
+	0,533  [HC=0,25;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,68;  NA=0,00] 
 private int _serverActiveStreamCount     60
-	0,544  [HC=0,25;  HNC=1,00;  I=0,00;  S=0,95;  N=0,84] 
+	0,533  [HC=0,25;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,68;  NA=0,00] 
 internal Http2StreamStack StreamPool     71
-	0,544  [HC=0,25;  HNC=0,00;  I=1,00;  S=0,95;  N=0,84] 
+	0,533  [HC=0,25;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,68;  NA=0,00] 
 private int _totalParsedHeaderSize     54
-	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1482,21 +1482,21 @@ private readonly Http2FrameWriter _frameWriter     37
 private readonly HPackDecoder _hpackDecoder     41
 	0,555  [HC=0,25;  H=0,38;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private bool _gracefulCloseStarted     57
-	0,980  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,88] *
+	0,968  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,70;  NA=0,00] *
 private int _gracefulCloseInitiator     65
-	0,746  [HC=0,67;  HNC=0,25;  I=1,00;  S=0,95;  N=0,88] 
+	0,735  [HC=0,67;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,70;  NA=0,00] 
 private int _isClosed     66
-	0,591  [HC=0,28;  HNC=0,25;  I=1,00;  S=0,95;  N=0,88] 
+	0,579  [HC=0,28;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,70;  NA=0,00] 
 internal readonly Http2KeepAlive _keepAlive     69
-	0,446  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,88] 
+	0,435  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,70;  NA=0,00] 
 internal Http2StreamStack StreamPool     71
-	0,446  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,88] 
+	0,435  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,70;  NA=0,00] 
 private bool _isMethodConnect     55
-	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private RequestHeaderParsingState _requestHeaderParsingState     51
-	0,493  [HC=0,18;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,493  [HC=0,18;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1520,21 +1520,21 @@ private readonly Http2PeerSettings _serverSettings     45
 private int _highestOpenedStreamId     56
 	0,553  [HC=0,29;  H=0,26;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 internal readonly Dictionary < int , Http2Stream > _streams     70
-	0,955  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,91] *
+	0,943  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,73;  NA=0,00] *
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
-	0,627  [HC=0,43;  HNC=0,75;  I=0,30;  S=0,95;  N=0,91] 
-internal Http2StreamStack StreamPool     71
-	0,503  [HC=0,36;  HNC=0,34;  I=0,00;  S=0,95;  N=0,91] 
+	0,649  [HC=0,43;  HNC=0,75;  I=0,56;  S=0,95;  NN=0,73;  NA=0,00] 
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,483  [HC=0,29;  HNC=0,40;  I=0,00;  S=0,95;  N=0,91] 
+	0,507  [HC=0,29;  HNC=0,40;  I=0,27;  S=0,95;  NN=0,73;  NA=0,00] 
+internal Http2StreamStack StreamPool     71
+	0,491  [HC=0,36;  HNC=0,34;  I=0,00;  S=0,95;  NN=0,73;  NA=0,00] 
 private int _clientActiveStreamCount     59
-	0,428  [HC=0,18;  HNC=0,31;  I=0,00;  S=0,95;  N=0,91] 
+	0,416  [HC=0,18;  HNC=0,31;  I=0,00;  S=0,95;  NN=0,73;  NA=0,00] 
 private int _serverActiveStreamCount     60
-	0,428  [HC=0,18;  HNC=0,31;  I=0,00;  S=0,95;  N=0,91] 
+	0,416  [HC=0,18;  HNC=0,31;  I=0,00;  S=0,95;  NN=0,73;  NA=0,00] 
 private Http2Stream _currentHeadersStream     50
-	0,422  [HC=0,24;  HNC=0,54;  I=0,00;  S=0,95;  N=0,00] #
+	0,422  [HC=0,24;  HNC=0,54;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1558,21 +1558,21 @@ private Http2Stream _currentHeadersStream     50
 private readonly Http2PeerSettings _clientSettings     46
 	0,595  [HC=0,35;  H=0,38;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int _clientActiveStreamCount     59
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 private int _serverActiveStreamCount     60
-	0,821  [HC=0,75;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] 
+	0,821  [HC=0,75;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 internal const int MaxStreamPoolSize     74
-	0,486  [HC=0,00;  HNC=0,60;  I=0,67;  S=0,95;  N=0,94] 
+	0,473  [HC=0,00;  HNC=0,60;  I=0,67;  S=0,95;  NN=0,75;  NA=0,00] 
 internal const int InitialStreamPoolSize     73
-	0,464  [HC=0,00;  HNC=0,60;  I=0,50;  S=0,95;  N=0,94] 
+	0,451  [HC=0,00;  HNC=0,60;  I=0,50;  S=0,95;  NN=0,75;  NA=0,00] 
 public const int Client     1523
-	0,462  [HC=0,21;  HNC=0,60;  I=0,50;  S=0,64;  N=0,94] 
-public const int None     1521
-	0,446  [HC=0,00;  HNC=0,60;  I=1,00;  S=0,64;  N=0,94] 
+	0,450  [HC=0,21;  HNC=0,60;  I=0,50;  S=0,64;  NN=0,75;  NA=0,00] 
 private int _highestOpenedStreamId     56
-	0,488  [HC=0,25;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,488  [HC=0,25;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
+private Http2Stream _currentHeadersStream     50
+	0,445  [HC=0,39;  HNC=0,25;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1596,21 +1596,21 @@ private readonly Http2PeerSettings _serverSettings     45
 private Http2Stream _currentHeadersStream     50
 	0,591  [HC=0,30;  H=0,47;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int _serverActiveStreamCount     60
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,973  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,78;  NA=0,00] *
 internal const int MaxStreamPoolSize     74
-	0,486  [HC=0,00;  HNC=0,60;  I=0,67;  S=0,95;  N=0,94] 
+	0,475  [HC=0,00;  HNC=0,60;  I=0,67;  S=0,95;  NN=0,78;  NA=0,00] 
 internal const int InitialStreamPoolSize     73
-	0,464  [HC=0,00;  HNC=0,60;  I=0,50;  S=0,95;  N=0,94] 
+	0,453  [HC=0,00;  HNC=0,60;  I=0,50;  S=0,95;  NN=0,78;  NA=0,00] 
 public const int Server     1522
-	0,462  [HC=0,21;  HNC=0,60;  I=0,50;  S=0,64;  N=0,94] 
-public const int None     1521
-	0,446  [HC=0,00;  HNC=0,60;  I=1,00;  S=0,64;  N=0,94] 
+	0,451  [HC=0,21;  HNC=0,60;  I=0,50;  S=0,64;  NN=0,78;  NA=0,00] 
+private int _gracefulCloseInitiator     65
+	0,440  [HC=0,00;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,78;  NA=0,00] 
 private int _clientActiveStreamCount     59
-	0,821  [HC=0,75;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,821  [HC=0,75;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private int _highestOpenedStreamId     56
-	0,488  [HC=0,25;  HNC=1,00;  I=0,00;  S=0,95;  N=0,00] #
+	0,488  [HC=0,25;  HNC=1,00;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1634,21 +1634,21 @@ private readonly HttpConnectionContext _context     36
 private int _clientActiveStreamCount     59
 	0,573  [HC=0,35;  H=0,22;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
-internal const int InitialStreamPoolSize     73
-	0,403  [HC=0,21;  HNC=0,00;  I=0,00;  S=0,95;  N=0,94] 
-internal const int MaxStreamPoolSize     74
-	0,403  [HC=0,21;  HNC=0,00;  I=0,00;  S=0,95;  N=0,94] 
+	0,975  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,80;  NA=0,00] *
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,388  [HC=0,20;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] 
+	0,480  [HC=0,20;  HNC=0,40;  I=0,29;  S=0,95;  NN=0,80;  NA=0,00] 
+internal const int InitialStreamPoolSize     73
+	0,394  [HC=0,21;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,80;  NA=0,00] 
+internal const int MaxStreamPoolSize     74
+	0,394  [HC=0,21;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,80;  NA=0,00] 
 internal readonly Dictionary < int , Http2Stream > _streams     70
-	0,540  [HC=0,43;  HNC=0,55;  I=0,30;  S=0,95;  N=0,00] #
+	0,574  [HC=0,43;  HNC=0,55;  I=0,56;  S=0,95;  NN=0,00;  NA=0,00] #
 private Http2Stream _currentHeadersStream     50
-	0,442  [HC=0,29;  HNC=0,55;  I=0,00;  S=0,95;  N=0,00] #
+	0,442  [HC=0,29;  HNC=0,55;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly Http2Frame _incomingFrame     48
-	0,394  [HC=0,00;  HNC=0,63;  I=0,41;  S=0,95;  N=0,00] #
+	0,394  [HC=0,00;  HNC=0,63;  I=0,41;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1672,21 +1672,21 @@ private readonly Http2PeerSettings _serverSettings     45
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
 	0,563  [HC=0,28;  H=0,35;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,976  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,83;  NA=0,00] *
 internal Http2StreamStack StreamPool     71
-	0,428  [HC=0,28;  HNC=0,00;  I=0,00;  S=0,95;  N=0,94] 
+	0,421  [HC=0,28;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,83;  NA=0,00] 
 internal const int InitialStreamPoolSize     73
-	0,400  [HC=0,21;  HNC=0,00;  I=0,00;  S=0,95;  N=0,94] 
+	0,393  [HC=0,21;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,83;  NA=0,00] 
 internal const int MaxStreamPoolSize     74
-	0,400  [HC=0,21;  HNC=0,00;  I=0,00;  S=0,95;  N=0,94] 
+	0,393  [HC=0,21;  HNC=0,00;  I=0,00;  S=0,95;  NN=0,83;  NA=0,00] 
 private static readonly Action _callbackCompleted     1463
-	0,370  [HC=0,23;  HNC=0,33;  I=0,00;  S=0,64;  N=0,94] 
+	0,362  [HC=0,23;  HNC=0,33;  I=0,00;  S=0,64;  NN=0,83;  NA=0,00] 
 internal readonly Dictionary < int , Http2Stream > _streams     70
-	0,395  [HC=0,29;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,432  [HC=0,29;  HNC=0,20;  I=0,27;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly ConcurrentQueue < Http2Stream > _completedStreams     63
-	0,388  [HC=0,20;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] #
+	0,427  [HC=0,20;  HNC=0,40;  I=0,29;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1710,21 +1710,21 @@ private readonly OutputFlowControl _outputFlowControl     43
 private int _highestOpenedStreamId     56
 	0,555  [HC=0,14;  H=0,72;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int _gracefulCloseInitiator     65
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,978  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,85;  NA=0,00] *
 private int _isClosed     66
-	0,632  [HC=0,28;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] 
+	0,689  [HC=0,28;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,85;  NA=0,00] 
 internal Http2StreamStack StreamPool     71
-	0,450  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,94] 
+	0,445  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,85;  NA=0,00] 
 private bool _gracefulCloseStarted     57
-	0,688  [HC=0,67;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,688  [HC=0,67;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private int _highestOpenedStreamId     56
-	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private int _totalParsedHeaderSize     54
-	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly int _minAllocBufferSize     40
-	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1748,21 +1748,21 @@ private bool _isMethodConnect     55
 private readonly int _minAllocBufferSize     40
 	0,569  [HC=0,22;  H=0,57;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private int _isClosed     66
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,980  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,88;  NA=0,00] *
 private int _gracefulCloseInitiator     65
-	0,632  [HC=0,28;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,632  [HC=0,28;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private int _totalParsedHeaderSize     54
-	0,571  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,571  [HC=0,13;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private bool _isMethodConnect     55
-	0,555  [HC=0,33;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,555  [HC=0,33;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private bool _gracefulCloseStarted     57
-	0,532  [HC=0,28;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,532  [HC=0,28;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private int _highestOpenedStreamId     56
-	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] #
+	0,521  [HC=0,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly int _minAllocBufferSize     40
-	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,00] #
+	0,495  [HC=0,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1786,21 +1786,21 @@ private bool _gracefulCloseStarted     57
 private readonly HttpConnectionContext _context     36
 	0,455  [HC=0,18;  H=0,49;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly Action _callbackCompleted     1463
-	0,988  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  N=0,94] *
+	0,985  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  NN=0,90;  NA=0,00] *
 private Action _callback     1467
-	0,610  [HC=0,50;  HNC=0,67;  I=0,00;  S=0,97;  N=0,94] 
+	0,607  [HC=0,50;  HNC=0,67;  I=0,00;  S=0,97;  NN=0,90;  NA=0,00] 
 public const int None     1521
-	0,270  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  N=0,94] 
+	0,267  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  NN=0,90;  NA=0,00] 
 public const int Server     1522
-	0,270  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  N=0,94] 
+	0,267  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  NN=0,90;  NA=0,00] 
 public const int Client     1523
-	0,270  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  N=0,94] 
+	0,267  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  NN=0,90;  NA=0,00] 
+internal readonly Http2KeepAlive _keepAlive     69
+	0,252  [HC=0,00;  HNC=0,17;  I=0,00;  S=0,64;  NN=0,90;  NA=0,00] 
 private readonly StreamCloseAwaitable _streamCompletionAwaitable     64
-	0,307  [HC=0,23;  HNC=0,33;  I=0,00;  S=0,64;  N=0,00] #
-private static readonly PseudoHeaderFields _mandatoryRequestPseudoHeaderFields     33
-	0,236  [HC=0,00;  HNC=0,50;  I=0,00;  S=0,64;  N=0,00] #
+	0,307  [HC=0,23;  HNC=0,33;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1824,21 +1824,21 @@ private Http2HeadersFrameFlags _headerFlags     53
 private int _totalParsedHeaderSize     54
 	0,435  [HC=0,14;  H=0,45;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private Action _callback     1467
-	0,992  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  N=1,00] *
+	0,987  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  NN=0,93;  NA=0,00] *
 public const int None     1521
-	0,274  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  N=1,00] 
+	0,269  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  NN=0,93;  NA=0,00] 
 public const int Server     1522
-	0,274  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  N=1,00] 
+	0,269  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  NN=0,93;  NA=0,00] 
 public const int Client     1523
-	0,274  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  N=1,00] 
+	0,269  [HC=0,00;  HNC=0,00;  I=0,00;  S=0,78;  NN=0,93;  NA=0,00] 
 private static readonly Action _callbackCompleted     1463
-	0,547  [HC=0,50;  HNC=0,67;  I=0,00;  S=0,97;  N=0,00] #
+	0,547  [HC=0,50;  HNC=0,67;  I=0,00;  S=0,97;  NN=0,00;  NA=0,00] #
 private readonly HttpConnectionContext _context     36
-	0,210  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,64;  N=0,00] #
-private int _clientActiveStreamCount     59
-	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  N=0,00] #
+	0,210  [HC=0,00;  HNC=0,30;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
+private int _isClosed     66
+	0,203  [HC=0,00;  HNC=0,25;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1862,21 +1862,21 @@ private int _isClosed     66
 private static readonly Action _callbackCompleted     1463
 	0,441  [HC=0,12;  H=0,17;  I=1,00;  S=0,78] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public const int None     1521
-	0,992  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  N=1,00] *
+	0,989  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  NN=0,95;  NA=0,00] *
 public const int Server     1522
-	0,525  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  N=1,00] 
+	0,522  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  NN=0,95;  NA=0,00] 
 public const int Client     1523
-	0,525  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  N=1,00] 
+	0,522  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  NN=0,95;  NA=0,00] 
 internal const int MaxStreamPoolSize     74
-	0,365  [HC=0,00;  HNC=0,80;  I=0,67;  S=0,64;  N=0,00] 
+	0,365  [HC=0,00;  HNC=0,80;  I=0,67;  S=0,64;  NN=0,00;  NA=0,00] 
 internal const int InitialStreamPoolSize     73
-	0,343  [HC=0,00;  HNC=0,80;  I=0,50;  S=0,64;  N=0,00] 
-private int _clientActiveStreamCount     59
-	0,383  [HC=0,00;  HNC=0,60;  I=1,00;  S=0,64;  N=0,00] #
+	0,343  [HC=0,00;  HNC=0,80;  I=0,50;  S=0,64;  NN=0,00;  NA=0,00] 
 private int _serverActiveStreamCount     60
-	0,383  [HC=0,00;  HNC=0,60;  I=1,00;  S=0,64;  N=0,00] #
+	0,383  [HC=0,00;  HNC=0,60;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] #
+private int _clientActiveStreamCount     59
+	0,383  [HC=0,00;  HNC=0,60;  I=1,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1900,21 +1900,21 @@ private int _serverActiveStreamCount     60
 private Http2HeadersFrameFlags _headerFlags     53
 	0,442  [HC=0,27;  H=0,11;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public const int Server     1522
-	0,992  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  N=1,00] *
+	0,990  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  NN=0,98;  NA=0,00] *
 public const int Client     1523
-	0,525  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  N=1,00] 
+	0,524  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  NN=0,98;  NA=0,00] 
 internal const int InitialStreamPoolSize     73
-	0,343  [HC=0,00;  HNC=0,80;  I=0,50;  S=0,64;  N=0,00] 
+	0,343  [HC=0,00;  HNC=0,80;  I=0,50;  S=0,64;  NN=0,00;  NA=0,00] 
 internal const int MaxStreamPoolSize     74
-	0,321  [HC=0,00;  HNC=0,80;  I=0,33;  S=0,64;  N=0,00] 
+	0,321  [HC=0,00;  HNC=0,80;  I=0,33;  S=0,64;  NN=0,00;  NA=0,00] 
 public const int None     1521
-	0,459  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  N=0,00] #
+	0,459  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  NN=0,00;  NA=0,00] #
 private int _serverActiveStreamCount     60
-	0,400  [HC=0,21;  HNC=0,60;  I=0,50;  S=0,64;  N=0,00] #
+	0,400  [HC=0,21;  HNC=0,60;  I=0,50;  S=0,64;  NN=0,00;  NA=0,00] #
 private readonly Http2PeerSettings _serverSettings     45
-	0,336  [HC=0,42;  HNC=0,00;  I=0,00;  S=0,64;  N=0,00] #
+	0,336  [HC=0,42;  HNC=0,00;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1938,21 +1938,21 @@ private readonly HttpConnectionContext _context     36
 private int _gracefulCloseInitiator     65
 	0,456  [HC=0,23;  H=0,34;  I=1,00;  S=0,58] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 public const int Client     1523
-	0,992  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  N=1,00] *
+	0,992  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  NN=1,00;  NA=0,00] *
 internal const int InitialStreamPoolSize     73
-	0,343  [HC=0,00;  HNC=0,80;  I=0,50;  S=0,64;  N=0,00] 
+	0,343  [HC=0,00;  HNC=0,80;  I=0,50;  S=0,64;  NN=0,00;  NA=0,00] 
 public const int Server     1522
-	0,459  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  N=0,00] #
+	0,459  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  NN=0,00;  NA=0,00] #
 public const int None     1521
-	0,459  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  N=0,00] #
+	0,459  [HC=0,00;  HNC=1,00;  I=0,50;  S=0,97;  NN=0,00;  NA=0,00] #
 private int _clientActiveStreamCount     59
-	0,400  [HC=0,21;  HNC=0,60;  I=0,50;  S=0,64;  N=0,00] #
+	0,400  [HC=0,21;  HNC=0,60;  I=0,50;  S=0,64;  NN=0,00;  NA=0,00] #
 private int _serverActiveStreamCount     60
-	0,366  [HC=0,13;  HNC=0,60;  I=0,50;  S=0,64;  N=0,00] #
+	0,366  [HC=0,13;  HNC=0,60;  I=0,50;  S=0,64;  NN=0,00;  NA=0,00] #
 private readonly Http2PeerSettings _clientSettings     46
-	0,336  [HC=0,42;  HNC=0,00;  I=0,00;  S=0,64;  N=0,00] #
+	0,336  [HC=0,42;  HNC=0,00;  I=0,00;  S=0,64;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -1964,9 +1964,9 @@ private static readonly int Repititions     204
 private static readonly int Repetitions     204
 	0,958  [HC=0,91;  H=0,98;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly int Repetitions     204
-	0,964  [HC=0,91;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,964  [HC=0,91;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -1982,13 +1982,13 @@ private ReadOnlySequence < byte > _buffer     17
 public HttpParserBenchmark RequestHandler     102
 	0,411  [HC=0,21;  H=0,13;  I=1,00;  S=0,56] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly HttpParser < Adapter > _parser     15
-	0,920  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,920  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 private ReadOnlySequence < byte > _buffer     17
-	0,299  [HC=0,00;  HNC=0,34;  I=0,00;  S=0,95;  N=0,00] 
+	0,299  [HC=0,00;  HNC=0,34;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 public HttpParserBenchmark RequestHandler     102
-	0,219  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,63;  N=0,00] 
+	0,219  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,63;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -2004,13 +2004,13 @@ public HttpParserBenchmark RequestHandler     102
 private readonly HttpParser < Adapter > _parser     15
 	0,607  [HC=0,33;  H=0,58;  I=1,00;  S=0,83] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private ReadOnlySequence < byte > _buffer     17
-	0,962  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,63] *
+	0,953  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,50;  NA=0,00] *
 public HttpParserBenchmark RequestHandler     102
-	0,344  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,63;  N=0,63] 
+	0,336  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,63;  NN=0,50;  NA=0,00] 
 private readonly HttpParser < Adapter > _parser     15
-	0,284  [HC=0,00;  HNC=0,23;  I=0,00;  S=0,95;  N=0,00] #
+	0,284  [HC=0,00;  HNC=0,23;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2026,13 +2026,13 @@ private readonly HttpParser < Adapter > _parser     15
 private ReadOnlySequence < byte > _buffer     17
 	0,406  [HC=0,21;  H=0,09;  I=1,00;  S=0,56] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 public HttpParserBenchmark RequestHandler     102
-	0,990  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  N=1,00] *
+	0,990  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,97;  NN=1,00;  NA=0,00] *
 private readonly HttpParser < Adapter > _parser     15
-	0,219  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,63;  N=0,00] #
+	0,219  [HC=0,00;  HNC=0,38;  I=0,00;  S=0,63;  NN=0,00;  NA=0,00] #
 private ReadOnlySequence < byte > _buffer     17
-	0,195  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,63;  N=0,00] #
+	0,195  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,63;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2046,11 +2046,11 @@ private static readonly char [ ] CharData     19
 private readonly Stream _inner     500
 	0,372  [HC=0,00;  H=0,31;  I=1,00;  S=0,65] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly char [ ] CharData     19
-	0,912  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,92;  N=0,00] *
+	0,912  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,92;  NN=0,00;  NA=0,00] *
 private readonly Stream _inner     500
-	0,208  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,61;  N=0,00] 
+	0,208  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,61;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -2074,21 +2074,21 @@ private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted 
 private bool _completed     20
 	0,482  [HC=0,18;  H=0,09;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 private readonly object _heartbeatLock     17
-	0,493  [HC=0,50;  HNC=0,29;  I=0,00;  S=0,95;  N=0,00] 
+	0,493  [HC=0,50;  HNC=0,29;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 protected readonly TransportConnectionManager _transportConnectionManager     26
-	0,467  [HC=0,17;  HNC=0,10;  I=1,00;  S=0,95;  N=0,00] 
+	0,467  [HC=0,17;  HNC=0,10;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted     19
-	0,466  [HC=0,00;  HNC=0,58;  I=1,00;  S=0,95;  N=0,00] 
+	0,466  [HC=0,00;  HNC=0,58;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private bool _completed     20
-	0,421  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] 
+	0,421  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 protected readonly long _id     24
-	0,388  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,00] 
+	0,388  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 protected readonly ServiceContext _serviceContext     25
-	0,388  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,00] 
+	0,388  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -2112,21 +2112,21 @@ private bool _completed     20
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
 	0,646  [HC=0,53;  H=0,19;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly object _heartbeatLock     17
-	0,932  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,16] *
+	0,930  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,13;  NA=0,00] *
 private readonly CancellationTokenSource _connectionClosingCts     22
-	0,360  [HC=0,00;  HNC=0,40;  I=0,31;  S=0,95;  N=0,16] 
+	0,358  [HC=0,00;  HNC=0,40;  I=0,31;  S=0,95;  NN=0,13;  NA=0,00] 
 private readonly TaskCompletionSource _completionTcs     23
-	0,318  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,16] 
+	0,316  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,13;  NA=0,00] 
 private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted     19
-	0,301  [HC=0,00;  HNC=0,27;  I=0,00;  S=0,95;  N=0,16] 
+	0,299  [HC=0,00;  HNC=0,27;  I=0,00;  S=0,95;  NN=0,13;  NA=0,00] 
 private bool _completed     20
-	0,292  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,16] 
+	0,290  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,13;  NA=0,00] 
 protected readonly long _id     24
-	0,292  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,16] 
+	0,290  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,13;  NA=0,00] 
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
-	0,493  [HC=0,50;  HNC=0,29;  I=0,00;  S=0,95;  N=0,00] #
+	0,493  [HC=0,50;  HNC=0,29;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2150,21 +2150,21 @@ protected readonly ServiceContext _serviceContext     25
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
 	0,500  [HC=0,12;  H=0,39;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted     19
-	0,942  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,31] *
+	0,938  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,25;  NA=0,00] *
 private bool _completed     20
-	0,620  [HC=0,44;  HNC=0,25;  I=1,00;  S=0,95;  N=0,31] 
+	0,616  [HC=0,44;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,25;  NA=0,00] 
 protected readonly long _id     24
-	0,409  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,31] 
+	0,405  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,25;  NA=0,00] 
 protected readonly ServiceContext _serviceContext     25
-	0,409  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,31] 
+	0,405  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,25;  NA=0,00] 
 protected readonly TransportConnectionManager _transportConnectionManager     26
-	0,409  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,31] 
+	0,405  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,25;  NA=0,00] 
 private readonly TaskCompletionSource _completionTcs     23
-	0,311  [HC=0,00;  HNC=0,27;  I=0,00;  S=0,95;  N=0,31] 
+	0,307  [HC=0,00;  HNC=0,27;  I=0,00;  S=0,95;  NN=0,25;  NA=0,00] 
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
-	0,447  [HC=0,00;  HNC=0,45;  I=1,00;  S=0,95;  N=0,00] #
+	0,447  [HC=0,00;  HNC=0,45;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2188,21 +2188,21 @@ private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted 
 private readonly object _heartbeatLock     17
 	0,511  [HC=0,15;  H=0,37;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private bool _completed     20
-	0,952  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,47] *
+	0,946  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] *
 private readonly TaskCompletionSource _completionTcs     23
-	0,452  [HC=0,35;  HNC=0,20;  I=0,00;  S=0,95;  N=0,47] 
+	0,446  [HC=0,35;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,38;  NA=0,00] 
 protected readonly long _id     24
-	0,419  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,47] 
+	0,413  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] 
 protected readonly ServiceContext _serviceContext     25
-	0,419  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,47] 
+	0,413  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] 
 protected readonly TransportConnectionManager _transportConnectionManager     26
-	0,419  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  N=0,47] 
+	0,413  [HC=0,00;  HNC=0,00;  I=1,00;  S=0,95;  NN=0,38;  NA=0,00] 
 private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted     19
-	0,599  [HC=0,44;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,599  [HC=0,44;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
-	0,421  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  N=0,00] #
+	0,421  [HC=0,00;  HNC=0,25;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2226,21 +2226,21 @@ private bool _completed     20
 private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted     19
 	0,492  [HC=0,20;  H=0,10;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly CancellationTokenSource _connectionClosingCts     22
-	0,963  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,63] *
+	0,955  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,50;  NA=0,00] *
 private readonly TaskCompletionSource _completionTcs     23
-	0,456  [HC=0,20;  HNC=0,60;  I=0,00;  S=0,95;  N=0,63] 
+	0,483  [HC=0,20;  HNC=0,60;  I=0,26;  S=0,95;  NN=0,50;  NA=0,00] 
 protected readonly long _id     24
-	0,323  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,63] 
+	0,315  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,50;  NA=0,00] 
 protected readonly ServiceContext _serviceContext     25
-	0,323  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,63] 
+	0,315  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,50;  NA=0,00] 
 protected readonly TransportConnectionManager _transportConnectionManager     26
-	0,323  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,63] 
+	0,315  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,50;  NA=0,00] 
 private readonly object _heartbeatLock     17
-	0,349  [HC=0,00;  HNC=0,40;  I=0,31;  S=0,95;  N=0,00] #
+	0,349  [HC=0,00;  HNC=0,40;  I=0,31;  S=0,95;  NN=0,00;  NA=0,00] #
 private bool _completed     20
-	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,281  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2264,21 +2264,21 @@ private List < ( Action < object > handler , object state ) > _heartbeatHandlers
 private readonly object _heartbeatLock     17
 	0,524  [HC=0,15;  H=0,46;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly TaskCompletionSource _completionTcs     23
-	0,890  [HC=1,00;  HNC=0,83;  I=0,54;  S=0,95;  N=0,78] *
+	0,927  [HC=1,00;  HNC=0,83;  I=0,90;  S=0,95;  NN=0,63;  NA=0,00] *
 protected readonly TransportConnectionManager _transportConnectionManager     26
-	0,411  [HC=0,17;  HNC=0,29;  I=0,00;  S=0,95;  N=0,78] 
+	0,401  [HC=0,17;  HNC=0,29;  I=0,00;  S=0,95;  NN=0,63;  NA=0,00] 
 protected readonly long _id     24
-	0,333  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,78] 
+	0,323  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,63;  NA=0,00] 
 protected readonly ServiceContext _serviceContext     25
-	0,333  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  N=0,78] 
+	0,323  [HC=0,00;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,63;  NA=0,00] 
 private bool _completed     20
-	0,421  [HC=0,35;  HNC=0,20;  I=0,00;  S=0,95;  N=0,00] #
+	0,421  [HC=0,35;  HNC=0,20;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly CancellationTokenSource _connectionClosingCts     22
-	0,407  [HC=0,20;  HNC=0,54;  I=0,00;  S=0,95;  N=0,00] #
+	0,407  [HC=0,20;  HNC=0,54;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly object _heartbeatLock     17
-	0,327  [HC=0,00;  HNC=0,54;  I=0,00;  S=0,95;  N=0,00] #
+	0,327  [HC=0,00;  HNC=0,54;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2302,21 +2302,21 @@ private bool _completed     20
 private readonly object _heartbeatLock     17
 	0,467  [HC=0,00;  H=0,52;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 protected readonly long _id     24
-	0,957  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  N=0,94] *
+	0,945  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,75;  NA=0,00] *
 protected readonly ServiceContext _serviceContext     25
-	0,477  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,94] 
+	0,465  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,75;  NA=0,00] 
 protected readonly TransportConnectionManager _transportConnectionManager     26
-	0,477  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,94] 
+	0,465  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,75;  NA=0,00] 
 private bool _completed     20
-	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted     19
-	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
-	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly TaskCompletionSource _completionTcs     23
-	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] #
+	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2340,21 +2340,21 @@ private readonly TaskCompletionSource _completionTcs     23
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
 	0,510  [HC=0,24;  H=0,12;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 protected readonly ServiceContext _serviceContext     25
-	0,955  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  N=1,00] *
+	0,946  [HC=1,00;  HNC=0,80;  I=1,00;  S=0,95;  NN=0,88;  NA=0,00] *
 protected readonly TransportConnectionManager _transportConnectionManager     26
-	0,494  [HC=0,17;  HNC=0,30;  I=1,00;  S=0,95;  N=1,00] 
+	0,484  [HC=0,17;  HNC=0,30;  I=1,00;  S=0,95;  NN=0,88;  NA=0,00] 
 private bool _completed     20
-	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private Stack < KeyValuePair < Func < object , Task > , object > > _onCompleted     19
-	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private List < ( Action < object > handler , object state ) > _heartbeatHandlers     16
-	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,415  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 protected readonly long _id     24
-	0,324  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,324  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly TaskCompletionSource _completionTcs     23
-	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  N=0,00] #
+	0,308  [HC=0,00;  HNC=0,40;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2366,9 +2366,9 @@ private long _consumedBytes     20
 private long _observedBytes     21
 	0,818  [HC=0,62;  H=0,88;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private long _observedBytes     21
-	0,769  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,769  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -2380,9 +2380,9 @@ private JsonSerializer _serializer     26
 private JsonSerializerSettings _serializerSettings     23
 	0,772  [HC=0,56;  H=0,74;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private JsonSerializerSettings _serializerSettings     23
-	0,731  [HC=0,50;  HNC=0,75;  I=1,00;  S=1,00;  N=1,00] *
+	0,731  [HC=0,50;  HNC=0,75;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -2394,9 +2394,9 @@ private readonly AsyncEnumerableReader _asyncEnumerableReader     34
 private readonly AsyncEnumerableReader _asyncEnumerableReaderFactory     33
 	0,884  [HC=0,75;  H=0,94;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly AsyncEnumerableReader _asyncEnumerableReaderFactory     33
-	0,885  [HC=0,75;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,885  [HC=0,75;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -2408,9 +2408,9 @@ private readonly AsyncEnumerableReader _asyncEnumerableReader     22
 private readonly AsyncEnumerableReader _asyncEnumerableReaderFactory     23
 	0,884  [HC=0,75;  H=0,94;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly AsyncEnumerableReader _asyncEnumerableReaderFactory     23
-	0,885  [HC=0,75;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,885  [HC=0,75;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -2422,9 +2422,9 @@ private Queue < OutputFlowControlAwaitable > _awaitableQueue     12
 private readonly AwaitableProvider _awaitableProvider     13
 	0,723  [HC=0,59;  H=0,29;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly AwaitableProvider _awaitableProvider     13
-	0,664  [HC=0,50;  HNC=0,32;  I=1,00;  S=1,00;  N=1,00] *
+	0,664  [HC=0,50;  HNC=0,32;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -2436,9 +2436,9 @@ private readonly IReadOnlyList < CascadingParameterState > _cascadingParametersO
 private readonly IReadOnlyList < CascadingParameterState > _cascadingParameters     30
 	0,892  [HC=0,76;  H=0,97;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly IReadOnlyList < CascadingParameterState > _cascadingParameters     30
-	0,769  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,769  [HC=0,50;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -2454,13 +2454,13 @@ private Action _callback     20
 private readonly PipeScheduler _ioScheduler     18
 	0,534  [HC=0,18;  H=0,46;  I=1,00;  S=0,88] 
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private static readonly Action _callbackCompleted     16
-	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,00] *
+	0,921  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] *
 private Action _callback     20
-	0,543  [HC=0,50;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] 
+	0,543  [HC=0,50;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 private readonly PipeScheduler _ioScheduler     18
-	0,299  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,95;  N=0,00] 
+	0,299  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] 
 
 **************************************************************
 
@@ -2476,13 +2476,13 @@ private Action _callback     20
 private static readonly Action _callbackCompleted     16
 	0,534  [HC=0,18;  H=0,46;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=1,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=1,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly PipeScheduler _ioScheduler     18
-	0,963  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=0,63] *
+	0,955  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=0,50;  NA=0,00] *
 private Action _callback     20
-	0,456  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,63] 
+	0,448  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,50;  NA=0,00] 
 private static readonly Action _callbackCompleted     16
-	0,299  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,95;  N=0,00] #
+	0,299  [HC=0,00;  HNC=0,33;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2498,13 +2498,13 @@ private static readonly Action _callbackCompleted     16
 private readonly PipeScheduler _ioScheduler     18
 	0,482  [HC=0,09;  H=0,35;  I=1,00;  S=0,88] #
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private Action _callback     20
-	0,986  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  N=1,00] *
+	0,986  [HC=1,00;  HNC=1,00;  I=1,00;  S=0,95;  NN=1,00;  NA=0,00] *
 private static readonly Action _callbackCompleted     16
-	0,543  [HC=0,50;  HNC=0,67;  I=0,00;  S=0,95;  N=0,00] #
+	0,543  [HC=0,50;  HNC=0,67;  I=0,00;  S=0,95;  NN=0,00;  NA=0,00] #
 private readonly PipeScheduler _ioScheduler     18
-	0,324  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  N=0,00] #
+	0,324  [HC=0,00;  HNC=0,20;  I=1,00;  S=0,95;  NN=0,00;  NA=0,00] #
 
 **************************************************************
 
@@ -2516,9 +2516,9 @@ private readonly int _streamId     13
 private readonly Http2Stream _stream     14
 	0,852  [HC=0,75;  H=0,72;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly Http2Stream _stream     14
-	0,677  [HC=0,50;  HNC=0,40;  I=1,00;  S=1,00;  N=1,00] *
+	0,677  [HC=0,50;  HNC=0,40;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 
@@ -2530,9 +2530,9 @@ private readonly AsyncEnumerableReader _asyncEnumerableReader     30
 private readonly AsyncEnumerableReader _asyncEnumerableReaderFactory     26
 	0,884  [HC=0,75;  H=0,94;  I=1,00;  S=1,00] *
 *
-HC=3;  HNC=1,00;  I=0,00;  S=2,00;  N=0,50]
+HC=3;  HNC=1,00;  I=0,00;  S=2,00;  NN=0,50;  NA=0,00]
 private readonly AsyncEnumerableReader _asyncEnumerableReaderFactory     26
-	0,885  [HC=0,75;  HNC=1,00;  I=1,00;  S=1,00;  N=1,00] *
+	0,885  [HC=0,75;  HNC=1,00;  I=1,00;  S=1,00;  NN=1,00;  NA=0,00] *
 
 **************************************************************
 

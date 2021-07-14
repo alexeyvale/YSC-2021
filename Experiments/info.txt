@@ -1,3 +1,14 @@
+For ASP.NET Core:
+
+"Initial" version commit: 4360535bab6f958a91b06dfcd31c539bbffa9a5a [4360535]
+Author: Steve Sanderson <SteveSandersonMS@users.noreply.github.com>
+Date: February 3, 2020. 21:49:44
+
+"Current" version commit: df5269fea23f310fd7730b9eb0da5cc910cc1e6c [df5269f]
+Author: Chris Ross <Tratcher@Outlook.com>
+Date: July 4, 2020. 10:12:19
+________________________________________________________________________________
+
 For PascalABC.NET:
 
 "Initial" version commit: 45fccc19cb7f8e232f8fa2bee851bdc9d00a5c7a [45fccc1]
@@ -9,15 +20,15 @@ Author: Mikhalkovich Stanislav <miks@math.sfedu.ru>
 Date: May 26, 2020. 0:13:23
 ________________________________________________________________________________
 
-For ASP.NET Core:
+For Roslyn:
 
-"Initial" version commit: 4360535bab6f958a91b06dfcd31c539bbffa9a5a [4360535]
-Author: Steve Sanderson <SteveSandersonMS@users.noreply.github.com>
-Date: February 3, 2020. 21:49:44
+"Initial" version commit: bfdda69c63da05ed8777ab6ae0336d34f434830f [bfdda69]
+Author: Rikki Gibson <rigibson@microsoft.com>
+Date: February 3, 2021. 22:22:00
 
-"Current" version commit: df5269fea23f310fd7730b9eb0da5cc910cc1e6c [df5269f]
-Author: Chris Ross <Tratcher@Outlook.com>
-Date: July 4, 2020. 10:12:19
+"Current" version commit: 7f7617135b630ad66c304902ac312ec8e68ded9b [7f76171]
+Author: Sam Harwell <sam.harwell@microsoft.com>
+Date: April 30, 2021. 8:05:19
 ________________________________________________________________________________
 
 
@@ -36,8 +47,9 @@ public partial class yield_unknown_ident     1563     // The header and the line
 	1,000  [HC=1,00;  H=1,00;  I=1,00;  S=1,00]  *    // Total similarity and per-context similarities. HC denotes Name(H). '*' means that automatic rebinding is performed to this candidate. '#' means that this candidate is excluded at some iteration of the rebinding loop. Excluded candidates are always placed after not excluded ones.
 *
 Here is a group of no more than 7 the most similar candidates selected by the modified algorithm. Candidates are described as follows:
+
 public partial class pattern_parameter     49923     // The header and the line number
-	0,879  [HC=0,67;  HNC=1,00;  I=0,88;  S=1,00;  N=1,00] *  // Total similarity and per-context similarities. HC denotes Core(H), HNC is NotCore(H).
+	0,879  [HC=0,67;  HNC=1,00;  I=0,88;  S=1,00;  NN=1,00; NA=0] *  // Total similarity and per-context similarities. HC denotes Core(H), HNC is NotCore(H), NN is Nearest(N), and NA is All(N).
 
 Before the candidates, a list of heuristicslly tuned weights used for total similarity computation is provided.
 **************************************************************

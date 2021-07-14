@@ -5,22 +5,25 @@ Modified only auto: 4
 Basic only auto: 0
 Same auto: 21
 Different auto: 0
-Same first: 18
-Different first: 0
+Same first: 17
+Different first: 1
+Overloaded methods when modified auto: 0
 Different first when modified auto: 0
+Identical candidates: 0
 'class_struct_interface' done!
 
 Total count: 18504
 Total marked: 3771
-Simple rebinding: 2884
-Modified only auto: 179
-Basic only auto: 18
-Same auto: 449
+Simple rebinding: 2881
+Modified only auto: 115
+Basic only auto: 59
+Same auto: 411
 Different auto: 2
-Same first: 207
-Different first: 32
-Overloaded methods when modified auto: 102
-Different first when modified auto: 13
+Same first: 250
+Different first: 53
+Overloaded methods when modified auto: 37
+Different first when modified auto: 5
+Identical candidates: 0
 'method' done!
 
 Total count: 4691
@@ -32,7 +35,9 @@ Same auto: 81
 Different auto: 0
 Same first: 141
 Different first: 2
+Overloaded methods when modified auto: 0
 Different first when modified auto: 0
+Identical candidates: 0
 'field' done!
 
 Total count: 7815
@@ -42,7 +47,9 @@ Modified only auto: 6
 Basic only auto: 1
 Same auto: 62
 Different auto: 0
-Same first: 44
-Different first: 9
+Same first: 43
+Different first: 10
+Overloaded methods when modified auto: 0
 Different first when modified auto: 0
+Identical candidates: 0
 'property' done!
