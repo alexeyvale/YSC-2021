@@ -32,7 +32,7 @@
 			<ParserDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 				<a:string>.\Antlr4.Runtime.Standard.dll</a:string>
 			</ParserDependencies>
-			<ParserPath>.\java.dll</ParserPath>
+			<ParserPath>.\java_lr.dll</ParserPath>
 			<PreprocessorDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
 			<PreprocessorPath i:nil="true"/>
 			<PreprocessorProperties/>
