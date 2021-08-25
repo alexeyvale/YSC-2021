@@ -1,0 +1,70 @@
+<LandExplorerSettings xmlns="http://schemas.datacontract.org/2004/07/Land.Control" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<Id>b961829e-8bb0-4ae2-935a-ad523b86cf9a</Id>
+	<Parsers>
+		<ParserSettingsItem>
+			<Extensions xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.cs</a:string>
+			</Extensions>
+			<Id>da768431-9c84-4210-b9ce-ac63a21c0b15</Id>
+			<ParserDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.\Antlr4.Runtime.Standard.dll</a:string>
+			</ParserDependencies>
+			<ParserPath>.\sharp_lr.dll</ParserPath>
+			<PreprocessorDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.\Antlr4.Runtime.Standard.dll</a:string>
+				<a:string>..\LandParserGenerator\Preprocessors\Conditional compilation\SharpPreprocessor\bin\Debug\Control.Helpers.dll</a:string>
+				<a:string>..\LandParserGenerator\Preprocessors\Conditional compilation\SharpPreprocessor\bin\Debug\sharp_preprocessor.dll</a:string>
+			</PreprocessorDependencies>
+			<PreprocessorPath>..\LandParserGenerator\Preprocessors\Conditional compilation\SharpPreprocessor\bin\Debug\SharpPreprocessing.ConditionalCompilation.dll</PreprocessorPath>
+			<PreprocessorProperties>
+				<PreprocessorProperty>
+					<DisplayedName>Символы условной компиляции</DisplayedName>
+					<PropertyName>PredefinedSymbols</PropertyName>
+					<ValueString/>
+				</PreprocessorProperty>
+			</PreprocessorProperties>
+		</ParserSettingsItem>
+		<ParserSettingsItem>
+			<Extensions xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.java</a:string>
+			</Extensions>
+			<Id>691a7976-1acd-4403-9008-24e8201dbb56</Id>
+			<ParserDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.\Antlr4.Runtime.Standard.dll</a:string>
+			</ParserDependencies>
+			<ParserPath>.\java.dll</ParserPath>
+			<PreprocessorDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+			<PreprocessorPath i:nil="true"/>
+			<PreprocessorProperties/>
+		</ParserSettingsItem>
+		<ParserSettingsItem>
+			<Extensions xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.y</a:string>
+				<a:string>.yacc</a:string>
+			</Extensions>
+			<Id>a2b45d17-aa63-47fd-be4d-920d32a4175f</Id>
+			<ParserDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.\Antlr4.Runtime.Standard.dll</a:string>
+			</ParserDependencies>
+			<ParserPath>.\yacc.dll</ParserPath>
+			<PreprocessorDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+			<PreprocessorPath i:nil="true"/>
+			<PreprocessorProperties/>
+		</ParserSettingsItem>
+		<ParserSettingsItem>
+			<Extensions xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.lex</a:string>
+			</Extensions>
+			<Id>3ad62966-446c-43a0-bca9-b9d7ded86f61</Id>
+			<ParserDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:string>.\Antlr4.Runtime.Standard.dll</a:string>
+			</ParserDependencies>
+			<ParserPath>.\lex.dll</ParserPath>
+			<PreprocessorDependencies xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+			<PreprocessorPath i:nil="true"/>
+			<PreprocessorProperties/>
+		</ParserSettingsItem>
+	</Parsers>
+	<PreserveIndentation i:nil="true"/>
+	<SaveAbsolutePath>false</SaveAbsolutePath>
+</LandExplorerSettings>

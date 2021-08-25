@@ -1,0 +1,56 @@
+COMMENT		: COMMENT_L|COMMENT_ML
+COMMENT_L	: '//' ~[\n\r]*
+COMMENT_ML	: '/*' .*? '*/'
+STRING		: STRING_STD|STRING_ESC
+STRING_SKIP	: '\\"' | '\\\\'
+STRING_STD	: '"' (STRING_SKIP|.)*? '"'
+STRING_ESC	: '@'('"' ~["]* '"')+
+LITERAL		: '\'' ('\\\''|'\\\\'|.)*? '\''
+DECLARATION_CODE : '%{' (STRING|COMMENT|.)*? '%}'
+
+RULE_HEADER	: %linestart ID
+ID	: [_a-zA-Z][_0-9a-zA-Z]*
+DECLARATION_NAME	: '%'ID
+SECTIONS_SEPARATOR	: %linestart '%%'
+
+grammar 		=	(declaration | Any)* SECTIONS_SEPARATOR (rule | Any)* (SECTIONS_SEPARATOR Any)?
+
+declaration		=	symbol_declaration | other_declaration
+symbol_declaration = symbol_declaration_header symbol_declaration_element+
+symbol_declaration_header = ('%token' | '%left' | '%nonassoc' | '%right' | '%type' | '%start') ('<' ID '>')?
+symbol_declaration_element = ID | LITERAL
+other_declaration = DECLARATION_NAME Any
+
+rule			=	RULE_HEADER ':' (alternative ('|' alternative)* ';')
+alternative		=   (alternative_element | block)* | AnyError // Recovery when ; is missing
+alternative_element    =	ID | LITERAL | '%prec'
+block			=	'{' (AnyAvoid(RULE_HEADER, SECTIONS_SEPARATOR) | block)+ '}' // Recovery when closing } is missing
+
+%%
+
+%parsing {
+	ignoreundefined
+	start grammar
+	skip COMMENT STRING DECLARATION_CODE
+	recovery
+}
+
+%customblock {
+	start("/// land start")
+	end("/// land end")
+	basetoken COMMENT
+}
+
+%nodes {
+	ghost declaration
+	leaf alternative_element symbol_declaration_element symbol_declaration_header
+}
+
+%markup {
+	land symbol_declaration symbol_declaration_element rule alternative alternative_element
+	priority(0) ':' ';' '|'
+	notUnique alternative_element
+	headerCore(RULE_HEADER) rule
+	headerCore(alternative_element) alternative
+	headerCore(symbol_declaration_header) symbol_declaration
+}
