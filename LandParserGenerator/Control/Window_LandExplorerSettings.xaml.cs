@@ -73,6 +73,7 @@ namespace Land.Control
 			if (openFileDialog.ShowDialog() == true)
 			{
 				SettingsObject = SettingsSerializer.Deserialize(openFileDialog.FileName, true);
+				GrammarsGrid.ItemsSource = SettingsObject.Parsers;
 			}
 		}
 
