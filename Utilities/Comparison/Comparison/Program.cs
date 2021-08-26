@@ -96,7 +96,7 @@ namespace Comparison
 			var entityTypes = new string[] { "class_struct_interface", "method", "field", "property" };
 
 			/// Создаём парсер и менеджер разметки из библиотеки LanD	
-			var landParser = sharp.ParserProvider.GetParser(false);
+			var landParser = sharp_lr.ParserProvider.GetParser(false);
 			landParser.SetVisitor(g => new MarkupOptionsProcessingVisitor(g));
 			landParser.SetPreprocessor(new SharpPreprocessing.ConditionalCompilation.SharpPreprocessor());
 
