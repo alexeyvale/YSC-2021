@@ -89,6 +89,12 @@ namespace Land.Control
 				var parsedFile = State.PendingCommand.Document =
 					LogFunction(() => GetParsed(State.PendingCommand.Document.Name), true, false);
 
+				/// Если при разборе файла произошла ошибка
+				if (parsedFile == null)
+				{
+					return null;
+				}
+
 				/// Теперь в дереве должен появиться узел, соответствующий пользовательскому блоку
 				var customBlockNode = MarkupManager
 					.GetConcernPointCandidates(parsedFile.Root, customPoint.RealSelection)
