@@ -1,5 +1,5 @@
 # YSC-2021  
-The sources of LanD parser generator and LandExplorer markup tool referenced in the paper "Using improved context-based code description for robust algorithmic binding to changing code", and the corresponding results of the experiments. 
+The sources of LanD parser generator and LandExplorer markup tool referenced in the paper ["Using improved context-based code description for robust algorithmic binding to changing code"](https://www.sciencedirect.com/science/article/pii/S1877050921020652), and the corresponding results of the experiments. 
   
 ## Previous research on tolerant parsing:  
   
